@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>SF6 FAQ Bot</title>
-  <style>
-    body { font-family: Arial; padding: 20px; max-width: 600px; margin: auto; }
-    textarea, button { width: 100%; margin-top: 10px; }
-    #response { white-space: pre-wrap; margin-top: 20px; }
-  </style>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  <h1>Stel je vraag aan de SF6 FAQ Bot</h1>
-  <textarea id="question" rows="4" placeholder="Bijv: Wat doet JP's OD Amnesia?"></textarea>
-  <button onclick="sendQuestion()">Stel Vraag</button>
-  <div id="response"></div>
+  <div class="chat-container">
+    <h1>SF6 FAQ Bot</h1>
+    <div id="chat-window" class="chat-window"></div>
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Typ je vraag hier..." autocomplete="off" />
+      <button type="submit">Stel Vraag</button>
+    </form>
+  </div>
 
   <script src="script.js"></script>
 </body>
