@@ -13,12 +13,12 @@ def scrape_stats():
     soup = BeautifulSoup(r.text, "html.parser")
     container = soup.find(id="contentcontainer")
     if not container:
-        print("❌ Contentcontainer niet gevonden op stats pagina!")
+        print(" Contentcontainer niet gevonden op stats pagina!")
         return
 
     stats_container = container.find(class_="statspagecontainer")
     if not stats_container:
-        print("❌ Statspagecontainer niet gevonden!")
+        print(" Statspagecontainer niet gevonden!")
         return
 
     all_stats = {}
@@ -28,17 +28,17 @@ def scrape_stats():
     for stat_id in stat_ids:
         stat_div = stats_container.find(id=stat_id)
         if not stat_div:
-            print(f"⚠️ Geen statstablecontainer met id '{stat_id}' gevonden, skippen.")
+            print(f" Geen statstablecontainer met id '{stat_id}' gevonden, skippen.")
             continue
 
         table = stat_div.find("table", class_="statstable")
         if not table:
-            print(f"⚠️ Geen tabel gevonden in '{stat_id}' div, skippen.")
+            print(f" Geen tabel gevonden in '{stat_id}' div, skippen.")
             continue
 
         tbody = table.find("tbody")
         if not tbody:
-            print(f"⚠️ Geen tbody gevonden in '{stat_id}' tabel, skippen.")
+            print(f" Geen tbody gevonden in '{stat_id}' tabel, skippen.")
             continue
 
         rows = tbody.find_all("tr")
@@ -63,7 +63,7 @@ def scrape_stats():
     with open("data/sf6/characters_stats.json", "w", encoding="utf-8") as f:
         json.dump(all_stats, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Stats per character opgeslagen in data/sf6/characters_stats.json")
+    print(f" Stats per character opgeslagen in data/sf6/characters_stats.json")
 
 if __name__ == "__main__":
     scrape_stats()

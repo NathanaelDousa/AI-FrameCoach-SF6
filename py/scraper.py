@@ -19,12 +19,12 @@ def scrape_character(char_name):
 
     content_div = soup.find(id="contentcontainer")
     if not content_div:
-        print(f"❌ Contentcontainer niet gevonden voor {char_name}!")
+        print(f" Contentcontainer niet gevonden voor {char_name}!")
         return
 
     moves_divs = content_div.find_all("div", class_="moves")
     if not moves_divs:
-        print(f"❌ Geen moves gevonden voor {char_name}!")
+        print(f" Geen moves gevonden voor {char_name}!")
         return
 
     for moves_div in moves_divs:
