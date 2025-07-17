@@ -1,0 +1,419 @@
+Character: Guile
+
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 7
+Active Frames: 3
+Recovery: 15
+On Hit: +6
+On Block: 0
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Punch
+Startup: 7
+Active Frames: 3
+Recovery: 23
+On Hit: -1
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 12
+On Hit: +3
+On Block: -1
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 7
+Active Frames: 5
+Recovery: 18
+On Hit: +1
+On Block: -4
+Cancelable: --
+
+Move: Standing Heavy Kick
+Startup: 13
+Active Frames: 3
+Recovery: 21
+On Hit: +4
+On Block: -4
+Cancelable: Super
+Notes: June 2025 patch: initial scaling of 20%.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 8
+On Hit: +5
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 13 (16 on whiff)
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super, Target Combo
+
+Move: Crouching Heavy Punch
+Startup: 9
+Active Frames: 5
+Recovery: 20
+On Hit: 0
+On Block: -9
+Cancelable: --
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 12
+On Hit: +1
+On Block: -3
+Cancelable: Chain
+Notes: June 2025 patch: recovery from 13 to 12, on block from -5 to -3.
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 18
+On Hit: +4
+On Block: -4
+Cancelable: Target Combo
+Notes: 10% damage scaling to followup combo hits.
+
+Move: Crouching Heavy Kick
+Startup: 9, 27
+Active Frames: 2, 3
+Recovery: 21
+On Hit: Knockdown +34
+On Block: -12
+Cancelable: Target Combo
+
+Move: Back + Light Kick
+Startup: 8
+Active Frames: 5
+Recovery: 15
+On Hit: 0...
+On Block: -4...
+Cancelable: --
+
+Move: Forward + Medium Punch
+Startup: 20
+Active Frames: 3
+Recovery: 19
+On Hit: +2
+On Block: -3
+Cancelable: --
+
+Move: Forward/Back + Medium Kick
+Startup: 11 (11)
+Active Frames: 3
+Recovery: 21 (18)
+On Hit: +3 (+3)
+On Block: -6 (-6)
+Cancelable: --
+Notes: Forward first, Back in parenthesis.
+
+Move: Forward + Heavy Punch
+Startup: 16
+Active Frames: 3
+Recovery: 20
+On Hit: +5
+On Block: +3
+Cancelable: --
+Notes: Whiffs on crouching opponents.
+
+Move: Back + Heavy Punch
+Startup: 9
+Active Frames: 3
+Recovery: 21
+On Hit: +1
+On Block: -4
+Cancelable: Special, Super
+
+Move: Forward + Heavy Kick
+Startup: 17
+Active Frames: 3
+Recovery: 26
+On Hit: -1
+On Block: -8
+Cancelable: --
+Notes: Knockdown +29 on Counter Hit. Crumple +55 on Punish Counter Hit. Anti-air counter-hit causes a knockdown juggle state as of May 2024 patch.
+
+Move: Guile High Kick (Down-Forward + Heavy Kick)
+Startup: 10
+Active Frames: 3
+Recovery: 23
+On Hit: 0
+On Block: -9
+Cancelable: Special, Super
+Notes: June 2025 patch: increased juggle height and hit stun on punish counter.
+
+Move: Medium Punch, Back + Heavy Punch
+Startup: 7, 16
+Active Frames: 3, 3
+Recovery: 15, 26
+On Hit: +6, Knockdown +35
+On Block: 0, -9
+Cancelable: Special, Super
+
+Move: Down + Medium Punch, Down + Medium Punch
+Startup: 6, 12
+Active Frames: 3, 3
+Recovery: 13, 16
+On Hit: +4, Knockdown +44
+On Block: -2, -6
+Cancelable: Special, Super
+
+Move: Down + Medium Kick, Forward + Medium Punch
+Startup: 8, 20
+Active Frames: 3, 3
+Recovery: 18, 21
+On Hit: +4, +1
+On Block: -5, -5
+Cancelable: --
+Notes: Second hit scales to 80% (640).
+
+Move: Down + Heavy Kick, Down-Forward + Heavy Kick
+Startup: 9, 10
+Active Frames: 2, 3
+Recovery: 25
+On Hit: --, Knockdown +34
+On Block: --, -10
+Cancelable: Special, Super
+Notes: Second hit only combos if first hit is Punish Counter (which causes Juggle State). Second hit scales to 80% (480).
+
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 7
+Active Frames: 3
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+Notes: Juggle state on air hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+
+Move: Sonic Boom
+Startup: 10
+Active Frames: **
+Recovery: 30
+On Hit: +3... (+4...)
+On Block: -3... (-3...)
+Cancelable: 
+Notes: Perfect in Parenthesis. Strength of the Punch only changes the Sonic Boom's travel speed, does not change advantage or damage.
+
+Move: Sonic Boom (Overdrive)
+Startup: 10
+Active Frames: **
+Recovery: 30
+On Hit: Variable Knockdown of +48 minimum
+On Block: +3
+Cancelable: 
+
+Move: Flash Kick (Light Kick)
+Startup: 5
+Active Frames: 6
+Recovery: 41
+On Hit: Knockdown +36...
+On Block: -30
+Cancelable: 
+Notes: Perfect in parenthesis. Anti-air invincible on frames 1-7.
+
+Move: Flash Kick (Medium Kick)
+Startup: 6
+Active Frames: 6
+Recovery: 42
+On Hit: Knockdown +37...
+On Block: -31
+Cancelable: 
+Notes: Perfect in parenthesis. Anti-air invincible on frames 1-8.
+
+Move: Flash Kick (Heavy Kick)
+Startup: 7
+Active Frames: 6
+Recovery: 42
+On Hit: Knockdown +37...
+On Block: -31
+Cancelable: 
+Notes: Perfect in parenthesis. Anti-air invincible on frames 1-9.
+
+Move: Flash Kick (Overdrive)
+Startup: 6
+Active Frames: 6
+Recovery: 46
+On Hit: Knockdown +29...
+On Block: -33
+Cancelable: 
+Notes: Fully invincible on frames 1-11.
+
+Move: Sonic Blade (Light Punch)
+Startup: 16
+Active Frames: ...27
+Recovery: 26
+On Hit: -3
+On Block: -4
+Cancelable: 
+Notes: Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.
+
+Move: Sonic Blade (Medium Punch)
+Startup: 21
+Active Frames: ...30
+Recovery: 29
+On Hit: -6
+On Block: -7
+Cancelable: 
+Notes: Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.
+
+Move: Sonic Blade (Heavy Punch)
+Startup: 31
+Active Frames: ...24
+Recovery: 19
+On Hit: +1
+On Block: -1
+Cancelable: 
+Notes: Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.
+
+Move: Sonic Blade (Overdrive)
+Startup: 15
+Active Frames: ...21
+Recovery: **
+On Hit: Knockdown +54...
+On Block: -4
+Cancelable: 
+Notes: Limited Juggle State on hit. Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.
+
+Move: Sonic Cross
+Startup: 10
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +**...
+On Block: **
+Cancelable: 
+Notes: Punch strength only changes the travel speed, not the damage or advantage. Overdrive in parenthesis.
+
+Move: Sonic Break
+Startup: 11
+Active Frames: **
+Recovery: 25
+On Hit: +2
+On Block: -2
+Cancelable: 
+Notes: For the chargeless PP version, there is no difference in travel speed based on punch used. For the P followup to Sonic Boom, the travel speed does change based on the punch used. Overdrive Sonic Boom followup does 1000 damage.
+
+Move: Sonic Hurricane (Level 1)
+Startup: 8 (7)
+Active Frames: **
+Recovery: 81 (68)
+On Hit: Knockdown +41 (Knockdown +70)
+On Block: -26 (-2)
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-10 (Light and Medium versions only!). Breaks armor. Hard punch has no invincibility, angles the projectile upward, data in parenthesis.
+
+Move: Solid Puncher (Level 2)
+Startup: 6
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Enables Sonic Break. 25 second timer.
+
+Move: Crossfire Somersault (Level 3)
+Startup: 9
+Active Frames: 6
+Recovery: 70
+On Hit: Knockdown +16 (Knockdown +16)
+On Block: -59
+Cancelable: 
+Notes: Fully invincible on frames 1-14. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +15
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +18
+On Block: 
+Cancelable: --
+
+Move: Forward Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --
+
+Move: Back Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --

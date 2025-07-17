@@ -1,0 +1,468 @@
+Character: Elena
+
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 4
+Recovery: 8
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super
+
+Move: Standing Medium Punch
+Startup: 8
+Active Frames: 5
+Recovery: 15
+On Hit: +3
+On Block: -3
+Cancelable: Target Combo
+
+Move: Standing Heavy Punch
+Startup: 12
+Active Frames: 4
+Recovery: 20
+On Hit: +2
+On Block: -2
+Cancelable: Target Combo
+Notes: Strike invincible on frame 11.
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: +2
+On Block: -4
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 6
+Active Frames: 4
+Recovery: 15
+On Hit: +5
+On Block: +1
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Kick
+Startup: 12
+Active Frames: 4
+Recovery: 19
+On Hit: +2
+On Block: 0
+Cancelable: --
+Notes: Punish Counter is a blowback knockdown with limited juggle state of +53. Strike invincible on frame 11.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 8
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 20
+On Hit: +1
+On Block: -4
+Cancelable: Special, Super
+
+Move: Crouching Heavy Punch
+Startup: 9, 5
+Active Frames: 3, 3
+Recovery: 20
+On Hit: +6
+On Block: -7
+Cancelable: Second hit: Special, Super
+Notes: Anti-air invincible on frames 8-20.
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 8
+On Hit: +3
+On Block: -1
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 18
+On Hit: +4
+On Block: -4
+Cancelable: Target Combo
+
+Move: Crouching Heavy Kick
+Startup: 11
+Active Frames: 3
+Recovery: 24
+On Hit: Knockdown +31
+On Block: -12
+Cancelable: --
+
+Move: Forward + Medium Kick
+Startup: 20
+Active Frames: 3
+Recovery: 19
+On Hit: +2
+On Block: -2
+Cancelable: Target Combo
+
+Move: Forward + Heavy Punch
+Startup: 16
+Active Frames: 4
+Recovery: 20
+On Hit: +1
+On Block: -4
+Cancelable: Target Combo
+
+Move: Slide (Down-Forward + Heavy Kick)
+Startup: 14
+Active Frames: 9
+Recovery: 18 (22 on whiff)
+On Hit: Knockdown +31...+39
+On Block: -10...-2
+Cancelable: --
+
+Move: Round Arch (Back + Heavy Kick)
+Startup: 14
+Active Frames: 4
+Recovery: 17 (19 on whiff)
+On Hit: +3
+On Block: -3
+Cancelable: --
+
+Move: Starling Beak (Medium Punch, Medium Punch)
+Startup: 8, 17
+Active Frames: 5, 5
+Recovery: 15, 20
+On Hit: +3
+On Block: -3, -4
+Cancelable: Second Hit: Special, Super
+
+Move: Handstand Whip (Forward + Medium Kick, Medium Kick)
+Startup: 20, 14
+Active Frames: 3, 3
+Recovery: 19, 26
+On Hit: +2, Knockdown +29
+On Block: -2, -14
+Cancelable: --
+
+Move: Hind Kick (Medium Kick, Heavy Kick)
+Startup: 6, 12
+Active Frames: 4, 3
+Recovery: 15, 24
+On Hit: +5, Knockdown Limited Juggle +33
+On Block: +1, -8
+Cancelable: First Hit: Special, Super, Target Combo / Second Hit: Special, Super
+
+Move: Fluttering Lark (Crouching Medium Kick, Heavy Kick)
+Startup: 9, 15
+Active Frames: 3, 1
+Recovery: 18, 24
+On Hit: +4, +4
+On Block: -4, **
+Cancelable: First Hit: Target Combo / Second Hit: Special, Super
+Notes: Immediate scaling of 20% on second hit. Second hit whiffs on crouching opponents.
+
+Move: Turning Tail (Heavy Punch, Heavy Punch)
+Startup: 12, 17
+Active Frames: 4, (4, 4)
+Recovery: 20, 17
+On Hit: +2, Knockdown Limited Juggle +45
+On Block: -2, -3
+Cancelable: First Hit: Target Combo / Second Hit: --
+
+Move: Trunk Slap (Forward + Heavy Punch, Heavy Punch, Heavy Punch)
+Startup: 16, 13, 7
+Active Frames: 4, 3, 3
+Recovery: 20, 26, 27
+On Hit: +1, -2, Knockdown +40
+On Block: -4, -11, -16
+Cancelable: First Hit: Target Combo / Second Hit: Target Combo / Third Hit: --
+Notes: First hit has a very lenient/late cancel window. Third Hit has immediate scaling of 20%.
+
+Move: Soaring Raid (Jump, Light Punch, Medium Kick)
+Startup: 5, 6
+Active Frames: 6, 5
+Recovery: 3 Landing
+On Hit: +5...+10, +12
+On Block: +1...+6, +8
+Cancelable: First Hit: Target Combo / Second Hit: --
+Notes: Both hits Cross Up. Second hit is considered high.
+
+Move: Raptor Range (Jump, Medium Punch, Heavy Punch)
+Startup: 8,
+Active Frames: 5, 5
+Recovery: 3 Landing
+On Hit: +11...+13, Limited Juggle Knockdown +44...
+On Block: +5...+7, --
+Cancelable: First Hit: Target Combo / Second Hit: --
+Notes: Second hit only works on airborn opponents, won't come out on grounded characters (or is very awkward, idk). Limited Juggle State on air hit.
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +5...+10
+On Block: +1...+6
+Cancelable: Target Combo
+Notes: Crosses Up.
+
+Move: Jump Medium Punch
+Startup: 8
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +11...+13
+On Block: +5...+7
+Cancelable: Target Combo
+Notes: Limited Juggle State on air hit.
+
+Move: Jump Heavy Punch
+Startup: 10
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +10...+15
+On Block: +6...+11
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 5
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +3...+8
+On Block: -1...+4
+Cancelable: --
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +10...+13
+On Block: +6...+9
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 2, 8
+Recovery: 3 Landing
+On Hit: Knockdown +31...
+On Block: +9...
+Cancelable: --
+Notes: Getting both hits vs a grounded opponent is very awkward. Forces ground on air hit.
+
+Move: Rhino Horn (Light Kick)
+Startup: 13
+Active Frames: 5, 6
+Recovery: 16 (19 on whiff/block)
+On Hit: Limited Juggle Knockdown +39...
+On Block: -9...
+Cancelable: 
+
+Move: Rhino Horn (Medium Kick)
+Startup: 17
+Active Frames: 5, 6
+Recovery: 16 (20 on whiff/block)
+On Hit: Limited Juggle Knockdown +39...
+On Block: -9...
+Cancelable: 
+
+Move: Rhino Horn (Heavy Kick)
+Startup: 17
+Active Frames: 5, 6
+Recovery: 16 (20 on whiff/block)
+On Hit: Limited Juggle Knockdown +39...
+On Block: -9...
+Cancelable: 
+
+Move: Rhino Horn (Overdrive)
+Startup: 11
+Active Frames: 7, **, **
+Recovery: 13 (19 on whiff/block)
+On Hit: Limited Juggle Knockdown +43...
+On Block: -9...
+Cancelable: 
+
+Move: Scratch Wheel (Light Kick)
+Startup: 5
+Active Frames: 5
+Recovery: 39
+On Hit: Knockdown +36...
+On Block: -24
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9.
+
+Move: Scratch Wheel (Medium Kick)
+Startup: 6
+Active Frames: 6
+Recovery: 44
+On Hit: Knockdown +26...
+On Block: -30
+Cancelable: 
+Notes: Anti-air invincible on frames 1-11.
+
+Move: Scratch Wheel (Heavy Kick)
+Startup: 7
+Active Frames: 6
+Recovery: 48
+On Hit: Knockdown +23...
+On Block: -33
+Cancelable: 
+Notes: Anti-air invincible on frames 1-12.
+
+Move: Scratch Wheel (Overdrive)
+Startup: 6
+Active Frames: 6, 2, 2
+Recovery: 44
+On Hit: Knockdown +25...
+On Block: -46
+Cancelable: 
+Notes: Fully invincible on frames 1-8.
+
+Move: Lynx Song
+Startup: 10 / 10 / 10 / 7
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Listed as Light / Medium / Heavy / Overdrive. Can follow up directly with various moves, or use Forward+Punch followup, Lynx Whirl, which enhances the subsequent followup. Normal versions are projectile immune on frame 11 onward for 11/12/14 frames. Overdrive is projectile immune from frames 8-19. Followup attacks change duration of projectile immunity, but start of immunity is always the same.
+
+Move: Leopard Snap [Lynx Whirl > Leopard Snap]
+Startup: ...10 [...10]
+Active Frames: 5 [5, 3]
+Recovery: 22 [14]
+On Hit: Knockdown +35 [Knockdown +48]
+On Block: -5 [+1]
+Cancelable: 
+Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
+
+Move: Harvest Circle [Lynx Whirl > Harvest Circle]
+Startup: ...8 [...8]
+Active Frames: 3 [3, 3]
+Recovery: 23 [16]
+On Hit: Limiited Juggle Knockdown +44 [Limited Juggle Knockdown +50]
+On Block: -9 [-4]
+Cancelable: 
+Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
+
+Move: Mallet Smash [Lynx Whirl > Mallet Smash]
+Startup: ...22 [...22]
+Active Frames: 3 [2, 2]
+Recovery: 19 [16]
+On Hit: +2 [+4]
+On Block: -3 [+3]
+Cancelable: 
+Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
+
+Move: Spinning Scythe (Light Kick)
+Startup: 15
+Active Frames: 4, 3, (2, 3)
+Recovery: 24
+On Hit: Knockdown +34
+On Block: -12
+Cancelable: 
+Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
+
+Move: Spinning Scythe (Medium Kick)
+Startup: 20
+Active Frames: 4, 3, (5, 2)
+Recovery: 27
+On Hit: Knockdown +42
+On Block: -14
+Cancelable: 
+Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
+
+Move: Spinning Scythe (Heavy Kick)
+Startup: 24
+Active Frames: 4, 3, (5, 2)
+Recovery: 23
+On Hit: Limited Juggle Knockdown +52
+On Block: -10
+Cancelable: 
+Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
+
+Move: Spinning Scythe (Overdrive)
+Startup: 18
+Active Frames: 4, 3, (2, 3)
+Recovery: 22
+On Hit: Limited Juggle Knockdown +52
+On Block: -10
+Cancelable: 
+Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
+
+Move: Moon Glider
+Startup: 20 / 24 / 28 / 23
+Active Frames: 3
+Recovery: 20 / 19 / 20 / 20
+On Hit: +1 / +2 / +2 / +1
+On Block: -3 / -2 / -2 / -3
+Cancelable: 
+Notes: Data listed as Light / Medium / Heavy / Overdrive. Can follow-up on hit/block with Forward+Punch.
+
+Move: Moon Glider Followup
+Startup: 16 [16]
+Active Frames: 2, 4 [2, 4, 3]
+Recovery: 25 [35]
+On Hit: Limited Juggle Knockdown +39 [Limited Juggle Knockdown +42]
+On Block: -13 [-19]
+Cancelable: 
+Notes: Data listed as Normal [Overdrive]. Normal followups are the same. Overdrive followup only occurs after Overdrive Moon Glider.
+
+Move: Meteor Volley (Level 1)
+Startup: 9
+Active Frames: **
+Recovery: 47 (55 on whiff/block)
+On Hit: Limited Juggle Knockdown +42
+On Block: -68
+Cancelable: 
+
+Move: Revival Dance (Level 2)
+Startup: 12
+Active Frames: **
+Recovery: 62
+On Hit: Knockdown +25 [Knockdown +1]
+On Block: -47
+Cancelable: 
+Notes: On hit, can hold down during cinematic to activate Healing [Healing data listed in brackets]. Fully invincible frames 1-11??
+
+Move: Song of the Grasslands (Level 3)
+Startup: 8
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +24 (Knockdown +29)
+On Block: -54
+Cancelable: 
+Notes: Fully invincible on frames 1-7?? Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +24
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +19
+On Block: 
+Cancelable: --
+
+Move: Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --

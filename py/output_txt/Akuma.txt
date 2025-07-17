@@ -1,0 +1,525 @@
+Character: Akuma
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 11
+On Hit: +4
+On Block: +1
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Punch
+Startup: 9
+Active Frames: 5
+Recovery: 18
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: +2
+On Block: -4
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 7
+Active Frames: 5
+Recovery: 15
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super, Target Combo
+Notes: Hit forces standing on crouching opponents.
+
+Move: Standing Heavy Kick
+Startup: 13
+Active Frames: 3, 4
+Recovery: 15 (16 on whiff)
+On Hit: +7
+On Block: +3 (-13 after whiffing on crouching)
+Cancelable: --
+Notes: First hit forces standing on crouching opponents. Second hit whiffs on crouching opponents.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 9
+On Hit: +5
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 14 (16 on whiff)
+On Hit: +6
+On Block: -1
+Cancelable: Special, Super
+Notes: June 2025 patch: added 2 frames of recovery on whiff, increased vertical size of hurtbox on legs, expanded late hurtbox on frames 21 onward.
+
+Move: Crouching Heavy Punch
+Startup: 8
+Active Frames: 8
+Recovery: 19
+On Hit: 0
+On Block: -8
+Cancelable: Special, Super
+Notes: Hit forces standing on crouching opponents. Anti-air invincible on frames 8-16.
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 10
+On Hit: +3
+On Block: -3
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +1
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits. As of December 2024 patch: cancel window into Drive Impact now 2 frames faster.
+
+Move: Crouching Heavy Kick
+Startup: 9
+Active Frames: 3
+Recovery: 23 (29 on block)
+On Hit: Knockdown +40 (+37 on juggle)
+On Block: -12
+Cancelable: --
+Notes: Juggle potential.
+
+Move: Forward + Medium Punch (Skull Splitter)
+Startup: 20
+Active Frames: 1, 3
+Recovery: 18
+On Hit: +3
+On Block: -1
+Cancelable: --
+
+Move: Forward + Medium Kick (Resso Snap Kick)
+Startup: 10
+Active Frames: 3
+Recovery: 15 (19 on whiff)
+On Hit: +5
+On Block: -4
+Cancelable: --
+Notes: As of December 2024 patch: 1 additional frame of recovery and increased hurtbox on last frame.
+
+Move: Back + Heavy Kick (Rago High Kick)
+Startup: 12
+Active Frames: 5
+Recovery: 27
+On Hit: Knockdown juggle +47
+On Block: -15
+Cancelable: --
+Notes: Limited juggle state on hit. Anti-air invincible on frames 12-16.
+
+Move: Forward + Heavy Punch
+Startup: 13
+Active Frames: 4
+Recovery: 20
+On Hit: +4
+On Block: -3
+Cancelable: Target Combo
+Notes: June 2025 patch: expanded hurtbox.
+
+Move: Medium Punch, Medium Punch (Viscera Piercer)
+Startup: 6, 7
+Active Frames: 4, 3
+Recovery: 11, 21
+On Hit: +4, -1
+On Block: +1, -6
+Cancelable: Special, Super, Target Combo
+
+Move: Medium Kick, Heavy Hick (Bone Crusher Axe Kick)
+Startup: 7, 20
+Active Frames: 5, 3
+Recovery: 15, 20
+On Hit: +3, +1
+On Block: -3, -3
+Cancelable: --
+Notes: First hit forces standing on crouching opponents.
+
+Move: Forward + Heavy Punch, Forward + Heavy Punch, Heavy Kick (Kikoku Combination)
+Startup: 13, 10, 9
+Active Frames: 4, 3, 3
+Recovery: 20, 21, 24
+On Hit: +4, Knockdown +39, Knockdown +35
+On Block: -3, -10, -13
+Cancelable: --
+
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 8
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: Special
+Notes: Juggle state on air hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 12
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+
+Move: Forward Jump, Down + Medium Kick (Tenmaku Blade Kick)
+Startup: 16
+Active Frames: 13-14
+Recovery: 7 Landing (13 on whiff)
+On Hit: +2...+11
+On Block: -2...+6
+Cancelable: --
+
+Move: Gou Hadoken (Light Punch)
+Startup: 16 (...30...56)
+Active Frames: ...
+Recovery: 30
+On Hit: +0...
+On Block: -4...
+Cancelable: 
+Notes: Can hold to charge. Changes to a 2-hit version if released on frames 30-55. Changes to a 3-hit version if held fully, 56 frames.
+
+Move: Gou Hadoken (Medium Punch)
+Startup: 14 (...30...56)
+Active Frames: ...
+Recovery: 32
+On Hit: -2...
+On Block: -6...
+Cancelable: 
+Notes: Can hold to charge. Changes to a 2-hit version if released on frames 30-55. Changes to a 3-hit version if held fully, 56 frames.
+
+Move: Gou Hadoken (Heavy Punch)
+Startup: 12 (...30...56)
+Active Frames: ...
+Recovery: 34
+On Hit: -4...
+On Block: -8...
+Cancelable: 
+Notes: Can hold to charge. Changes to a 2-hit version if released on frames 30-55. Changes to a 3-hit version if held fully, 56 frames.
+
+Move: Gou Hadoken (Overdrive)
+Startup: 12 (...31)
+Active Frames: ...
+Recovery: 20
+On Hit: Limited Juggle State on hit. Variable knockdown of +55 minimum.
+On Block: +2...
+Cancelable: 
+Notes: Can hold to charge. Changes to a 3-hit version if held fully, 31 frames.
+
+Move: Zanku Hadoken (Forward Jump Only)
+Startup: 13 (6)
+Active Frames: **
+Recovery: 9 on landing
+On Hit: -2...+25... (Knockdown juggle +54...)
+On Block: +0...+25... (-1...+26...)
+Cancelable: 
+Notes: Usable during forward jump only. Strength changes tragectory. Overdrive version in parenthesis. 40% initial scaling.
+
+Move: Gou Shoryuken (Light Punch)
+Startup: 5
+Active Frames: 10
+Recovery: 33
+On Hit: Knockdown +38
+On Block: -23
+Cancelable: 
+Notes: Anti-air invincible on frames 1-14.
+
+Move: Gou Shoryuken (Medium Punch)
+Startup: 6
+Active Frames: 10
+Recovery: 42
+On Hit: Knockdown +32
+On Block: -30
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9.
+
+Move: Gou Shoryuken (Heavy Punch)
+Startup: 7
+Active Frames: 11
+Recovery: 50
+On Hit: Knockdown +30
+On Block: -36
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9.
+
+Move: Gou Shoryuken (Overdrive)
+Startup: 6
+Active Frames: 11
+Recovery: 52
+On Hit: Knockdown +14
+On Block: -39
+Cancelable: 
+Notes: Fully invincible frames 1-8.
+
+Move: Tatsumaki Zanku-kyaku (Light Kick)
+Startup: 12
+Active Frames: 2
+Recovery: 21 (27 on whiff)
+On Hit: Knockdown +33
+On Block: -13
+Cancelable: 
+Notes: Limited juggle state on hit, whiffs on crouching opponents.
+
+Move: Tatsumaki Zanku-kyaku (Medium Kick)
+Startup: 11...
+Active Frames: 2, 2
+Recovery: 31
+On Hit: Knockdown +41...
+On Block: -13
+Cancelable: 
+Notes: Whiffs on crouching opponents.
+
+Move: Tatsumaki Zanku-kyaku (Heavy Kick)
+Startup: 7...
+Active Frames: 3, 3, 3
+Recovery: 35 (41 on whiff)
+On Hit: Knockdown +34...
+On Block: -59
+Cancelable: 
+Notes: Heavy version *does* hit crouching opponents.
+
+Move: Tatsumaki Zanku-kyaku (Overdrive)
+Startup: 13...
+Active Frames: 2, 2, 2, 2, 2
+Recovery: 26
+On Hit: Knockdown +47
+On Block: -17
+Cancelable: 
+Notes: Limited juggle state on hit. Whiffs on crouching opponents.
+
+Move: Aerial Tatsumaki Senpu-kyaku
+Startup: 11
+Active Frames: 2, 2, 2
+Recovery: 16...
+On Hit: Limited Juggle State on hit. Variable Knockdown of +47(?) minimum.
+On Block: -6...+3
+Cancelable: 
+Notes: Crosses up.
+
+Move: (Forward Jump Only) Aerial Tatsumaki Senpu-kyaku (Overdrive)
+Startup: 11
+Active Frames: 2, 3, 3, 3, 2
+Recovery: 31...
+On Hit: Variable Knockdown of +46(?) minimum.
+On Block: **
+Cancelable: 
+
+Move: Demon Raid
+Startup: **
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Range of the Demon Flip changes based on strength of Kick used. June 2025 patch: Overdrive version can be cancelled into Tenma Gozanku.
+
+Move: Demon Swoop
+Startup: **
+Active Frames: --
+Recovery: 45 (50 if crossover)
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: As of December 2024 patch: has 5 extra frames if crossing over opponent (45 > 50)
+
+Move: Demon Low Slash
+Startup: ...(+53)
+Active Frames: 4
+Recovery: 15
+On Hit: Knockdown +39
+On Block: +2
+Cancelable: 
+
+Move: Demon Guillotine
+Startup: ...(+16)
+Active Frames: 7
+Recovery: 9
+On Hit: Knockdown +38...
+On Block: +4...+7
+Cancelable: 
+
+Move: Demon Blade Kick
+Startup: ...(+13)
+Active Frames: **
+Recovery: 9 (14 on whiff)
+On Hit: +1...+10
+On Block: -4...+5
+Cancelable: 
+Notes: Kick strength changes angle. 30% initial scaling.
+
+Move: Demon Gou Zanku
+Startup: ...(+6)
+Active Frames: **
+Recovery: 18
+On Hit: Knockdown +58...
+On Block: +4...+21
+Cancelable: 
+
+Move: Demon Gou Rasen
+Startup: ...(+5)
+Active Frames: 2, 3, 3, 3, 2
+Recovery: 27
+On Hit: Knockdown +52...
+On Block: **
+Cancelable: 
+
+Move: Adamant Flame (Light Punch)
+Startup: 15, 7
+Active Frames: 3, 4
+Recovery: 23, 18 (22 on block)
+On Hit: +1, +3
+On Block: -8, -10
+Cancelable: 
+
+Move: Adamant Flame (Medium Punch)
+Startup: 19, 7
+Active Frames: 3, 4
+Recovery: 20 (23 on whiff), 32
+On Hit: +2, Knockdown +32
+On Block: -4, -18
+Cancelable: 
+
+Move: Adamant Flame (Heavy Punch)
+Startup: 23, 7
+Active Frames: 3, 4
+Recovery: 19 (21 on whiff), 28
+On Hit: +3, Limited Juggle State on hit. Knockdown +47.
+On Block: -2, -14
+Cancelable: 
+
+Move: Adamant Flame (Overdrive)
+Startup: 18
+Active Frames: 3, 4, 3
+Recovery: 23, 25
+On Hit: +1, Wall splat free juggle state +45
+On Block: -3, -18
+Cancelable: 
+
+Move: Ashura Senku
+Startup: **
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Teleports through opponents but does *not* have invincibility. Can cancel Forward version into Throw (LP+LK) to perform Oboro Throw command grab for 2200 damage.
+
+Move: Messatsu Gohado (Level 1)
+Startup: 10
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +9...
+On Block: -41
+Cancelable: 
+Notes: Strike invincible on frames 1-9(maybe more, need to test). Breaks armor.
+
+Move: Tenma Gozanku (Level 1)
+Startup: 14
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +51...
+On Block: -26...+6
+Cancelable: 
+Notes: Breaks armor.
+
+Move: Empyrean's End (Level 2)
+Startup: 9
+Active Frames: 3
+Recovery: 52
+On Hit: Knockdown +29...+97
+On Block: -35
+Cancelable: 
+Notes: Fully invincible on frames 1-9(maybe more, need to test). Breaks armor.
+
+Move: Sip of Calamity (Level 3)
+Startup: 8
+Active Frames: 4
+Recovery: 57 (58 on block/whiff)
+On Hit: Knockdown +18 (Knockdown +18)
+On Block: -41
+Cancelable: 
+Notes: Fully invincibile on frames 1-8(maybe more, need to test). Breaks armor. Critical Art version in parenthesis.
+
+Move: Shun Goku Satsu "Raging Demon" (Level 3, Critical Art-only)
+Startup: 7
+Active Frames: **
+Recovery: 57
+On Hit: Knockdown +18
+On Block: --
+Cancelable: 
+Notes: Requires being at 25% health or lower. Fully invincibile on frames 1-7(maybe more, need to test). Breaks armor. Can shortcut the input as "LP, LP, F+LK+HP". Has a hit attached to later frames, so can be comboed into. Grabs prior to screen freeze, so cannot be jumped post-freeze at point blank.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +28
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +14
+On Block: 
+Cancelable: --

@@ -1,0 +1,491 @@
+Character: Blanka
+
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 3
+Recovery: 10
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+
+Move: Standing Medium Punch
+Startup: 10
+Active Frames: 3
+Recovery: 15
+On Hit: +3
+On Block: -4
+Cancelable: --
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 7
+Recovery: 22
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+
+Move: Standing Light Kick
+Startup: 4
+Active Frames: 4
+Recovery: 7
+On Hit: +5
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 20
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super
+
+Move: Standing Heavy Kick
+Startup: 7
+Active Frames: 9
+Recovery: 18
+On Hit: +6
+On Block: -4
+Cancelable: --
+
+Move: Crouching Light Punch
+Startup: 6
+Active Frames: 3
+Recovery: 8
+On Hit: +5
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 9
+Active Frames: 5
+Recovery: 16 (18 on whiff/block)
+On Hit: +1
+On Block: -5
+Cancelable: Special, Super
+
+Move: Crouching Heavy Punch
+Startup: 15
+Active Frames: 6
+Recovery: 20
+On Hit: 0
+On Block: -5
+Cancelable: --
+Notes: June 2025 patch: reduced hurtbox on frame 13 and strike invincible on frame 14, damage from 800 to 900.
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 10
+On Hit: +3
+On Block: -3
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 16
+On Hit: +5
+On Block: -5
+Cancelable: --
+
+Move: Crouching Heavy Kick
+Startup: 11
+Active Frames: 4
+Recovery: 23
+On Hit: Knockdown +25
+On Block: -12
+Cancelable: --
+
+Move: Forward + Medium Punch (Rock Crusher)
+Startup: 20
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -3
+Cancelable: --
+
+Move: Forward + Medium Kick (Double Knee Bombs)
+Startup: 9, 8
+Active Frames: 3, 2
+Recovery: 18
+On Hit: +6
+On Block: -2
+Cancelable: --
+Notes: As of December 2024 patch: reduced hurtbox on frame 9. Anti-air hit is now a blowback knockdown.
+
+Move: Back + Medium Kick (Wild Edge)
+Startup: 9
+Active Frames: 6
+Recovery: 12
+On Hit: +8
+On Block: +2
+Cancelable: Special, Super
+
+Move: Forward + Heavy Punch (Wild Nail)
+Startup: 18
+Active Frames: 4
+Recovery: 31
+On Hit: Knockdown +20 (Knockdown +23 as an anti-air)
+On Block: -15
+Cancelable: --
+Notes: As of December 2024 patch: knockdown from +18 to +20 for ground hits, from +18 to +23 for anti-air hits.
+
+Move: Down-Forward + Heavy Punch (Amazon River Run)
+Startup: 14
+Active Frames: 10
+Recovery: 22
+On Hit: Knockdown +29...+38
+On Block: -18...-9
+Cancelable: --
+
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +4...
+On Block: 0...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 7
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: Special
+Notes: Limited Juggle State on hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2...
+Cancelable: --
+Notes: Knockdown on aerial hit.
+
+Move: Jump Light Kick
+Startup: 5
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 11
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Neutral Jump Heavy Punch
+Startup: 7
+Active Frames: 3
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+Notes: Limited Juggle State on aerial hit.
+
+Move: Electric Thunder
+Startup: 10
+Active Frames: 2, 2, 2
+Recovery: 15
+On Hit: Knockdown +39
+On Block: -3
+Cancelable: 
+Notes: Hold button to continue electric hits (whiff only). Lightning Beast buff damage in brackets.
+
+Move: Electric Thunder (Overdrive)
+Startup: 10
+Active Frames: 2, 2, 2
+Recovery: 17
+On Hit: Knockdown +40
+On Block: +4
+Cancelable: 
+Notes: Hold button to continue electric hits (whiff only).
+
+Move: Rolling Attack (Light Punch)
+Startup: 10
+Active Frames: 11 [12]
+Recovery: 11 (42) [10 (39)]
+On Hit: Knockdown +13
+On Block: -23 [-21]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Rolling Attack (Medium Punch)
+Startup: 12
+Active Frames: 19
+Recovery: 11 (42) [11 (39)]
+On Hit: Knockdown +14
+On Block: -23 [-21]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Rolling Attack (Heavy Punch)
+Startup: 12
+Active Frames: 20 [22]
+Recovery: 25 (33) [25 (39)]
+On Hit: Knockdown +30
+On Block: -15 [-21]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Rolling Attack (Overdrive)
+Startup: 18
+Active Frames: 22
+Recovery: 25 (33) [25 (39)]
+On Hit: Knockdown +57
+On Block: -7
+Cancelable: 
+Notes: Lightning Beast data in brackets. Limited Juggle State on hit.
+
+Move: Aerial Rolling Attack
+Startup: 13
+Active Frames: 22
+Recovery: 17 Landing
+On Hit: Knockdown +39...
+On Block: -8...-2
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Aerial Rolling Attack (Overdrive)
+Startup: 13
+Active Frames: 22
+Recovery: 10 Landing
+On Hit: Knockdown +29...
+On Block: +3...+8
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Vertical Rolling Attack (Light Kick)
+Startup: 8
+Active Frames: 19
+Recovery: 45 (48)
+On Hit: Knockdown +35
+On Block: -27 [-18]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Vertical Rolling Attack (Medium Kick)
+Startup: 8
+Active Frames: 19
+Recovery: 45 (48)
+On Hit: Knockdown +42
+On Block: -27 [-18]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Vertical Rolling Attack (Heavy Kick)
+Startup: 8
+Active Frames: 19
+Recovery: 45 (48)
+On Hit: Knockdown +42
+On Block: -27 [-18]
+Cancelable: 
+Notes: Lightning Beast data in brackets.
+
+Move: Vertical Rolling Attack (Overdrive)
+Startup: 7
+Active Frames: 8, 6
+Recovery: 51 (48)
+On Hit: Knockdown +28
+On Block: -40
+Cancelable: 
+Notes: Full invincibility on frames 1-7. Lightning Beast data in brackets.
+
+Move: Backstep Rolling Attack (Light Kick)
+Startup: 41
+Active Frames: 24
+Recovery: 5 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: 
+Notes: Crosses up. Hold Forward/Back to change trajectory.
+
+Move: Backstep Rolling Attack (Medium Kick)
+Startup: 41
+Active Frames: 27
+Recovery: 5 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: 
+Notes: Crosses up. Hold Forward/Back to change trajectory.
+
+Move: Backstep Rolling Attack (Heavy Kick)
+Startup: 41
+Active Frames: 29
+Recovery: 5 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: 
+Notes: Crosses up. Hold Forward/Back to change trajectory.
+
+Move: Backstep Rolling Attack (Overdrive)
+Startup: 8
+Active Frames: 5, 21, 4
+Recovery: 4 Landing
+On Hit: Knockdown +55... (+10...)
+On Block: -46 (+6...)
+Cancelable: 
+Notes: Crosses up. Hold Forward/Back to change trajectory. First hit connecting causes knockdown, later hits do not. Later hit data in parenthesis.
+
+Move: Wild Hunt (Light Kick)
+Startup: 34
+Active Frames: 3
+Recovery: 57
+On Hit: Knockdown +35
+On Block: --
+Cancelable: 
+
+Move: Wild Hunt (Medium Kick)
+Startup: 39
+Active Frames: 3
+Recovery: 57
+On Hit: Knockdown +35
+On Block: --
+Cancelable: 
+
+Move: Wild Hunt (Heavy Kick)
+Startup: 45
+Active Frames: 3
+Recovery: 57
+On Hit: Knockdown +35
+On Block: --
+Cancelable: 
+
+Move: Wild Hunt (Overdrive)
+Startup: 32
+Active Frames: 3
+Recovery: 57
+On Hit: Knockdown +64
+On Block: --
+Cancelable: 
+Notes: Can hold forward to go farther with overdrive version. June 2025 patch: OD version can be used in ground and air combos.
+
+Move: Blanka-chan Bomb
+Startup: --
+Active Frames: **
+Recovery: **
+On Hit: Knockdown **
+On Block: **
+Cancelable: 
+Notes: Limited Juggle State on activated Blanka-chan Bomb hit. Light/Medium/Heavy Punch alters how far the Blanka-chan Bomb is thrown, other data is the same. Hitting the Blanka-chan Bomb with an Overdrive lightning special to activate it causes the Overdrive version of the Bomb, overdrive data in Parenthesis.
+
+Move: Rolling Cannon
+Startup: 3
+Active Frames: 25
+Recovery: 9 (10)
+On Hit: Knockdown **...
+On Block: **...
+Cancelable: 
+Notes: Follow up attack for Rolling-type Special Moves during Lightning Beast.
+
+Move: Coward Crouch
+Startup: 25
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Low profile of hurtbox begins on frame 9. Hold down to continue the low profile for up to 148 frames. This is listed as a unique attack, but it's special cancellable out of normals, so it's actually a special, fight me.
+
+Move: Wild Lift
+Startup: 8
+Active Frames: 7
+Recovery: 31
+On Hit: Knockdown +55
+On Block: -21
+Cancelable: 
+Notes: Limited Juggle State on hit.
+
+Move: Raid Jump
+Startup: **
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Jumps out of Coward Crouch, can use any aerial normal or special.
+
+Move: Surprise Forward Hop
+Startup: --
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Hops forward. Throw invincible on frames 12-22. 3 extra frames of startup if done from Coward Crouch. This is listed as a unique attack, but it's special cancellable out of normals, so it's actually a special, fight me.
+
+Move: Surprise Back Hop
+Startup: --
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Hops back. Airborne on frames 11-21. 3 extra frames of startup if done from Coward Crouch. This is listed as a unique attack, but it's special cancellable out of normals, so it's actually a special, fight me.
+
+Move: Shout of Earth (Level 1)
+Startup: 8
+Active Frames: 9
+Recovery: 62 (69)
+On Hit: Knockdown +15
+On Block: -29
+Cancelable: 
+Notes: Strike/Throw invincible on frames 1-9. Breaks armor. Lightning Beast makes the attack hit full screen as well as behind and makes it do more damage.
+
+Move: Lightning Beast (Level 2)
+Startup: 1
+Active Frames: 7 (3)
+Recovery: 9
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Allows Blanka to cancel into Rolling Attack Special Moves without charge, enables Rolling Cannon followup for Rolling Attack Special Moves, and increases damage of lightning Special Moves.
+
+Move: Ground Shave Cannonball (Level 3)
+Startup: 10
+Active Frames: 3
+Recovery: 61
+On Hit: Knockdown +50 (Knockdown +14)
+On Block: -46
+Cancelable: 
+Notes: Fully invincible on frames 1-12. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +30
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +27
+On Block: 
+Cancelable: --

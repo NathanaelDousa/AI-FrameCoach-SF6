@@ -1,0 +1,505 @@
+Character: Ken
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: In February 27, 2024 patch: arm hurtbox increased on frames 2-6 but decreased on frames 7-8.
+
+Move: Standing Medium Punch
+Startup: 5
+Active Frames: 4
+Recovery: 14
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super, Target Combo
+Notes: June 2025 patch: reduced hitbox, increased hurtbox on feet.
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 5
+Recovery: 17
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 12
+On Hit: 0
+On Block: -2
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -5
+Cancelable: Target Combo
+
+Move: Standing Heavy Kick
+Startup: 12
+Active Frames: 2
+Recovery: 25
+On Hit: +1
+On Block: -5
+Cancelable: --
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 9
+On Hit: +5
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 14 (16 on whiff)
+On Hit: +3
+On Block: 0
+Cancelable: Special, Super
+Notes: June 2025 patch: increased hurtbox on feet, 2 more frames of recovery on whiff.
+
+Move: Crouching Heavy Punch
+Startup: 8
+Active Frames: 4
+Recovery: 24
+On Hit: +3
+On Block: -10
+Cancelable: Special, Super
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 10
+On Hit: +1
+On Block: -3
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 7
+Active Frames: 3
+Recovery: 19
+On Hit: -2
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Crouching Heavy Kick
+Startup: 8
+Active Frames: 3
+Recovery: 24
+On Hit: Knockdown +40
+On Block: -10
+Cancelable: --
+
+Move: Quick Dash (KK)
+Startup: 11...
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Quick Dash > Emergency Stop
+Startup: 11...+16
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Quick Dash > Thunder Kick
+Startup: 11...+18
+Active Frames: 4
+Recovery: 20
+On Hit: +3
+On Block: -4
+Cancelable: Super
+
+Move: Quick Dash > Forward Step Kick
+Startup: 11...+10
+Active Frames: 4
+Recovery: 20
+On Hit: +3
+On Block: -4
+Cancelable: Super
+Notes: 20% initial scaling and extended hurtbox during recovery, as of December 2024 patch.
+
+Move: Medium Punch, Heavy Punch
+Startup: 5, 11
+Active Frames: 4, 3
+Recovery: 14, 27
+On Hit: +4, Knockdown +28
+On Block: -2, -14
+Cancelable: Special, Super
+
+Move: Medium Kick, Medium Kick, Hard Kick
+Startup: 8, 11, 13
+Active Frames: 3, 2, 4
+Recovery: 20, 27, 28
+On Hit: +3, Knockdown +28, Knockdown +32
+On Block: -5, -12, -11
+Cancelable: --
+Notes: If all hits connect, 2nd hit damage will scale to 320 (80%) and 3rd hit damage to 490 (70%).
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: Special
+Notes: Juggle state on air hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +8...
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +12...
+On Block: +8...
+Cancelable: --
+
+Move: Neutral Jump Heavy Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +13...
+On Block: +9...
+Cancelable: --
+
+Move: Hadoken (Light Punch)
+Startup: 16
+Active Frames: ...
+Recovery: 33
+On Hit: -1...
+On Block: -7...
+Cancelable: 
+
+Move: Hadoken (Medium Punch)
+Startup: 14
+Active Frames: ...
+Recovery: 35
+On Hit: -3...
+On Block: -9...
+Cancelable: 
+
+Move: Hadoken (Heavy Punch)
+Startup: 12
+Active Frames: ...
+Recovery: 37
+On Hit: -5...
+On Block: -11...
+Cancelable: 
+
+Move: Hadoken (Overdrive)
+Startup: 12
+Active Frames: ...
+Recovery: 20
+On Hit: +2...
+On Block: -2...
+Cancelable: 
+Notes: 20% damage scaling to followup combo hits as of May 2024 patch.
+
+Move: Shoryuken (Light Punch)
+Startup: 5
+Active Frames: 10
+Recovery: 33
+On Hit: Knockdown +33
+On Block: -23
+Cancelable: 
+Notes: Anti-air invincible on frames 1-14.
+
+Move: Shoryuken (Medium Punch)
+Startup: 6
+Active Frames: 10
+Recovery: 40
+On Hit: Knockdown +33
+On Block: -28
+Cancelable: 
+Notes: Anti-air invincible on frames 1-8.
+
+Move: Shoryuken (Heavy Punch)
+Startup: 7
+Active Frames: 10
+Recovery: 50
+On Hit: Knockdown +25
+On Block: -36
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9. Projectile invincible on frames 5-11.
+
+Move: Shoryuken (Overdrive)
+Startup: 6
+Active Frames: 10, 10
+Recovery: 50
+On Hit: Knockdown +22
+On Block: -40
+Cancelable: 
+Notes: Fully invincible on frames 1-10. As of December 2024 patch: knockdown on hit from +29 to +22.
+
+Move: Shoryuken (Quick Dash)
+Startup: 8
+Active Frames: 11
+Recovery: 48
+On Hit: Knockdown +25
+On Block: -35
+Cancelable: 
+Notes: Anti-air invincible on frames 1-19. Projectile invincible on frames 3-11.
+
+Move: Tatsumaki Senpu-kyaku (Light Kick)
+Startup: 4...
+Active Frames: 2, 3
+Recovery: 32
+On Hit: Knockdown +46 (Variable Knockdown of +38 minimum)
+On Block: -14
+Cancelable: 
+Notes: Second hit-only in parenthesis.
+
+Move: Tatsumaki Senpu-kyaku (Medium Kick)
+Startup: 14...
+Active Frames: 2, 2
+Recovery: 31
+On Hit: Knockdown +44 (Knockdown +32)
+On Block: -12
+Cancelable: 
+Notes: Second hit-only in parenthesis.
+
+Move: Tatsumaki Senpu-kyaku (Heavy Kick)
+Startup: 16...
+Active Frames: 2, 2, 2
+Recovery: 31
+On Hit: Knockdown +36
+On Block: -12
+Cancelable: 
+
+Move: Tatsumaki Senpu-kyaku (Overdrive)
+Startup: 9...
+Active Frames: 4, 3, 3, 3, 3
+Recovery: 34
+On Hit: Knockdown +28.
+On Block: -61
+Cancelable: 
+
+Move: Tatsumaki Senpu-kyaku (Quick Dash)
+Startup: 13...
+Active Frames: 2, 3, 2, 3, 2
+Recovery: 20
+On Hit: +3
+On Block: -9
+Cancelable: 
+
+Move: Aerial Tatsumaki Senpu-kyaku
+Startup: 11
+Active Frames: 2
+Recovery: 16...
+On Hit: Limited Juggle State on hit. Variable Knockdown of +47(?) minimum.
+On Block: -3...
+Cancelable: 
+
+Move: Aerial Tatsumaki Senpu-kyaku (Overdrive)
+Startup: 11
+Active Frames: 2, 2, 2
+Recovery: 14... (21...)
+On Hit: +7...
+On Block: -5...
+Cancelable: 
+Notes: 7 more landing recovery frames on whiff (added in February 27, 2024 patch).
+
+Move: Dragonlash Kick (Light Kick)
+Startup: 18
+Active Frames: 6
+Recovery: 21
+On Hit: +2
+On Block: -4
+Cancelable: 
+
+Move: Dragonlash Kick (Medium Kick)
+Startup: 23
+Active Frames: 5
+Recovery: 25
+On Hit: +3
+On Block: -8
+Cancelable: 
+
+Move: Dragonlash Kick (Heavy Kick)
+Startup: 28
+Active Frames: 5
+Recovery: 21
+On Hit: +3
+On Block: +1
+Cancelable: 
+
+Move: Dragonlash Kick (Overdrive)
+Startup: 9
+Active Frames: 2, 7
+Recovery: 24
+On Hit: +1
+On Block: -9
+Cancelable: 
+
+Move: Dragonlash Kick (Quick Dash)
+Startup: 9
+Active Frames: 4, 6
+Recovery: 24
+On Hit: +2
+On Block: -8
+Cancelable: 
+
+Move: Jinrai Kick (Light Kick)
+Startup: 12
+Active Frames: 3
+Recovery: 28
+On Hit: +1
+On Block: -11
+Cancelable: 
+
+Move: Jinrai Kick (Medium Kick)
+Startup: 16
+Active Frames: 3
+Recovery: 24
+On Hit: +2
+On Block: -7
+Cancelable: 
+
+Move: Jinrai Kick (Heavy Kick)
+Startup: 25
+Active Frames: 3
+Recovery: 19
+On Hit: Knockdown +42
+On Block: -2
+Cancelable: 
+
+Move: Jinrai Kick (Overdrive)
+Startup: 13
+Active Frames: 3
+Recovery: 25
+On Hit: -4
+On Block: -7
+Cancelable: 
+
+Move: Kazekama Shin Kick
+Startup: 6
+Active Frames: 4
+Recovery: 19
+On Hit: +3
+On Block: -5
+Cancelable: 
+
+Move: Gorai Axe Kick
+Startup: 18
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -3
+Cancelable: 
+Notes: Connecting with airborne opponents causes a ground bounce as of May 2024 patch.
+
+Move: Senka Snap Kick
+Startup: 10
+Active Frames: 3
+Recovery: 25
+On Hit: Knockdown +33, Knockdown +33, Knockdown +38
+On Block: -3
+Cancelable: 
+Notes: Knockdown advantage varies based on initial Jinrai strength.
+
+Move: Kasai Thrust Kick
+Startup: 15
+Active Frames: 3
+Recovery: 29
+On Hit: Knockdown +31, Knockdown +34, Knockdown +42
+On Block: -12, -12, -20
+Cancelable: 
+Notes: This third kick can be performed after any Overdrive Jinrai Kick followup. Knockdown varies based on followup kick's strength. June 2025 patch: initial scaling of 40%.
+
+Move: Dragonlash Flame (Level 1)
+Startup: 7
+Active Frames: 3
+Recovery: 40
+On Hit: Knockdown +9
+On Block: -24
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-10. Breaks armor. As of December 2024 patch, knockdown +35 on hit changed to knockdown +9 on hit.
+
+Move: Shippu Jinrai-kyaku (Level 2)
+Startup: 6
+Active Frames: **
+Recovery: 32
+On Hit: Knockdown +36
+On Block: -5
+Cancelable: 
+Notes: Breaks armor. June 2025 patch: on block changed from -19 to -5 (why tho?!?!)...
+
+Move: Shinryu Reppa (Level 3)
+Startup: 7
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +15 (Knockdown +21)
+On Block: -40
+Cancelable: 
+Notes: Fully invincibile on frames 1-18. Breaks armor. Critical Art in parenthesis. June 2025 patch: on block from -30 to -40 (10 more frames recovery on whiff too).
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +20
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +6
+On Block: 
+Cancelable: --

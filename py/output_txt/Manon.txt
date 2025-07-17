@@ -1,0 +1,422 @@
+Character: Manon
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 10
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 7
+Active Frames: 4
+Recovery: 15
+On Hit: +2
+On Block: -2
+Cancelable: Special, Super, Target Combo
+Notes: As of June 2025 patch: on block from -1 to -2, recovery from 14 to 15 frames.
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 4
+Recovery: 20
+On Hit: 0
+On Block: -3
+Cancelable: Target Combo
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 12
+On Hit: +2
+On Block: -2
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 10
+Active Frames: 3
+Recovery: 18
+On Hit: -2
+On Block: -5
+Cancelable: Special, Super
+
+Move: Standing Heavy Kick
+Startup: 15
+Active Frames: 3
+Recovery: 26
+On Hit: +1
+On Block: -6
+Cancelable: --
+Notes: +1 on hit as of December 2024 patch.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 11
+On Hit: +3
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 7
+Active Frames: 3
+Recovery: 13 (15 on whiff)
+On Hit: +6
+On Block: -2
+Cancelable: Special, Super
+Notes: As of June 2025 patch: on block from -1 to -2, recovery on whiff from 13 to 15.
+
+Move: Crouching Heavy Punch
+Startup: 10
+Active Frames: 5
+Recovery: 21
+On Hit: -2
+On Block: -8
+Cancelable: Target Combo
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 13
+On Hit: -1
+On Block: -5
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 4
+Recovery: 16
+On Hit: +3
+On Block: -2
+Cancelable: --
+
+Move: Crouching Heavy Kick
+Startup: 11
+Active Frames: 2
+Recovery: 27
+On Hit: Knockdown +29
+On Block: -12
+Cancelable: --
+Notes: Limited Juggle Potential.
+
+Move: Back + Medium Kick
+Startup: 10
+Active Frames: 4
+Recovery: 19
+On Hit: -1
+On Block: -3
+Cancelable: Target Combo
+
+Move: Back + Heavy Punch
+Startup: 8
+Active Frames: 6
+Recovery: 17
+On Hit: +3...+8
+On Block: +1...+6
+Cancelable: Special, Super
+
+Move: Down-Forward + Heavy Kick
+Startup: 11
+Active Frames: 9
+Recovery: 32
+On Hit: Knockdown +26
+On Block: -23
+Cancelable: --
+Notes: Limited Juggle Potential.
+
+Move: À Terre (Medium Punch, Medium Kick)
+Startup: 7, 10
+Active Frames: 4, 2
+Recovery: 14, 17
+On Hit: +2, +2
+On Block: -1, -5
+Cancelable: --
+Notes: As of June 2025 patch: Punish Counter changed from a knockback on the ground to a sweep knockdown. Increased hitstop on Punish Counter from 11 to 14 frames.
+
+Move: Back + Medium Kick, Medium Kick
+Startup: 10, 14
+Active Frames: 4, 7
+Recovery: 19, 21
+On Hit: -3
+On Block: -11
+Cancelable: Second Hit: Special, Super
+
+Move: Temps Lié (Heavy Punch, Heavy Punch)
+Startup: 10, 5
+Active Frames: 4, 2
+Recovery: 20, 20
+On Hit: 0, +3
+On Block: -3, -8
+Cancelable: --
+Notes: As of June 2025 patch: Changed the behavior on Punish Counter from a knockback on the ground to a blowback knockdown. Expanded attack hitbox horizontally on Punish Counter. Increased hitstop on Punish Counter from 13 to 15 frames. Added 20% combo scaling on the 2nd attack. Increased buffer input time at the end of recovery.
+
+Move: Down + Heavy Punch, Heavy Punch
+Startup: 10, 4
+Active Frames: 5, 4
+Recovery: 21, 26
+On Hit: -2, +1
+On Block: -8, -10
+Cancelable: --
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 8
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +6...
+Cancelable: --
+Notes: Limited Juggle State on air hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Knockdown on aerial hit.
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 9
+Recovery: 3 Landing
+On Hit: +3...
+On Block: -1...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 11
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Manège Doré (Light Punch)
+Startup: 10
+Active Frames: 2
+Recovery: 49
+On Hit: Knockdown +19
+On Block: --
+Cancelable: 
+Notes: Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.
+
+Move: Manège Doré (Medium Punch)
+Startup: 8
+Active Frames: 2
+Recovery: 51
+On Hit: Knockdown +19
+On Block: --
+Cancelable: 
+Notes: Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.
+
+Move: Manège Doré (Heavy Punch)
+Startup: 5
+Active Frames: 2
+Recovery: 54
+On Hit: Knockdown +19
+On Block: --
+Cancelable: 
+Notes: Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.
+
+Move: Manège Doré (Overdrive)
+Startup: 8
+Active Frames: 2
+Recovery: 51
+On Hit: Knockdown +19
+On Block: --
+Cancelable: 
+Notes: Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.
+
+Move: Rond-point (Light Kick)
+Startup: 9, 6
+Active Frames: 3, 2
+Recovery: 29
+On Hit: Knockdown +31
+On Block: -15
+Cancelable: 
+Notes: Upper body anti-air invincible on frames 5-15. As of June 2025 patch: Changed the effect when hitting an opponent on the ground from a blowback knockdown to a tailspin. Changed the Super Art 3/Critical Art canceling timing to the 2nd attack. Increased buffer input time at the end of recovery.
+
+Move: Rond-point (Medium Kick)
+Startup: 11, 6
+Active Frames: 3, 3
+Recovery: 27
+On Hit: Knockdown +34
+On Block: -14
+Cancelable: 
+Notes: Upper body anti-air invincible on frames 7-19.
+
+Move: Rond-point (Heavy Kick)
+Startup: 14, 6
+Active Frames: 3, 3
+Recovery: 24
+On Hit: Knockdown +37
+On Block: -11
+Cancelable: 
+Notes: Upper body anti-air invincible on frames 9-22. Limited Juggle State on hit (opponent must be high enough).
+
+Move: Rond-point (Overdrive)
+Startup: 8, 6
+Active Frames: 4, 3
+Recovery: 30
+On Hit: Knockdown +45
+On Block: -19
+Cancelable: 
+Notes: Upper body anti-air invincible on frames 9-22. Limited Juggle State on hit. Second hit does 400 damage if it is the only hit that connects.
+
+Move: Dégagé (Light Kick)
+Startup: 16, 11
+Active Frames: 2, 4
+Recovery: 36
+On Hit: Knockdown +21
+On Block: -24
+Cancelable: 
+
+Move: Dégagé (Medium Kick)
+Startup: 16, 15
+Active Frames: 4, 6
+Recovery: 22
+On Hit: Knockdown +33
+On Block: -13
+Cancelable: 
+
+Move: Dégagé (Heavy Kick)
+Startup: 20
+Active Frames: 3
+Recovery: 24
+On Hit: +3
+On Block: -9
+Cancelable: 
+Notes: Forces opponent to crouch on hit.
+
+Move: Dégagé (Overdrive)
+Startup: 22
+Active Frames: 3
+Recovery: 22
+On Hit: +6
+On Block: -3
+Cancelable: 
+
+Move: Renversé (Light Punch)
+Startup: 22
+Active Frames: 2
+Recovery: 37
+On Hit: Knockdown +15
+On Block: -23
+Cancelable: 
+Notes: Projectile invincible on frames 3-21. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 31 total frames with projectile invincibility on frames 3-13.
+
+Move: Renversé (Medium Punch)
+Startup: 25
+Active Frames: 2
+Recovery: 34
+On Hit: Knockdown +15
+On Block: -20
+Cancelable: 
+Notes: Projectile invincible on frames 3-24. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 32 total frames with projectile invincibility on frames 3-14.
+
+Move: Renversé (Heavy Punch)
+Startup: 29
+Active Frames: 2
+Recovery: 30
+On Hit: Knockdown +15
+On Block: -16
+Cancelable: 
+Notes: Projectile invincible on frames 3-28. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 33 total frames with projectile invincibility on frames 3-15.
+
+Move: Renversé (Overdrive)
+Startup: 25
+Active Frames: 2
+Recovery: 34
+On Hit: Knockdown +15
+On Block: -20
+Cancelable: 
+Notes: Projectile and upper body invincible on frames 3-24. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 32 total frames with projectile invincibility on frames 3-14.
+
+Move: Grand Fouetté
+Startup: 16+11
+Active Frames: 6
+Recovery: 22
+On Hit: Knockdown +51
+On Block: -5
+Cancelable: 
+Notes: Limited Juggle State on hit.
+
+Move: Grand Fouetté (Overdrive)
+Startup: 15+11
+Active Frames: 6
+Recovery: 22
+On Hit: Knockdown +58
+On Block: -12
+Cancelable: 
+Notes: Limited Juggle State on hit.
+
+Move: Arabesque (Level 1)
+Startup: 10
+Active Frames: 4
+Recovery: 65
+On Hit: Knockdown +7...
+On Block: -49
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-13. Breaks armor.
+
+Move: Étoile (Level 2)
+Startup: 7
+Active Frames: 3, 6, 9
+Recovery: 72
+On Hit: Knockdown +32
+On Block: -61
+Cancelable: 
+Notes: Fully invincible on frames 1-9. Breaks armor.
+
+Move: Pas de Deux (Level 3)
+Startup: 7
+Active Frames: 2
+Recovery: 72
+On Hit: Knockdown +16
+On Block: -65
+Cancelable: 
+Notes: Fully invincible on frames 1-8. Breaks armor. Critical Art in parenthesis. Can be combo'd into as a hit or used empty as a grab, although the opponent can jump away after the screen freeze. Does more damage per each Medal Level as of May 2024 patch.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +16
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +18
+On Block: 
+Cancelable: --

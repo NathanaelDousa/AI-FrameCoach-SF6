@@ -1,0 +1,404 @@
+Character: Juri
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 4
+Recovery: 7
+On Hit: +5
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 6
+Active Frames: 5
+Recovery: 12
+On Hit: +7
+On Block: +2
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 3
+Recovery: 24
+On Hit: +1
+On Block: -5
+Cancelable: Special, Super
+Notes: FSE Chain is a knockdown of +29.
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 9
+On Hit: +2
+On Block: -3
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 5, 8
+Active Frames: 2, 3
+Recovery: 17
+On Hit: +3
+On Block: -4
+Cancelable: First Hit: Special, SuperSecond Hit: FSE Special, FSE Super
+
+Move: Standing Heavy Kick
+Startup: 17
+Active Frames: 4
+Recovery: 19
+On Hit: +2
+On Block: -3
+Cancelable: FSE Special, FSE Super
+Notes: FSE Chain is a knockdown of +34.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 8
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 14 (15 on whiff)
+On Hit: +5
+On Block: -2
+Cancelable: Special, Super
+
+Move: Crouching Heavy Punch
+Startup: 8
+Active Frames: 4
+Recovery: 23
+On Hit: +3
+On Block: -11
+Cancelable: Special, Super
+Notes: As of December 2024 patch, causes a spinning knockdown juggle state on anti-air Punish Counter.
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 8
+On Hit: +3
+On Block: -1
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +1
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Crouching Heavy Kick
+Startup: 10
+Active Frames: 3
+Recovery: 23
+On Hit: Knockdown +38
+On Block: -11
+Cancelable: FSE Special, FSE Super
+
+Move: Forward + Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 17
+On Hit: +4
+On Block: -3
+Cancelable: Special, Super
+
+Move: Forward + Medium Kick
+Startup: 21
+Active Frames: 2
+Recovery: 23 (whiff) / 21 (hit)
+On Hit: +2
+On Block: -3
+Cancelable: FSE Special, FSE Super
+Notes: FSE Chain is a knockdown of +25.
+
+Move: Forward + Heavy Punch
+Startup: 15, 23
+Active Frames: 3, 3
+Recovery: 20
+On Hit: +2
+On Block: -4
+Cancelable: Special, Super
+
+Move: Korenzan (Back + Heavy Kick)
+Startup: 10, 19
+Active Frames: 3, 3
+Recovery: 19
+On Hit: +2
+On Block: -6
+Cancelable: Special, Super
+Notes: Second hit connecting with airborne opponents causes a ground bounce as of May 2024 patch. June 2024 patch: from -2 to +2 on hit, reduced hurtbox on frames 3-6, increased hitbox on second hit downard.
+
+Move: Medium Punch, Back + Heavy Punch, Heavy Punch
+Startup: 6, 12, 17
+Active Frames: 3, 3, 3
+Recovery: 12, 19, 27
+On Hit: +7, Knockdown +35, Knockdown +32
+On Block: +2, -3, -16
+Cancelable: Second Hit: Super
+Notes: Second hit cancellable into Super as of May 2024 patch.
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +7...
+On Block: +3...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 7
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +7...
+On Block: +3...
+Cancelable: Special
+Notes: Juggle state on air hit. Deals 300 damage during Feng Shui Chain Combos.
+
+Move: Jump Heavy Punch
+Startup: 12
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: Knockdown +24...
+On Block: +1...+7
+Cancelable: --
+Notes: Crosses up. Variable knockdown is +24 minimum at highest jump point. June 2025 patch: went from +7... on block to +1... on block. Bigger hurtbox on attacking leg.
+
+Move: Jump Light Kick
+Startup: 4
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +7...
+On Block: +3...
+Cancelable: --
+
+Move: Neutral Jump Heavy Kick
+Startup: 10
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +11...
+On Block: +7...
+Cancelable: --
+
+Move: Fuhajin (Light Kick)
+Startup: 10
+Active Frames: 4
+Recovery: 19
+On Hit: Knockdown +37
+On Block: -4
+Cancelable: 
+
+Move: Fuhajin (Medium Kick)
+Startup: 13
+Active Frames: 4
+Recovery: 21
+On Hit: Knockdown +37
+On Block: -6
+Cancelable: 
+
+Move: Fuhajin (Heavy Kick)
+Startup: 25
+Active Frames: 5
+Recovery: 20
+On Hit: Knockdown +46
+On Block: -8
+Cancelable: 
+Notes: Limited Juggle State on hit. As of December 2024 patch, has 5 active frames.
+
+Move: Fuhajin (Overdrive)
+Startup: 12
+Active Frames: 6
+Recovery: 21
+On Hit: Knockdown +45
+On Block: -12
+Cancelable: 
+Notes: Limited Juggle State on hit.
+
+Move: Saihasho
+Startup: 16
+Active Frames: ...10 (...30)
+Recovery: 20
+On Hit: -2... (+1)...
+On Block: -8... (-3)...
+Cancelable: 
+Notes: Fuha charge information in parenthesis. Can be cancelled into MK or HK version with Fuha charge.
+
+Move: Ankensatsu
+Startup: 24
+Active Frames: 4 (4)
+Recovery: 19
+On Hit: +5 (+8)
+On Block: -10 (-10)
+Cancelable: 
+Notes: Fuha charge information in parenthesis. Can be cancelled into LK or HK version with Fuha charge. 20% damage scaling to followup combo hits as of May 2024 patch.
+
+Move: Go Ohsatsu
+Startup: 18 (18, 18)
+Active Frames: 4 (4, 3)
+Recovery: 27 (27)
+On Hit: Knockdown +27 (Knockdown +37)
+On Block: -11 (-12)
+Cancelable: 
+Notes: Fuha charge information in parenthesis. Can be cancelled into LK or MK version with Fuha charge.
+
+Move: Saihasho (Overdrive)
+Startup: 11
+Active Frames: ...28
+Recovery: 22
+On Hit: Knockdown +39...
+On Block: -2
+Cancelable: 
+Notes: Can be cancelled into MK or HK version with Fuha charge. Limited Juggle State on hit. Variable knockdown of +39 minimum. June 2025 Patch added 20% initial and combo scaling.
+
+Move: Ankensatsu (Overdrive)
+Startup: 24
+Active Frames: 4
+Recovery: 19
+On Hit: +9
+On Block: -10
+Cancelable: 
+Notes: Can be cancelled into LK or HK version with Fuha charge. Ground Bounce Limited Juggle State on air hit.
+
+Move: Go Ohsatsu (Overdrive)
+Startup: 18, 18, 29
+Active Frames: 4, 3, 5
+Recovery: 28
+On Hit: Knockdown +32
+On Block: -16
+Cancelable: 
+Notes: Can be cancelled into LK or MK version with Fuha charge.
+
+Move: Tensenrin (Light Punch)
+Startup: 11
+Active Frames: 3
+Recovery: 22
+On Hit: Knockdown +37
+On Block: -8
+Cancelable: 
+
+Move: Tensenrin (Medium Punch)
+Startup: 5
+Active Frames: 8, 2, 2
+Recovery: 38
+On Hit: Knockdown +31
+On Block: -37
+Cancelable: 
+Notes: Anti-Air invincible on frames 1-8.
+
+Move: Tensenrin (Heavy Punch)
+Startup: 5
+Active Frames: 8, 2, 2
+Recovery: 38
+On Hit: Knockdown +28
+On Block: -37
+Cancelable: 
+Notes: Anti-Air invincible on frames 1-8.
+
+Move: Tensenrin (Overdrive)
+Startup: 6
+Active Frames: 4, 2, 2, 2
+Recovery: 51
+On Hit: Knockdown +5
+On Block: -48
+Cancelable: 
+Notes: Fully invincible on frames 1-9.
+
+Move: Shiku-sen
+Startup: 18
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +35...
+On Block: -9...
+Cancelable: 
+Notes: Variable knockdown is +35 minumum at highest jump point. Active frames vary based on height. Can be up to -3 on block if spaced.Shiren-sen Followup (press Kick on hit): 1600 damage and a variable knockdown of +28 minimum.
+
+Move: Shiku-sen (Overdrive)
+Startup: 16
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +38...
+On Block: -9...
+Cancelable: 
+Notes: Variable knockdown is +38 minumum at highest jump point. Active frames vary based on height. Can be up to -3 on block if spaced.Shiren-sen Followup (press Kick on hit): 1200 damage and a juggle state.
+
+Move: Sakkai Fuhazan (Level 1)
+Startup: 7
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +** (Knockdown +**)
+On Block: -32 (-31)
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-8. Breaks armor. Can hold kick to use 1 Fuha charge for extra damage.
+
+Move: Feng Shui Engine (Level 2)
+Startup: 7 (9)
+Active Frames: **
+Recovery: **
+On Hit: -- (+4)
+On Block: -- (-17)
+Cancelable: 
+Notes: Activation of FSEallows chain and special cancelling of all normal, unique, and jump attacks. 10 second timer. FSE chain cancelled jump attacks additionally cause a knockdown state. Can hold punch to active a hitbox that rushes forward, which can also be FSE Chain cancelled into normals.
+
+Move: Kaisen Dankai Raku (Level 3)
+Startup: 10
+Active Frames: 4
+Recovery: 52
+On Hit: Knockdown +22 (Knockdown +20)
+On Block: -31
+Cancelable: 
+Notes: Fully invincibile on frames 1-13. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +25
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +18
+On Block: 
+Cancelable: --
+
+Move: Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --

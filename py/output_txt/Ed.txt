@@ -1,0 +1,410 @@
+Character: Ed
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 7
+Active Frames: 3
+Recovery: 15
+On Hit: +6
+On Block: -1
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 4
+Recovery: 18
+On Hit: +5
+On Block: -2...-1
+Cancelable: Special, Super
+
+Move: Standing Light Kick
+Startup: 6
+Active Frames: 2
+Recovery: 13
+On Hit: +3
+On Block: -3
+Cancelable: Target Combo
+
+Move: Standing Medium Kick
+Startup: 10
+Active Frames: 2
+Recovery: 16 (18 on whiff)
+On Hit: +0
+On Block: -5
+Cancelable: Special, Super, Target Combo
+Notes: As of December 2024 patch: 2 extra frames of recovery on whiff, epanded hurtbox on frames 25-31 on whiff.
+
+Move: Standing Heavy Kick
+Startup: 10
+Active Frames: 3
+Recovery: 12
+On Hit: +8
+On Block: +4
+Cancelable: Special, Super
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 10
+On Hit: +3
+On Block: -3
+Cancelable: Chain
+
+Move: Crouching Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +2
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Crouching Heavy Punch
+Startup: 10
+Active Frames: 4
+Recovery: 24
+On Hit: Knockdown +30
+On Block: -12
+Cancelable: --
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 12
+On Hit: +2
+On Block: -4
+Cancelable: Special, Super
+Notes: As of December 2024 patch: recovery changed from 11 to 12 frames, on-hit from +3 to +2. Expanded hurtbox on final total frame (frame 18).
+
+Move: Crouching Medium Kick
+Startup: 9
+Active Frames: 2
+Recovery: 16 (17 on whiff)
+On Hit: +8
+On Block: -1
+Cancelable: Special, Super
+Notes: As of December 2024 patch: 1 frame extra recovery on whiff, expanded hurtbox on frames 24-25 on whiff.
+
+Move: Crouching Heavy Kick
+Startup: 12
+Active Frames: 2
+Recovery: 17
+On Hit: +1
+On Block: -4
+Cancelable: Special, Super, Target Combo
+
+Move: Forward + Heavy Punch (Cobra Punch)
+Startup: 17
+Active Frames: 3
+Recovery: 21
+On Hit: +1
+On Block: -3
+Cancelable: --
+
+Move: Hold HP (Psycho Knuckle)
+Startup: 11 (40...69)
+Active Frames: 4...**
+Recovery: 18...29
+On Hit: +5 (...Crumple +76)
+On Block: -2 (+2...+4)
+Cancelable: Kill Rush (Forward Only)
+Notes: Can hold to activate a rush attack, data in parenthesis. Earliest release for rush is 40 frames of startup. Rush attack is active during charge until contact or whiff.
+
+Move: Light Kick, Light Kick, Light Kick (Flicker Combination)
+Startup: 6, 7, 7
+Active Frames: 2, 3, 3
+Recovery: 13, 15, 16
+On Hit: +3, +3, +1
+On Block: -3, -3, -8
+Cancelable: --
+
+Move: Medium Punch, Heavy Punch (Body Blow Combination)
+Startup: 7, 13
+Active Frames: 3, 2
+Recovery: 15, 23
+On Hit: +6, Knockdown +38
+On Block: -1, -8
+Cancelable: Special, Super
+Notes: Cannot cancel into Backward Kill Rush.
+
+Move: Medium Kick, Medium Kick, Heavy Punch (Hitman Combination)
+Startup: 10, 7, 11
+Active Frames: 2, 2, 5
+Recovery: 16, 20, 23
+On Hit: 0, 0, Knockdown +35
+On Block: -5, -6, -11
+Cancelable: --
+
+Move: Down + Heavy Kick, Heavy Punch (Low Smash Combination)
+Startup: 12, 12
+Active Frames: 2, 5
+Recovery: 17, 19
+On Hit: +1, Knockdown +34
+On Block: -4, -8
+Cancelable: Super
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 8
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +7...
+On Block: +3...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 8
+Active Frames: 3
+Recovery: 3 Landing
+On Hit: +1...
+On Block: -3...
+Cancelable: --
+
+Move: Jump Medium Kick
+Startup: 10
+Active Frames: 2
+Recovery: 3 Landing
+On Hit: +10...+11
+On Block: +6...+7
+Cancelable: --
+
+Move: Jump Heavy Kick
+Startup: 8
+Active Frames: 2
+Recovery: 3 Landing
+On Hit: +15
+On Block: +11
+Cancelable: --
+Notes: Juggle state on air hit.
+
+Move: Psycho Spark
+Startup: 14 (14)
+Active Frames: 12
+Recovery: 19 (17)
+On Hit: +3 (Knockdown Juggle State +43)
+On Block: -5 (-2)
+Cancelable: 
+Notes: Punch strength does not change the base move. Can be cancelled into Psycho Shoot with Forward + Punch, strength of Punch alters the Psycho Shoot projectile speed. Overdrive version in parenthesis.
+
+Move: Psycho Shoot (Psycho Spark Followup)
+Startup: 12 (12)
+Active Frames: **
+Recovery: 30 (20)
+On Hit: +3... (Knockdown Juggle State +50...)
+On Block: -8... (-2...)
+Cancelable: 
+Notes: 26 frame started including Psycho Spark. Strength of Punch alters the Psycho Shoot projectile speed. Overdrive version in parenthesis.
+
+Move: Psycho Shoot (Psycho Spark Followup)
+Startup: 12 (12)
+Active Frames: **
+Recovery: 30 (20)
+On Hit: +3... (Knockdown Juggle State +50...)
+On Block: -8... (-2...)
+Cancelable: 
+Notes: 26 frame started including Psycho Spark. Strength of Punch alters the Psycho Shoot projectile speed. Overdrive version in parenthesis.
+
+Move: Psycho Uppercut (Light Punch)
+Startup: 10
+Active Frames: 8
+Recovery: 28
+On Hit: Knockdown +38
+On Block: -13
+Cancelable: 
+Notes: Anti-air invincible on frames 1-**.
+
+Move: Psycho Uppercut (Medium Punch)
+Startup: 14
+Active Frames: 6
+Recovery: 32
+On Hit: Knockdown +39
+On Block: -20
+Cancelable: 
+Notes: Anti-air invincible on frames 1-**.
+
+Move: Psycho Uppercut (Heavy Punch)
+Startup: 16
+Active Frames: 6
+Recovery: 33
+On Hit: Knockdown +38
+On Block: -21
+Cancelable: 
+Notes: Anti-air invincible on frames 1-**.
+
+Move: Psycho Uppercut (Overdrive)
+Startup: 13
+Active Frames: 6
+Recovery: 36
+On Hit: Knockdown +18
+On Block: -28
+Cancelable: 
+Notes: Fully invincible on frames 1-12.
+
+Move: Psycho Blitz (Light Punch)
+Startup: 11
+Active Frames: 3, 3, 4
+Recovery: 14
+On Hit: +3
+On Block: -5
+Cancelable: 
+
+Move: Psycho Blitz (Medium Punch)
+Startup: 13
+Active Frames: 2, 3, 3
+Recovery: 16 (24)
+On Hit: Knockdown +39
+On Block: -12
+Cancelable: 
+Notes: More recovery on block.
+
+Move: Psycho Blitz (Heavy Punch)
+Startup: 15
+Active Frames: 2, 3, 2
+Recovery: 23 (26)
+On Hit: Knockdown +40
+On Block: -12
+Cancelable: 
+
+Move: Psycho Blitz (Overdrive)
+Startup: 13
+Active Frames: **
+Recovery: 20
+On Hit: Knockdown +42
+On Block: -4
+Cancelable: 
+Notes: Longer animation on hit. As of December 2024 patch: on-block from -3 to -4.
+
+Move: Psycho Flicker (Light Kick)
+Startup: 16 (31...120)
+Active Frames: 4 (5)
+Recovery: 27 (24)
+On Hit: +1 (Juggle State +61)
+On Block: -6 (+4)
+Cancelable: 
+Notes: Can charge for up to 120 frames, earliest startup of charged version is 31 frames. Charged version pulls opponent in on block. Can cancel charge into Kill Rush Forward or Kill Rush Backward.
+
+Move: Psycho Flicker (Medium Kick)
+Startup: 20 (35...120)
+Active Frames: 4 (5)
+Recovery: 26 (24)
+On Hit: +3 (Juggle State +61)
+On Block: -6 (+4)
+Cancelable: 
+Notes: Can charge for up to 120 frames, earliest startup of charged version is 35 frames. Charged version pulls opponent in on block. Can cancel charge into Kill Rush Forward or Kill Rush Backward.
+
+Move: Psycho Flicker (Heavy Kick)
+Startup: 17 (35...120)
+Active Frames: 8 (10)
+Recovery: 18 (19)
+On Hit: Variable Juggle State (Ground Bounce Juggle State +66)
+On Block: N/A
+Cancelable: 
+Notes: Whiffs on grounded opponents. Can charge for up to 120 frames, earliest startup of charged version is 35 frames. Can cancel charge into Kill Rush Forward or Kill Rush Backward.
+
+Move: Psycho Flicker (Overdrive)
+Startup: 25
+Active Frames: 8 (10)
+Recovery: 32 (12)
+On Hit: Juggle State +61
+On Block: +4
+Cancelable: 
+Notes: Pulls opponent in on block, lower recovery on block. 3 more total frames on hit.
+
+Move: Kill Rush
+Startup: **
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: A command dash with two optional followups. When used to cancel charged moves, can instead use "Forward, Forward" or "Back, Back" as shortcut inputs.
+
+Move: Kill Switch Break
+Startup: 11
+Active Frames: 3
+Recovery: 20
+On Hit: Knockdown +38
+On Block: -4
+Cancelable: 
+
+Move: Kill Switch Chaser
+Startup: 11
+Active Frames: 3
+Recovery: 20
+On Hit: Knockdown Juggle State +50
+On Block: -6
+Cancelable: 
+
+Move: Psycho Storm (Level 1)
+Startup: 13
+Active Frames: **
+Recovery: 56
+On Hit: Knockdown +33
+On Block: -32
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-**. Breaks armor.
+
+Move: Psycho Cannon (Level 2)
+Startup: 8
+Active Frames: **
+Recovery: 27
+On Hit: Free Juggle State **
+On Block: +65...
+Cancelable: 
+Notes: Breaks armor.
+
+Move: Psycho Chamber (Level 3)
+Startup: 10
+Active Frames: 10
+Recovery: 64
+On Hit: Knockdown +24 (Knockdown +24)
+On Block: -49
+Cancelable: 
+Notes: Fully invincible on frames 1-**. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +24
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +24
+On Block: 
+Cancelable: --

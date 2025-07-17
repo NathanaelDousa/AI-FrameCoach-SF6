@@ -1,0 +1,423 @@
+Character: Dhalsim
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 8
+On Hit: +4
+On Block: -1
+Cancelable: Special, Super
+
+Move: Standing Medium Punch
+Startup: 14
+Active Frames: 3
+Recovery: 19
+On Hit: 0
+On Block: -5
+Cancelable: --
+
+Move: Standing Heavy Punch
+Startup: 16
+Active Frames: 7
+Recovery: 22
+On Hit: -6...
+On Block: -10...
+Cancelable: --
+
+Move: Standing Light Kick
+Startup: 9
+Active Frames: 4
+Recovery: 11
+On Hit: +2
+On Block: -6
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 12
+Active Frames: 3
+Recovery: 18
+On Hit: -2
+On Block: -6
+Cancelable: --
+
+Move: Standing Heavy Kick
+Startup: 17
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -6
+Cancelable: Special, Super
+Notes: Limited Juggle State on anti-air hit. +24 on Punish Counter as of October 2024 patch.
+
+Move: Crouching Light Punch
+Startup: 5
+Active Frames: 3
+Recovery: 9
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 12
+Active Frames: 3
+Recovery: 16
+On Hit: 0
+On Block: -4
+Cancelable: Special, Super
+
+Move: Crouching Heavy Punch
+Startup: 19
+Active Frames: 4
+Recovery: 24
+On Hit: +3
+On Block: -8
+Cancelable: --
+Notes: June 2025 patch: extended hurtbox.
+
+Move: Crouching Light Kick
+Startup: 4
+Active Frames: 7
+Recovery: 16
+On Hit: -5...+1
+On Block: -10...-4
+Cancelable: --
+
+Move: Crouching Medium Kick
+Startup: 10
+Active Frames: 13
+Recovery: 14
+On Hit: -3...+9
+On Block: -10...+2
+Cancelable: --
+
+Move: Crouching Heavy Kick
+Startup: 12
+Active Frames: 16
+Recovery: 20
+On Hit: Knockdown +22...+37
+On Block: -16...-1
+Cancelable: --
+
+Move: Back + Medium Punch (Yoga Uppercut)
+Startup: 8
+Active Frames: 6
+Recovery: 16
+On Hit: +2
+On Block: -3
+Cancelable: Special, Super
+Notes: Forces stand.
+
+Move: Back + Heavy Punch (Yoga Lance)
+Startup: 14
+Active Frames: 7
+Recovery: 29
+On Hit: -9
+On Block: -16
+Cancelable: Special, Super
+Notes: Knockdown with Limited Juggle Potential on anti-air counter-hit. 20% damage scaling to followup combo hits.
+
+Move: Down-Back + Heavy Punch (Nirvana Punch)
+Startup: 10
+Active Frames: 4
+Recovery: 20
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+
+Move: Down-Back + Light Kick (Agile Kick)
+Startup: 5
+Active Frames: 3
+Recovery: 10
+On Hit: +1
+On Block: -3
+Cancelable: Chain
+
+Move: Back + Medium Kick (Divine Kick)
+Startup: 7
+Active Frames: 4
+Recovery: 17
+On Hit: +3
+On Block: 0
+Cancelable: Special, Super
+
+Move: Down-Back + Medium Kick (Thrust Kick)
+Startup: 8
+Active Frames: 3
+Recovery: 20
+On Hit: -3
+On Block: -7
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Back + Heavy Kick (Yoga Mountain)
+Startup: 14
+Active Frames: 6
+Recovery: 20
+On Hit: 0
+On Block: -9
+Cancelable: --
+Notes: Knockdown with Limited Juggle Potential on anti-air counter-hit.
+
+Move: Down-Back + Heavy Kick (Karma Kick)
+Startup: 9
+Active Frames: 3
+Recovery: 22
+On Hit: Knockdown +33
+On Block: -7
+Cancelable: --
+
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +4...
+Cancelable: Special
+
+Move: Jump Heavy Punch
+Startup: 13
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: -6...+19
+On Block: -9...+15
+Cancelable: --
+Notes: Knockdown on aerial hit.
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: -4...+8
+On Block: -7...+5
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 11
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: -5...+13
+On Block: -9...+9
+Cancelable: --
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +10...+15
+On Block: +6...+11
+Cancelable: --
+
+Move: Jump, Down + Light Punch (Yoga Mummy)
+Startup: 10
+Active Frames: **
+Recovery: 9 Landing
+On Hit: -16...+8
+On Block: -20...+4
+Cancelable: Special
+Notes: Can be done off of a back, neutral, or forward jump. Active until landing. Lower/farther angle increases advantage on hit/block. Air-to-air hit causes a knockdown with juggle potential as of May 2024 patch.
+
+Move: Jump, Down + K (Drill Kick)
+Startup: 9
+Active Frames: **
+Recovery: 11 Landing (6 Landing)
+On Hit: -20...+10
+On Block: -27...+5
+Cancelable: --
+Notes: Can be done off of a back, neutral, or forward jump. Active until landing. Lower/farther angle increases advantage on hit/block. Kick strength changes trajectory: Light Kick is the farthest while Heavy Kick is the shortest. 20% damage scaling to followup combo hits. Less landing recovery on hit/block than on whiff.
+
+Move: Yoga Fire
+Startup: 15 (45)
+Active Frames: **
+Recovery: 33 (33)
+On Hit: -2... (Knockdown +49...)
+On Block: -2... (-1...)
+Cancelable: 
+Notes: Strength of the Punch only changes the Yoga Fire's travel speed, does not change advantage or damage. Hold data in parenthesis.
+
+Move: Yoga Fire (Overdrive)
+Startup: 12
+Active Frames: **
+Recovery: 33
+On Hit: Knockdown +49...
+On Block: -3...
+Cancelable: 
+
+Move: Yoga Arch
+Startup: 18
+Active Frames: **
+Recovery: 27
+On Hit: +1 ("+29")
+On Block: -1 ("+27")
+Cancelable: 
+Notes: Strength of the Kick changes the trajectory, does not change advantage or damage. Except for at point blank, Dhalsim recovers before the lobbed projectile can hit a grounded opponent, so the advantage is +29 from hitstun (+27 blockstun), assuming you count from the falling projectile hitting someone post-recovery.
+
+Move: Yoga Arch (Overdrive)
+Startup: 18
+Active Frames: **
+Recovery: 27
+On Hit: +1 ("+29") ("+22")
+On Block: -3 ("+25") ("+18")
+Cancelable: 
+Notes: LK+MK/MK+HK/LK+HK changes the trajectory, does not change advantage or damage. Except for at point blank, Dhalsim recovers before the lobbed projectile can hit a grounded opponent, so the advantage from any bouncing hit is +29 from hitstun (+25 blockstun), assuming you count from the falling projectile hitting someone post-recovery. The final ground explosion is +22 hitstun (+18 blockstun). Followup bouncing attack tracks opponent after the first bounce only.
+
+Move: Yoga Flame (Light Punch)
+Startup: 16
+Active Frames: 15
+Recovery: 15
+On Hit: Knockdown +33
+On Block: -4
+Cancelable: 
+
+Move: Yoga Flame (Medium Punch)
+Startup: 20
+Active Frames: 15
+Recovery: 17 (30)
+On Hit: Knockdown +33
+On Block: -4
+Cancelable: 
+
+Move: Yoga Flame (Heavy Punch)
+Startup: 26
+Active Frames: 17
+Recovery: 16 (30)
+On Hit: Knockdown +45
+On Block: -4
+Cancelable: 
+
+Move: Yoga Flame (Overdrive)
+Startup: 18
+Active Frames: 25
+Recovery: 24
+On Hit: Knockdown +50
+On Block: -11
+Cancelable: 
+Notes: Juggle State on hit.
+
+Move: Yoga Blast (Light Kick)
+Startup: 12
+Active Frames: 10
+Recovery: 23
+On Hit: Knockdown +39
+On Block: -6
+Cancelable: 
+
+Move: Yoga Blast (Medium Kick)
+Startup: 15
+Active Frames: 10
+Recovery: 20
+On Hit: Knockdown +42
+On Block: -3
+Cancelable: 
+
+Move: Yoga Blast (Heavy Kick)
+Startup: 17
+Active Frames: 10
+Recovery: 20
+On Hit: Knockdown +42
+On Block: -3
+Cancelable: 
+Notes: June 2025 patch: startup from 15 to 17, 20% combo scaling.
+
+Move: Yoga Blast (Overdrive)
+Startup: 12
+Active Frames: 10
+Recovery: 20
+On Hit: Knockdown +42
+On Block: 0
+Cancelable: 
+
+Move: Yoga Comet
+Startup: 30
+Active Frames: **
+Recovery: **
+On Hit: -9...+35...
+On Block: -6...+35...
+Cancelable: 
+Notes: Point-blank instant ("Tiger Knee") version is -4... on hit (-2... on block for some reason?) if done as fast as possible.
+
+Move: Yoga Comet (Overdrive)
+Startup: 30
+Active Frames: **
+Recovery: **
+On Hit: +1...+38...
+On Block: +1...+38...
+Cancelable: 
+Notes: Point-blank instant ("Tiger Knee") version is +5... on hit (+6... on block for some reason?) if done as fast as possible.
+
+Move: Yoga Float
+Startup: 36 (15)
+Active Frames: **
+Recovery: **
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Transitions Dhalsim into a levitation. On the ground only, using Down-Forward causes Dhalsim to move forward as he rises to levitate. Can also be used in the air, data in parenthesis. Can levitate forward/backward for the duration of the levitation and can use an aerial attack or special, which ends the levitation. Levitation can last up to ~140 frames from the ground or ~90 frames from the air. June 2025 patch: increased forward movement speed, but Heavy Punch no longer carries more momentum.
+
+Move: Yoga Teleport
+Startup: (5) (4) (9) (9)
+Active Frames: **
+Recovery: (24) (31) (15) (19)
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Teleports Dhalsim Forward or Back (PPP travels farther and can cross up opponents, KKK travels shorter and will not cross up opponents). Grounded Teleports have full invincibility on frames 5-15. Air Teleports have full invincibility on frames 10-15. Data listed as: (Grounded Forward) (Grounded Back) (Air Forward) (Air Back).
+
+Move: Yoga Inferno (Level 1)
+Startup: 10
+Active Frames: **
+Recovery: (20) (20) (40)
+On Hit: (Knockdown +24) (Knockdown +24) (Knockdown +27)
+On Block: (-15) (-15) (-22)
+Cancelable: 
+Notes: No invincibility. Breaks armor. Light Punch goes the farthest, Medium Punch does the most damage, Heavy Punch aims upward and has more knockdown advantage. Data listed as: (Light Punch) (Medium Punch) (Heavy Punch).
+
+Move: Yoga Sunburst (Level 2)
+Startup: 7 (7+???)
+Active Frames: 7 (3)
+Recovery: 9
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Fully invincible on frames 1-6. Breaks armor. Charge version in parenthesis. If opponent hits the charging hitbox before. The damage is weird based on when this move hits or how long it's charged, I'll calculate it... some other time, luuuul.
+
+Move: Merciless Yoga (Level 3)
+Startup: 10
+Active Frames: 5
+Recovery: 75
+On Hit: Knockdown +19 (Knockdown +19)
+On Block: -62
+Cancelable: 
+Notes: Fully invincible on frames 1-14. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +31
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +19
+On Block: 
+Cancelable: --

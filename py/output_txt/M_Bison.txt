@@ -1,0 +1,417 @@
+Character: M. Bison
+
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 2
+Recovery: 11
+On Hit: +4
+On Block: -3
+Cancelable: Chain, Special, Super
+Notes: June 2025 patch: active from 3 to 2 frames, on-block from -2 to -3 frames, recovery from 9 to 11 frames, total frames from 16 to 17.
+
+Move: Standing Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 15
+On Hit: +6
+On Block: 0
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Heavy Punch
+Startup: 19
+Active Frames: 3
+Recovery: 17
+On Hit: +4...+6
+On Block: +1...+3
+Cancelable: --
+Notes: Blowback +17 on Punish Counter hit. Limited juggle potential. June 2025 patch: hurtbox shifted forward, fixed a UFD error that showed anti-air invincibility on frame 18 which is actually strike invincibility.
+
+Move: Standing Light Kick
+Startup: 4
+Active Frames: 2
+Recovery: 10
+On Hit: +3
+On Block: -1
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 10
+Active Frames: 3
+Recovery: 17
+On Hit: +2
+On Block: -3
+Cancelable: --
+Notes: June 2025 patch: active frames from 4 to 3, recovery from 16 to 17, extended hurtbox.
+
+Move: Standing Heavy Kick
+Startup: 13
+Active Frames: 4
+Recovery: 19
+On Hit: +6
+On Block: -2
+Cancelable: --
+Notes: Limited juggle potential.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 10
+On Hit: +4
+On Block: -2
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 14 (17 on whiff)
+On Hit: +5
+On Block: -1
+Cancelable: Special, Super
+
+Move: Crouching Heavy Punch
+Startup: 10
+Active Frames: 6
+Recovery: 21
+On Hit: 0
+On Block: -9
+Cancelable: Special, Super
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 10
+On Hit: +4
+On Block: -2
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: -2
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
+
+Move: Crouching Heavy Kick
+Startup: 11
+Active Frames: 3
+Recovery: 26
+On Hit: Knockdown +29
+On Block: -12
+Cancelable: --
+Notes: Limited juggle potential. As of December 2024 patch: on-block from -11 to -12.
+
+Move: Forward + Heavy Punch (Psycho Hammer)
+Startup: 22
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -3
+Cancelable: --
+Notes: Limited juggle potential. Ground bounces into a limited juggle state on airborn opponents.
+
+Move: Back + Heavy Kick (Evil Knee)
+Startup: 10
+Active Frames: 4
+Recovery: 17
+On Hit: +4
+On Block: +1
+Cancelable: Special, Super
+
+Move: Down-Forward + Heavy Kick (Hover Kick)
+Startup: 15
+Active Frames: 10
+Recovery: 23
+On Hit: Knockdown +25
+On Block: -15...-6
+Cancelable: --
+Notes: Limited juggle potential.
+
+Move: Medium Punch, Forward + Heavy Punch (Shadow Hammer)
+Startup: 8, 22
+Active Frames: 3, 3
+Recovery: 15, 20
+On Hit: +6, +3
+On Block: 0, -3
+Cancelable: --
+Notes: Does not combo on hit.
+
+Move: Medium Punch, Down + Heavy Kick (Shadow Spear)
+Startup: 8, 16
+Active Frames: 3, 4
+Recovery: 15, 20
+On Hit: +6, +3
+On Block: 0, -3
+Cancelable: --
+Notes: Combos on hit.
+
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +9
+On Block: +5
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 8
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+Notes: Can follow up with Medium Punch again on hit (Hell Attack).
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +8...+15
+On Block: +4...+11
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 5
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +7...+10
+On Block: +3...+6
+Cancelable: --
+Notes: Crosses up. As of December 2024 patch: Updated cross-up hitbox and extended it backwards to match the hitbox length of Jumping Medium Kick.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +9...+13
+On Block: +5...+9
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +11...+15
+On Block: +7...+11
+Cancelable: --
+
+Move: Psycho Crusher (Light Punch)
+Startup: 14
+Active Frames: 16
+Recovery: 24
+On Hit: Knockdown +24... (+42)
+On Block: -20... (+6)
+Cancelable: 
+Notes: 1 hit of projectile armor frames 16--31. Anti-air invincible frames 6--17. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block. June 2025 patch: startup from 16 to 14, on-hit knockdown from +20 to +24.
+
+Move: Psycho Crusher (Medium Punch)
+Startup: 20
+Active Frames: 16
+Recovery: 24
+On Hit: Knockdown +24... (+42)
+On Block: -20... (+6)
+Cancelable: 
+Notes: 1 hit of projectile armor frames 20--35. Anti-air invincible frames 6--21. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block. June 2025 patch: on-hit knockdown from +20 to +24.
+
+Move: Psycho Crusher (Heavy Punch)
+Startup: 24
+Active Frames: 26
+Recovery: 24
+On Hit: Knockdown +14... (+46)
+On Block: -23... (+5)
+Cancelable: 
+Notes: 1 hit of projectile armor frames 24--49. Anti-air invincible frames 6--25. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block.
+
+Move: Psycho Crusher (Overdrive)
+Startup: 16
+Active Frames: 16
+Recovery: 20
+On Hit: Knockdown +35... (Limited Juggle/OTG +82)
+On Block: -3... (+10)
+Cancelable: 
+Notes: Projectile invincible frames 13--31. Anti-air invincible frames 6--17. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block.
+
+Move: Double Knee Press (Light Kick)
+Startup: 13
+Active Frames: 2, 2
+Recovery: 20 (25 on whiff)
+On Hit: +2
+On Block: -5
+Cancelable: 
+
+Move: Double Knee Press (Medium Kick)
+Startup: 17
+Active Frames: 2, 2
+Recovery: 20 (25 on whiff)
+On Hit: +3
+On Block: -5
+Cancelable: 
+
+Move: Double Knee Press (Heavy Kick)
+Startup: 17
+Active Frames: 2, 2
+Recovery: 20 (25 on whiff)
+On Hit: +3
+On Block: -4
+Cancelable: 
+
+Move: Double Knee Press (Overdrive)
+Startup: 17
+Active Frames: 2, 2, 3
+Recovery: 28
+On Hit: +55
+On Block: -15
+Cancelable: 
+Notes: Limited juggle state on hit. As of December 2024 patch: 20% combo scaling.
+
+Move: Backfist Combo (Light Punch)
+Startup: 13
+Active Frames: 2, 5
+Recovery: 25
+On Hit: Knockdown +21 (Knockdown +42)
+On Block: -14 (+6)
+Cancelable: 
+Notes: Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis. June 2025 patch: on-hit knockdown from +24 to +21.
+
+Move: Backfist Combo (Medium Punch)
+Startup: 17
+Active Frames: 2, 5
+Recovery: 26
+On Hit: Knockdown +20 (Knockdown +42)
+On Block: -14 (+6)
+Cancelable: 
+Notes: Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis. June 2025 patch: on-hit knockdown from +23 to +20.
+
+Move: Backfist Combo (Heavy Punch)
+Startup: 22
+Active Frames: 3, 5
+Recovery: 26
+On Hit: Knockdown +31 (Knockdown +49)
+On Block: -14 (+6)
+Cancelable: 
+Notes: Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis.
+
+Move: Backfist Combo (Overdrive)
+Startup: 14
+Active Frames: 3, 5
+Recovery: 26
+On Hit: Knockdown +24 (Knockdown +48)
+On Block: -25 (+6)
+Cancelable: 
+Notes: Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis.
+
+Move: Shadow Rise
+Startup: 18...46 (16...42)
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Airborn from frame 9 onward. Strength of Kick used changes M. Bison's jump distance. Can follow up with Punch (Devil Reverse) or Kick (Head Press).Overdrive version data in parenthesis. OD version tracks the opponent / changes distances automatically based on their position. OD version isinvincible to throws on frames 1-8.
+
+Move: Head Press
+Startup: 15
+Active Frames: 6...land
+Recovery: 26 on land
+On Hit: -28...-23
+On Block: -39...-33
+Cancelable: 
+Notes: Can follow up with Punch on block/hit for Somersault Skull Diver. Can steer Bison after connectiong on hit/block by holding forward/back.
+
+Move: Head Press (Overdirve)
+Startup: 15
+Active Frames: 4...land
+Recovery: 12 on land
+On Hit: Knockdown +27
+On Block: +5...+7
+Cancelable: 
+Notes: Can perform the OD version of Head Press from the standard version of Shadow Rise by using KK.Cannotuse Sommersault Skull Diver followup from OD Head Press on hit/block.
+
+Move: Sommersault Skull Diver
+Startup: 12
+Active Frames: 12...21
+Recovery: 9...landing
+On Hit: +9...+15
+On Block: +3...+10
+Cancelable: 
+Notes: Usable after a normal Head Press on hit/block. Not usable after OD Head Press. Can steer forward/back after activation until landing.
+
+Move: Devil Reverse
+Startup: 16
+Active Frames: 21...land
+Recovery: 10 on land
+On Hit: Knockdown +39... (Knockdown +53...)
+On Block: +5 (+22)
+Cancelable: 
+Notes: Can steer Bison after activation by holding forward/back. Holding back only makes Bison move backwards a tiny bit, but holding forward grants significant forward movement. Detonates Psycho Mine on hit/block. Psycho Mine data in parenthesis. As of December 2024 patch: increased hurtbox, but increased on-hit and on-block by +1(+1) frames.
+
+Move: Devil Reverse (Overdrive)
+Startup: 21
+Active Frames: 13...land
+Recovery: 10 on land
+On Hit: Knockdown +35... (Knockdown +51...)
+On Block: +4...+9 (+24)
+Cancelable: 
+Notes: Can steer Bison after activation by holding forward/back. Holding back only makes Bison move backwards a tiny bit, but holding forward grants significant forward movement. Detonates Psycho Mine on hit/block. Psycho Mine data in parenthesis.
+
+Move: Psycho Mine
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: If detonating from an expired timer, deals 500 damage and creates a free juggle state.
+
+Move: Knee Press Nightmare (Level 1)
+Startup: 10
+Active Frames: 42
+Recovery: 62
+On Hit: Knockdown +11
+On Block: -41
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-11. Breaks armor.
+
+Move: Psycho Punisher (Level 2)
+Startup: 26
+Active Frames: 7
+Recovery: 52
+On Hit: Knockdown +23
+On Block: -34
+Cancelable: 
+Notes: Fully invincible frames 1-26. Breaks armor.
+
+Move: Unlimited Psycho Crusher (Level 3)
+Startup: 10
+Active Frames: 5
+Recovery: 65
+On Hit: Knockdown +15
+On Block: -46
+Cancelable: 
+Notes: Fully invincible frames 1-15. Breaks armor. Critical Art in parenthesis.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +21
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +18
+On Block: 
+Cancelable: --

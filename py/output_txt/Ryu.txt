@@ -1,0 +1,490 @@
+Character: Ryu
+
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Standing Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 11
+On Hit: +7
+On Block: -1
+Cancelable: Special, Super, Target Combo
+Notes: June 2025 patch: extended hurtbox.
+
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 5
+Recovery: 18
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super, Target Combo
+
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: +2
+On Block: -4
+Cancelable: Special, Super
+
+Move: Standing Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 18
+On Hit: +4
+On Block: -4
+Cancelable: --
+
+Move: Standing Heavy Kick
+Startup: 12
+Active Frames: 4
+Recovery: 20
+On Hit: +9
+On Block: +1
+Cancelable: --
+Notes: Whiffs on crouching opponents.
+
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 9
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 13 (15 on whiff)
+On Hit: +5
+On Block: 0
+Cancelable: Special, Super
+Notes: June 2025 patch: extended hurtbox and 2 additional recovery frames on whiff.
+
+Move: Crouching Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 21
+On Hit: +1
+On Block: -7
+Cancelable: Special, Super
+Notes: Late hits no longer do less damage as of the May 2024 patch.
+
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 10
+On Hit: +3
+On Block: -3
+Cancelable: Chain
+
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +1
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits. As of December 2024 patch: cancel window is 2 frames faster.
+
+Move: Crouching Heavy Kick
+Startup: 9
+Active Frames: 3
+Recovery: 23
+On Hit: Knockdown +40
+On Block: -12
+Cancelable: --
+
+Move: Forward + Medium Punch (Collarbone Breaker)
+Startup: 20
+Active Frames: 4
+Recovery: 19
+On Hit: +3
+On Block: -1
+Cancelable: --
+
+Move: Forward + Heavy Punch (Solar Plexus Strike)
+Startup: 20
+Active Frames: 5
+Recovery: 16
+On Hit: +6
+On Block: +3
+Cancelable: --
+Notes: No longer has initial damage scaling as of May 2024 patch.
+
+Move: Back + Heavy Punch
+Startup: 7
+Active Frames: 4
+Recovery: 25
+On Hit: +1
+On Block: -13
+Cancelable: Special, Super
+
+Move: Back + Heavy Kick (Axe Kick)
+Startup: 10
+Active Frames: 5, 3
+Recovery: 21
+On Hit: 0
+On Block: -4
+Cancelable: Special, Super
+Notes: Ground bounces on hit vs aerial opponents as of May 2024 patch.
+
+Move: Forward + Heavy Kick (Whirlwind Kick)
+Startup: 16
+Active Frames: 4
+Recovery: 20
+On Hit: +2
+On Block: -4
+Cancelable: Aerial Tatsumaki Senpu-kyaku
+Notes: As of December 2024 patch: can cancel into Normal Aerial Tatsumaki Senpu-kyaku (was previously only EX).
+
+Move: Heavy Punch, Heavy Kick
+Startup: 10, 9
+Active Frames: 5, 4
+Recovery: 18, 20
+On Hit: +3, Knockdown +36
+On Block: -2, -8
+Cancelable: Second hit can be canceled into Denjin Charge.
+Notes: Can hold Down + Punch to gaurantee Denjin Charge as a shortcut.
+
+Move: Medium Punch, Light Kick, Heavy Kick (Fuwa Triple Strike)
+Startup: 6, 5, 17
+Active Frames: 4, 3, 4
+Recovery: 11, 16, 20
+On Hit: +7, +1, Knockdown +36
+On Block: -1, -4, -8
+Cancelable: Third hit can be canceled into Denjin Charge.
+Notes: Third attack no longer comes out if the second attack misses (as of May 2024 patch). Third attack can be canceled into Denjin Charge (as of May 2024 patch). Can hold Down + Punch to gaurantee Denjin Charge as a shortcut.
+
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +1...
+Cancelable: --
+
+Move: Jump Medium Punch
+Startup: 5
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +7...
+Cancelable: Special
+Notes: Juggle state on air hit.
+
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+
+Move: Hadoken (Light Punch)
+Startup: 16
+Active Frames: ...
+Recovery: 31
+On Hit: +2...
+On Block: -5...
+Cancelable: 
+
+Move: Hadoken (Medium Punch)
+Startup: 14
+Active Frames: ...
+Recovery: 33
+On Hit: 0...
+On Block: -7...
+Cancelable: 
+
+Move: Hadoken (Heavy Punch)
+Startup: 12
+Active Frames: ...
+Recovery: 35
+On Hit: -2...
+On Block: -9...
+Cancelable: 
+
+Move: Hadoken (Overdrive)
+Startup: 12
+Active Frames: ...
+Recovery: 19
+On Hit: Limited Juggle State, variable knockdown of +54 minimum
+On Block: -1...
+Cancelable: 
+
+Move: Shoryuken (Light Punch)
+Startup: 5
+Active Frames: 10
+Recovery: 33
+On Hit: Knockdown +38
+On Block: -23
+Cancelable: 
+Notes: Anti-air invincible on frames 1-14.
+
+Move: Shoryuken (Medium Punch)
+Startup: 6
+Active Frames: 10
+Recovery: 42
+On Hit: Knockdown +34
+On Block: -32
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9.
+
+Move: Shoryuken (Heavy Punch)
+Startup: 7
+Active Frames: 10
+Recovery: 46
+On Hit: Knockdown +37...
+On Block: -36
+Cancelable: 
+Notes: Anti-air invincible on frames 1-8.
+
+Move: Shoryuken (Overdrive)
+Startup: 6
+Active Frames: 10
+Recovery: 52
+On Hit: Knockdown +29
+On Block: -40
+Cancelable: 
+Notes: Fully invincible frames 1-8.
+
+Move: Tatsumaki Senpu-kyaku (Light Kick)
+Startup: 12
+Active Frames: 3
+Recovery: 32
+On Hit: Knockdown +35
+On Block: -15
+Cancelable: 
+
+Move: Tatsumaki Senpu-kyaku (Medium Kick)
+Startup: 14...
+Active Frames: 2, 2
+Recovery: 31
+On Hit: Knockdown +23...
+On Block: -13
+Cancelable: 
+
+Move: Tatsumaki Senpu-kyaku (Heavy Kick)
+Startup: 16...
+Active Frames: 2, 2, 2
+Recovery: 31
+On Hit: Knockdown +20...
+On Block: -13
+Cancelable: 
+
+Move: Tatsumaki Senpu-kyaku (Overdrive)
+Startup: 13...
+Active Frames: 2, 2, 2, 2, 2
+Recovery: 23
+On Hit: Limited Juggle State,  Knockdown +57
+On Block: -14
+Cancelable: 
+
+Move: Aerial Tatsumaki Senpu-kyaku
+Startup: 11
+Active Frames: 2
+Recovery: 16...
+On Hit: Limited Juggle State, variable Knockdown of +47(?) minimum
+On Block: -1...
+Cancelable: 
+
+Move: (Forward Jump Only) Aerial Tatsumaki Senpu-kyaku (Overdrive)
+Startup: 11
+Active Frames: 2, 3, 3, 3, 2
+Recovery: 28...
+On Hit: Limited Juggle State, variable Knockdown of +45(?) minimum
+On Block: -30...
+Cancelable: 
+
+Move: High Blade Kick (Light Kick)
+Startup: 14
+Active Frames: 6
+Recovery: 22
+On Hit: Knockdown +35
+On Block: -11
+Cancelable: 
+
+Move: High Blade Kick (Medium Kick)
+Startup: 18
+Active Frames: 9
+Recovery: 19
+On Hit: Knockdown +40
+On Block: -8
+Cancelable: 
+
+Move: High Blade Kick (Heavy Kick)
+Startup: 27
+Active Frames: 9
+Recovery: 16
+On Hit: Knockdown +44
+On Block: -3
+Cancelable: 
+Notes: As of December 2024 patch: on block from -5 to -3, startup from 29 to 27, total frames from 53 to 50, and now chips 1 full bar of Drive Gauge on block.
+
+Move: High Blade Kick (Overdrive)
+Startup: 17
+Active Frames: 5
+Recovery: 33
+On Hit: Juggle state, knockdown +64
+On Block: -18
+Cancelable: 
+
+Move: Hashogeki (Light Punch)
+Startup: 12
+Active Frames: 6
+Recovery: 18
+On Hit: +2
+On Block: -3
+Cancelable: 
+Notes: Limited juggle state, knockdown +57 on Counter Hit.
+
+Move: Hashogeki (Medium Punch)
+Startup: 19
+Active Frames: 6
+Recovery: 17
+On Hit: +2
+On Block: -6
+Cancelable: 
+Notes: Limited juggle state, knockdown +58 on Counter Hit.
+
+Move: Hashogeki (Heavy Punch)
+Startup: 30
+Active Frames: 6
+Recovery: 19
+On Hit: Limited Juggle State, Knockdown +61
+On Block: +2
+Cancelable: 
+
+Move: Hashogeki (Overdrive)
+Startup: 18
+Active Frames: 6
+Recovery: 20
+On Hit: +3
+On Block: +3
+Cancelable: 
+Notes: As of December 2024 patch: damage from 900 to 1100.
+
+Move: Denjin Charge
+Startup: 52
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Hadoken (Denjin Charge)
+Startup: 12
+Active Frames: ...
+Recovery: 16
+On Hit: Limited Juggle State, variable Knockdown of +52 minimum
+On Block: -1
+Cancelable: 
+
+Move: Hadoken (Denjin Charge + Overdrive)
+Startup: 12
+Active Frames: ...
+Recovery: 16
+On Hit: Limited Juggle State, variable Knockdown of +57 minimum
+On Block: +2
+Cancelable: 
+
+Move: Hashogeki (Denjin Charge)
+Startup: 20
+Active Frames: 6
+Recovery: 19
+On Hit: Limited Juggle State, variable knockdown of +62 minimum
+On Block: +3
+Cancelable: 
+
+Move: Hashogeki (Denjin Charge + Overdrive)
+Startup: 18
+Active Frames: 6
+Recovery: 19
+On Hit: Crumple on hit. Crumple knockdown of +87.
+On Block: +4
+Cancelable: 
+Notes: Damage increased from 600 to 1000 in February 27, 2024 patch.
+
+Move: Shinku Hadoken (Level 1)
+Startup: 7
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +**
+On Block: -24
+Cancelable: 
+Notes: Strike invincible on frames 1-6. Breaks armor. Denjin Charge damage in parenthesis. June 2025 patch: projectile speed increased for normal version, Denjin Version had projectile speed doubled and hits went from 5 to 8.
+
+Move: Shin Hashogeki (Level 2)
+Startup: 12
+Active Frames: 6
+Recovery: 39
+On Hit: Knockdown +20
+On Block: -20
+Cancelable: 
+Notes: Strike invincible on frames 1-11. Breaks armor. Denjin Charge damage in parenthesis. Can charge for more damage. June 2025 patch: 20% combo scaling.
+
+Move: Shin Shoryuken (Level 3)
+Startup: 5
+Active Frames: 12
+Recovery: 71
+On Hit: Knockdown +14 (Knockdown +14)
+On Block: -52
+Cancelable: 
+Notes: Strike invincibile on frames 1-4. Breaks armor. Critical Art in parenthesis. Non-cinematic version does 3600 damage as of May 2024 patch.
+
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +17
+On Block: 
+Cancelable: --
+
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +11
+On Block: 
+Cancelable: --
