@@ -1,0 +1,184 @@
+{
+  "A.K.I.": {
+    "Walk Speed": "4.52",
+    "Dash Speed": "19",
+    "Dash Distance": "130.00",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Akuma": {
+    "Walk Speed": "5.2",
+    "Dash Speed": "19",
+    "Dash Distance": "135.00",
+    "Health": "9,000",
+    "Prejump": "4"
+  },
+  "Blanka": {
+    "Walk Speed": "4.7",
+    "Dash Speed": "19",
+    "Dash Distance": "157.78",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Cammy": {
+    "Walk Speed": "5.05",
+    "Dash Speed": "18",
+    "Dash Distance": "132",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Chun Li": {
+    "Walk Speed": "5",
+    "Dash Speed": "19",
+    "Dash Distance": "150.777",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Dee Jay": {
+    "Walk Speed": "4.3",
+    "Dash Speed": "19",
+    "Dash Distance": "150",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Dhalsim": {
+    "Walk Speed": "2.8",
+    "Dash Speed": "25",
+    "Dash Distance": "146.745",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Ed": {
+    "Walk Speed": "4.75",
+    "Dash Speed": "18",
+    "Dash Distance": "134.8",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "E. Honda": {
+    "Walk Speed": "4.5",
+    "Dash Speed": "19",
+    "Dash Distance": "105.797",
+    "Health": "10,500",
+    "Prejump": "4"
+  },
+  "Elena": {
+    "Walk Speed": "4.8",
+    "Dash Speed": "20",
+    "Dash Distance": "143.00",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Guile": {
+    "Walk Speed": "4.3",
+    "Dash Speed": "21",
+    "Dash Distance": "156.7",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Jamie": {
+    "Walk Speed": "4.8",
+    "Dash Speed": "19",
+    "Dash Distance": "150",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "JP": {
+    "Walk Speed": "3.7",
+    "Dash Speed": "22",
+    "Dash Distance": "145.391",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Juri": {
+    "Walk Speed": "4.7",
+    "Dash Speed": "22",
+    "Dash Distance": "190.298",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Ken": {
+    "Walk Speed": "4.7",
+    "Dash Speed": "19",
+    "Dash Distance": "132.321",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Kimberly": {
+    "Walk Speed": "5.61",
+    "Dash Speed": "18",
+    "Dash Distance": "140.882",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Lily": {
+    "Walk Speed": "4.2",
+    "Dash Speed": "21",
+    "Dash Distance": "126.100",
+    "Health": "10,000",
+    "Prejump": "5"
+  },
+  "Luke": {
+    "Walk Speed": "4.7",
+    "Dash Speed": "19",
+    "Dash Distance": "146.747",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "M. Bison": {
+    "Walk Speed": "4.8",
+    "Dash Speed": "19",
+    "Dash Distance": "154.000",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Mai": {
+    "Walk Speed": "5.0",
+    "Dash Speed": "18",
+    "Dash Distance": "145.000",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Manon": {
+    "Walk Speed": "4.52",
+    "Dash Speed": "21",
+    "Dash Distance": "149.904",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Marisa": {
+    "Walk Speed": "3.9",
+    "Dash Speed": "22",
+    "Dash Distance": "140",
+    "Health": "10,500",
+    "Prejump": "4"
+  },
+  "Rashid": {
+    "Walk Speed": "4.5",
+    "Dash Speed": "18",
+    "Dash Distance": "120",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Ryu": {
+    "Walk Speed": "4.7",
+    "Dash Speed": "19",
+    "Dash Distance": "125.208",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Terry": {
+    "Walk Speed": "4.8",
+    "Dash Speed": "19",
+    "Dash Distance": "150.00",
+    "Health": "10,000",
+    "Prejump": "4"
+  },
+  "Zangief": {
+    "Walk Speed": "3.64",
+    "Dash Speed": "22",
+    "Dash Distance": "100.656",
+    "Health": "11,000",
+    "Prejump": "5"
+  }
+}
