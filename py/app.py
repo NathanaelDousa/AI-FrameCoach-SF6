@@ -2,9 +2,11 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 import requests
 from flask import Flask, request, jsonify, render_template
+from flask_cors import CORS
+
 
 app = Flask(__name__)
-
+CORS(app) 
 # Setup
 model = SentenceTransformer("all-MiniLM-L6-v2")
 client = chromadb.PersistentClient(path="db")
@@ -21,7 +23,7 @@ def index():
 def ask():
     print("Ask route triggered")
     data = request.json
-    print("Ontvangen vraag:", data) #ontvangt niks?
+    print("Ontvangen vraag:", data) 
     question = data.get("question", "")
 
     question_vector = model.encode(question).tolist()

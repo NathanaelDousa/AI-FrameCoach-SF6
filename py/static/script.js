@@ -28,7 +28,7 @@ chatForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   const userInput = chatInput.value.trim();
   if (!userInput) return;
-
+  console.log("JS handler actief!");
   addMessage(userInput, "user");
   chatInput.value = "";
   console.log(chatInput);
