@@ -1,23 +1,42 @@
+import os
 import json
 
-# Laad de JSON data in vanuit een bestand
-with open('data/sf6/characters_stats.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+input_folder = "sf6"
+output_folder = "../py/output_txt"
 
-lines = []
+os.makedirs(output_folder, exist_ok=True)
 
-# Loop door elk karakter en maak een nette zin
-for character, stats in data.items():
-    line = (
-        f"{character} heeft een loopsnelheid van {stats['Walk Speed']}, "
-        f"een dash snelheid van {stats['Dash Speed']}, "
-        f"een dash afstand van {stats['Dash Distance']}, "
-        f"{stats['Health']} HP en een prejump van {stats['Prejump']} frames."
-    )
-    lines.append(line)
+def move_to_text(character, move):
+    lines = [
+        f"Character: {character}",
+        f"Move: {move.get('move', 'Unknown')}",
+        f"Startup: {move.get('startup', 'Unknown')}",
+        f"Active Frames: {move.get('activeframes', 'Unknown')}",
+        f"Recovery: {move.get('recovery', 'Unknown')}",
+        f"On Hit: {move.get('onhit', 'Unknown')}",
+        f"On Block: {move.get('onblock', 'Unknown')}",
+        f"Cancelable: {move.get('cancellable', 'Unknown')}",
+        f"Notes: {move.get('notes', '')}",
+    ]
+    return "\n".join(lines)
 
-# Schrijf alles naar een tekstbestand
-with open('data/sf6/character_facts.txt', 'w', encoding='utf-8') as f:
-    f.write("\n".join(lines))
 
-print("✅ character_facts.txt is succesvol aangemaakt!")
+for filename in os.listdir(input_folder):
+    if filename.endswith(".json"):
+        filepath = os.path.join(input_folder, filename)
+        with open(filepath, encoding="utf-8") as f:
+            data = json.load(f)
+
+        character = data.get("character", filename.replace(".json", ""))
+        output_lines = []
+
+        for move in data.get("moves", []):
+            text_block = move_to_text(character, move)
+            output_lines.append(text_block)
+
+
+        output_path = os.path.join(output_folder, f"{character}.txt")
+        with open(output_path, "w", encoding="utf-8") as f_out:
+            f_out.write("\n\n".join(output_lines))
+
+print("✅ Alle JSON-bestanden zijn geconverteerd naar .txt-bestanden.")

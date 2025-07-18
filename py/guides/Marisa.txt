@@ -1,0 +1,35 @@
+Marissa: Gameplay Guide
+
+Marissa is a big body character with slow movement speed, but she makes up for it with her high damage output. Here's an overview of her moveset:
+
+Normals:
+- Stan Job (stamina punch): 10 frames
+- Stamina Kick: 15 frames
+- Crouch Heavy Punch: 12 frames
+- Crouch Heavy Kick: 13 frames
+
+Command Normals:
+- Overhead (Down Four, Heavy Punch): knocks down
+- Medium Crouch Punch: cancelable into kick or heavy punch
+- Crash Medium Punch: 14 frames
+- Crash Heavy Kick: 15 frames
+
+Target Combos:
+- Jab-Jab combo: not cancellable, but can be canceled into another jab
+- Light Gladius (jab-jab into light gladius): true block string with chip damage
+
+Special Moves:
+- Gladius (light, medium, and heavy versions): 70 frames (light), 19 frames (medium), and 22 frames (heavy) respectively. Higher levels cover more distance and deal more damage.
+- Sparta Kick: good for closing distance
+- Superman Punch: great for closing distance, plus two on block, non-punishable, and can't be easily drive impacted
+
+Stance:
+- Three follow-ups: Target as overhead, dark combo (sweep), and Command Pro. Stance can't be canceled from normal formats.
+
+Focus Attack:
+- Four different focus attacks: Chevy Punch, Gladius Set Up to Jump, Ex Launcher, and Airtight Combo. Airtight Combo is considered her best.
+
+Dead Zone:
+- Marissa has a dead zone where she can't enter reliably. To bypass this, use the jump Target combo which knocks down and allows for a good starting point for a rush-in.
+
+This guide covers the basics of Marissa's gameplay. Part two will delve deeper into advanced strategies and setups.

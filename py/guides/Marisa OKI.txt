@@ -1,0 +1,88 @@
+Marisa oki setups
+Light Demo (Plus 31)
+Setup: Drive Rush → Charged st.HP
+Timing: Auto-timed
+Effective Against: Mashing, jumps
+On Block: +8 (frame traps: throw, st.LK → light demo, b.HP blockstring)
+Weakness: Susceptible to parry
+
+Setup: Manually timed command grab
+Timing: Delay after knockdown (visual cue: "big step")
+Effective Against: Parry attempts
+Setup: Drive Rush → Overhead (f.HK)
+Timing: Immediate after DR
+Effective Against: Parry
+On Block: +1 (strike/throw mix)
+
+Setup: Drive Rush → cr.MK
+Timing: Manual (cue: "right foot down")
+Effective Against: Mashing
+On Hit: +2 to +4 (combo into MP)
+On Block: Plus but not in throw range
+Medium Demo (Plus 36)
+
+Setup: Drive Rush → Charged f.HK
+Timing: Auto-timed
+Effective Against: Mashing, jumps
+On Block: +7 (delayed throw beats buttons)
+
+Setup: Charged overhead (f.HK)
+Timing: Auto-timed
+On Block: +6 (frame trap with b.HP)
+Setup: Drive Rush → cr.MK
+Timing: Manual (cue: "right next to them")
+Effective Against: Mashing
+On Hit: Combo into s.MP
+
+Setup: Bait DR reversal with H.Superman Punch (hold back)
+Timing: Auto-timed
+Effective Against: Buttons, jumps
+On Block: +7 (spacing trap)
+
+Heavy Demo (Plus 47)
+Setup: Empty jump → s.MK
+Timing: Auto-timed
+Effective Against: Mashing
+On Block: +1 (safe to DR reversal)
+
+Setup: Empty jump → Command grab
+Timing: Manual
+Effective Against: Buttons
+Setup: Charged st.HP → Dash → f.HK
+Timing: Auto-timed
+On Block: +3 (throw range)
+
+Setup: Drive Rush → cr.MP/cr.MK
+Timing: Manual (cue: "in their face")
+Effective Against: Parry (high/low mix)
+On Hit: Combos into b.HP
+
+Command Grab (Corner)
+Setup: Charged st.HP
+Timing: Auto-timed
+Effective Against: Buttons, jumps
+On Block: +4 (pressure with s.LK)
+
+Setup: Drive Rush → cr.LK (frame kill)
+Timing: Manual
+Effective Against: Mashing (+10 on CH, combos into b.HP)
+On Block: +3 (strike/throw/shimmy)
+
+Corner Forward Throw (Plus 23)
+Setup: Drive Rush → Throw
+Timing: Immediate
+Effective Against: Delay tech
+
+Setup: Drive Rush → s.HP
+Timing: Immediate
+On Hit: Combos into b.HP
+On Block: +2 (throw/shimmy)
+
+ODMA (Corner)
+Setup: DR f.HK → j.MP → Walk forward throw
+Timing: Manual
+Effective Against: Buttons
+
+Setup: DR f.HK → j.MP → Charged f.HK
+Timing: Auto-timed
+On Block: +4 (throw mix)

@@ -1,5 +1,4 @@
 Character: Elena
-
 Move: Standing Light Punch
 Startup: 5
 Active Frames: 4
@@ -7,7 +6,9 @@ Recovery: 8
 On Hit: +4
 On Block: -2
 Cancelable: Special, Super
+Notes: --
 
+Character: Elena
 Move: Standing Medium Punch
 Startup: 8
 Active Frames: 5
@@ -15,7 +16,9 @@ Recovery: 15
 On Hit: +3
 On Block: -3
 Cancelable: Target Combo
+Notes: --
 
+Character: Elena
 Move: Standing Heavy Punch
 Startup: 12
 Active Frames: 4
@@ -25,6 +28,7 @@ On Block: -2
 Cancelable: Target Combo
 Notes: Strike invincible on frame 11.
 
+Character: Elena
 Move: Standing Light Kick
 Startup: 5
 Active Frames: 3
@@ -32,7 +36,9 @@ Recovery: 11
 On Hit: +2
 On Block: -4
 Cancelable: Special, Super
+Notes: --
 
+Character: Elena
 Move: Standing Medium Kick
 Startup: 6
 Active Frames: 4
@@ -40,7 +46,9 @@ Recovery: 15
 On Hit: +5
 On Block: +1
 Cancelable: Special, Super, Target Combo
+Notes: --
 
+Character: Elena
 Move: Standing Heavy Kick
 Startup: 12
 Active Frames: 4
@@ -50,6 +58,7 @@ On Block: 0
 Cancelable: --
 Notes: Punish Counter is a blowback knockdown with limited juggle state of +53. Strike invincible on frame 11.
 
+Character: Elena
 Move: Crouching Light Punch
 Startup: 4
 Active Frames: 3
@@ -57,7 +66,9 @@ Recovery: 8
 On Hit: +4
 On Block: -1
 Cancelable: Chain, Special, Super
+Notes: --
 
+Character: Elena
 Move: Crouching Medium Punch
 Startup: 8
 Active Frames: 3
@@ -65,7 +76,9 @@ Recovery: 20
 On Hit: +1
 On Block: -4
 Cancelable: Special, Super
+Notes: --
 
+Character: Elena
 Move: Crouching Heavy Punch
 Startup: 9, 5
 Active Frames: 3, 3
@@ -75,6 +88,7 @@ On Block: -7
 Cancelable: Second hit: Special, Super
 Notes: Anti-air invincible on frames 8-20.
 
+Character: Elena
 Move: Crouching Light Kick
 Startup: 5
 Active Frames: 3
@@ -82,7 +96,9 @@ Recovery: 8
 On Hit: +3
 On Block: -1
 Cancelable: Chain
+Notes: --
 
+Character: Elena
 Move: Crouching Medium Kick
 Startup: 9
 Active Frames: 3
@@ -90,7 +106,9 @@ Recovery: 18
 On Hit: +4
 On Block: -4
 Cancelable: Target Combo
+Notes: --
 
+Character: Elena
 Move: Crouching Heavy Kick
 Startup: 11
 Active Frames: 3
@@ -98,7 +116,9 @@ Recovery: 24
 On Hit: Knockdown +31
 On Block: -12
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Forward + Medium Kick
 Startup: 20
 Active Frames: 3
@@ -106,7 +126,9 @@ Recovery: 19
 On Hit: +2
 On Block: -2
 Cancelable: Target Combo
+Notes: --
 
+Character: Elena
 Move: Forward + Heavy Punch
 Startup: 16
 Active Frames: 4
@@ -114,7 +136,9 @@ Recovery: 20
 On Hit: +1
 On Block: -4
 Cancelable: Target Combo
+Notes: --
 
+Character: Elena
 Move: Slide (Down-Forward + Heavy Kick)
 Startup: 14
 Active Frames: 9
@@ -122,7 +146,9 @@ Recovery: 18 (22 on whiff)
 On Hit: Knockdown +31...+39
 On Block: -10...-2
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Round Arch (Back + Heavy Kick)
 Startup: 14
 Active Frames: 4
@@ -130,7 +156,9 @@ Recovery: 17 (19 on whiff)
 On Hit: +3
 On Block: -3
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Starling Beak (Medium Punch, Medium Punch)
 Startup: 8, 17
 Active Frames: 5, 5
@@ -138,7 +166,9 @@ Recovery: 15, 20
 On Hit: +3
 On Block: -3, -4
 Cancelable: Second Hit: Special, Super
+Notes: --
 
+Character: Elena
 Move: Handstand Whip (Forward + Medium Kick, Medium Kick)
 Startup: 20, 14
 Active Frames: 3, 3
@@ -146,7 +176,9 @@ Recovery: 19, 26
 On Hit: +2, Knockdown +29
 On Block: -2, -14
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Hind Kick (Medium Kick, Heavy Kick)
 Startup: 6, 12
 Active Frames: 4, 3
@@ -154,7 +186,9 @@ Recovery: 15, 24
 On Hit: +5, Knockdown Limited Juggle +33
 On Block: +1, -8
 Cancelable: First Hit: Special, Super, Target Combo / Second Hit: Special, Super
+Notes: --
 
+Character: Elena
 Move: Fluttering Lark (Crouching Medium Kick, Heavy Kick)
 Startup: 9, 15
 Active Frames: 3, 1
@@ -164,6 +198,7 @@ On Block: -4, **
 Cancelable: First Hit: Target Combo / Second Hit: Special, Super
 Notes: Immediate scaling of 20% on second hit. Second hit whiffs on crouching opponents.
 
+Character: Elena
 Move: Turning Tail (Heavy Punch, Heavy Punch)
 Startup: 12, 17
 Active Frames: 4, (4, 4)
@@ -171,7 +206,9 @@ Recovery: 20, 17
 On Hit: +2, Knockdown Limited Juggle +45
 On Block: -2, -3
 Cancelable: First Hit: Target Combo / Second Hit: --
+Notes: --
 
+Character: Elena
 Move: Trunk Slap (Forward + Heavy Punch, Heavy Punch, Heavy Punch)
 Startup: 16, 13, 7
 Active Frames: 4, 3, 3
@@ -181,6 +218,7 @@ On Block: -4, -11, -16
 Cancelable: First Hit: Target Combo / Second Hit: Target Combo / Third Hit: --
 Notes: First hit has a very lenient/late cancel window. Third Hit has immediate scaling of 20%.
 
+Character: Elena
 Move: Soaring Raid (Jump, Light Punch, Medium Kick)
 Startup: 5, 6
 Active Frames: 6, 5
@@ -190,6 +228,7 @@ On Block: +1...+6, +8
 Cancelable: First Hit: Target Combo / Second Hit: --
 Notes: Both hits Cross Up. Second hit is considered high.
 
+Character: Elena
 Move: Raptor Range (Jump, Medium Punch, Heavy Punch)
 Startup: 8,
 Active Frames: 5, 5
@@ -199,6 +238,7 @@ On Block: +5...+7, --
 Cancelable: First Hit: Target Combo / Second Hit: --
 Notes: Second hit only works on airborn opponents, won't come out on grounded characters (or is very awkward, idk). Limited Juggle State on air hit.
 
+Character: Elena
 Move: Jump Light Punch
 Startup: 5
 Active Frames: 6
@@ -208,6 +248,7 @@ On Block: +1...+6
 Cancelable: Target Combo
 Notes: Crosses Up.
 
+Character: Elena
 Move: Jump Medium Punch
 Startup: 8
 Active Frames: 5
@@ -217,6 +258,7 @@ On Block: +5...+7
 Cancelable: Target Combo
 Notes: Limited Juggle State on air hit.
 
+Character: Elena
 Move: Jump Heavy Punch
 Startup: 10
 Active Frames: 7
@@ -224,7 +266,9 @@ Recovery: 3 Landing
 On Hit: +10...+15
 On Block: +6...+11
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Jump Light Kick
 Startup: 5
 Active Frames: 6
@@ -232,7 +276,9 @@ Recovery: 3 Landing
 On Hit: +3...+8
 On Block: -1...+4
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Jump Medium Kick
 Startup: 7
 Active Frames: 5
@@ -242,6 +288,7 @@ On Block: +6...+9
 Cancelable: --
 Notes: Crosses up.
 
+Character: Elena
 Move: Jump Heavy Kick
 Startup: 10
 Active Frames: 2, 8
@@ -251,6 +298,7 @@ On Block: +9...
 Cancelable: --
 Notes: Getting both hits vs a grounded opponent is very awkward. Forces ground on air hit.
 
+Character: Elena
 Move: Rhino Horn (Light Kick)
 Startup: 13
 Active Frames: 5, 6
@@ -258,7 +306,9 @@ Recovery: 16 (19 on whiff/block)
 On Hit: Limited Juggle Knockdown +39...
 On Block: -9...
 Cancelable: 
+Notes: --
 
+Character: Elena
 Move: Rhino Horn (Medium Kick)
 Startup: 17
 Active Frames: 5, 6
@@ -266,7 +316,9 @@ Recovery: 16 (20 on whiff/block)
 On Hit: Limited Juggle Knockdown +39...
 On Block: -9...
 Cancelable: 
+Notes: --
 
+Character: Elena
 Move: Rhino Horn (Heavy Kick)
 Startup: 17
 Active Frames: 5, 6
@@ -274,7 +326,9 @@ Recovery: 16 (20 on whiff/block)
 On Hit: Limited Juggle Knockdown +39...
 On Block: -9...
 Cancelable: 
+Notes: --
 
+Character: Elena
 Move: Rhino Horn (Overdrive)
 Startup: 11
 Active Frames: 7, **, **
@@ -282,7 +336,9 @@ Recovery: 13 (19 on whiff/block)
 On Hit: Limited Juggle Knockdown +43...
 On Block: -9...
 Cancelable: 
+Notes: --
 
+Character: Elena
 Move: Scratch Wheel (Light Kick)
 Startup: 5
 Active Frames: 5
@@ -292,6 +348,7 @@ On Block: -24
 Cancelable: 
 Notes: Anti-air invincible on frames 1-9.
 
+Character: Elena
 Move: Scratch Wheel (Medium Kick)
 Startup: 6
 Active Frames: 6
@@ -301,6 +358,7 @@ On Block: -30
 Cancelable: 
 Notes: Anti-air invincible on frames 1-11.
 
+Character: Elena
 Move: Scratch Wheel (Heavy Kick)
 Startup: 7
 Active Frames: 6
@@ -310,6 +368,7 @@ On Block: -33
 Cancelable: 
 Notes: Anti-air invincible on frames 1-12.
 
+Character: Elena
 Move: Scratch Wheel (Overdrive)
 Startup: 6
 Active Frames: 6, 2, 2
@@ -319,6 +378,7 @@ On Block: -46
 Cancelable: 
 Notes: Fully invincible on frames 1-8.
 
+Character: Elena
 Move: Lynx Song
 Startup: 10 / 10 / 10 / 7
 Active Frames: --
@@ -328,6 +388,7 @@ On Block: --
 Cancelable: 
 Notes: Listed as Light / Medium / Heavy / Overdrive. Can follow up directly with various moves, or use Forward+Punch followup, Lynx Whirl, which enhances the subsequent followup. Normal versions are projectile immune on frame 11 onward for 11/12/14 frames. Overdrive is projectile immune from frames 8-19. Followup attacks change duration of projectile immunity, but start of immunity is always the same.
 
+Character: Elena
 Move: Leopard Snap [Lynx Whirl > Leopard Snap]
 Startup: ...10 [...10]
 Active Frames: 5 [5, 3]
@@ -337,6 +398,7 @@ On Block: -5 [+1]
 Cancelable: 
 Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
 
+Character: Elena
 Move: Harvest Circle [Lynx Whirl > Harvest Circle]
 Startup: ...8 [...8]
 Active Frames: 3 [3, 3]
@@ -346,6 +408,7 @@ On Block: -9 [-4]
 Cancelable: 
 Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
 
+Character: Elena
 Move: Mallet Smash [Lynx Whirl > Mallet Smash]
 Startup: ...22 [...22]
 Active Frames: 3 [2, 2]
@@ -355,6 +418,7 @@ On Block: -3 [+3]
 Cancelable: 
 Notes: Lynx Whirl version listed in brackets. Strength of Lynx Song changes startup/travel distance.
 
+Character: Elena
 Move: Spinning Scythe (Light Kick)
 Startup: 15
 Active Frames: 4, 3, (2, 3)
@@ -364,6 +428,7 @@ On Block: -12
 Cancelable: 
 Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
 
+Character: Elena
 Move: Spinning Scythe (Medium Kick)
 Startup: 20
 Active Frames: 4, 3, (5, 2)
@@ -373,6 +438,7 @@ On Block: -14
 Cancelable: 
 Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
 
+Character: Elena
 Move: Spinning Scythe (Heavy Kick)
 Startup: 24
 Active Frames: 4, 3, (5, 2)
@@ -382,6 +448,7 @@ On Block: -10
 Cancelable: 
 Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
 
+Character: Elena
 Move: Spinning Scythe (Overdrive)
 Startup: 18
 Active Frames: 4, 3, (2, 3)
@@ -391,6 +458,7 @@ On Block: -10
 Cancelable: 
 Notes: Can cancel second hit on-hit/on-block into Lynx Whirl with Forward+Punch, forfeits third hit.
 
+Character: Elena
 Move: Moon Glider
 Startup: 20 / 24 / 28 / 23
 Active Frames: 3
@@ -400,6 +468,7 @@ On Block: -3 / -2 / -2 / -3
 Cancelable: 
 Notes: Data listed as Light / Medium / Heavy / Overdrive. Can follow-up on hit/block with Forward+Punch.
 
+Character: Elena
 Move: Moon Glider Followup
 Startup: 16 [16]
 Active Frames: 2, 4 [2, 4, 3]
@@ -409,6 +478,7 @@ On Block: -13 [-19]
 Cancelable: 
 Notes: Data listed as Normal [Overdrive]. Normal followups are the same. Overdrive followup only occurs after Overdrive Moon Glider.
 
+Character: Elena
 Move: Meteor Volley (Level 1)
 Startup: 9
 Active Frames: **
@@ -416,7 +486,9 @@ Recovery: 47 (55 on whiff/block)
 On Hit: Limited Juggle Knockdown +42
 On Block: -68
 Cancelable: 
+Notes: --
 
+Character: Elena
 Move: Revival Dance (Level 2)
 Startup: 12
 Active Frames: **
@@ -426,6 +498,7 @@ On Block: -47
 Cancelable: 
 Notes: On hit, can hold down during cinematic to activate Healing [Healing data listed in brackets]. Fully invincible frames 1-11??
 
+Character: Elena
 Move: Song of the Grasslands (Level 3)
 Startup: 8
 Active Frames: **
@@ -435,6 +508,7 @@ On Block: -54
 Cancelable: 
 Notes: Fully invincible on frames 1-7?? Breaks armor. Critical Art in parenthesis.
 
+Character: Elena
 Move: Stats
 Startup: 
 Active Frames: 
@@ -442,7 +516,9 @@ Recovery:
 On Hit: 
 On Block: 
 Cancelable: 
+Notes: 
 
+Character: Elena
 Move: Forward Throw
 Startup: 5
 Active Frames: 3
@@ -450,7 +526,9 @@ Recovery: 23
 On Hit: +24
 On Block: 
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Back Throw
 Startup: 5
 Active Frames: 3
@@ -458,7 +536,9 @@ Recovery: 23
 On Hit: +19
 On Block: 
 Cancelable: --
+Notes: --
 
+Character: Elena
 Move: Air Throw
 Startup: 5
 Active Frames: 3
@@ -466,3 +546,4 @@ Recovery: **
 On Hit: **
 On Block: 
 Cancelable: --
+Notes: --

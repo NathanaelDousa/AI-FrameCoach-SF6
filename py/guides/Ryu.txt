@@ -1,0 +1,25 @@
+Ryu guide
+
+Season 3 Ryu features a reworked fireball system, faster super meters, and new combo routes that can deal significant damage. This video will break down these changes, showcasing new routes, tricky setups, and big damage combos.
+
+Ryu's level one super now connects from mid-screen after performing an OD Tatsu. Prior to Season 3, there was no reason to use OD Tatsu as it did not lead to any notable consequences.
+
+When driving with meter to spare and landing a sequence in the corner, Ryu can side-switch with an OD Donkey Kick. To do this, input the DP motion towards the direction of dash. The game will auto-correct the side switch if performed correctly.
+
+Ryu's Dungeon Power Stage 2 charges faster now and can be linked into from normals like standing heavy punch. This power stage puts the opponent into a rolling juggle state, providing big damage potential.
+
+When driving with rush crouching heavy punch, slightly delay each hit to keep the opponent from rising too high. A manual drive rush is used instead of button canceling, netting more damage and style points if executed successfully in a match.
+
+Ryu's highest damage punish counter combo in the corner can be achieved by fully stocking resources. This sequence can wipe out nearly 90% of an opponent's life bar, especially against characters like Akuma with 9,000 health.
+
+Ryu's level one super has its speed doubled when Dungeon is stocked, making it a powerful tool for punishing opponents during projectile wars or mid- animation.
+
+The safe jump setup using heavy Hasho and drive rush into back heavy kick, then canceling into light Hasho, is a viable option. This allows Ryu to recover safely after an OD Donkey Kick that ends too close to the corner.
+
+Building on the crouching light kick buff, Ryu can link into back heavy punch or crouching medium punch, extending the combo with standing heavy punch for additional damage. However, this route has the downside of being difficult to hit confirm and potentially leaving Ryu open to punishment if blocked.
+
+Ryu's fireballs have been buffed to deal more damage, allowing for big buttons to be linked off a punish counter fireball. This setup can be followed up with various combos or used to chip away at an opponent's drive meter.
+
+In the corner, Ryu can use medium Tatsu into meaty fireball to beat out wake-up level one. This allows for various follow-ups and combo extensions.
+
+Finally, if Ryu goes for a crashing medium kick into dry brush to jab tick throw and the opponent jumps away, he can catch them on the way down with level one thanks to the speed buff. This setup is reactable but requires being locked in and ready.

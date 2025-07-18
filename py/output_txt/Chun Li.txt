@@ -1,0 +1,639 @@
+Character: Chun Li
+Move: Standing Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +5
+On Block: -3
+Cancelable: Chain, Special, Super, Serenity Stream
+Notes: Arm and Leg hurtbox size increased in February 27, 2024 patch.
+
+Character: Chun Li
+Move: Standing Medium Punch
+Startup: 5
+Active Frames: 4
+Recovery: 10
+On Hit: +6
+On Block: +1
+Cancelable: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Standing Heavy Punch
+Startup: 13
+Active Frames: 3
+Recovery: 20
+On Hit: +2
+On Block: -3
+Cancelable: Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 10
+On Hit: +2
+On Block: -2
+Cancelable: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Standing Medium Kick
+Startup: 7
+Active Frames: 4
+Recovery: 16
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Standing Heavy Kick
+Startup: 14
+Active Frames: 3
+Recovery: 18
+On Hit: +4
+On Block: 0
+Cancelable: Serenity Stream
+Notes: Limited Juggle State on anti-air hit. 20% damage scaling to followup combo hits (as of May 2024 patch).
+
+Character: Chun Li
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -2
+Cancelable: Chain, Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 13 (14 on whiff)
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super, Serenity Stream
+Notes: June 2025 patch: hurtbox increased vertically by hitbox.
+
+Character: Chun Li
+Move: Crouching Heavy Punch
+Startup: 11, 6
+Active Frames: 3, 5
+Recovery: 18
+On Hit: +1
+On Block: -3
+Cancelable: Second hit: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Crouching Light Kick
+Startup: 4
+Active Frames: 2
+Recovery: 10
+On Hit: +0
+On Block: -2
+Cancelable: Chain, Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Crouching Medium Kick
+Startup: 7
+Active Frames: 3
+Recovery: 19
+On Hit: -2
+On Block: -6
+Cancelable: Special, Super, Serenity Stream
+Notes: 20% damage scaling to followup combo hits.
+
+Character: Chun Li
+Move: Crouching Heavy Kick
+Startup: 9
+Active Frames: 6
+Recovery: 19
+On Hit: Knockdown +40
+On Block: -7
+Cancelable: Serenity Stream
+Notes: June 2025 patch: forward movement increased, undocumented change to frame 9 which no longer has a hurtbox on the legs/hitbox (later frames still do).
+
+Character: Chun Li
+Move: Serenity Stream > Light Punch
+Startup: (14+) 5
+Active Frames: 5
+Recovery: 16 (36)
+On Hit: -2 (-22)
+On Block: -3 (-23)
+Cancelable: Special, Super
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Hold down to maintain Serenity Stream stance. Can cancel into Kikoken or Spinning Bird Kick without charge.
+
+Character: Chun Li
+Move: Serenity Stream > Medium Punch
+Startup: (14+) 7
+Active Frames: 7
+Recovery: 14 (34)
+On Hit: Knockdown +45 (Knockdown +25)
+On Block: -3 (-23)
+Cancelable: --
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Hold down to maintain Serenity Stream stance. As of December 2024 patch: startup from 11 to 7 frames.
+
+Character: Chun Li
+Move: Serenity Stream > Heavy Punch
+Startup: (14+) 23
+Active Frames: 2, 2
+Recovery: 19
+On Hit: +2
+On Block: -3
+Cancelable: Second hit: Special, Super
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Automatically deactivates Serenity Stream. Can cancel into Kikoken or Spinning Bird Kick without charge.
+
+Character: Chun Li
+Move: Serenity Stream > Light Kick
+Startup: (14+) 8
+Active Frames: 5
+Recovery: 13 (36)
+On Hit: 0 (-23)
+On Block: -4 (-27)
+Cancelable: Special, Super
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Hold down to maintain Serenity Stream stance. Can cancel into Kikoken or Spinning Bird Kick without charge.
+
+Character: Chun Li
+Move: Serenity Stream > Medium Kick
+Startup: (14+) 10
+Active Frames: 5
+Recovery: 22 (46)
+On Hit: -5 (-27)
+On Block: -9 (-33)
+Cancelable: Special, Super
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Hold down to maintain Serenity Stream stance. Can cancel into Kikoken or Spinning Bird Kick without charge.
+
+Character: Chun Li
+Move: Serenity Stream > Heavy Kick
+Startup: (14+) 8
+Active Frames: 5
+Recovery: 24
+On Hit: Knockdown +41
+On Block: -9
+Cancelable: Jump (Hit only)
+Notes: Serenity Stream activation/cancel changes frame data (in parenthesis). Automatically deactivates Serenity Stream. Limited Juggle State on hit.
+
+Character: Chun Li
+Move: Forward/Back + Medium Punch
+Startup: 7
+Active Frames: 3
+Recovery: 15
+On Hit: +2
+On Block: -3
+Cancelable: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Back + Heavy Punch
+Startup: 8
+Active Frames: 6
+Recovery: 14
+On Hit: +5
+On Block: -1
+Cancelable: Special, Super, Serenity Stream
+Notes: --
+
+Character: Chun Li
+Move: Water Lotus Fist (Down-Forward + Heavy Punch)
+Startup: 21
+Active Frames: 3
+Recovery: 14
+On Hit: +2
+On Block: -2
+Cancelable: Serenity Stream
+Notes: June 2025 patch: on hit from +1 to +2, active frames from 4 to 3.
+
+Character: Chun Li
+Move: Forward + Heavy Kick
+Startup: 16
+Active Frames: 2
+Recovery: 23
+On Hit: -1
+On Block: -4
+Cancelable: Serenity Stream
+Notes: Crumple +72 on Punish Counter Hit.
+
+Character: Chun Li
+Move: Down-Forward + Heavy Kick
+Startup: 37
+Active Frames: 2
+Recovery: 13
+On Hit: +7
+On Block: +3
+Cancelable: --
+Notes: Crosses up if close. Only hits crossup.
+
+Character: Chun Li
+Move: Jump Heavy Punch, Jump Heavy Punch
+Startup: 9, 16
+Active Frames: 6, 4
+Recovery: 3 Landing
+On Hit: +13..., +18...
+On Block: +8..., +13...
+Cancelable: --
+Notes: Limited Juggle State on air hit.
+
+Character: Chun Li
+Move: Wall Jump
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: Can wall jump by jumping into a wall/the edge of the screen, then presing press Up+Away from the wall/edge of screen.
+
+Character: Chun Li
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +2...
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Jump Medium Punch
+Startup: 7, 10
+Active Frames: 4, 5
+Recovery: 3 Landing
+On Hit: +8..., +9...
+On Block: +6..., +5...
+Cancelable: Special, Special
+Notes: Limited Juggle State on air hit.
+
+Character: Chun Li
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +13...
+On Block: +8...
+Cancelable: --
+Notes: Limited Juggle State on air hit.
+
+Character: Chun Li
+Move: Jump Light Kick
+Startup: 4
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +5...
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Jump Medium Kick
+Startup: 6
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Character: Chun Li
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Neutral Jump Heavy Kick
+Startup: 8
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +11...
+On Block: +6...
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Jump, Down + Medium Kick
+Startup: 3, 3, 3
+Active Frames: 11
+Recovery: 3 Landing
+On Hit: -20...
+On Block: -27...
+Cancelable: Jump Attacks, Special, Super
+Notes: Can be used again on hit/block up to 3 times. Second hit scales to 85% (255), third hit scales to 75% (375). Limited Juggle State on air hit.
+
+Character: Chun Li
+Move: Kikoken (Light Punch)
+Startup: 15
+Active Frames: ...33
+Recovery: 32
+On Hit: -3...
+On Block: -7...
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Kikoken (Medium Punch)
+Startup: 12
+Active Frames: ...34
+Recovery: 33
+On Hit: -3...
+On Block: -7...
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Kikoken (Heavy Punch)
+Startup: 11
+Active Frames: ...25
+Recovery: 32
+On Hit: -2...
+On Block: -6...
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Kikoken (Overdrive)
+Startup: 11
+Active Frames: ...29
+Recovery: 19
+On Hit: +5...
+On Block: 0...
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Hundred Lightning Kicks (Light Kick)
+Startup: 5
+Active Frames: 2, 2, 2
+Recovery: 20
+On Hit: +3
+On Block: -8
+Cancelable: 
+Notes: June 2025 patch: startup from 8 to 5 frames, extended hitbox forward, initial scaling of 20%, blockback knockdown on Punish Counter.
+
+Character: Chun Li
+Move: Hundred Lightning Kicks (Medium Kick)
+Startup: 14
+Active Frames: 2, 2, 2, 2
+Recovery: 22
+On Hit: +3
+On Block: -8
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Hundred Lightning Kicks (Heavy Kick)
+Startup: 23
+Active Frames: 2, 2, 2, 2, 2
+Recovery: 15
+On Hit: Knockdown +50
+On Block: -3
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Hundred Lightning Kicks (Overdrive)
+Startup: 8 (11)
+Active Frames: 2, 2, 2, 2, 2 (2, 2, 2, 2, 2)
+Recovery: 21, 25
+On Hit: +3 (Knockdown +29)
+On Block: -3 (-13)
+Cancelable: 
+Notes: Followup in parenthesis. June 2025 patch: damage from 800 total to 1000 total, Punish Counter changed from knockback to crumple, initial scaling of 20%.
+
+Character: Chun Li
+Move: Aerial Hundred Lightning Kicks (Light Kick)
+Startup: 8
+Active Frames: 2, 2, 2
+Recovery: **
+On Hit: -3...+1
+On Block: -6...-2
+Cancelable: 
+Notes: Must be from a neutral or forward jump. 20% damage scaling to followup combo hits (added in February 27, 2024 patch).
+
+Character: Chun Li
+Move: Aerial Hundred Lightning Kicks (Medium Kick)
+Startup: 10
+Active Frames: 2, 2, 2, 2
+Recovery: **
+On Hit: -3...+1
+On Block: -7...-3
+Cancelable: 
+Notes: Must be from a neutral or forward jump. 20% damage scaling to followup combo hits (added in February 27, 2024 patch).
+
+Character: Chun Li
+Move: Aerial Hundred Lightning Kicks (Heavy Kick)
+Startup: 12
+Active Frames: 2, 2, 2, 2, 2
+Recovery: **
+On Hit: -3...-2
+On Block: -7...-6
+Cancelable: 
+Notes: Must be from a neutral or forward jump. 20% damage scaling to followup combo hits (added in February 27, 2024 patch).
+
+Character: Chun Li
+Move: Aerial Hundred Lightning Kicks (Overdrive)
+Startup: 6
+Active Frames: 2, 2, 2, 2, 2
+Recovery: **
+On Hit: Knockdown +47
+On Block: -16...
+Cancelable: 
+Notes: Must be from a neutral or forward jump. 20% damage scaling to followup combo hits (added in February 27, 2024 patch).
+
+Character: Chun Li
+Move: Spinning Bird Kick (Light Kick)
+Startup: 9
+Active Frames: 2, 2, 2
+Recovery: 30
+On Hit: Knockdown +33
+On Block: -18
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Spinning Bird Kick (Medium Kick)
+Startup: 16
+Active Frames: 2, 2, 2, 2, 2
+Recovery: 29
+On Hit: Knockdown +34
+On Block: -17
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Spinning Bird Kick (Heavy Kick)
+Startup: 20
+Active Frames: 2, 2, 2, 2, 2, 2, 2
+Recovery: 30
+On Hit: Knockdown +33
+On Block: -18
+Cancelable: 
+Notes: As of December 2024 patch: startup from 21 to 20.
+
+Character: Chun Li
+Move: Spinning Bird Kick (Overdrive)
+Startup: 16
+Active Frames: 2, 2, 2, 2, 2, 2, 2
+Recovery: 23
+On Hit: Knockdown +55
+On Block: -12
+Cancelable: 
+Notes: Limited Juggle State on hit.
+
+Character: Chun Li
+Move: Hazanshu (Light Kick)
+Startup: 23
+Active Frames: 2
+Recovery: 21
+On Hit: +0
+On Block: -9
+Cancelable: 
+Notes: Projectile invincible on frames 5-9.
+
+Character: Chun Li
+Move: Hazanshu (Medium Kick)
+Startup: 27
+Active Frames: 3
+Recovery: 16
+On Hit: +2
+On Block: -3
+Cancelable: 
+Notes: Projectile invincible on frames 6-21.
+
+Character: Chun Li
+Move: Hazanshu (Heavy Kick)
+Startup: 32
+Active Frames: 3
+Recovery: 18
+On Hit: +6
+On Block: -1
+Cancelable: 
+Notes: Projectile invincible on frames 6-26.
+
+Character: Chun Li
+Move: Hazanshu (Overdrive)
+Startup: 26
+Active Frames: 3
+Recovery: 16
+On Hit: Knockdown +52
+On Block: -5
+Cancelable: 
+Notes: Projectile invincible on frames 6-25. Full Juggle State on hit.
+
+Character: Chun Li
+Move: Tensho Kicks (Light Kick)
+Startup: 5
+Active Frames: 2, 2
+Recovery: 39
+On Hit: Knockdown +29
+On Block: -37
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Tensho Kicks (Medium Kick)
+Startup: 7
+Active Frames: 2, 2
+Recovery: 43
+On Hit: Knockdown +25
+On Block: -41
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Tensho Kicks (Heavy Kick)
+Startup: 9
+Active Frames: 2, 2, 2, 2
+Recovery: 38
+On Hit: Knockdown +37
+On Block: -57
+Cancelable: 
+Notes: --
+
+Character: Chun Li
+Move: Tensho Kicks (Overdrive)
+Startup: 6
+Active Frames: 3, 3, 2, 2, 2, 2
+Recovery: 50
+On Hit: Knockdown +30
+On Block: -40
+Cancelable: 
+Notes: Fully invincible on frames 1-7.
+
+Character: Chun Li
+Move: Kikosho (Level 1)
+Startup: 7 (7)
+Active Frames: **
+Recovery: 46 (**)
+On Hit: Knockdown +22 (**)
+On Block: -22 (**)
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-7. Breaks armor. Aerial Kikosho data in parenthesis.
+
+Character: Chun Li
+Move: Hoyoku-sen (Level 2)
+Startup: 12
+Active Frames: **
+Recovery: 48
+On Hit: Knockdown +29. Juggle State on hit (requires Jump Cancel).
+On Block: -35
+Cancelable: 
+Notes: Fully invincible on frames 1-10. Breaks armor. Last hit is Jump Cancellable on hit.
+
+Character: Chun Li
+Move: Soten Ranka (Level 3)
+Startup: 8
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +6 (Knockdown +18)
+On Block: -24
+Cancelable: 
+Notes: Fully invincible on frames 1-9. Breaks armor. Critical Art in parenthesis.
+
+Character: Chun Li
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Chun Li
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +17
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +14
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: Chun Li
+Move: Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --
+Notes: --

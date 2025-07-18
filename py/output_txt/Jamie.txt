@@ -1,25 +1,539 @@
-Here is a rewritten transcript of the video guide about Jamie, a fighting game character:
+Character: Jamie
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 2 [3]
+Recovery: 7 [9]
+On Hit: +5 [+2]
+On Block: 0 [-3]
+Cancelable: Special, Super, [Target Combo]
+Notes: Requires at least 1 Drink to use Taret Combo, 1 Drink data listed in bracket.
 
-**Neutral Tools**
+Character: Jamie
+Move: Standing Medium Punch
+Startup: 8
+Active Frames: 4
+Recovery: 14
+On Hit: +6
+On Block: +2
+Cancelable: --
+Notes: --
 
-Jamie has several neutral tools that can be used to control space and harass opponents. The first one is his forward heavy kick, which is a quick and easy-to-use tool for poking at opponents from a distance.
+Character: Jamie
+Move: Standing Heavy Punch
+Startup: 5, 7, 12
+Active Frames: 1, 1, 3
+Recovery: 20
+On Hit: +1
+On Block: -3
+Cancelable: Second Hit Only: Special, Super
+Notes: --
 
-Another important neutral tool is his back heavy punch, which can be used to create space or punish opponents who are trying to get too close. However, this move has some limitations, such as being slow and not invincible.
+Character: Jamie
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 11
+On Hit: +3
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: --
 
-Jamie also has a unique command grab that can be used to punish opponents who try to neutral jump. This move is particularly effective against characters who have poor anti-air options.
+Character: Jamie
+Move: Standing Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 17 (18 on whiff)
+On Hit: +2
+On Block: -3
+Cancelable: Special, Super
+Notes: Hurtbox expandedafter active frames on June 2025 patch.
 
-**Anti-Air Options**
+Character: Jamie
+Move: Standing Heavy Kick
+Startup: 15
+Active Frames: 3
+Recovery: 21
+On Hit: +3
+On Block: -5
+Cancelable: Special, Super
+Notes: Crumple of +71 on Punish Counter. Limited Juggle State on anti-air hit. As of December 2024 patch: "Reduced the hurtbox on the front legs during the attack's start up" was reported in the official patch notes... however,the hurtbox reduction is actually on his **hands** and on frames 5-8. Additionally, the move now has Anti-air invulnerability on frame 14(1 frame before first active), which it did not have before. Advantage on hit changed from +1 to +3 in June 2025 patch.
 
-When it comes to anti-airs, Jamie has several options available. One of his most reliable anti-aerials is his down heavy punch, which has a wide hitbox and can be used to punish opponents who try to jump in with aerial attacks.
+Character: Jamie
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 9
+On Hit: +5
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: --
 
-Another effective anti-air option is his light kick DP, which has a decent hitbox and can be used to knock opponents back and create space. However, this move is not invincible and should be used carefully.
+Character: Jamie
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 13 (15 on whiff)
+On Hit: +5
+On Block: -1
+Cancelable: Special, Super
+Notes: As of June 2025 patch: hurtbox on feet increased vertically (to the top) on frames 16-17 on whiff. Feet hurtbox removed on frames 16-17 on hit/block.
 
-For more advanced players, Jamie's top-side kick (T side kick) is an excellent anti-air option that can be used to punish opponents who try to jump in with aerial attacks. This move has a wide hitbox and is designed specifically for anti-airs.
+Character: Jamie
+Move: Crouching Heavy Punch
+Startup: 8
+Active Frames: 5
+Recovery: 23
+On Hit: 0
+On Block: -8
+Cancelable: Special, Super
+Notes: As of June 2025 patch: startup reduced from 9 frames to 8 frames.
 
-**Knockdowns and Oki Situations**
+Character: Jamie
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 11
+On Hit: +1
+On Block: -3
+Cancelable: Chain
+Notes: --
 
-In the next video, we'll dive deeper into Jamie's knockdowns and oki situations, which are essential for understanding how to use his character effectively. We'll cover topics such as how to use Jamie's command grab to create opportunities for punishing opponents who try to get too close.
+Character: Jamie
+Move: Crouching Medium Kick
+Startup: 7
+Active Frames: 3
+Recovery: 18
+On Hit: -1
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
 
-**Conclusion**
+Character: Jamie
+Move: Crouching Heavy Kick
+Startup: 9, 13
+Active Frames: 2, 3
+Recovery: 28 (29 on block)
+On Hit: Knockdown +33
+On Block: -11
+Cancelable: --
+Notes: On block, the second hit changes to a high attack as of May 2024 patch.
 
-That's it for this video on Jamie's neutral tools and anti-airs. Remember that practice is key to mastering any fighting game character, so be sure to play around with Jamie's moveset and experiment with different strategies. If you have any questions or want more information on Jamie's knockdowns and oki situations, let us know in the comments below!
+Character: Jamie
+Move: Down + KK
+Startup: 9
+Active Frames: 3
+Recovery: 22
+On Hit: Knockdown +53
+On Block: -8
+Cancelable: Jump
+Notes: Limited Juggle State on hit.
+
+Character: Jamie
+Move: Forward + Medium Kick (Falling Star Kick)
+Startup: 22
+Active Frames: 5
+Recovery: 20
+On Hit: +1
+On Block: -3
+Cancelable: [Target Combo]
+Notes: At 2 Drinks, can Target Combo (no other changes to data).
+
+Character: Jamie
+Move: Back + Heavy Punch (Hermit's Elbow)
+Startup: 18
+Active Frames: 4
+Recovery: 20
+On Hit: +1
+On Block: -3
+Cancelable: [Target Combo]
+Notes: At 3 Drinks, can Target Combo (no other changes to data).
+
+Character: Jamie
+Move: Forward + Heavy Kick (Senei Kick)
+Startup: 16
+Active Frames: 3 [4]
+Recovery: 20 [19]
+On Hit: +3
+On Block: -3
+Cancelable: Super, [Target Combo]
+Notes: At 4 Drinks, can Target Combo, 4 Drinks data listed in bracket.
+
+Character: Jamie
+Move: Down + Heavy Kick, Heavy Kick, Punch
+Startup: (9, 13), 12, --
+Active Frames: 2, 4, 4
+Recovery: (28), 43, 61
+On Hit: (Knockdown +33), Knockdown +22, Knockdown +4
+On Block: (-10), -28, -46
+Cancelable: --
+Notes: Third "hit" is a cancel into Drink.
+
+Character: Jamie
+Move: Light Punch, Light Kick, Medium Punch (Bitter Strikes)
+Startup: 5, 6, 8
+Active Frames: 3, 2, 5
+Recovery: 9, 16, 21
+On Hit: +2, -3, -1
+On Block: -3, -8,- 10
+Cancelable: Special, Super
+Notes: Requires at least 1 Drink to use, data listed at 1 Drink.
+
+Character: Jamie
+Move: Forward + Medium Kick, Medium Kick, Punch (Full Moon Kick)
+Startup: 22, 15, --
+Active Frames: 5, (3, 2), --
+Recovery: 20, 28, 61
+On Hit: +1, Knockdown +31, Knockdown -1
+On Block: -3, -14, -46
+Cancelable: --
+Notes: Requires at least 2 Drinks to use, data listed at 2 Drinks. As of June 2025 patch: no longer drinks if kick button is held after 2nd attack hits.
+
+Character: Jamie
+Move: Back + Heavy Punch, Heavy Punch, Heavy Kick (Intoxicated Assault)
+Startup: 18, 21, 21
+Active Frames: 4, 4, 3
+Recovery: 20, 20, 37
+On Hit: +1, +1, Knockdown +23
+On Block: -3, -11, -20
+Cancelable: Second Hit: Super
+Notes: Requires at least 3 Drinks to use, data listed at 3 Drinks. Second hit only combos on meaty or counter hit.
+
+Character: Jamie
+Move: Forward + Heavy Kick, Back + Heavy Kick, Punch (Ransui Haze)
+Startup: Close: 16, 25...+15Middle: 16, 51...+4
+Active Frames: Close: 4, --, 4Middle: 4, --, (2, 2, 2)
+Recovery: Close: 19, --, 28Middle: 19, --, 27
+On Hit: Close: +3, --, Knockdown +32Middle: +3, --, Knockdown +35
+On Block: Close: -3, --, -12Middle: -3, --, -9
+Cancelable: Close: Special, SuperMiddle: Special, Super
+Notes: Requires 4 Drinks to use, data listed at 4 Drinks. B+HK sways backward for at least 25 frames after the first hit, then Punch activates a different followup based on range: Close is a Headbutt, Middle is a spinning triple punch, and Far is a Drink.
+
+Character: Jamie
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 9
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: --
+
+Character: Jamie
+Move: Jump Medium Punch
+Startup: 7
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...+11
+On Block: +6...+7
+Cancelable: Special
+Notes: Limited Juggle State on air hit.
+
+Character: Jamie
+Move: Jump Heavy Punch
+Startup: 10
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: --
+Notes: Knockdown on air hit.
+
+Character: Jamie
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2...
+Cancelable: --
+Notes: --
+
+Character: Jamie
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Character: Jamie
+Move: Jump Heavy Kick
+Startup: 8, 16
+Active Frames: 3, 4
+Recovery: 3 Landing
+On Hit: +11...
+On Block: +7...
+Cancelable: --
+Notes: As of December 2024 patch: now gives limited juggle state on all air-to-air hits.
+
+Character: Jamie
+Move: The Devil Inside
+Startup: --
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Grants 1 Drink. In a Counter-Hit state for duration.Can be held to continue drinking.All of Jamie's normal and special attacks start at 90% Damage scaling with 0 Drinks. Each Drink increases the scaling by 5%, so: 1 Drink: 95% / 2 Drinks: 100% / 3 Drinks: 105% / 4 Drinks: 110%.Additionally, each Drink unlocks a new Target Combo and a new Special Move. At 4 Drinks, some of his Special Moves change as well.Drinking again while at 4 Drinks will instead generate Drive Gauge. No Overdrive version.
+
+Character: Jamie
+Move: Freeflow Strikes (First Hit)
+Startup: 0-3 Drinks: 13 / 16 / 19 / 134 Drinks: 13 / 16 / 19 / 13
+Active Frames: 0-3 Drinks: 24 Drinks: 2, 2
+Recovery: 0-3 Drinks: 244 Drinks: 20
+On Hit: 0-3 Drinks: -1 / -1 / -1 / +14 Drinks: +1 / +1 / +1 / +3
+On Block: 0-3 Drinks: -6 / -6 / -6 / -34 Drinks: -3 / -3 / -3 / -3
+Cancelable: 
+Notes: Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive"Is a Rekka style attack, so can be followed up with Forward + Punch once or twice (data for each followup is listed as a separate entry).
+
+Character: Jamie
+Move: Freeflow Strikes > Punch Followup 1
+Startup: 0-3 Drinks: 13 / 16 / 19 / 134 Drinks: 15 / 15 / 15 / 15
+Active Frames: 0-3 Drinks: 24 Drinks: 2, 2
+Recovery: 0-3 Drinks: 284 Drinks: 27
+On Hit: 0-3 Drinks: -3 / -3 / -3 / -34 Drinks: -2 / -2 / -2 / -2
+On Block: 0-3 Drinks: -13 / -11 / -9 / -94 Drinks: -10 / -10 / -10 / -10
+Cancelable: 
+Notes: Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive"
+
+Character: Jamie
+Move: Freeflow Strikes > Punch Followup 2
+Startup: 0-3 Drinks: 13 / 16 / 19 / 134 Drinks: 13 / 16 / 19 / 13
+Active Frames: 0-3 Drinks: 24 Drinks: 2, 2, 3
+Recovery: 0-3 Drinks: 304 Drinks: 28
+On Hit: 0-3 Drinks: Knockdown +27 / KD +27 / KD +27 / KD +284 Drinks: Knockdown +27 / KD +27 / KD +27 / KD +28
+On Block: 0-3 Drinks: -13 / -11 / -9 / -94 Drinks: -14 / -14 / -14 / -14
+Cancelable: 
+Notes: Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive". Third hit always scales to 72% (396 / 432 / 468 / 540). 4 Drinks version does more scaling, I'll farm that data out sometime when I hate myself more. June 2025 patch: 20% followup scaling added to normal, 25% followup scaling added to Overdrive version -- but can cancel into Level 3 now.
+
+Character: Jamie
+Move: Freeflow Strikes > Kick Followup 1
+Startup: 14 / 17 / 20 / 14
+Active Frames: 2
+Recovery: 28
+On Hit: -7
+On Block: -15
+Cancelable: 
+Notes: Kick stregnth does not change data, it is based off of the originating Punch from Freeflow Strikes. Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive".
+
+Character: Jamie
+Move: Freeflow Strikes > Kick Followup 2
+Startup: 18 / 21 / 24 / 18
+Active Frames: 2
+Recovery: 64
+On Hit: Knockdown -1 / KD -1 / KD -1 / KD +1 [KD +24]
+On Block: -49 / -49 / -49 / -49 [-26]
+Cancelable: 
+Notes: Kick stregnth does not change data, it is based off of the originating Punch from Freeflow Strikes. Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive". Third hit always scales to 72% (324 / 360 / 396 / 432). Transitioning into 4 Drinks gives better advantage, listed in brackets.
+
+Character: Jamie
+Move: Swagger Step (Light Punch)
+Startup: 17
+Active Frames: 9
+Recovery: 17
+On Hit: Knockdown +39
+On Block: -6...+1
+Cancelable: 
+Notes: --
+
+Character: Jamie
+Move: Swagger Step (Medium Punch)
+Startup: 20
+Active Frames: 9
+Recovery: 17
+On Hit: Knockdown +41
+On Block: -3...-1
+Cancelable: 
+Notes: --
+
+Character: Jamie
+Move: Swagger Step (Heavy Punch)
+Startup: 25
+Active Frames: 9
+Recovery: 16
+On Hit: Knockdown +42
+On Block: -3...+4
+Cancelable: 
+Notes: --
+
+Character: Jamie
+Move: Swagger Step (Overdrive)
+Startup: 20
+Active Frames: 9
+Recovery: 15
+On Hit: Knockdown blowback juggle +73
+On Block: -1...+6
+Cancelable: 
+Notes: --
+
+Character: Jamie
+Move: Swagger Step > Swagger Hermit Punch
+Startup: 19
+Active Frames: 3
+Recovery: 39
+On Hit: Knockdown +20
+On Block: -23
+Cancelable: 
+Notes: Requires 4 Drinks to use. Limited Juggle Potential. Data listed as "Light Punch / Medium Punch / Heavy Punch / Overdrive". Overdrive version does less damage.
+
+Character: Jamie
+Move: Arrow Kick (Light Kick)
+Startup: 5
+Active Frames: 10
+Recovery: 52
+On Hit: Knockdown +42
+On Block: -44
+Cancelable: 
+Notes: Anti-air invincible on frames 1-11. Lower Body invincible on frames 5-22. As of June 2025 patch: active frames from 7 to 10, recovery from 54 to 52 (undocumented: 1 frame less Anti-air invincibility, 1 more frame more Lower Body invinciblity).
+
+Character: Jamie
+Move: Arrow Kick (Medium Kick)
+Startup: 8
+Active Frames: 9
+Recovery: 51
+On Hit: Knockdown +34
+On Block: -43
+Cancelable: 
+Notes: Anti-air invincible on frames 1-14, Lower Body invincible on frames 8-23. As of June 2025 patch: active frames from 7 to 9, recovery from 53 to 51.
+
+Character: Jamie
+Move: Arrow Kick (Heavy Kick)
+Startup: 10
+Active Frames: 9
+Recovery: 50
+On Hit: Knockdown +39
+On Block: -43
+Cancelable: 
+Notes: Anti-air invincible on frames 1-16, Lower Body invincible on frames 10-25. As of June 2025 patch: active frames from 7 to 9, recovery from 53 to 51.
+
+Character: Jamie
+Move: Arrow Kick (Overdrive)
+Startup: 6
+Active Frames: 7
+Recovery: 53
+On Hit: Knockdown +40
+On Block: -43
+Cancelable: 
+Notes: Fully invincibile on frames 1-9. Anti-air invincible on frames 10-12, Lower Body invincible on frames 10-21.
+
+Character: Jamie
+Move: Luminous Dive Kick
+Startup: 11
+Active Frames: **
+Recovery: 13 Landing
+On Hit: Knockdown +43...+52 (KD +59...+65)
+On Block: -4...+2 (-3...+3)
+Cancelable: 
+Notes: Requires 1 Drink to use. Kick strength changes trajectory. Active until landing. Overdrive causes a Limited Juggle State, data in parenthesis.Air to air hit: Normal versions force knockdown, Overdrive version gives ground bounce Limited Juggle State.
+
+Character: Jamie
+Move: Bakkai (Light Kick)
+Startup: 18
+Active Frames: **
+Recovery: 24
+On Hit: Knockdown +42
+On Block: -12
+Cancelable: 
+Notes: Requires 2 Drinks to use. Projectile invincible on frames 3-24.
+
+Character: Jamie
+Move: Bakkai (Medium Kick)
+Startup: 22
+Active Frames: **
+Recovery: 31
+On Hit: Knockdown +35
+On Block: -16
+Cancelable: 
+Notes: Requires 2 Drinks to use. Projectile invincible on frames 4-26.
+
+Character: Jamie
+Move: Bakkai (Heavy Kick)
+Startup: 25
+Active Frames: **
+Recovery: 32
+On Hit: Knockdown +34
+On Block: -17
+Cancelable: 
+Notes: Requires 2 Drinks to use. Projectile invincible on frames 5-35.
+
+Character: Jamie
+Move: Bakkai (Overdrive)
+Startup: 21
+Active Frames: **
+Recovery: 62
+On Hit: Knockdown +12
+On Block: -46
+Cancelable: 
+Notes: Requires 2 Drinks to use. Projectile invincible on frames 3-28.
+
+Character: Jamie
+Move: Tenshin
+Startup: 8
+Active Frames: 2
+Recovery: 52
+On Hit: +8 (Knockdown +86)
+On Block: --
+Cancelable: 
+Notes: Requires 3 Drinks to use. A command grab that gives a free followup attack. Attack strength does not change data. Waiting after an Overdrive hit causes a delayed crumple into Limited Juggle State. Overdrive data in parenthesis.
+
+Character: Jamie
+Move: Breakin' (Level 1)
+Startup: 10
+Active Frames: **
+Recovery: 74 (107)
+On Hit: Knockdown +7 (Knockdown -1)
+On Block: -60 (-93)
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-11. Breaks armor. Can hold Down during animation to decrease damage but take a Drink at the end (data in parenthesis).
+
+Character: Jamie
+Move: The Devil's Song (Level 2)
+Startup: 1
+Active Frames: **
+Recovery: 5
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Temporarily enables 4 Drinks for the duration of the timer, but at only 105% strength for attacks (real 4 Drinks is 110%). If used when Jamie already has 4 Drinks, will instead refill 3 Drive Bars or 50% of Burnout Gauage. In February 27, 2024 patch: no longer removes drinks on ending (yay!).
+
+Character: Jamie
+Move: Getsuga Saiho (Level 3)
+Startup: 10
+Active Frames: **
+Recovery: 42
+On Hit: Knockdown +71 (Knockdown +18)
+On Block: -27
+Cancelable: 
+Notes: Fully invincible on frames 1-11. Breaks armor. Critical Art in parenthesis. Non-CA version launches into a Free Juggle State on hit.
+
+Character: Jamie
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Jamie
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +23 (+7)
+On Block: 
+Cancelable: --
+Notes: Can hold throw to add a drink to the throw (added in February 27, 2024 patch). Data in parenthesis.
+
+Character: Jamie
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +38
+On Block: 
+Cancelable: --
+Notes: --

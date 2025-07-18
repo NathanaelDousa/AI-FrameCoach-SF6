@@ -1,0 +1,41 @@
+m.bison guide
+**Introduction**
+
+Bison is a character known for his strong mid-range game. Understanding his wi condition, strengths, and weaknesses is crucial to playing him effectively.
+
+**Mid-Range Game**
+
+Bison excels at dominating this range with his scissors kick, stand medium kick, heavy punch, and dry brush. His anti-air is decent, but limited in its horizontal range. He has light punch and Ex Psycho options for anti-air, which require charge and can be awkward to use.
+
+**Offense**
+
+Bison's offense is explosive, making him a high-priority character. His heavy bomb combo starter or ender leads to a snowball effect, allowing him to punish opponents repeatedly. Outside of his neutral control, Bison has some of the most powerful combos in the game, including overheads, throw shimmy options, and wake-up buttons.
+
+**Corner Pressure**
+
+In the corner, Bison's offense becomes even more potent. He can keep opponents pinned with heavy kick and punch options that are plus on block. This pressure allows him to build meter for Ex Psycho or other high-damage combos.
+
+**Options After Heavy Bomb**
+
+After landing a heavy bomb, Bison has several options to continue applying pressure:
+
+* Drive rush through (manually timed)
+* Back heavy kick
+* Dry brush overhead (instant)
+* Shimmy into scissors
+
+**Light and Medium Bombs**
+
+These bombs have similar Oki options as heavy bomb but are safer. However, medium bomb also includes an overhead option that is plus 1 on block.
+
+**Post-Throw Situation**
+
+When taking a throw after landing a heavy bomb, Bison has a high-low mixup. He can go for instant overhead or slightly delayed crouching medium kick.
+
+**Oki Options**
+
+Bison's Oki options include stand light kick into stand medium punch, which is safer than heavy bomb and doesn't lose drive reversal. This option also allows for layering with medium punch into throw.
+
+**Conclusion**
+
+Mastering Bison requires understanding his mid-range game, explosive offense, and corner pressure. By utilizing these tools effectively, players can take advantage of opponents' mistakes and secure victories.

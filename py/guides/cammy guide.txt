@@ -1,0 +1,29 @@
+
+**Cammy Updates in Street Fighter 6 Season 3**
+
+The latest update to Cammy's moveset brings significant changes to her standing light kick, heavy DP against airborne opponents, and swing combination. These updates affect various setups and strategies for playing as Cammy.
+
+**Standing Light Kick**
+
+* The hitbox of the standing light kick no longer extends as far as it did in previous seasons.
+* This change affects fringe situations, such as punishes on Bison's Scissor Kicks on block.
+* Familiarize yourself with the reduced range to effectively punish and neutralize opponents.
+
+**Heavy DP against Airborne Opponents**
+
+* When the heavy DP hits active frames 1 or 2, airborne opponents are no longer knocked back as far.
+* This change allows for a last-frame medi stand medium punch, crouch fierce meaty strike, or delayed shimmy to bait DPs and supers.
+* The drive rush jab can also be used to bait DPs and supers.
+
+**Swing Combination**
+
+* The cancel window for special super or dry brush has shifted by two frames in the latest update.
+* This change affects setups that relied on the previous cancel timing, such as double dash and medium kick spiral arrow cancel.
+* Alternative options, like drive rush jab, can be used to bait DPs and supers.
+
+**Light Spin Knuckle against Airborne Opponents**
+
+* The knockback distance of light spin knuckle has changed for airborne opponents.
+* This update opens up new setup possibilities and combinations, including meterless combos, level three super, and corner carry options.
+
+Additional information on safe jump setups, mixups, and strategies for playing as Cammy in Street Fighter 6 Season 3 can be found in the video.

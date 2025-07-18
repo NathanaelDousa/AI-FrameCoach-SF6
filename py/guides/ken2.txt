@@ -1,0 +1,21 @@
+Ken guide
+
+The goal of this video series is to provide consistent oki options off Ken's most common knockdowns and combo routes. A good oki setup should achieve the following: beat wake-up throws, beat wake-up mashing, beat wake-up jumps, and beat wake-up Drive Impact.
+
+Oki setups typically consist of two parts: the Framekill and the Meaty. The framekill is a move that adjusts our timing so that the next action hits meaty. This can be a whiffed button, dash, or jump. Some setups may not have a framekill.
+
+Meaty traditionally means that it hits on the first possible active frame. In some cases, these setups will hit on the first possible "actionable" frame, meaning it will hit on frames 2-3 before the opponent can take an action besides wake-up reversal or wake-up parry.
+
+Ken has several oki options that provide different advantages and flexibility. One of his most useful setups is from target combo into enhanced tatsu. This gives you an overhead that can combo straight into 5MP again, leaving you only -1 if it's blocked.
+
+The double dash forward after enhanced tatsu leaves you +5 in their face, allowing for meaty throws or backdashes. The timing on both of these oki choices can be strict at first, so practice is necessary to get the timing down.
+
+After target combo into enhanced DP, the Drive Rush into 5HP is autotimed, allowing for good oki when going for the more damaging combo ender over Run tatsu. If you've already got them close to the corner, this is a good option. However, it will lose to wake-up parry, so mix up your Drive Rush options with 5HP or drive rush into throw if your opponent likes to parry on wake-up.
+
+Ending your combo with Run Dragonlash gives you the chance for a safe jump with Ken midscreen. This means that when you go for jLK, if done correctly, you'll either hit them while they're mashing/jabbing or jumping, and you'll recover in time to block if they go for a reversal or super.
+
+Another setup is similar to the one off of Run Tatsu, but with one less frame. This combo can only be extended into 2LP. If they recover in place, you can go from there into target combo, but if they recover backwards, you'll want to do a light combo ending in DP because the 5MP will whiff.
+
+However, this setup is not perfect; it requires manual timing and can result in being thrown or mashed out of it. Therefore, only use this setup if you 100% need the side switch.
+
+Other oki setups include forward dash 5HP, which lets you go into 2MP afterwards, canceling into M Tatsu, and sweep, which has way more knockdown frames and can be used for various combos and punishes.

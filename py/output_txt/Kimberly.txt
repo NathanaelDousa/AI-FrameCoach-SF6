@@ -1,37 +1,549 @@
-Here is a rewritten transcript of the video guide about a fighting game character, with improved clarity and readability:
+Character: Kimberly
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 2
+Recovery: 8
+On Hit: +5
+On Block: -2
+Cancelable: Chain, Special, Super, Target Combo
+Notes: --
 
-**Introduction**
+Character: Kimberly
+Move: Standing Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 18
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super, Target Combo
+Notes: --
 
-This video guide will cover the basics of playing Kimberly in a popular fighting game. As a beginner-friendly character, Kimberly offers a unique playstyle that focuses on throws and mixups.
+Character: Kimberly
+Move: Standing Heavy Punch
+Startup: 9
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -4
+Cancelable: Special, Super
+Notes: Spinning Knockback of +23 on Punish Counter.
 
-**Basic Mechanics**
+Character: Kimberly
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: +1
+On Block: -3
+Cancelable: Special, Super
+Notes: --
 
-Kimberly's basic mechanics include her dash, jump, and throw attacks. Her throw is particularly useful for getting opponents into a knockdown state, which can be punishing if not blocked or reversed.
+Character: Kimberly
+Move: Standing Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 18
+On Hit: +1
+On Block: -4
+Cancelable: Special, Super
+Notes: --
 
-**Neutral Play**
+Character: Kimberly
+Move: Standing Heavy Kick
+Startup: 12
+Active Frames: 4
+Recovery: 17
+On Hit: +7
+On Block: +2
+Cancelable: --
+Notes: --
 
-In the neutral game, Kimberly excels at using her elbow drop to create openings for throws. This can be especially effective against opponents who are trying to punish her with quick attacks.
+Character: Kimberly
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: -1 on block as of December 2024 patch.
 
-**Throwing**
+Character: Kimberly
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 3
+Recovery: 13 (15 on whiff)
+On Hit: +7
+On Block: -1
+Cancelable: Special, Super
+Notes: --
 
-Kimberly's throws are some of her strongest tools in the game. By using her throw attack, she can get opponents into a knockdown state and then follow up with a combo or throw again. The key is to use her throw wisely, as it can be punished if blocked or reversed.
+Character: Kimberly
+Move: Crouching Heavy Punch
+Startup: 8
+Active Frames: 6
+Recovery: 17
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-**Mixups**
+Character: Kimberly
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 7
+On Hit: +4
+On Block: -2
+Cancelable: Chain
+Notes: +4 on hit as of December 2024 patch. As of June 2025 patch: reduced pushback on block.
 
-To mix things up (pun intended), Kimberly can use her dash attacks to create new openings for throws. This can be especially effective against opponents who are trying to anticipate her next move.
+Character: Kimberly
+Move: Crouching Medium Kick
+Startup: 7
+Active Frames: 3
+Recovery: 16
+On Hit: +5
+On Block: +1
+Cancelable: --
+Notes: Initial scaling of 20%.
 
-**Advanced Techniques**
+Character: Kimberly
+Move: Crouching Heavy Kick
+Startup: 8
+Active Frames: 3
+Recovery: 24
+On Hit: Knockdown +38
+On Block: -10
+Cancelable: --
+Notes: --
 
-Once you have a solid foundation in the basics, you can start exploring more advanced techniques with Kimberly. One key strategy is to use her Drive Rush attack to cancel out an opponent's attempt at a throw or reversal. This can lead to some devastating combos and punishes if executed correctly.
+Character: Kimberly
+Move: Down-Forward + Medium Kick (Water Slicer Slide)
+Startup: 11
+Active Frames: 10
+Recovery: 16
+On Hit: +1...+6
+On Block: -5...0
+Cancelable: --
+Notes: As of December 2024 patch: will never meaty for frames 1-4, will always be +1 on hit and -5 on block. Additionally, frames 1-4 will knockdown on Punish Counter.
 
-**Combos**
+Character: Kimberly
+Move: Back + Heavy Kick (Windmill Kick)
+Startup: 22
+Active Frames: 2
+Recovery: 19
+On Hit: +4
+On Block: -3
+Cancelable: --
+Notes: --
 
-Kimberly has a variety of combos that can be used to punish opponents in different situations. By mastering these combos, you can create a sense of rhythm and flow in your gameplay.
+Character: Kimberly
+Move: Forward + Heavy Kick (Hisen Kick)
+Startup: 27
+Active Frames: 3
+Recovery: 21
+On Hit: +1
+On Block: -3
+Cancelable: --
+Notes: As of December 2024 patch: has increased hitbox range and has a 13 frame input buffer on hit/block.
 
-**Defensive Strategies**
+Character: Kimberly
+Move: Step Up (Hisen Kick > Up/Up-Forward/Up-Back)
+Startup: 19
+Active Frames: --
+Recovery: 3 Landing
+On Hit: +2
+On Block: -15
+Cancelable: --
+Notes: Makes Kimberly jump cancel after the Hisen Kick, can be done both On-Hit and On-Block. Pressing Up/Up-Forward/Up-Back changes the followup jump angle. Can use any jump attack out of this jumping state, including Bushin Senpukyaku off of the Up-Forward version. The frame meter in game says "-10" doing the Step Up On-Hit and "-22" for On-Block, however that is how advantaged Kimberly is after doing nothing (empty landing). If Kimberly does a jump attack as soon as possible after Step Up, she is +2 On-Hit and -15 On-Block.
 
-As with any character, defensive strategies are crucial for success with Kimberly. You should focus on using her block and parry attacks to absorb incoming damage, as well as using her dash and jump attacks to create openings for counterattacks.
+Character: Kimberly
+Move: Medium Punch, Heavy Punch (Bushin Tiger Fangs)
+Startup: 6, 10
+Active Frames: 3, 3
+Recovery: 18, 26
+On Hit: +3, Knockdown +28
+On Block: -2, -12
+Cancelable: Special, Super
+Notes: Limited Juggle State on hit.
 
-**Conclusion**
+Character: Kimberly
+Move: Light Punch, Medium Punch, Heavy Punch, Heavy Kick (Bushin Prism Strikes)
+Startup: 5, 6, 12, 26
+Active Frames: 2, 3, 2, 3
+Recovery: 8, 18, 25, 19
+On Hit: +5, +1, Knockdown +47, Knockdown +49
+On Block: -2, -6, -10, -12
+Cancelable: --
+Notes: Second hit always scales to 90%, third to 80%, fourth to 70%.
 
-In this video guide, we've covered the basics of playing Kimberly in a popular fighting game. With practice and patience, you can master her unique playstyle and become a formidable opponent on the battlefield. Thanks for watching!
+Character: Kimberly
+Move: Light Punch, Medium Punch, Down + Heavy Punch, Heavy Kick (Bushin Hellchain)
+Startup: 5, 6, 10, 15
+Active Frames: 2, 3, 2, 3
+Recovery: 8, 18, 25, 24
+On Hit: +5, +1, +2, Knockdown +26
+On Block: -2, -6, -10, -12
+Cancelable: --
+Notes: Second hit always scales to 90%, third to 80%, fourth to 70%.
+
+Character: Kimberly
+Move: Light Punch, Medium Punch, Down + Heavy Punch, Down + Heavy Kick (Bushin Hellchain Throw)
+Startup: 5, 6, 10, 15
+Active Frames: 2, 3, 2, 1
+Recovery: 8, 18, 25, **
+On Hit: +5, +1, +2, Knockdown +16
+On Block: -2, -6, -10, -12
+Cancelable: --
+Notes: Second hit always scales to 90%, third to 80%, fourth to 70%. Last hit is a side-swap hit grab.
+
+Character: Kimberly
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: --
+Notes: --
+
+Character: Kimberly
+Move: Jump Medium Punch
+Startup: 6
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +12...
+On Block: +8...
+Cancelable: Special
+Notes: Limited Juggle State on air hit. Whiffs on crouching opponents.
+
+Character: Kimberly
+Move: Jump Heavy Punch
+Startup: 8
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +4...
+Cancelable: --
+Notes: Forced Knockdown on air hit. As of June 2025 patch: decreased initial and additional combo count.
+
+Character: Kimberly
+Move: Jump Light Kick
+Startup: 5
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2..
+Cancelable: --
+Notes: Crosses up.
+
+Character: Kimberly
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: --
+
+Character: Kimberly
+Move: Jump Heavy Kick
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +12...
+On Block: +7...
+Cancelable: --
+Notes: --
+
+Character: Kimberly
+Move: Jump, Down + Medium Punch
+Startup: 13
+Active Frames: **
+Recovery: 8 Landing
+On Hit: +4...+8
+On Block: -3...+1
+Cancelable: --
+Notes: Active until landing.
+
+Character: Kimberly
+Move: Bushin Senpukyaku (Light Kick)
+Startup: 6
+Active Frames: 6, 6, 6, 3 (2, 7, 8)
+Recovery: 23
+On Hit: Knockdown +23
+On Block: -30
+Cancelable: 
+Notes: Anti-air invincible on frames 5-11. Lower body projectile invincible on frames 7-42. Active frames change on-whiff versus on-hit.
+
+Character: Kimberly
+Move: Bushin Senpukyaku (Medium Kick)
+Startup: 7
+Active Frames: 6, 6, 6, 3 (2, 7, 8)
+Recovery: 25
+On Hit: Knockdown +22
+On Block: -32
+Cancelable: 
+Notes: Anti-air invincible on frames 6-12. Lower body projectile invincible on frames 8-45. Active frames change on-whiff versus on-hit.
+
+Character: Kimberly
+Move: Bushin Senpukyaku (Heavy Kick)
+Startup: 8
+Active Frames: 6, 6, 6, 3 (2, 7, 8)
+Recovery: 28
+On Hit: Knockdown +21
+On Block: -35
+Cancelable: 
+Notes: Anti-air invincible on frames 7-13. Lower body projectile invincible on frames 9-49. Active frames change on-whiff versus on-hit.
+
+Character: Kimberly
+Move: Bushin Senpukyaku (Overdrive)
+Startup: 6
+Active Frames: 6, 6, 6, 6, 2 (6, 6, 6, 6, 8)
+Recovery: 29 (28)
+On Hit: Knockdown +21
+On Block: -35
+Cancelable: 
+Notes: Anti-air invincible on frames 1-10. Lower body projectile invincible on frames 7-46. Active frames change on-whiff versus on-hit.
+
+Character: Kimberly
+Move: Aerial Bushin Senpukyaku
+Startup: 8
+Active Frames: 2, 2, 2
+Recovery: 12 Landing
+On Hit: +2...+4
+On Block: -2...+1
+Cancelable: 
+Notes: Cannot cross up. Knockdown on air hit.
+
+Character: Kimberly
+Move: Aerial Bushin Senpukyaku (Overdrive)
+Startup: 8
+Active Frames: 2, 3, 2, 3, 2
+Recovery: 12 Landing
+On Hit: +3...+5
+On Block: 0...+3
+Cancelable: 
+Notes: Crosses up. Knockdown on air hit.
+
+Character: Kimberly
+Move: Sprint
+Startup: 6...
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Overdrive version has same frame data, just moves faster.
+
+Character: Kimberly
+Move: Arc Step
+Startup: (6...)+15
+Active Frames: 2, 2
+Recovery: 30
+On Hit: +3
+On Block: -6
+Cancelable: 
+Notes: --
+
+Character: Kimberly
+Move: Arc Step (Overdrive)
+Startup: (6...)+13
+Active Frames: 2, 2
+Recovery: 30
+On Hit: +3
+On Block: -6
+Cancelable: 
+Notes: --
+
+Character: Kimberly
+Move: Bushin Izuna Otoshi
+Startup: ((8...)+15)+13
+Active Frames: 5
+Recovery: 40
+On Hit: Knockdown +31 (Knockdown +94)
+On Block: --
+Cancelable: 
+Notes: Overdrive version causes a ground bounce Limited Juggle State, data in parenthesis.
+
+Character: Kimberly
+Move: Bushin Hojin Kick
+Startup: ((8...)+15)+13
+Active Frames: 6
+Recovery: 20
+On Hit: Knockdown +30 (Knockdown +43)
+On Block: -8
+Cancelable: 
+Notes: Overdrive version wall splats in the corner into a Limited Juggle State, data in parenthesis.
+
+Character: Kimberly
+Move: Emergeny Stop
+Startup: (8...)+14
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Overdrive version is only 1 frame faster empty, but 3 frames faster cancelled from a normal (so +3 extra on-hit/on-block).
+
+Character: Kimberly
+Move: Torso Cleaver
+Startup: (8...)+21 ((8...)+17)
+Active Frames: 7
+Recovery: 16
+On Hit: Knockdown +41 (Knockdown +43)
+On Block: +1 (+3)
+Cancelable: 
+Notes: Overdrive data in parenthesis.
+
+Character: Kimberly
+Move: Shadow Slide
+Startup: (8...)+10 ((8...)+8)
+Active Frames: 12 (12**)
+Recovery: 19 (19)
+On Hit: Knockdown +39 (Knockdown +47)
+On Block: -12...-1 (-10...-9)
+Cancelable: 
+Notes: Overdrive data in parenthesis. Overdrive causes Limited Juggle State on hit. Overdrive's second hitbox prevents late meaty advantage.
+
+Character: Kimberly
+Move: Neck Hunter
+Startup: (8...)+19 ((8...)+15)
+Active Frames: 5 (5)
+Recovery: 19 (19)
+On Hit: Knockdown +23 (Knockdown +25)
+On Block: -3 (-1)
+Cancelable: 
+Notes: Overdrive data in parenthesis. Overdrive air hit causes Limited Juggle State.
+
+Character: Kimberly
+Move: Vagabond Edge (Light Punch)
+Startup: 10
+Active Frames: 3
+Recovery: 21
+On Hit: +3
+On Block: -5
+Cancelable: 
+Notes: --
+
+Character: Kimberly
+Move: Vagabond Edge (Medium Punch)
+Startup: 17
+Active Frames: 2
+Recovery: 28
+On Hit: Knockdown +37
+On Block: -12
+Cancelable: 
+Notes: Second hit only comes out on-hit.
+
+Character: Kimberly
+Move: Vagabond Edge (Heavy Punch)
+Startup: 24
+Active Frames: 2
+Recovery: 31
+On Hit: Knockdown +56
+On Block: -12
+Cancelable: 
+Notes: Limited Juggle State on hit. Second hit only comes out on-hit.
+
+Character: Kimberly
+Move: Vagabond Edge (Overdrive)
+Startup: 17
+Active Frames: 2
+Recovery: 31
+On Hit: Knockdown +56
+On Block: -12
+Cancelable: 
+Notes: Limited Juggle State on hit. Second hit only comes out on-hit.
+
+Character: Kimberly
+Move: Hidden Variable
+Startup: 19
+Active Frames: --
+Recovery: (7) 17 (14 + 3 Landing)
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Full invincibility on frames 19-26. Can cancel recovery into an attack after 7 frames, full recovery is 17 without a cancel. Overdrive version has same cancel after 7 frames of recovery, but for jump attacks. Full overdrive recovery is 14+3 Landing.
+
+Character: Kimberly
+Move: Shuriken Bomb / Genius at Play
+Startup: 18
+Active Frames: 10
+Recovery: 26
+On Hit: Knockdown +88
+On Block: --
+Cancelable: 
+Notes: Throws a Spray Can on the ground, strength of Punch determines location. Overdrive Spray Can throws two, and can use LP+MP/MP+HP/LP+HP to adjust distance of the cans. Limited Juggle State on hit.If at 0 Spray Can charges, will refill a Spray Can charge with the same total frames (44) as throwing a Spray Can. Overdrive refill grants two Spray Can charges.
+
+Character: Kimberly
+Move: Nue Twister
+Startup: 5
+Active Frames: 3
+Recovery: 20 Landing
+On Hit: Knockdown +22 (Knockdown +98)
+On Block: --
+Cancelable: 
+Notes: Limited Juggle Potential for normal version, lower Limited Juggle Potential for Overdrive version. Overdrive gives Limited Juggle State ground bounce on hit. Overdrive in parenthesis.
+
+Character: Kimberly
+Move: Bushin Beats (Level 1)
+Startup: 10
+Active Frames: 15
+Recovery: 40
+On Hit: Knockdown +22 (Knockdown +38)
+On Block: -25
+Cancelable: 
+Notes: Strike/Throw invincible on frames 1-10. Breaks armor. As of May 2024 patch, Spray Can charges are no longer used automatically -- can hold Kick to use a Spray Can charge for increased damage now.
+
+Character: Kimberly
+Move: Bushin Scramble (Level 2)
+Startup: 13
+Active Frames: 8
+Recovery: 39
+On Hit: Knockdown +22
+On Block: -25
+Cancelable: 
+Notes: Breaks armor. Can also be done off of a forward jump.
+
+Character: Kimberly
+Move: Bushin Ninjastar Cypher (Level 3)
+Startup: 8
+Active Frames: 6
+Recovery: 51
+On Hit: Knockdown +16 (Knockdown +16)
+On Block: -35
+Cancelable: 
+Notes: Fully invincible on frames 1-11. Breaks armor. Critical Art in parenthesis. On activation, gives a permanent install state for the rest of the game that boosts damage and walk speed by 11%. Kimberly's base damage per hit is 11% lower than the rest of the cast, so this install state essentially makes her attacks do the same damage as everyone else.
+
+Character: Kimberly
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Kimberly
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +17
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: Kimberly
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +8
+On Block: 
+Cancelable: --
+Notes: --

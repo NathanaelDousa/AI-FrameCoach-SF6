@@ -1,0 +1,71 @@
+ed oki setups
+
+---
+
+Setup: Light Medium Punch Blitz + forward Dash to frame kill
+Timing: After knockdown
+Effective Against: Anti-jump, wake-up reversal (but not against shimmy)
+Weakness: Bad against mash/jump/throw (requires more practice time)
+
+---
+
+Setup: Target combo off of Medium Punch
+Timing: After knockdown
+Effective Against: None specified
+Weakness: Not mentioned
+
+---
+
+Setup: Heavy Blitz Oki + delay jump Fierce
+Timing: After knockdown
+Effective Against: Anti-jump, normal and back recovery
+Weakness: Can be mashed for minus 2 if perfect Parry is attempted
+
+---
+
+Setup: Double Dash into plus four (throw or stand medium punch)
+Timing: After knockdown
+Effective Against: Wake-up button
+Weakness: Not mentioned
+
+---
+
+Setup: Mey Flicker (medium kick) + throw/push
+Timing: After knockdown, opponent blocked/attacked
+Effective Against: None specified
+Weakness: Not mentioned
+
+---
+
+Setup: OD Flicker combo (plus 41)
+Timing: After OD Flicker
+Effective Against: Most reversals in the game (except for fast ones like Luke's level two)
+Weakness: Can be mistimed
+
+---
+
+Setup: Fireball into OD Flicker combo (plus 39)
+Timing: After knockdown
+Effective Against: None specified
+Weakness: Not mentioned
+
+---
+
+Setup: Full-charge OD Flicker combo (plus 42)
+Timing: After knockdown
+Effective Against: Every reversal in the game
+Weakness: Requires fully charging the flicker
+
+---
+
+Setup: Forward throw + plus 34 (midscreen)
+Timing: Corner
+Effective Against: None specified
+Weakness: Does not get Oki on midscreen
+
+---
+
+Setup: Kill rush and forward throw + shimmy
+Timing: Corner
+Effective Against: Wake-up reversal
+Weakness: Not mentioned

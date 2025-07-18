@@ -1,0 +1,549 @@
+Character: E. Honda
+Move: Standing Light Punch
+Startup: 5
+Active Frames: 3
+Recovery: 10
+On Hit: +4
+On Block: -2
+Cancelable: Special, Super, Target Combo
+Notes: --
+
+Character: E. Honda
+Move: Standing Medium Punch
+Startup: 10
+Active Frames: 4
+Recovery: 13 (15 on whiff)
+On Hit: +6
+On Block: +1
+Cancelable: Special, Super, Target Combo
+Notes: --
+
+Character: E. Honda
+Move: Standing Heavy Punch
+Startup: 8
+Active Frames: 7
+Recovery: 20
+On Hit: +1...+4
+On Block: -6...-3
+Cancelable: Early Frames: Special, Super
+Notes: Active frames 1-2 will whiff on grounded opponents if not close. If Sumo Spirit buff is active, late frames can be cancelled into Hundred Hand Slap. As of December 2024 patch: gained +2 advantage frames on hit, now +1...+4.
+
+Character: E. Honda
+Move: Standing Light Kick
+Startup: 4
+Active Frames: 2
+Recovery: 9
+On Hit: +5
+On Block: -1
+Cancelable: Special, Super
+Notes: --
+
+Character: E. Honda
+Move: Standing Medium Kick
+Startup: 10
+Active Frames: 4
+Recovery: 16
+On Hit: +4
+On Block: -3
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Standing Heavy Kick
+Startup: 8
+Active Frames: 2, 4
+Recovery: 22
+On Hit: -1
+On Block: -5
+Cancelable: Special, Super
+Notes: --
+
+Character: E. Honda
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 3
+Recovery: 10
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: --
+
+Character: E. Honda
+Move: Crouching Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 16
+On Hit: +4
+On Block: -3
+Cancelable: Special, Super
+Notes: --
+
+Character: E. Honda
+Move: Crouching Heavy Punch
+Startup: 11
+Active Frames: 4
+Recovery: 19
+On Hit: +3
+On Block: -3
+Cancelable: If Sumo Spirit buff is active, can cancel into Hundred Hand Slap.
+Notes: --
+
+Character: E. Honda
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 9
+On Hit: +3
+On Block: -3
+Cancelable: Chain
+Notes: --
+
+Character: E. Honda
+Move: Crouching Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 17
+On Hit: +6
+On Block: -2
+Cancelable: --
+Notes: June 2025 patch: initial scaling of 20%.
+
+Character: E. Honda
+Move: Crouching Heavy Kick
+Startup: 11, 6
+Active Frames: 3, 5
+Recovery: 24
+On Hit: Knockdown +30, **
+On Block: -10, **
+Cancelable: --
+Notes: Second hit only hits behind.
+
+Character: E. Honda
+Move: Forward + Heavy Kick
+Startup: 14
+Active Frames: 3
+Recovery: 21
+On Hit: +1
+On Block: -5
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Power Stomp (Down-Forward + Heavy Kick)
+Startup: 22
+Active Frames: 6
+Recovery: 18
+On Hit: +3
+On Block: -3
+Cancelable: --
+Notes: June 2025 patch: higher ground bounce on aerial hit, 20% combo scaling.
+
+Character: E. Honda
+Move: Light Punch, Medium Punch
+Startup: 5, 4
+Active Frames: 3, 4
+Recovery: 10, 20
+On Hit: +4, Knockdown +34
+On Block: -2, -10
+Cancelable: Special, Super
+Notes: Second hit scales to 90% (540).
+
+Character: E. Honda
+Move: Medium Punch, Down-Forward + Heavy Kick
+Startup: 10, 22
+Active Frames: 10
+Recovery: 13, 18
+On Hit: +4, +3
+On Block: +1, -3
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +5...
+On Block: +0...
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Jump Medium Punch
+Startup: 6
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2...
+Cancelable: --
+Notes: Knockdown juggle on air-to-air hit as of May 2024 patch.
+
+Character: E. Honda
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Character: E. Honda
+Move: Jump Medium Kick
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Forward Jump, Down + Medium Kick
+Startup: 11
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +11...
+On Block: +7...
+Cancelable: --
+Notes: Crosses up.
+
+Character: E. Honda
+Move: Neutral Jump Heavy Punch
+Startup: 10
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +13...
+On Block: +9...
+Cancelable: --
+Notes: Can steer to either the left or right after startup, must commit to chosen direction.
+
+Character: E. Honda
+Move: Hundred Hand Slap (Light Punch)
+Startup: 12
+Active Frames: 2, 2, 1, 2, 1, 2
+Recovery: 14
+On Hit: +2 (+4)
+On Block: -4
+Cancelable: 
+Notes: Sumo Spirit buff in parenthesis.
+
+Character: E. Honda
+Move: Hundred Hand Slap (Medium Punch)
+Startup: 18
+Active Frames: 2, 2, 1, 1, 1, 1, 1, 1, 2(2, 2, 1, 1, 1, 1, 1, 2)
+Recovery: 17
+On Hit: +2 (+4)
+On Block: -8
+Cancelable: 
+Notes: Sumo Spirit buff in parenthesis.
+
+Character: E. Honda
+Move: Hundred Hand Slap (Heavy Punch)
+Startup: 21
+Active Frames: 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2(2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2)
+Recovery: 17
+On Hit: +2 (+4)
+On Block: -8
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Hundred Hand Slap (Overdrive)
+Startup: 19
+Active Frames: 4, 2, 2, 2, 2, 2, 2, 2, 2(4, 2, 2, 2, 2, 2, 1, 1, 2, **)
+Recovery: 12
+On Hit: +4 (+6)
+On Block: -3
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Headbutt (Light Punch)
+Startup: 10
+Active Frames: ...22
+Recovery: 20
+On Hit: Knockdown +40
+On Block: -3
+Cancelable: 
+Notes: Deals 1400 damage on frames 10-13 as of may 2024 patch.
+
+Character: E. Honda
+Move: Sumo Headbutt (Medium Punch)
+Startup: 10
+Active Frames: ...24
+Recovery: 20
+On Hit: Knockdown +40
+On Block: -3
+Cancelable: 
+Notes: Deals 1400 damage on frames 10-13 as of may 2024 patch.
+
+Character: E. Honda
+Move: Sumo Headbutt (Heavy Punch)
+Startup: 14
+Active Frames: ...17
+Recovery: 20
+On Hit: Knockdown +40
+On Block: -3
+Cancelable: 
+Notes: Deals 1500 damage on frames 14-17 as of may 2024 patch.
+
+Character: E. Honda
+Move: Sumo Headbutt (Overdrive)
+Startup: 9
+Active Frames: ...19
+Recovery: 30
+On Hit: Knockdown +36
+On Block: -20
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Smash (Light Kick)
+Startup: 11
+Active Frames: 4, 8
+Recovery: 26, 17
+On Hit: Knockdown +23...
+On Block: +1
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Smash (Medium Kick)
+Startup: 11
+Active Frames: 4, 7
+Recovery: 24, 17
+On Hit: Knockdown +23...
+On Block: +1
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Smash (Heavy Kick)
+Startup: 11
+Active Frames: 4, 6
+Recovery: 22, 17
+On Hit: Knockdown +23...
+On Block: +1
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Smash (Overdrive)
+Startup: 6
+Active Frames: 12, 9
+Recovery: 13, 17
+On Hit: Knockdown +23...
+On Block: +1
+Cancelable: 
+Notes: Throw invincible frames 5-13.
+
+Character: E. Honda
+Move: Oicho Throw (Light Kick)
+Startup: 6
+Active Frames: 4
+Recovery: 52 (167)
+On Hit: Knockdown +7
+On Block: --
+Cancelable: 
+Notes: As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.
+
+Character: E. Honda
+Move: Oicho Throw (Medium Kick)
+Startup: 6
+Active Frames: 4
+Recovery: 52 (167)
+On Hit: Knockdown +7
+On Block: --
+Cancelable: 
+Notes: As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.
+
+Character: E. Honda
+Move: Oicho Throw (Heavy Kick)
+Startup: 6
+Active Frames: 4
+Recovery: 52 (167)
+On Hit: Knockdown +7
+On Block: --
+Cancelable: 
+Notes: As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.
+
+Character: E. Honda
+Move: Oicho Throw (Overdrive)
+Startup: 6
+Active Frames: 4
+Recovery: 52 (215)
+On Hit: Knockdown +7
+On Block: --
+Cancelable: 
+Notes: As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.
+
+Character: E. Honda
+Move: Sumo Dash
+Startup: 22...
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Sumo Dash (Overdrive)
+Startup: 22...
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Triple Slap
+Startup: 9, 14
+Active Frames: 3, 4
+Recovery: 22, 38
+On Hit: Knockdown +42, Knockdown +22
+On Block: -3, -24
+Cancelable: 
+Notes: As of December 2024 patch: extended hitbox on first and second hits horizontally. Reduced Arm hurtbox frames 0-14 and 25-28, reduced Feet hurtbox frames 9-33. Increased pushback on block.
+
+Character: E. Honda
+Move: Triple Slap (Overdrive)
+Startup: 9, 14
+Active Frames: 3, 4
+Recovery: 17, 38
+On Hit: Knockdown +45, Knockdown +54
+On Block: +3, -24
+Cancelable: 
+Notes: As of December 2024 patch: on-block changed from +2 to +3. Reduced pushback on block for first and second hits.
+
+Character: E. Honda
+Move: Taiho Cannon Lift
+Startup: 12
+Active Frames: 2, 3
+Recovery: 32
+On Hit: Limited Juggle State on hit. Knockdown +64.
+On Block: -22
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Taiho Cannon Lift (Overdrive)
+Startup: 12
+Active Frames: 3, 3
+Recovery: 32
+On Hit: Limited Juggle State on hit. Knockdown +64.
+On Block: -22
+Cancelable: 
+Notes: --
+
+Character: E. Honda
+Move: Neko Damashi
+Startup: 11
+Active Frames: 5
+Recovery: 14
+On Hit: +4
+On Block: -3
+Cancelable: 
+Notes: Destroys projectiles. If Sumo Spirit buff is active, can be cancelled into Hundred Hand Slap.
+
+Character: E. Honda
+Move: Sumo Spirit
+Startup: 52
+Active Frames: --
+Recovery: --
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Enables cancelling into Hundred Hand Slap for: Crouching Heavy Punch, late frames of Standing Heavy Punch, Neko Damashi. Buff lasts until consumed.
+
+Character: E. Honda
+Move: Show of Force (Level 1)
+Startup: 7
+Active Frames: 5
+Recovery: 48
+On Hit: Knockdown +13...
+On Block: -33
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-7. Breaks armor.
+
+Character: E. Honda
+Move: Ultimate Killer Head Ram (Level 2)
+Startup: 12
+Active Frames: **
+Recovery: 67
+On Hit: Knockdown +13
+On Block: -27
+Cancelable: 
+Notes: Fully invincible on frames 1-18. Breaks armor.
+
+Character: E. Honda
+Move: The Final Bout (Level 3)
+Startup: 9
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +11 (Knockdown +34)
+On Block: -34
+Cancelable: 
+Notes: Fully invincible on frames 1-11. Breaks armor. Critical Art in parenthesis.
+
+Character: E. Honda
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: E. Honda
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +17
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +14
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: E. Honda
+Move: Air Throw
+Startup: 5
+Active Frames: 3
+Recovery: **
+On Hit: **
+On Block: 
+Cancelable: --
+Notes: --

@@ -1,35 +1,579 @@
-Marissa: Gameplay Guide
+Character: Marisa
+Move: Standing Light Punch
+Startup: 6
+Active Frames: 3
+Recovery: 11
+On Hit: 0
+On Block: -2
+Cancelable: Target Combo
+Notes: --
 
-Marissa is a big body character with slow movement speed, but she makes up for it with her high damage output. Here's an overview of her moveset:
+Character: Marisa
+Move: Standing Medium Punch
+Startup: 7
+Active Frames: 4
+Recovery: 17
+On Hit: +2
+On Block: -1
+Cancelable: Target Combo
+Notes: --
 
-Normals:
-- Stan Job (stamina punch): 10 frames
-- Stamina Kick: 15 frames
-- Crouch Heavy Punch: 12 frames
-- Crouch Heavy Kick: 13 frames
+Character: Marisa
+Move: Standing Heavy Punch
+Startup: 12...23
+Active Frames: 2
+Recovery: 23...21
+On Hit: +3...+7
+On Block: -3...+4
+Cancelable: Target Combo
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
 
-Command Normals:
-- Overhead (Down Four, Heavy Punch): knocks down
-- Medium Crouch Punch: cancelable into kick or heavy punch
-- Crash Medium Punch: 14 frames
-- Crash Heavy Kick: 15 frames
+Character: Marisa
+Move: Standing Light Kick
+Startup: 6
+Active Frames: 2
+Recovery: 14
+On Hit: 0
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-Target Combos:
-- Jab-Jab combo: not cancellable, but can be canceled into another jab
-- Light Gladius (jab-jab into light gladius): true block string with chip damage
+Character: Marisa
+Move: Standing Medium Kick
+Startup: 11
+Active Frames: 4
+Recovery: 16
+On Hit: +4
+On Block: -2
+Cancelable: --
+Notes: --
 
-Special Moves:
-- Gladius (light, medium, and heavy versions): 70 frames (light), 19 frames (medium), and 22 frames (heavy) respectively. Higher levels cover more distance and deal more damage.
-- Sparta Kick: good for closing distance
-- Superman Punch: great for closing distance, plus two on block, non-punishable, and can't be easily drive impacted
+Character: Marisa
+Move: Standing Heavy Kick
+Startup: 15...24
+Active Frames: 2
+Recovery: 25
+On Hit: +1...Knockdown +36
+On Block: -3...+1
+Cancelable: --
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Partial charges that do not transition to knockdown are always still the same +1 on hit / -3 on block, any transition into knockdown is always knockdown +36 on hit / +1 on block.
 
-Stance:
-- Three follow-ups: Target as overhead, dark combo (sweep), and Command Pro. Stance can't be canceled from normal formats.
+Character: Marisa
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 10
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: --
 
-Focus Attack:
-- Four different focus attacks: Chevy Punch, Gladius Set Up to Jump, Ex Launcher, and Airtight Combo. Airtight Combo is considered her best.
+Character: Marisa
+Move: Crouching Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 16
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-Dead Zone:
-- Marissa has a dead zone where she can't enter reliably. To bypass this, use the jump Target combo which knocks down and allows for a good starting point for a rush-in.
+Character: Marisa
+Move: Crouching Heavy Punch
+Startup: 9...21
+Active Frames: 5
+Recovery: 23...21
+On Hit: Knockdown +35...+52
+On Block: -6...-3
+Cancelable: -- (Hold: Super)
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Full Juggle State on charged hit. Has a 9 frame input buffer during recovery as of December 2024 patch. Hold version can be cancelled into Super as of the June 2025 patch.
 
-This guide covers the basics of Marissa's gameplay. Part two will delve deeper into advanced strategies and setups.
+Character: Marisa
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 12
+On Hit: +2
+On Block: -3
+Cancelable: Chain
+Notes: --
+
+Character: Marisa
+Move: Crouching Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 18
+On Hit: +3
+On Block: -2
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Crouching Heavy Kick
+Startup: 11...20
+Active Frames: 3
+Recovery: 26...20
+On Hit: Knockdown +29...36
+On Block: -11...-3
+Cancelable: --
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Forward + Medium Punch
+Startup: 10
+Active Frames: 2
+Recovery: 20
+On Hit: +2
+On Block: -3
+Cancelable: Target Combo
+Notes: --
+
+Character: Marisa
+Move: Back + Heavy Punch
+Startup: 8...20
+Active Frames: 2
+Recovery: 24...19
+On Hit: +3...+13
+On Block: -1...+4
+Cancelable: Special, Super
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Malleus Breaker (Down-Forward + Heavy Punch)
+Startup: 21...28
+Active Frames: 2
+Recovery: 21...19
+On Hit: 0...+5
+On Block: -3...+2
+Cancelable: Target Combo
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Falx Crusher Kick (Forward + Heavy Kick)
+Startup: 14...27
+Active Frames: 4
+Recovery: 21...19
+On Hit: 0...+10
+On Block: -3...+3
+Cancelable: Special, Super, Target Combo
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Light Punch, Light Punch
+Startup: 6, 14
+Active Frames: 3, 3
+Recovery: 11, 22
+On Hit: 0, -3
+On Block: -2, -6
+Cancelable: First Hit: --Second Hit: Special, Super
+Notes: Second hit does not combo unless counter hit.
+
+Character: Marisa
+Move: Medium Punch, Medium Punch
+Startup: 7, 14
+Active Frames: 4, 2
+Recovery: 17, 23
+On Hit: +2, -3
+On Block: -1, -8
+Cancelable: First Hit: --Second Hit: Special, Super
+Notes: --
+
+Character: Marisa
+Move: Heavy Two Hitter (Heavy Punch, Heavy Punch)
+Startup: 12...26, 24
+Active Frames: 2, 3
+Recovery: 23...22, 19
+On Hit: +3...+6, Knockdown +42
+On Block: -3...+3, +2
+Cancelable: --
+Notes: Second hit always scales to 90% (900).
+
+Character: Marisa
+Move: Forward + Medium Punch, Heavy Punch
+Startup: 10, 11
+Active Frames: 2, 2
+Recovery: 20, 26
+On Hit: +2, Knockdown +31
+On Block: -3, -12
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Forward + Medium Punch, Heavy Kick
+Startup: 10, 11
+Active Frames: 2, 4
+Recovery: 20, 23
+On Hit: +2, Knockdown +39
+On Block: -3, -10
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Down-Forward + Heavy Punch, Down-Forward + Heavy Punch
+Startup: 21...31, 18
+Active Frames: 2, 2
+Recovery: 21...19, 24
+On Hit: 0...+5, Knockdown +29
+On Block: -3...+2, -12
+Cancelable: --
+Notes: Can hold down the button to charge the first attack, data listed as 'no charge...max charge'. Second hit knocks down as of December 2024 patch.
+
+Character: Marisa
+Move: Forward + Heavy Kick, Forward + Heavy Kick
+Startup: 14...27, 16
+Active Frames: 4, 5
+Recovery: 21...19, 25
+On Hit: 0...+10, Knockdown +40
+On Block: -3...+3, -12
+Cancelable: First Hit: Special, SuperSecond Hit: --
+Notes: Can hold down the button to charge the first attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Jump Medium Punch, Jump Medium Punch
+Startup: 7, 10
+Active Frames: 4, 3
+Recovery: 3 Landing
+On Hit: +8..., --
+On Block: +4..., --
+Cancelable: --
+Notes: Limited Juggle State on air hit with first hit, Forced Knockdown on air hit with second hit.
+
+Character: Marisa
+Move: Jump Light Punch
+Startup: 4
+Active Frames: 7
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +6...
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Jump Medium Punch
+Startup: 7
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: Target Combo
+Notes: Limited Juggle State on air hit.
+
+Character: Marisa
+Move: Jump Heavy Punch
+Startup: 10...28
+Active Frames: 7...6
+Recovery: 3 Landing
+On Hit: +9...Knockdown +69...
+On Block: +5...+12...
+Cancelable: --
+Notes: Knockdown on aerial hit. Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Jump Light Kick
+Startup: 5
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +1...
+Cancelable: --
+Notes: Crosses up.
+
+Character: Marisa
+Move: Jump Medium Kick
+Startup: 8
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +6...
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Jump Heavy Kick
+Startup: 10...29
+Active Frames: 7...6
+Recovery: 3 Landing
+On Hit: +10...Knockdown +70...
+On Block: +6...+13...
+Cancelable: --
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'.
+
+Character: Marisa
+Move: Caelum Arc (Neutral Jump > Down + Heavy Punch)
+Startup: 9...28
+Active Frames: 9
+Recovery: 3 Landing
+On Hit: +11...+15 (Knockdown +71...)
+On Block: +7...+11 (+14...+18)
+Cancelable: --
+Notes: Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Crosses up.
+
+Character: Marisa
+Move: Gladius (Light Punch)
+Startup: 17...30
+Active Frames: 4
+Recovery: 21...20
+On Hit: Knockdown +36...+40
+On Block: -5...+4
+Cancelable: 
+Notes: Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).
+
+Character: Marisa
+Move: Gladius (Medium Punch)
+Startup: 19...35
+Active Frames: 4
+Recovery: 21...20
+On Hit: Knockdown +36...+40
+On Block: -5...+4
+Cancelable: 
+Notes: Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).
+
+Character: Marisa
+Move: Gladius (Heavy Punch)
+Startup: 22...41
+Active Frames: 4
+Recovery: 21...20
+On Hit: Knockdown +36...+40
+On Block: -5...+4
+Cancelable: 
+Notes: Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).
+
+Character: Marisa
+Move: Gladius (Overdrive)
+Startup: 19...35
+Active Frames: 4
+Recovery: 21...20
+On Hit: Knockdown +36...+40
+On Block: -2...+4
+Cancelable: 
+Notes: Breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 1 until becoming active (affected by charge). Charged version grants two hits of upper body hit armor. Adds 30% scaling in combos as of May 2024 patch.
+
+Character: Marisa
+Move: Dimachaerus (Light Punch)
+Startup: 12, 13
+Active Frames: 4, 5
+Recovery: 30, 23
+On Hit: -3, Knockdown +31
+On Block: -16, --
+Cancelable: 
+Notes: Can followup with Forward + Punch for a second hit, listed as second hit in data.
+
+Character: Marisa
+Move: Dimachaerus (Medium Punch)
+Startup: 16, 13
+Active Frames: 4, 5
+Recovery: 30, 24
+On Hit: 0, Knockdown +36
+On Block: -16, --
+Cancelable: 
+Notes: Can followup with Forward + Punch for a second hit, listed as second hit in data. As of June 2025 patch, Anti Air Invuln increased and is now waist-up (was previously just the head).
+
+Character: Marisa
+Move: Dimachaerus (Heavy Punch)
+Startup: 22, 18
+Active Frames: 4, 5
+Recovery: 30, 23
+On Hit: Knockdown +38, Ground Bounce +56
+On Block: -16, --
+Cancelable: 
+Notes: Can followup with Forward + Punch for a second hit, listed as second hit in data. Full Juggle State on hit for both hits.
+
+Character: Marisa
+Move: Dimachaerus (Overdrive)
+Startup: 16, 13
+Active Frames: 4, 5
+Recovery: 30, 23
+On Hit: Knockdown +42, Ground Bounce +56
+On Block: -12, --
+Cancelable: 
+Notes: Can followup with Forward + Punch for a second hit, listed as second hit in data. Full Juggle State on hit for both hits.
+
+Character: Marisa
+Move: Phalanx (Light Punch)
+Startup: 25
+Active Frames: 6
+Recovery: 18
+On Hit: Knockdown +42
+On Block: +2
+Cancelable: 
+Notes: One hit of armor on frames 7-11. 6 Active frames as of December 2024 patch.
+
+Character: Marisa
+Move: Phalanx (Medium Punch)
+Startup: 28
+Active Frames: 6
+Recovery: 18
+On Hit: Knockdown +42
+On Block: +2
+Cancelable: 
+Notes: One hit of armor on frames 7-13. 6 Active frames as of December 2024 patch.
+
+Character: Marisa
+Move: Phalanx (Heavy Punch)
+Startup: 32
+Active Frames: 6
+Recovery: 18
+On Hit: Knockdown +42
+On Block: +2
+Cancelable: 
+Notes: One hit of armor on frames 10-15. 6 Active frames as of December 2024 patch.
+
+Character: Marisa
+Move: Phalanx (Overdrive)
+Startup: 28
+Active Frames: 6
+Recovery: 18
+On Hit: Knockdown +70
+On Block: +4
+Cancelable: 
+Notes: One hit of armor on frames 6-12. Wall Splats in the corner on hit. 6 Active frames as of December 2024 patch.
+
+Character: Marisa
+Move: Quadriga (Light Kick)
+Startup: 20
+Active Frames: 4
+Recovery: 24
+On Hit: Knockdown +35
+On Block: -6
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Quadriga (Medium Kick)
+Startup: 24
+Active Frames: 4
+Recovery: 22
+On Hit: Knockdown +37
+On Block: -4
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Quadriga (Heavy Kick)
+Startup: 29
+Active Frames: 4
+Recovery: 21
+On Hit: Knockdown +37
+On Block: -3
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Quadriga (Overdrive)
+Startup: 24
+Active Frames: 4
+Recovery: 24
+On Hit: Wall Splat +50...+68
+On Block: -6
+Cancelable: 
+Notes: Breaks armor.
+
+Character: Marisa
+Move: Scutum
+Startup: 3
+Active Frames: 26...116
+Recovery: 26
+On Hit: +1...+3
+On Block: -3
+Cancelable: 
+Notes: Upper body armor while active, but really wonkie and depends on the hitbox/hurtbox of the attacker (can armor Ryu cr.LP but not Juri cr.LP, for instance). Gives more advantage versus light attacks. Followup attack breaks armor (as of May 2024 patch).
+
+Character: Marisa
+Move: Scutum (Overdrive)
+Startup: 1
+Active Frames: 25...28
+Recovery: 29
+On Hit: +1...+3
+On Block: -5
+Cancelable: 
+Notes: Full body armor while active. Gives more advantage versus light attacks. Followup attack breaks armor (as of May 2024 patch).
+
+Character: Marisa
+Move: Scutum > Tonitrus
+Startup: (9...+)15, 20
+Active Frames: 3, 3
+Recovery: 23, 36
+On Hit: +1, Knockdown +31
+On Block: -3, -21
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Scutum > Procella
+Startup: (9...+)16
+Active Frames: 3
+Recovery: 37
+On Hit: Knockdown +22
+On Block: -24
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Scutum > Enfold
+Startup: (9...+)5
+Active Frames: 3
+Recovery: 54
+On Hit: Knockdown +18
+On Block: --
+Cancelable: 
+Notes: --
+
+Character: Marisa
+Move: Javelin of Marisa (Level 1)
+Startup: 19 (42) (6)
+Active Frames: 5
+Recovery: 60
+On Hit: Knockdown +14 (Knockdown +35) (Knockdown +46)
+On Block: -43 (-43) (--)
+Cancelable: 
+Notes: Has two hits of full body armor on frames 2-23. Breaks armor. Charged version transitions to a parry version of the move when the armor is struck.Data listed as: Normal (Full Charge) (Parry). Counter damaged reduced from 2640 to 2400 in June 2025 patch.
+
+Character: Marisa
+Move: Meteorite (Level 2)
+Startup: 9 (34)
+Active Frames: 8 (4)
+Recovery: ** (59)
+On Hit: Knockdown +17
+On Block: ** (-44)
+Cancelable: 
+Notes: Fully invincible on frames 1-16. Breaks armor. Late hit listed in parenthesis. As of June 2025 patch, can now hold left/right to adjust distance moved during attack.
+
+Character: Marisa
+Move: Goddess of the Hunt (Level 3)
+Startup: 13
+Active Frames: 7
+Recovery: 60
+On Hit: Knockdown +14 (Knockdown +14)
+On Block: -39
+Cancelable: 
+Notes: Fully invincible on frames 1-19. Breaks armor. Critical Art in parenthesis.
+
+Character: Marisa
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Marisa
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +23
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: Marisa
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +33
+On Block: 
+Cancelable: --
+Notes: --

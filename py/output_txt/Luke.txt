@@ -1,43 +1,509 @@
-Here's a rewritten transcript of the video guide about playing as Luke in a fighting game:
+Character: Luke
+Move: Standing Light Punch
+Startup: 7
+Active Frames: 2
+Recovery: 14
+On Hit: +2
+On Block: -3
+Cancelable: Chain, Special, Super
+Notes: --
 
-**Introduction**
+Character: Luke
+Move: Standing Medium Punch
+Startup: 9
+Active Frames: 4
+Recovery: 16
+On Hit: +2
+On Block: -3
+Cancelable: Super
+Notes: --
 
-Welcome to our video guide on playing as Luke, one of the most iconic characters in the fighting game community. In this video, we'll be covering Luke's moveset, combos, and strategies for both casual and competitive play.
+Character: Luke
+Move: Standing Heavy Punch
+Startup: 10
+Active Frames: 3
+Recovery: 23
+On Hit: +1
+On Block: -6
+Cancelable: Special, Super
+Notes: --
 
-**Luke's Moveset**
+Character: Luke
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 2
+Recovery: 12
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-Let's start with Luke's basic moveset. He has a variety of normal attacks, including punches and kicks, as well as some special moves like his flash knuckles. His flash knuckles are a key part of his offense, allowing him to create distance and combo opportunities.
+Character: Luke
+Move: Standing Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +1
+On Block: -3
+Cancelable: --
+Notes: --
 
-**Combos**
+Character: Luke
+Move: Standing Heavy Kick
+Startup: 10
+Active Frames: 7
+Recovery: 16
+On Hit: +2...+8
+On Block: -5...+1
+Cancelable: --
+Notes: Strike Invuln on the knee on frame 9. Decreased hurtbox on feet as of June 2025 patch.
 
-Now let's talk about some combos you can do with Luke. One of the most basic is the crouching light punch, followed by two crouching medium punches. This combo does decent damage and sets up for more advanced combos.
+Character: Luke
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 10
+On Hit: +4
+On Block: -2
+Cancelable: Chain, Special, Super
+Notes: --
 
-Another important combo is the drive rush forward crouching medium punch, crouching heavy punch. This combo does a lot of damage and can be used to punish opponents who try to jump in on you.
+Character: Luke
+Move: Crouching Medium Punch
+Startup: 6
+Active Frames: 2
+Recovery: 14 (17 on whiff)
+On Hit: +5
+On Block: +1
+Cancelable: Special, Super
+Notes: 3 extra frames of recovery on whiff (added in Feb 27, 2024 patch). 15% scaling adding to followup combo attacks as of May 2024 patch.
 
-**Drive Rush**
+Character: Luke
+Move: Crouching Heavy Punch
+Startup: 7
+Active Frames: 5
+Recovery: 24
+On Hit: +1
+On Block: -13
+Cancelable: Special, Super
+Notes: 15% scaling added to followup combo attacks as of May 2024 patch.
 
-Speaking of drive rush, let's talk about how to use it effectively with Luke. Drive rush allows you to move quickly around the screen while also dealing some damage. You can use it to get in close to your opponent or to create distance and set up for a combo.
+Character: Luke
+Move: Crouching Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: 0
+On Block: -3
+Cancelable: Chain
+Notes: --
 
-One key thing to note is that Luke's level two super can be canceled from drive rush, making it a great way to end a combo and rack up some big damage.
+Character: Luke
+Move: Crouching Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: -2
+On Block: -6
+Cancelable: Special, Super
+Notes: 20% damage scaling to followup combo hits.
 
-**Knockdowns**
+Character: Luke
+Move: Crouching Heavy Kick
+Startup: 10
+Active Frames: 3
+Recovery: 27
+On Hit: Knockdown +40
+On Block: -9
+Cancelable: --
+Notes: --
 
-Now let's talk about knockdowns. Knockdowns are an important part of any fighting game strategy, as they allow you to control the pace of the match and set up for more opportunities.
+Character: Luke
+Move: Forward + Medium Punch
+Startup: 21
+Active Frames: 2
+Recovery: 21
+On Hit: +2
+On Block: -3
+Cancelable: --
+Notes: --
 
-Luke has several options for knockdowns, including his light flash knuckle, medium punch, and heavy kick. Each of these moves can be used to create a knockdown situation, depending on your opponent's positioning and reaction time.
+Character: Luke
+Move: Back + Heavy Punch
+Startup: 16
+Active Frames: 3
+Recovery: 20
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+Notes: --
 
-**Super Moves**
+Character: Luke
+Move: Back + Heavy Kick (Outlaw Kick)
+Startup: 12
+Active Frames: 4
+Recovery: 24
+On Hit: +4
+On Block: -3
+Cancelable: --
+Notes: +17 on Punish Counter as of May 2024 patch.
 
-Finally, let's talk about Luke's super moves. Luke has three super levels: level one, level two, and level three. His level one super is a quick, high-priority move that can be canceled from drive rush, while his level two super does more damage but takes longer to charge.
+Character: Luke
+Move: Forward + Heavy Punch
+Startup: 16
+Active Frames: 3
+Recovery: 15
+On Hit: +3
+On Block: -3
+Cancelable: Target Combo
+Notes: As of December 2024 patch: forward movement increased.
 
-His level three super is the most powerful of all, doing massive damage and creating a lot of knockdown opportunities. However, it also leaves Luke vulnerable for a short time after use, so you'll want to use it wisely.
+Character: Luke
+Move: Forward + Heavy Punch, Heavy Punch
+Startup: 16, 11
+Active Frames: 3, 2
+Recovery: 6, 34
+On Hit: +3, Knockdown +20
+On Block: -3, -19
+Cancelable: Second Hit: Special, Super
+Notes: --
 
-**Frame Kills**
+Character: Luke
+Move: Triple Impact (Light Punch, Medium Punch, Hard Punch)
+Startup: 7, 8, 10
+Active Frames: 2, 4, 3
+Recovery: 14, 20, 27
+On Hit: +2, -2, Knockdown +27
+On Block: -3, -9, -14
+Cancelable: Third Hit: Special, Super
+Notes: Second hit scales to 80% (320) and third to 70% (420).
 
-In addition to his combos and supers, Luke has several frame kills that can be used to punish opponents who try to jump in on him or react too slowly to his attacks.
+Character: Luke
+Move: Nose Breaker (Down + Medium Kick, Down + Heavy Punch)
+Startup: 8, 9
+Active Frames: 3, 3
+Recovery: 19, 25
+On Hit: -2, +2
+On Block: -6, -8
+Cancelable: --
+Notes: Second hit scales to 80% (480). +2 on hit as of December 2024 patch.
 
-One key example is the crouching light punch, followed by a whiffed stand heavy kick. This combo does a lot of damage and creates a knockdown situation, making it a great way to start a combo.
+Character: Luke
+Move: Snapback Combo (Medium Punch, Medium Punch, Medium Punch, Medium Punch)
+Startup: 9, 12, 11, 11
+Active Frames: 4, 2, 2, 2
+Recovery: 16, 23, 29, 27
+On Hit: +2, 0, -6, Knockdown +34
+On Block: -3, -8, -14, -12
+Cancelable: Second Hit: Super
+Notes: Third hit scales to 80% (240) and fourth hit scales to 70% (350).
 
-**Conclusion**
+Character: Luke
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 9
+Recovery: 3 Landing
+On Hit: +6...
+On Block: +2...
+Cancelable: --
+Notes: --
 
-That's it for our video guide on playing as Luke! We hope you found this information helpful in improving your gameplay and taking down opponents with confidence. If you have any questions or want to share your own tips and strategies, be sure to leave them in the comments below. Thanks for watching, and we'll see you in the next video!
+Character: Luke
+Move: Jump Medium Punch
+Startup: 9
+Active Frames: 4
+Recovery: 3 Landing
+On Hit: +10...
+On Block: +6...
+Cancelable: Special
+Notes: Juggle state on air hit.
+
+Character: Luke
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +7...
+On Block: +3...
+Cancelable: --
+Notes: --
+
+Character: Luke
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +0...
+Cancelable: --
+Notes: Crosses up.
+
+Character: Luke
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: Crosses up.
+
+Character: Luke
+Move: Jump Heavy Kick
+Startup: 10
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9...
+On Block: +5...
+Cancelable: --
+Notes: --
+
+Character: Luke
+Move: Sandblast (Light Punch)
+Startup: 14
+Active Frames: ...
+Recovery: 33
+On Hit: -3...
+On Block: -8...
+Cancelable: 
+Notes: --
+
+Character: Luke
+Move: Sandblast (Medium Punch)
+Startup: 17
+Active Frames: ...
+Recovery: 30
+On Hit: 0...
+On Block: -5...
+Cancelable: 
+Notes: --
+
+Character: Luke
+Move: Sandblast (Heavy Punch)
+Startup: 20
+Active Frames: ...
+Recovery: 27
+On Hit: +3...
+On Block: -2...
+Cancelable: 
+Notes: --
+
+Character: Luke
+Move: Sandblast (Overdrive)
+Startup: 16
+Active Frames: ...
+Recovery: 19
+On Hit: Knockdown +41
+On Block: -2...
+Cancelable: 
+Notes: --
+
+Character: Luke
+Move: Fatal Shot (Overdrive Sandblast Followup)
+Startup: 8
+Active Frames: ...
+Recovery: 42
+On Hit: Knockdown +48
+On Block: -21
+Cancelable: 
+Notes: Scales to 80% (800). Wall Splats on hit as of December 2024 patch. Reduced startup from 12f to 8f in June 2025 patch.
+
+Character: Luke
+Move: Flash Knuckle (Light Punch)
+Startup: 13 (26) (26)
+Active Frames: 3 (4) (4)
+Recovery: 31 (25) (22)
+On Hit: Knockdown +32 (Knockdown +54) (Knockdown +56)
+On Block: -18 (-8) (-8)
+Cancelable: 
+Notes: Charge and Perfect Charge info in parenthesis.
+
+Character: Luke
+Move: Flash Knuckle (Medium Punch)
+Startup: 19 (29) (29)
+Active Frames: 3 (4) (4)
+Recovery: 27 (26) (26)
+On Hit: +3 (Knockdown of +67) (Knockdown +66)
+On Block: -8 (-1) (-1)
+Cancelable: 
+Notes: Charge and Perfect Charge info in parenthesis. Side swap wall bounce reduces knockdown variably, up to 10 or so frames depending on spacing. Now -8(-1) on block as of December 2024 patch. As of June 2025 patch: to prevent inputs from being switched due to the opponent's position during recovery, the input now depends on the direction Luke is facing.
+
+Character: Luke
+Move: Flash Knuckle (Heavy Punch)
+Startup: 22 (33) (33)
+Active Frames: 3 (4) (4)
+Recovery: 21 (25) (25)
+On Hit: Knockdown +42 (Knockdown +63) (Knockdown +56)
+On Block: -4 (+4) (+4)
+Cancelable: 
+Notes: Charge and Perfect Charge info in parenthesis.
+
+Character: Luke
+Move: Flash Knuckle (Overdrive)
+Startup: 15
+Active Frames: 3
+Recovery: 39
+On Hit: Limited Juggle State on hit. Knockdown +62.
+On Block: -22
+Cancelable: 
+Notes: --
+
+Character: Luke
+Move: DDT (Overdrive Flash Knuckle Followup)
+Startup: 1
+Active Frames: ...
+Recovery: --
+On Hit: Knockdown +12
+On Block: --
+Cancelable: 
+Notes: Must cancel the first hit of Overdrive Flash Knuckle, cannot be performed on block. Total damage is 2400 including the first hit of Overdrive Flash Knuckle.
+
+Character: Luke
+Move: Aerial Flash Knuckle
+Startup: 14 (23)
+Active Frames: 6 (6)
+Recovery: **
+On Hit: **
+On Block: --
+Cancelable: 
+Notes: Charge data in parenthesis. 7 frames of extra landing recovery on whiff (added in Feb 27, 2024 patch).
+
+Character: Luke
+Move: Avenger
+Startup: 12...
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Luke
+Move: Avenger > No Chaser
+Startup: 12...+12
+Active Frames: 10
+Recovery: 16
+On Hit: Knockdown +37
+On Block: -6...+3
+Cancelable: 
+Notes: Can pretty easily be meatied at far range.
+
+Character: Luke
+Move: Avenger > Impaler
+Startup: 12...+13
+Active Frames: 8
+Recovery: 22
+On Hit: Knockdown +35
+On Block: -8... (Overdrive: -3...)
+Cancelable: 
+Notes: Difficult/awkward to meaty at far range.
+
+Character: Luke
+Move: Rising Uppercut (Light Punch)
+Startup: 5
+Active Frames: 10
+Recovery: 34
+On Hit: Knockdown +28
+On Block: -27
+Cancelable: 
+Notes: Anti-air invincible on frames 1-14. 800 damage on late hits. Increased combo count limit as of June 2025 patch.
+
+Character: Luke
+Move: Rising Uppercut (Medium Punch)
+Startup: 6
+Active Frames: 10
+Recovery: 36
+On Hit: Knockdown +28
+On Block: -29
+Cancelable: 
+Notes: Anti-air invincible on frames 1-8. 800 damage on late hits.
+
+Character: Luke
+Move: Rising Uppercut (Heavy Punch)
+Startup: 9
+Active Frames: 10
+Recovery: 40
+On Hit: Knockdown +29
+On Block: -33
+Cancelable: 
+Notes: Anti-air invincible on frames 1-9. 800 damage on late hits.
+
+Character: Luke
+Move: Rising Uppercut (Overdrive)
+Startup: 6
+Active Frames: 10
+Recovery: 50
+On Hit: Knockdown +25
+On Block: -40
+Cancelable: 
+Notes: Fully invincible frames 1-10.
+
+Character: Luke
+Move: Slam Dunk (Overdrive Rising Upper Followup)
+Startup: 16
+Active Frames: 3
+Recovery: 30
+On Hit: Knockdown +14
+On Block: --
+Cancelable: 
+Notes: Does a total of 2000 damage, including the Overdrive Rising Upper.
+
+Character: Luke
+Move: Vulcan Blast (Level 1)
+Startup: 6
+Active Frames: **
+Recovery: 49
+On Hit: Knockdown +17
+On Block: -29
+Cancelable: 
+Notes: Strike/throw invincible on frames 1-6. Breaks armor.
+
+Character: Luke
+Move: Eraser (Level 2)
+Startup: 5
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +2
+On Block: -29
+Cancelable: 
+Notes: Fully invincible frames 1-7. Breaks armor.
+
+Character: Luke
+Move: Pale Rider (Level 3)
+Startup: 10
+Active Frames: **
+Recovery: **
+On Hit: Knockdown +18 (Knockdown +18)
+On Block: -42
+Cancelable: 
+Notes: Fully invincibile on frames 1-30. Breaks armor. Critical Art in parenthesis.
+
+Character: Luke
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: Luke
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +19
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: Luke
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +14
+On Block: 
+Cancelable: --
+Notes: --

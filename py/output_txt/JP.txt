@@ -1,77 +1,469 @@
-Here is the rewritten transcript:
+Character: JP
+Move: Standing Light Punch
+Startup: 6
+Active Frames: 3
+Recovery: 10
+On Hit: +4
+On Block: -2
+Cancelable: Chain, Special, Super
+Notes: --
 
-**JP's Special Moves and Combos**
+Character: JP
+Move: Standing Medium Punch
+Startup: 12
+Active Frames: 3
+Recovery: 21
+On Hit: +1
+On Block: -6
+Cancelable: --
+Notes: --
 
-Standing Light Punch:
-* Range allows for extending light attack strings
-* Fast startup makes it a great tool for punishing moves, interrupting safe block strings, and frame trapping opponents when advantageous
+Character: JP
+Move: Standing Heavy Punch
+Startup: 12
+Active Frames: 2
+Recovery: 22
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+Notes: In February 27, 2024 patch: hurtbox size increased and 1 frame of strike invincibility hurtbox added on frame 11 (this was listed incorrectly as an Anti-air invuln hurtbox on UFD and corrected with the June 2025 patch).
 
-Crouching Light Punch:
-* Fastest button in JP's kit; used to punish moves, interrupt safe block strings, and frame trap opponents when advantageous
+Character: JP
+Move: Standing Light Kick
+Startup: 5
+Active Frames: 3
+Recovery: 11
+On Hit: +3
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-Standing Light Kick:
-* Used to punish M. Bison's Scissor Kicks and has little other application
-* Crouching Light Kick is JP's fastest low attack, used to open up the opponent on block
+Character: JP
+Move: Standing Medium Kick
+Startup: 8
+Active Frames: 3
+Recovery: 19
+On Hit: +3
+On Block: -3
+Cancelable: Special, Super
+Notes: --
 
-Jumping Light Punches (and Jumping Light Kick):
-* Quick startup makes them great air-to-air tools; can cross up at certain angles, making them useful for opening up opponents
+Character: JP
+Move: Standing Heavy Kick
+Startup: 12
+Active Frames: 4
+Recovery: 17
+On Hit: +7
+On Block: +2
+Cancelable: Target Combo
+Notes: Anti-air invincibility on frames 12-16.
 
-Standing Medium Punch:
-* Slow, long-range poke that does impressive Drive gauge chip
-* Crouching Medium Punch is a great Drive Rush check tool and combo filler
+Character: JP
+Move: Crouching Light Punch
+Startup: 4
+Active Frames: 2
+Recovery: 11
+On Hit: +4
+On Block: -1
+Cancelable: Chain, Special, Super
+Notes: --
 
-Crouching Medium Kick:
-* Safe on block; advances low with great combo reward on hit
-* Largest safe low in JP's kit, but watch out for attacks that can go under it
+Character: JP
+Move: Crouching Medium Punch
+Startup: 7
+Active Frames: 4
+Recovery: 14
+On Hit: +6
+On Block: -2
+Cancelable: Special, Super
+Notes: --
 
-Jumping Medium Punch (and Jumping Medium Kick):
-* Standing Medium Punch in the air; has absurd range and is a good defensive option
-* Jumping Medium Kick is JP's strongest air-to-air tool, allowing for combos afterward
+Character: JP
+Move: Crouching Heavy Punch
+Startup: 9
+Active Frames: 6
+Recovery: 20
+On Hit: +1
+On Block: -6
+Cancelable: --
+Notes: Anti-air invincible on frames 10-14 as of October 2024 patch.
 
-Heavy Punch:
-* Unique juggle property makes it vital in combos; also a solid poke on its own
-* Grants crumple State on punish counter, leading to additional damage
+Character: JP
+Move: Crouching Light Kick
+Startup: 6
+Active Frames: 2
+Recovery: 10
+On Hit: +2
+On Block: -2
+Cancelable: Chain
+Notes: --
 
-Crouching Heavy Punch:
-* JP's go-to anti-air; fastest heavy normal, making it a good combo tool
+Character: JP
+Move: Crouching Medium Kick
+Startup: 9
+Active Frames: 3
+Recovery: 17
+On Hit: +3
+On Block: -3
+Cancelable: --
+Notes: As of June 2025 patch: 20% initial scaling.
 
-Standing Heavy Kick (and Crouching Heavy Kick):
-* Standing Heavy Kick is JP's only Plus on block normal that whiffs against crouching opponents at distance
-* On hit or block, allows JP to start bowling the opponent
-* Crouching Heavy Kick is a very niche tool with poor range but is safe after Drive Rush and fast enough for easy Oki after perfect Parry
+Character: JP
+Move: Crouching Heavy Kick
+Startup: 10
+Active Frames: 3
+Recovery: 21
+On Hit: Knockdown +27
+On Block: -6
+Cancelable: --
+Notes: --
 
-Portals:
-* Sets up zoning and mixup opportunities; takes 50 frames to set up portal
-* When detonated, it has the same active frames as a Spike Special
+Character: JP
+Move: Back + Medium Punch
+Startup: 8
+Active Frames: 3
+Recovery: 16
+On Hit: +5
+On Block: -1
+Cancelable: Special, Super, Target Combo
+Notes: --
 
-Spike:
-* Important zoning and combo tool; when zoning, assists JP in locking opponents down at long distances
-* Good Ender due to range and juggle potential; minus two unblock but has 10 active frames
+Character: JP
+Move: Forward + Medium Kick (Guillotinna)
+Startup: 22
+Active Frames: 2
+Recovery: 19
+On Hit: +3
+On Block: -3
+Cancelable: --
+Notes: --
 
-Swipe (Light, Medium, Heavy, OD):
-* Primary special move combo tool; light version combos from light attacks, medium and OD versions combo from medium attacks, and heavy version only combos after Drive Rush or counter hit
-* All four versions are frequently used in combos; most JP players choose Classic over Modern specifically because the Modern control scheme lacks the medium and heavy versions of this move
+Character: JP
+Move: Down-Forward + Heavy Punch (Malice)
+Startup: 16
+Active Frames: 3
+Recovery: 31
+On Hit: Knockdown +17
+On Block: -14
+Cancelable: --
+Notes: --
 
-Fireballs (Light, Medium, Heavy):
-* Light Fireball is a mid attack that sacrifices damage for active frames and knockdown SL juggle State on hit
-* Medium Fireball is an overhead that is only active for one frame; crouching light punch can combo into it
-* Heavy Fireball is a low with less combo applicability
+Character: JP
+Move: Forward + Heavy Kick (Bylina)
+Startup: 11
+Active Frames: 6
+Recovery: 24
+On Hit: Knockdown +38
+On Block: -5
+Cancelable: Second Hit: Special, Super
+Notes: Limited Juggle State on hit.
 
-OD Fireball:
-* Active and locks the opponent more than any other move in JP's kit, allowing JP to reposition or set up a portal
-* Great combo Ender, but watch out against certain characters
+Character: JP
+Move: Back + Medium Punch, Medium Punch (Grom Strelka)
+Startup: 8, 10
+Active Frames: 3, 3
+Recovery: 16, 20
+On Hit: +5, +3
+On Block: -1, -6
+Cancelable: Special, Super
+Notes: --
 
-Teleport:
-* Ranged command grab with long recovery; similar to Drive Impact
+Character: JP
+Move: Heavy Kick, Heavy Punch (Zilant)
+Startup: 12, 20
+Active Frames: 4, 3
+Recovery: 17, 20
+On Hit: +7, +3
+On Block: +2, -3
+Cancelable: Special, Super, Target Combo
+Notes: --
 
-Level One Super:
-* Strikes and throws vulnerable hits that become full-screen projectiles
-* Use as reversal option or combo tool for extra damage; can combo off almost any hit
+Character: JP
+Move: Heavy Kick, Heavy Punch, Heavy Punch (Zilant Mid)
+Startup: 12, 20, 21
+Active Frames: 4, 3, 4
+Recovery: 17, 20, 22
+On Hit: +7, +3, +3
+On Block: +2, -3, -4
+Cancelable: --
+Notes: Third hit does not combo but hits overhead.
 
-Level Two Super:
-* Summons four Fireballs, the first hitting mid, second hitting overhead, third hitting low, and fourth hitting overhead
-* Fireballs vanish if JP is hit; allows JP to move independently from the super
+Character: JP
+Move: Heavy Kick, Heavy Punch, Heavy Kick (Zilant Low)
+Startup: 12, 20, 21
+Active Frames: 4, 3, 3
+Recovery: 17, 20, 22
+On Hit: +7, +3, +3
+On Block: +2, -3, -4
+Cancelable: --
+Notes: Third hit does not combo but hits low.
 
-Level Three Super:
-* Slow but full-screen; easy to confirm off combos from anywhere on the screen
-* Critical art version grants JP more damage than Oki and will always put JP full screen from the opponent
+Character: JP
+Move: Jump Light Punch
+Startup: 5
+Active Frames: 10
+Recovery: 3 Landing
+On Hit: +8...
+On Block: +4...
+Cancelable: --
+Notes: --
+
+Character: JP
+Move: Jump Medium Punch
+Startup: 12
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +12...
+On Block: +8...
+Cancelable: --
+Notes: Whiffs on crouching opponents.
+
+Character: JP
+Move: Jump Heavy Punch
+Startup: 9
+Active Frames: 5
+Recovery: 3 Landing
+On Hit: +9
+On Block: +5
+Cancelable: --
+Notes: Forced Knockdown on air counter-hit.
+
+Character: JP
+Move: Jump Light Kick
+Startup: 6
+Active Frames: 8
+Recovery: 3 Landing
+On Hit: +4...
+On Block: +1...
+Cancelable: --
+Notes: Crosses up.
+
+Character: JP
+Move: Jump Medium Kick
+Startup: 7
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9
+On Block: +5
+Cancelable: --
+Notes: --
+
+Character: JP
+Move: Jump Heavy Kick
+Startup: 11
+Active Frames: 6
+Recovery: 3 Landing
+On Hit: +9
+On Block: +5
+Cancelable: --
+Notes: --
+
+Character: JP
+Move: Triglav
+Startup: 22
+Active Frames: 10
+Recovery: 24 (33)
+On Hit: Knockdown +44
+On Block: -2
+Cancelable: 
+Notes: Limited Juggle State on hit. Strength of the Punch only changes the distance.
+
+Character: JP
+Move: Triglav (Overdrive)
+Startup: 20
+Active Frames: 20
+Recovery: 14 (22)
+On Hit: Knockdown +53
+On Block: +3
+Cancelable: 
+Notes: Limited Juggle State on hit. Strength of the Punches only changes the distance (LP+MP is shortest, then LP+HP is middle, then MP+HP is longest). 20% damage scaling to followup combo hits as of May 2024 patch.
+
+Character: JP
+Move: Stribog (Light Punch)
+Startup: 16
+Active Frames: 3, 3
+Recovery: 28 (30)
+On Hit: Knockdown +38
+On Block: -10
+Cancelable: 
+Notes: First Hit is a strike, second hit is a projectile.
+
+Character: JP
+Move: Stribog (Medium Punch)
+Startup: 20
+Active Frames: 3, 3
+Recovery: 27 (29)
+On Hit: Knockdown +42
+On Block: -8
+Cancelable: 
+Notes: Limited Juggle State on hit. First Hit is a strike, second hit is a projectile.
+
+Character: JP
+Move: Stribog (Heavy Punch)
+Startup: 28
+Active Frames: 3, 3
+Recovery: 19 (21)
+On Hit: Knockdown +86
+On Block: +4
+Cancelable: 
+Notes: Limited Juggle State on hit. First Hit is a strike, second hit is a projectile.
+
+Character: JP
+Move: Stribog (Overdrive)
+Startup: 19
+Active Frames: 3, 3
+Recovery: 22 (24)
+On Hit: Knockdown +69...
+On Block: +2
+Cancelable: 
+Notes: Limited Juggle State on hit. Wall Bounce on hit. First Hit is a strike, second hit is a projectile.
+
+Character: JP
+Move: Departure
+Startup: **
+Active Frames: **
+Recovery: **
+On Hit: Knockdown "+80" (Knockdown "+113")
+On Block: "+31" ("+60")
+Cancelable: 
+Notes: Full Juggle State on hit. Punch Strength determines the location of the portal. JP recovers before the attack comes out, so Knockdown and On-Block data are relative to other actions. Overdrive data in parenthesis. Overdrive can use LP+MP for shortest, LP+HP is middle, and MP+HP is longest. In February 27, 2024 patch: 20% damage scaling to followup combo hits.
+
+Character: JP
+Move: Departure > Window
+Startup: 5
+Active Frames: --
+Recovery: 19
+On Hit: --
+On Block: --
+Cancelable: 
+Notes: Teleports JP to an active Departure Portal. Invincible on frames 6-20. Can do any Jump attack out of the Teleport.
+
+Character: JP
+Move: Departure > Shadow
+Startup: 20
+Active Frames: --
+Recovery: 21
+On Hit: Knockdown "+80" (Knockdown "+113")
+On Block: "+31" ("+60")
+Cancelable: 
+Notes: Manually triggers Departure's followup attack early. Full Juggle State on hit.
+
+Character: JP
+Move: Amnesia
+Startup: 3 (1)
+Active Frames: 18 (20)
+Recovery: 35 (35) / 17 (17)
+On Hit: Knockdown "+88" (Knockdown "+131")
+On Block: "+28" ("+28, +28")
+Cancelable: 
+Notes: Counters Strike attacks (not throws or projectiles) from frame 3-18. Overdrive version counters Strikes and Throws, on frames 1-20. Overdrive data in parenthesis. For both versions, JP recovers before the hit, so On-Hit and On-block data are relative to other actions. Free Juggle State on hit. 17 frames of recovery on successful parry. In February 27, 2024 patch: now adds 50% damage scaling to 3rd hit when starting a combo or adds 60% damage scaling when comboed into. This was previously shown with Anti-air invuln in the hitbox GIF, but is actually fully strike invuln and has been corrected as of the June 2025 patch.
+
+Character: JP
+Move: Torbalan (Light Kick)
+Startup: (13...)+9
+Active Frames: 1
+Recovery: 28
+On Hit: Knockdown +42...
+On Block: -6...
+Cancelable: 
+Notes: Limited Juggle State on hit. Hold attack button to feint. Hitbox activates on frame 9 once the ghost gets close enough to the opponent, 22 frames at point blank.
+
+Character: JP
+Move: Torbalan (Medium Kick)
+Startup: (13...)+13
+Active Frames: 1
+Recovery: 24
+On Hit: +6...+27
+On Block: -8...+13
+Cancelable: 
+Notes: Hold attack button to feint. Hitbox activates on frame 13 once the ghost gets close enough to the opponent, 26 frames at point blank. Initial scaling of 20%.
+
+Character: JP
+Move: Torbalan (Heavy Kick)
+Startup: (13...)+13
+Active Frames: 1
+Recovery: 24
+On Hit: +6...+27
+On Block: -8...+13
+Cancelable: 
+Notes: Hold attack button to feint. Hitbox activates on frame 13 once the ghost gets close enough to the opponent, 26 frames at point blank. Initial scaling of 20%.
+
+Character: JP
+Move: Torbalan (Overdrive)
+Startup: (13...)+9, 25
+Active Frames: 1, 1
+Recovery: 3
+On Hit: Knockdown +65...
+On Block: +24
+Cancelable: 
+Notes: Limited Juggle State on hit. Hitbox activates on frame 9 once the ghost gets close enough to the opponent, 22 frames at point blank. 20% damage scaling to followup combo hits as of May 2024 patch.
+
+Character: JP
+Move: Embrace
+Startup: (25...)+1
+Active Frames: 1
+Recovery: 44
+On Hit: Knockdown +18
+On Block: --
+Cancelable: 
+Notes: Cannot be used if a Departure portal is active. Considered a projectile until the grab activates. 10% damage scaling to followup combo hits as of October 2024 patch.
+
+Character: JP
+Move: Chornobog (Level 1)
+Startup: 7, 15
+Active Frames: **
+Recovery: 62...52
+On Hit: Knockdown +22...+32
+On Block: -33...-23
+Cancelable: 
+Notes: Strike/Throw invincible on frames 1-10. Breaks armor.
+
+Character: JP
+Move: Lovushka (Level 2)
+Startup: 13
+Active Frames: **
+Recovery: **
+On Hit: **
+On Block: **
+Cancelable: 
+Notes: Breaks armor. Cannot use Torvalan or Embrace while active. Deactivates if JP is hit.
+
+Character: JP
+Move: Interdiction (Level 3)
+Startup: 18
+Active Frames: 6
+Recovery: 62
+On Hit: Knockdown +23 (Knockdown +23)
+On Block: -50
+Cancelable: 
+Notes: Fully invincible on frames 1-23. Breaks armor. Critical Art in parenthesis.
+
+Character: JP
+Move: Stats
+Startup: 
+Active Frames: 
+Recovery: 
+On Hit: 
+On Block: 
+Cancelable: 
+Notes: 
+
+Character: JP
+Move: Forward Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +24
+On Block: 
+Cancelable: --
+Notes: --
+
+Character: JP
+Move: Back Throw
+Startup: 5
+Active Frames: 3
+Recovery: 23
+On Hit: +36
+On Block: 
+Cancelable: --
+Notes: --

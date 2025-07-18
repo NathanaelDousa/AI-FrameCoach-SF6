@@ -1,0 +1,26 @@
+Juri guide
+---
+
+Understanding Space Traps: A Guide to Deception in Fighting Games
+
+A Space Trap is a deceptive strategy that creates an illusion of being at a disadvantage, making your opponent overcommit and whiff due to ambiguous spacing. This technique relies on baiting your opponent into a Counterattack, which can then be punished.
+
+To set up a Space Trap, you need the right bait. In this example, we'll use Jury's light fua as bait. If blocked, she'll be minus four, making any attack that's four frames or quicker punishable. However, if you use a combo and push yourself out, the light attack will whiff, leaving your opponent trapped.
+
+The goal is to create a situation where your opponent feels safe retaliating but ultimately gets hit by the next attack. To achieve this, consider what your opponent wants to do and bait them into a trap.
+
+Let's analyze a common situation in the Aki vs Jury matchup. After Drive Rush hard kick, Jury is plus one, making it difficult for Aki to attack. However, if Aki uses standing medium punch, it will be 6 frames and minus six on block, allowing you to punish from a distance.
+
+To capitalize on this, use standing medium kick to push the opponent away and create space. This can help you avoid getting hit by low attacks and also bait out medium punches.
+
+Another example is using Funway Engine to set up a trap. By ending combos with light store and being in range of crouching medium kick, you can create an opportunity for Cammy to reversal attack. However, this can be punished if you use the right sequence.
+
+A key consideration when setting up traps is understanding hitboxes, hurtboxes, and move properties. For instance, using standing hard kick with a block will make the opponent's crouching medium kick whiff.
+
+Finally, let's discuss Jury's strengths in her long-reaching attacks but also her weakness to punishability. By being aware of these factors, you can create opportunities for deception and exploit your opponent's patterns.
+
+Remember, as an artist character, Jury relies on deception to create beautiful gameplay. Keep practicing, and you'll master the art of Space Traps and other deceptive strategies.
+
+---
+
+Note: I removed personal phrases, fluff, and unnecessary commentary while focusing on presenting objective information about Space Trap strategies, moves, and general gameplay mechanics.

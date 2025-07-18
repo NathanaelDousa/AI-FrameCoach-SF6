@@ -1,5 +1,4 @@
 Character: Cammy
-
 Move: Standing Light Punch
 Startup: 4
 Active Frames: 3
@@ -7,7 +6,9 @@ Recovery: 7
 On Hit: +5
 On Block: -2
 Cancelable: Chain, Special, Super
+Notes: --
 
+Character: Cammy
 Move: Standing Medium Punch
 Startup: 6
 Active Frames: 4
@@ -15,7 +16,9 @@ Recovery: 13
 On Hit: +6
 On Block: -1
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Standing Heavy Punch
 Startup: 8
 Active Frames: 3
@@ -23,7 +26,9 @@ Recovery: 20
 On Hit: +2
 On Block: -3
 Cancelable: Special, Super, Target Combo
+Notes: --
 
+Character: Cammy
 Move: Standing Light Kick
 Startup: 5
 Active Frames: 3
@@ -33,6 +38,7 @@ On Block: -3
 Cancelable: Special, Super
 Notes: June 2025 patch: smaller hitbox at the tip.
 
+Character: Cammy
 Move: Standing Medium Kick
 Startup: 8
 Active Frames: 3
@@ -40,7 +46,9 @@ Recovery: 18
 On Hit: +3
 On Block: -4
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Standing Heavy Kick
 Startup: 11
 Active Frames: 3
@@ -48,7 +56,9 @@ Recovery: 19
 On Hit: +2
 On Block: -3
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Crouching Light Punch
 Startup: 4
 Active Frames: 2
@@ -56,7 +66,9 @@ Recovery: 8
 On Hit: +5
 On Block: -2
 Cancelable: Chain, Special, Super
+Notes: --
 
+Character: Cammy
 Move: Crouching Medium Punch
 Startup: 7
 Active Frames: 3
@@ -66,6 +78,7 @@ On Block: -2
 Cancelable: Special, Super
 Notes: Has 3 extra frames of recovery and extended hurtbox on whiff, as of December 2024 patch.
 
+Character: Cammy
 Move: Crouching Heavy Punch
 Startup: 10
 Active Frames: 4
@@ -73,7 +86,9 @@ Recovery: 15
 On Hit: +7
 On Block: +1
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Crouching Light Kick
 Startup: 5
 Active Frames: 3
@@ -81,7 +96,9 @@ Recovery: 7
 On Hit: +3
 On Block: -2
 Cancelable: Chain
+Notes: --
 
+Character: Cammy
 Move: Crouching Medium Kick
 Startup: 8
 Active Frames: 3
@@ -91,6 +108,7 @@ On Block: -5
 Cancelable: Special, Super
 Notes: 20% damage scaling to followup combo hits.
 
+Character: Cammy
 Move: Crouching Heavy Kick
 Startup: 9
 Active Frames: 3
@@ -98,7 +116,9 @@ Recovery: 24
 On Hit: Knockdown +38
 On Block: -10
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Back + Medium Punch
 Startup: 5
 Active Frames: 5
@@ -106,7 +126,9 @@ Recovery: 12
 On Hit: +4
 On Block: -1
 Cancelable: Special, Super, Target Combo
+Notes: --
 
+Character: Cammy
 Move: Forward + Heavy Kick
 Startup: 18
 Active Frames: 3
@@ -114,7 +136,9 @@ Recovery: 25
 On Hit: Knockdown +26
 On Block: -12
 Cancelable: Special, Super
+Notes: --
 
+Character: Cammy
 Move: Back + Heavy Kick
 Startup: 9
 Active Frames: 3
@@ -124,6 +148,7 @@ On Block: -7
 Cancelable: Special, Super, Jump (on hit only)
 Notes: Jump Cancellable on hit only.
 
+Character: Cammy
 Move: Back + Medium Punch, Heavy Kick
 Startup: 5, 9
 Active Frames: 5, 3
@@ -133,6 +158,7 @@ On Block: -1, -12
 Cancelable: Special, Super, Jump (on hit only)
 Notes: Jump Cancellable on hit only.
 
+Character: Cammy
 Move: Swing Combination (Heavy Punch, Heavy Kick)
 Startup: 8, 13, 13
 Active Frames: 3, 4, 3
@@ -140,7 +166,9 @@ Recovery: 20, 12, 29
 On Hit: +2, --, Knockdown +33
 On Block: -3, --, -12
 Cancelable: Special, Super (second and third hits)
+Notes: --
 
+Character: Cammy
 Move: Jump Light Punch
 Startup: 4
 Active Frames: 10
@@ -148,7 +176,9 @@ Recovery: 3 Landing
 On Hit: +6...
 On Block: +2...
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Jump Medium Punch
 Startup: 6
 Active Frames: 8
@@ -158,6 +188,7 @@ On Block: +2...
 Cancelable: Special, Super
 Notes: Juggle state on air hit.
 
+Character: Cammy
 Move: Jump Heavy Punch
 Startup: 8
 Active Frames: 5
@@ -167,6 +198,7 @@ On Block: +5...
 Cancelable: --
 Notes: Forced knockdown on air hit.
 
+Character: Cammy
 Move: Jump Light Kick
 Startup: 4
 Active Frames: 10
@@ -176,6 +208,7 @@ On Block: +2...
 Cancelable: --
 Notes: Crosses up.
 
+Character: Cammy
 Move: Jump Medium Kick
 Startup: 7
 Active Frames: 6
@@ -183,7 +216,9 @@ Recovery: 3 Landing
 On Hit: +12...
 On Block: +8...
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Jump Heavy Kick
 Startup: 10
 Active Frames: 6
@@ -191,7 +226,9 @@ Recovery: 3 Landing
 On Hit: +12...
 On Block: +8...
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Spiral Arrow (Light Kick)
 Startup: 9
 Active Frames: 13
@@ -199,7 +236,9 @@ Recovery: 21
 On Hit: Knockdown +26...
 On Block: -12...-1
 Cancelable: 
+Notes: --
 
+Character: Cammy
 Move: Spiral Arrow (Medium Kick)
 Startup: 9
 Active Frames: 15
@@ -207,7 +246,9 @@ Recovery: 21
 On Hit: Knockdown +26...
 On Block: -14...0
 Cancelable: 
+Notes: --
 
+Character: Cammy
 Move: Spiral Arrow (Heavy Kick)
 Startup: 15
 Active Frames: 3, 14
@@ -217,6 +258,7 @@ On Block: -12...-2
 Cancelable: 
 Notes: Can hold Heavy Kick to charge. Partial charges will act like a no charge or a full charge depending on total time held.
 
+Character: Cammy
 Move: Spiral Arrow (Heavy Kick, Full Charge)
 Startup: 27
 Active Frames: **
@@ -226,6 +268,7 @@ On Block: -14...**
 Cancelable: 
 Notes: Can hold Heavy Kick to charge.
 
+Character: Cammy
 Move: Spiral Arrow (Overdrive)
 Startup: 13
 Active Frames: **
@@ -233,7 +276,9 @@ Recovery: 20
 On Hit: Knockdown +47...
 On Block: -14...-12
 Cancelable: 
+Notes: --
 
+Character: Cammy
 Move: Cannon Spike (Light Kick)
 Startup: 5
 Active Frames: 12
@@ -243,6 +288,7 @@ On Block: -36
 Cancelable: 
 Notes: Reduced damage on late hits. Anti-Air invincible on frames 1-14.
 
+Character: Cammy
 Move: Cannon Spike (Medium Kick)
 Startup: 6
 Active Frames: 12
@@ -252,6 +298,7 @@ On Block: -36
 Cancelable: 
 Notes: Reduced damage on late hits. Anti-Air Invincible on frames 1-9.
 
+Character: Cammy
 Move: Cannon Spike (Heavy Kick)
 Startup: 7
 Active Frames: 12
@@ -261,6 +308,7 @@ On Block: -31
 Cancelable: 
 Notes: Can hold Heavy Kick to charge. Partial charges will act like a no charge or a full charge depending on total time held. Reduced damage on late hits. Anti-Air invincible on frames 1-8.
 
+Character: Cammy
 Move: Cannon Spike (Heavy Kick, Full Charge)
 Startup: 24
 Active Frames: 12
@@ -270,6 +318,7 @@ On Block: -40
 Cancelable: 
 Notes: Can hold Heavy Kick to charge. Anti-Air invincible on frames 1-7, fully invincible on frames 20-25.
 
+Character: Cammy
 Move: Cannon Spike (Overdrive)
 Startup: 6
 Active Frames: 12
@@ -279,6 +328,7 @@ On Block: -40
 Cancelable: 
 Notes: Reduced damage on far hits. Fully invincible on frames 1-7. Does not cross through opponents on hit anymore, as of December 2024 patch.
 
+Character: Cammy
 Move: Quick Spin Knuckle (Light Punch)
 Startup: 21
 Active Frames: 4
@@ -286,7 +336,9 @@ Recovery: 16
 On Hit: +2
 On Block: -3
 Cancelable: 
+Notes: --
 
+Character: Cammy
 Move: Quick Spin Knuckle (Medium Punch)
 Startup: 24
 Active Frames: 4
@@ -296,6 +348,7 @@ On Block: -2
 Cancelable: 
 Notes: Projectile invincible on frames 9-20.
 
+Character: Cammy
 Move: Quick Spin Knuckle (Heavy Punch)
 Startup: 28
 Active Frames: 4
@@ -305,6 +358,7 @@ On Block: +3
 Cancelable: 
 Notes: Projectile invincible on frames 9-24.
 
+Character: Cammy
 Move: Quick Spin Knuckle (Overdrive)
 Startup: 25
 Active Frames: 4
@@ -314,6 +368,7 @@ On Block: -2
 Cancelable: 
 Notes: Projectile invincible on frames 9-24. Side switches if done very close to opponent.
 
+Character: Cammy
 Move: Cannon Strike
 Startup: 13
 Active Frames: 9...11
@@ -323,6 +378,7 @@ On Block: -7...+3
 Cancelable: 
 Notes: Kick strength changes the angle of the attack. Lower activation / farther angle hit causes more plus frames.
 
+Character: Cammy
 Move: Cannon Strike (Overdrive)
 Startup: 13
 Active Frames: 9...11
@@ -332,6 +388,7 @@ On Block: -4...+5
 Cancelable: 
 Notes: Lower activation / farther angle hit causes more plus frames. As of the December 2024 patch: fastest "tiger knee" version's first active frame is always 0 on hit and -2 on block, manually timed versions unchanged.
 
+Character: Cammy
 Move: Hooligan Combination > Razor's Edge Slicer
 Startup: 50 (50) (70)
 Active Frames: 9 (9) (9, 5)
@@ -341,6 +398,7 @@ On Block: +2
 Cancelable: 
 Notes: Punch Strength changes arc and distance travelled, but other data stays the same. Light and Medium versions will swap sides if close to opponent, Heavy and Charged Heavy versions will not. Heavy and Charged Heavy version damage in parenthesis.
 
+Character: Cammy
 Move: Hooligan Combination (Overdrive) > Razor's Edge Slicer
 Startup: 50
 Active Frames: 9, 5
@@ -348,7 +406,9 @@ Recovery: 17
 On Hit: Knockdown +48
 On Block: +2
 Cancelable: 
+Notes: --
 
+Character: Cammy
 Move: Hooligan Combination > Cannon Strike
 Startup: 13
 Active Frames: 9...11
@@ -358,6 +418,7 @@ On Block: -7...+3
 Cancelable: 
 Notes: Kick strength changes the angle of the attack. Lower activation / farther angle hit causes more plus frames. Overdrive & Charged Heavy damage in parenthesis, other data unaffected.
 
+Character: Cammy
 Move: Hooligan Combination > Reverse Edge
 Startup: 18
 Active Frames: 4 (4, 4)
@@ -367,6 +428,7 @@ On Block: -5...-1 (-2)
 Cancelable: 
 Notes: Lower activation / farther angle hit causes more plus frames. Overdrive & Charged Heavy information in parenthesis, no variable advantage with those versions.
 
+Character: Cammy
 Move: Hooligan Combination > Fatal Leg Twister (Throw)
 Startup: 10
 Active Frames: 3
@@ -376,6 +438,7 @@ On Block: --
 Cancelable: 
 Notes: Whiffs on crouching opponents. Charged/Overdrive versions give a Limited Juggle State.
 
+Character: Cammy
 Move: Hooligan Combination > Silent Step
 Startup: **
 Active Frames: --
@@ -385,6 +448,7 @@ On Block: --
 Cancelable: 
 Notes: Total frames vary depending on how late or how early punch is pressed.
 
+Character: Cammy
 Move: Spin Drive Smasher (Level 1)
 Startup: 9
 Active Frames: **
@@ -394,6 +458,7 @@ On Block: -24
 Cancelable: 
 Notes: Strike/throw invincible on frames 1-11. Breaks armor.
 
+Character: Cammy
 Move: Killer Bee Spin (Level 2)
 Startup: 13
 Active Frames: 11
@@ -403,6 +468,7 @@ On Block: -24...
 Cancelable: 
 Notes: Breaks armor. Can also be done from a forward jump and the second hit of the "HP, HK" Target Combo.
 
+Character: Cammy
 Move: Delta Red Assault (Level 3)
 Startup: 9
 Active Frames: **
@@ -412,6 +478,7 @@ On Block: -33
 Cancelable: 
 Notes: Fully invincible on frames 1-13. Breaks armor. Critical Art in parenthesis.
 
+Character: Cammy
 Move: Stats
 Startup: 
 Active Frames: 
@@ -419,7 +486,9 @@ Recovery:
 On Hit: 
 On Block: 
 Cancelable: 
+Notes: 
 
+Character: Cammy
 Move: Forward Throw
 Startup: 5
 Active Frames: 3
@@ -427,7 +496,9 @@ Recovery: 23
 On Hit: +17
 On Block: 
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Back Throw
 Startup: 5
 Active Frames: 3
@@ -435,7 +506,9 @@ Recovery: 23
 On Hit: +14
 On Block: 
 Cancelable: --
+Notes: --
 
+Character: Cammy
 Move: Air Throw
 Startup: 5
 Active Frames: 3
@@ -443,3 +516,4 @@ Recovery: **
 On Hit: **
 On Block: 
 Cancelable: --
+Notes: --

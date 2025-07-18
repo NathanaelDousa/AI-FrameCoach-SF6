@@ -1,0 +1,31 @@
+guile guide
+
+**Episode 1: Fundamentals of Playing Gal (GAO)**
+
+This episode focuses on teaching players how to use GAO effectively and efficiently. The primary objectives are to learn punish counter conversions, fundamental strategies, and essential combos.
+
+**The ABCs of Playing a Charged Character**
+
+When playing GAO, it is crucial to always be charging (ABC). This rule helps you maintain control over the match pace and prepares you for anti-air situations. To do this, develop the habit of going back into charging after executing a Sonic Boom or Flash Kick, and immediately input back or down back. This habit will also improve combo execution consistency.
+
+**Executing Perfect Specials**
+
+To execute a perfect special move (Sonic Boom or Flash Kick), press the attack button and the last input motion at the exact same time. For example, holding back to charge Sonic and pressing forward and punch simultaneously performs a perfect Sonic Boom. Similarly, pressing the ending up input along with the kick button executes a perfect Flash Kick.
+
+**Benefits of Perfect Specials**
+
+Perfectly executed special moves provide additional damage: 50 more damage for a perfect Sonic Boom and 200 more damage for a perfect Flash Kick. Some combo strings can only be performed if a perfect special is executed, as it provides one extra frame of hit advantage.
+
+**Bread and Butter Combos**
+
+GAO's main offense comes from Sonic Booms. As such, most combos will involve landing a jump attack followed by a string of attacks that utilize the Flash Kick's pushback to return to the main strategy. Standing medium punch to crouching medium punch combos and flash kicks require precise timing and charging.
+
+**Tips and Strategies**
+
+To improve combo execution consistency:
+
+* Practice perfecting your special moves
+* Focus on charging immediately after executing a Sonic Boom or Flash Kick
+* Stay aware of pop-ups indicating counter hits or punish counter hits to optimize conversions
+
+By mastering these fundamental strategies, players can increase their chances of success in matches.

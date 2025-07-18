@@ -1,0 +1,29 @@
+luke guide
+**Introduction**
+This video guide focuses on Luke, a well-rounded character in a popular fighting game. We'll cover his moveset, combos, and super attacks.
+
+**Luke's Moveset**
+
+* **Flash Knuckles**: A core part of Luke's offense, with light, medium, and heavy versions.
+	+ **Perfect Knuckle**: Fully charging the flash knuckle allows for additional combos and damage.
+	+ **EX Flash Muscle**: An extension to perfect knuckle that adds more damage and utility.
+
+**Combinations**
+
+* **Crouching Heavy Bunch into Perfect Medium Knuckles**: A powerful combo with a wall bounce.
+* **Light Punch into Air Knuckle**: A neutral tool that can be used to punish opponents in the air.
+
+**Super Attacks**
+
+* **Level 1 Super**: An invincible super that is fast and has good range, making it a great anti-fireball option. It's also easy to combo into.
+* **Level 2 Super**: An invincible super with corner carry capabilities, allowing for sustained pressure and damage.
+* **Level 3 Super**: An anti-fireable super with decent range and damage, but slower than level 1.
+
+**Additional Tips**
+
+* Use Luke's flash knuckles to charge up his perfect knuckle or EX flash muscle.
+* Employ the air knuckle as a neutral tool to punish opponents in the air.
+* Make use of Luke's supers to create pressure, rack up damage, and control space.
+
+**Conclusion**
+Luke is a versatile character with a range of moves and combos at his disposal. By mastering his flash knuckles, combinations, and super attacks, you can create a formidable player that excels in both zoning and close-range combat. Thank you for watching!
