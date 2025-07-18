@@ -1,44 +1,56 @@
-import json
 import os
+import requests
 
-INPUT_DIR = '../data/sf6'
-OUTPUT_DIR = 'output_txt'
+OLLAMA_URL = "http://localhost:11434/api/generate"
+MODEL = "llama3"  # Gebruik hier het herschrijfmodel
 
-# Zorg dat output map bestaat
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+def rewrite_text(text):
+    prompt = f"""
+You are rewriting a transcript from a video guide about a fighting game character.
 
-for filename in os.listdir(INPUT_DIR):
-    if not filename.endswith('.json'):
-        continue
-    
-    filepath = os.path.join(INPUT_DIR, filename)
-    with open(filepath, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    character = data.get('character', 'Unknown')
-    moves = data.get('moves', [])
-    
-    lines = [f"Character: {character}\n"]
-    
-    for move in moves:
-        lines.append(f"Move: {move.get('move', 'N/A')}")
-        lines.append(f"Startup: {move.get('startup', 'N/A')}")
-        lines.append(f"Active Frames: {move.get('activeframes', 'N/A')}")
-        lines.append(f"Recovery: {move.get('recovery', 'N/A')}")
-        lines.append(f"On Hit: {move.get('onhit', 'N/A')}")
-        lines.append(f"On Block: {move.get('onblock', 'N/A')}")
-        lines.append(f"Cancelable: {move.get('cancellable', 'N/A')}")
-        notes = move.get('notes', '').strip()
-        if notes and notes != "--":
-            lines.append(f"Notes: {notes}")
-        lines.append("")  # lege regel tussen moves
-    
-    output_filename = f"{character.replace(' ', '_').replace('.', '')}.txt"
-    output_path = os.path.join(OUTPUT_DIR, output_filename)
-    
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
+Your task is to rewrite the text to make it objective, concise, and professional. Remove any personal phrases such as "I think", "in my opinion", or "I like to", and instead present the information as direct facts or general best practices.
 
-    print(f"Verwerkt: {filename} → {output_filename}")
+Avoid fluff or unnecessary commentary. Just focus on the essential gameplay mechanics, setups, strategies, or move properties described.
 
-print("Klaar!")
+Respond only with the improved version of the text.
+
+---
+{text.strip()}
+    """
+
+    response = requests.post(OLLAMA_URL, json={
+        "model": MODEL,
+        "prompt": prompt,
+        "stream": False
+    })
+
+    if response.status_code == 200:
+        return response.json().get("response", "").strip()
+    else:
+        print("⚠️ Fout bij herschrijven:", response.text)
+        return None
+
+def process_folder(input_folder, output_folder):
+    os.makedirs(output_folder, exist_ok=True)
+    for filename in os.listdir(input_folder):
+        if filename.endswith(".txt"):
+            input_path = os.path.join(input_folder, filename)
+            output_path = os.path.join(output_folder, filename)
+
+            with open(input_path, "r", encoding="utf-8") as f:
+                original_text = f.read()
+
+            print(f"✍️  Herschrijven: {filename}")
+            rewritten = rewrite_text(original_text)
+
+            if rewritten:
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write(rewritten)
+                print(f"✅ Opgeslagen: {output_path}")
+            else:
+                print(f"❌ Geen output voor: {filename}")
+
+if __name__ == "__main__":
+    input_folder = "input"
+    output_folder = "output_txt"
+    process_folder(input_folder, output_folder)

@@ -1,0 +1,38 @@
+Here is a rewritten version of the transcript, focusing on objective and concise language:
+
+**JP's General Game Plan**
+
+The primary goal in Street Fighter 6 is to deplete the opponent's Health before they deplete yours. The secondary goal is to control the distance and positioning to maintain an advantageous situation.
+
+**Neutral Strategy**
+
+JP does not need to stay at full screen at all times. Instead, he creates space to inch his way towards the corner while keeping the opponent outside of their most threatening range.
+
+**Matchup-Specific Strategies**
+
+The approach depends on the matchup. Against fast characters, JP should prioritize portal and frame traps on offense and play safe on defense using Amnesia sparingly to seal turns. Against slow characters, JP should focus on keeping them outside of his range for as long as possible.
+
+**Combos and Setups**
+
+One effective combo is buffering standing heavy punch and a light Fireball. This string creates plenty of pushback on block and allows the portal to be set up on hit.
+
+**Portal Strategy**
+
+JP's portals can be used for safe approaches, providing a shield at his current position (light portal) or allowing him to advance with room to spare (heavy portal). The medium portal is a good middle ground between the two.
+
+**Zoning Tools**
+
+Don't overuse zoning tools as their slow startup makes them punishable on whiff.
+
+**Combo Section and Setup Notation**
+
+The combo section will not be commentated, but feel free to pause and read notes on the bottom half of the screen. The notation guide is color-coded for easy reference.
+
+**Miscellaneous Tips and Strategies**
+
+* Use Fireball Faints to avoid Akuma's Venomous Fang.
+* Counter Aki's Air Fireball with standing heavy kick or spaced OD Fireball.
+* Deal with Blanka's ball using crouching medium punch.
+* Be extra safe when setting up portals against Cammy with level three, as Chun-Li has no way of guaranteeing a drive impact unless she gets thrown.
+
+This rewritten transcript aims to provide an objective and concise overview of JP's gameplay mechanics, combos, and strategies.

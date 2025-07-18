@@ -1,0 +1,57 @@
+Here are the rewritten setup blocks in the structured format:
+
+---
+
+Setup: Quarter Circle forward heavy kick Oki knockdown
+Timing: After EX fireball (not specified, but implied)
+Effective Against: Anti-jump
+Weakness: Requires more practice to master, can be bad against mash/jump/throw reversal
+
+---
+
+Setup: Forward dash drive rush medium punch command grab
+Timing: After wake-up
+Effective Against: Wake-up reversal
+Weakness: None mentioned
+
+---
+
+Setup: Forward dash driver Rush Crouch medium punch back heavy punch medium punch hit crab
+Timing: Not specified, but implies a mixup situation
+Effective Against: Guessing and mashing
+Weakness: Requires good timing to confirm into the quarter Circle forward heavy kick Oki knockdown
+
+---
+
+Setup: Drive rush Crouch medium punch then into Stam medium punch into Core Circle for heavy kick
+Timing: After hit grab
+Effective Against: None mentioned
+Weakness: May be bad against mash/jump/throw reversal, requires good timing to confirm into the quarter Circle forward heavy kick Oki knockdown
+
+---
+
+Setup: Frame trap with St medium punch
+Timing: After block
+Effective Against: Mash and slower buttons
+Weakness: Requires good timing to catch the opponent's jump out, can be bad against fast-paced opponents
+
+---
+
+Setup: Command grab Crouch medium punch into Drive rush
+Timing: Not specified, but implies a situation where you want to lock down the opponent
+Effective Against: None mentioned
+Weakness: May lose to mashing, requires good timing to confirm into the quarter Circle forward heavy kick Oki knockdown
+
+---
+
+Setup: Drive Rush St meting kick
+Timing: Not specified, but implies a mixup situation
+Effective Against: Guessing and mashing
+Weakness: Requires good timing to cancel into the Shenanigans off of block
+
+---
+
+Setup: Crouch medium punch with drive rush cancel Shenanigans
+Timing: After block
+Effective Against: None mentioned
+Weakness: May be bad against fast-paced opponents, requires good timing to confirm into the quarter Circle forward heavy kick Oki knockdown

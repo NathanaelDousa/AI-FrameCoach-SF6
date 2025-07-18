@@ -1,0 +1,63 @@
+Here are the setup descriptions rewritten in the structured format:
+
+**Setup 1**
+Setup: Counter hit into Up Kicks
+Timing: After slide counter hit
+Effective Against: Anti-air and jump attacks
+Weakness: Medium kick version trades every time, requires good timing
+
+---
+**Setup 2**
+Setup: Stand Heavy Kick
+Timing: After opponent's knockdown or jump attack
+Effective Against: Reacting too quickly to stand heavy kick
+Weakness: Super dangerous if not executed correctly
+
+---
+**Setup 3**
+Setup: Medium Punch Medium Punch Target Combo
+Timing: After minus two situation
+Effective Against: Opponent trying to take their turn back
+Weakness: Requires good timing and spacing, can be tough to set up in the corner
+
+---
+**Setup 4**
+Setup: Sway Setup (1-2-3-4)
+Timing: After opponent's button press or jump attack
+Effective Against: Predictable opponent reactions
+Weakness: Needs hyperfocus on opponent's actions, requires practice to master
+
+---
+**Setup 5**
+Setup: Target Combo into Frame Trap
+Timing: After target combo hit
+Effective Against: Opponent trying to take their turn back after target combo
+Weakness: Requires good timing and spacing, can be tough to set up in the corner
+
+---
+**Setup 6**
+Setup: Block String into Damage Conversion
+Timing: Missed button press or perfect button press by opponent
+Effective Against: Opponent trying to react too quickly to OD sway
+Weakness: Requires good timing and spacing, can be tough to set up consistently
+
+---
+**Setup 7**
+Setup: Oky Setup after Heavy Up Kick
+Timing: After heavy up kick into two dashes
+Effective Against: Opponent trying to take their turn back or jump away
+Weakness: Requires good timing and spacing, can be tough to execute correctly
+
+---
+**Setup 8**
+Setup: Meaty Setup after Medium Up Kicks
+Timing: After medium up kicks into heavy up kicks in the corner
+Effective Against: Opponent trying to take their turn back or react too quickly
+Weakness: Requires good timing and spacing, can be tough to set up consistently
+
+---
+**Setup 9**
+Setup: Drive Rush Setup after Heavy Up Kcks
+Timing: After heavy up kcks into one dash
+Effective Against: Opponent trying to take their turn back or jump away
+Weakness: Requires good timing and spacing, can be tough to execute correctly

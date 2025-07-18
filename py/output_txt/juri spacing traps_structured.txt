@@ -1,0 +1,46 @@
+Here are the setups, timings, effective against, and weaknesses rewritten into the requested structured format:
+
+---
+
+
+Setup: Space Trap
+Timing: After knockdown or ambiguous spacing
+Effective Against: Anti-jump, mash, wake-up reversal
+Weakness: Requires practice to execute correctly, can be countered by opponents who anticipate the trap
+
+---
+
+Setup: Standing Hard Kick Bait
+Timing: When opponent is expecting a light attack or medium punch
+Effective Against: Punishment attempts after whiffed attacks
+Weakness: Opponents can anticipate and punish if baiting is not done correctly
+
+---
+
+Setup: Drive Rush Hard Kick Combo
+Timing: After Drive Rush hard kick, when Aki wants to use standing medium punch
+Effective Against: Aki's counterattack attempts
+Weakness: Aki can still punish with standing medium punch if jury doesn't press a button after the hard kick
+
+---
+
+Setup: Funa Way Engine Trap
+Timing: When opponent is trying to reversal crouching medium kick
+Effective Against: Cammy's reversal attempts
+Weakness: Gap in sequence between medium punch and light kick allows for mash-able attacks
+
+---
+
+Setup: Corner Setup
+Timing: In corner, when opponent tries to use crouching medium kick
+Effective Against: Opponent's crouching medium kick and DP
+Weakness: None mentioned
+
+---
+
+Setup: Safe Jump Follow-Up
+Timing: After safe jump, when life wuab will whiff
+Effective Against: Opponent's mash attacks
+Weakness: Requires precise timing to avoid getting hit by opponent's attacks
+
+Let me know if you'd like me to make any changes!

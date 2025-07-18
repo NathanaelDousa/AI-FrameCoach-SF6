@@ -1,415 +1,49 @@
-Character: Zangief
+Here is a rewritten transcript of the video guide on Zang, a fighting game character:
 
-Move: Standing Light Punch
-Startup: 7
-Active Frames: 3
-Recovery: 9
-On Hit: +4
-On Block: +2
-Cancelable: Chain, Special, Super
+---
 
-Move: Standing Medium Punch
-Startup: 9
-Active Frames: 4
-Recovery: 17
-On Hit: +2
-On Block: -2
-Cancelable: Target Combo
+**Zang's Overview**
 
-Move: Standing Heavy Punch
-Startup: 16...32
-Active Frames: 3
-Recovery: 22
-On Hit: +3
-On Block: -3
-Cancelable: --
-Notes: Can hold Heavy Punch to charge up. When held/charged fully, grants 1 hit of Upper Body Strike Armor on frames 4-34. For lower charges, armor starts up on frame 4 with as little as a 1 frame charge (17 frame startup), but the armor runs out early. Armor duration increases up to the last active frame as charge time goes up.
+As we dive into Zang's gameplay, we'll explore his strengths and weaknesses, optimal combos, and punishing strategies. With 11,000 health points, Zang can take more risks defensively than average characters.
 
-Move: Standing Light Kick
-Startup: 7
-Active Frames: 2
-Recovery: 17
-On Hit: -2
-On Block: -4
-Cancelable: Special, Super
+**Basic Combos**
 
-Move: Standing Medium Kick
-Startup: 10
-Active Frames: 4
-Recovery: 19
-On Hit: +1
-On Block: -4
-Cancelable: --
+To start, let's look at some basic combos:
 
-Move: Standing Heavy Kick
-Startup: 13
-Active Frames: 4
-Recovery: 21
-On Hit: +3
-On Block: +1
-Cancelable: --
+1. **Crouching Light Kick x3 + Forward Heavy Punch**: This combo is a great starting point for beginners.
+2. **Standing Light Kick -> Driver's Crouching Light Kick -> Forward Heavy Punch**: This combo adds more complexity and damage.
 
-Move: Crouching Light Punch
-Startup: 6
-Active Frames: 2
-Recovery: 8
-On Hit: +6
-On Block: +1
-Cancelable: Chain, Special, Super
+**Punishing Strategies**
 
-Move: Crouching Medium Punch
-Startup: 8
-Active Frames: 3
-Recovery: 16
-On Hit: +3
-On Block: -1
-Cancelable: Special, Super
+Now, let's discuss ways to punish your opponent:
 
-Move: Crouching Heavy Punch
-Startup: 11
-Active Frames: 9
-Recovery: 35
-On Hit: Knockdown +20
-On Block: -20
-Cancelable: --
-Notes: Ground bounces on Punish Counter as of May 2024 patch.
+1. **Crouching Light Kick**: A simple, reactive tool to check drivers.
+2. **Forward Heavy Punch**: An excellent option for dealing with drive impact.
+3. **Level 2/3**: Use these options if there's less than a 4-frame gap between the block stun and drive impact.
 
-Move: Crouching Light Kick
-Startup: 4
-Active Frames: 3
-Recovery: 12
-On Hit: 0
-On Block: -3
-Cancelable: Chain
+**Defensive Mix-Ups**
 
-Move: Crouching Medium Kick
-Startup: 9
-Active Frames: 3
-Recovery: 18
-On Hit: +3
-On Block: -2
-Cancelable: --
-Notes: June 2025 patch: initial scaling of 20%.
+To force a defensive mix-up, try:
 
-Move: Crouching Heavy Kick
-Startup: 12
-Active Frames: 3
-Recovery: 27
-On Hit: Knockdown +36
-On Block: -13
-Cancelable: --
+1. **Perfect Parry**: A high-risk, high-reward option that requires precise timing.
+2. **Jump Cancel SD**: A jump cancel special attack can turn the tables in your favor. (Check out my guide on how to execute jump cancel SDs!)
 
-Move: Down-Forward + Medium Punch
-Startup: 7
-Active Frames: 3
-Recovery: 21
-On Hit: -1
-On Block: -3
-Cancelable: Special, Super
+**Reversal Options**
 
-Move: Forward + Medium Kick (Knee Hammer)
-Startup: 14
-Active Frames: 7
-Recovery: 13
-On Hit: +1...+7
-On Block: -4...+2
-Cancelable: --
+When facing a reversal:
 
-Move: Forward + Heavy Punch (Headbutt)
-Startup: 14
-Active Frames: 5
-Recovery: 15
-On Hit: +8
-On Block: +4
-Cancelable: --
-Notes: 25% initial scaling and 20% combo scaling as of October 2024 patch.
+1. **Level 2/3**: Use these options if you have a good read on the opponent's movement.
+2. **Splash**: A jumping light kick that can hit an opponent walking up for a throw.
 
-Move: Forward + Heavy Kick (Cyclone Wheel Kick)
-Startup: 22
-Active Frames: 7
-Recovery: 25
-On Hit: Knockdown +28...+32
-On Block: -9...-6
-Cancelable: --
+**Rush Check**
 
-Move: Down-Forward + Heavy Kick (Smetana Dropkick)
-Startup: 16
-Active Frames: 4
-Recovery: 40
-On Hit: Knockdown +21
-On Block: -18
-Cancelable: --
-Notes: Wall Splats in the corner on Punish Counter.
+To check drivers, use crouching light kick and be prepared to react without looking for drives.
 
-Move: Down, Down + Medium Kick (Power Stomps)
-Startup: 9
-Active Frames: 3
-Recovery: 17
-On Hit: +4
-On Block: -3
-Cancelable: Target Combo, Special (Second hit)
-Notes: Second hit can cancel into specials as of May 2024 patch. June 2025 patch: all hits are lows now (were all high).
+**Tips and Tricks**
 
-Move: Medium Punch, Medium Punch, Medium Punch
-Startup: 9, 9, 15
-Active Frames: 4, 4, 3
-Recovery: 17, 20, 32
-On Hit: +2, +2, Knockdown +27
-On Block: -2, -6, -17
-Cancelable: --
-Notes: Only combos on counter hit. Third hit always scales to 80% (720).
+1. **Optimal Combos and Punishes**: Vary your combos and punishes depending on the patch you're playing.
+2. **Burnout Management**: Keep an eye on your health points and adjust your playstyle accordingly.
 
-Move: Down, Down + Medium Kick, Medium Kick, Medium Kick
-Startup: 9, 9, 10
-Active Frames: 3, 3, 3
-Recovery: 17, 19, 24
-On Hit: +4, -3, -2
-On Block: -3, -4, -10
-Cancelable: --
-Notes: Third hit only combos if second hit counter hits. June 2025 patch: all hits are lows now (were high).
+---
 
-Move: Jump Light Punch
-Startup: 5
-Active Frames: 7
-Recovery: 3 Landing
-On Hit: +11
-On Block: +8
-Cancelable: --
-
-Move: Jump Medium Punch
-Startup: 8
-Active Frames: 5
-Recovery: 3 Landing
-On Hit: +10...
-On Block: +7...
-Cancelable: --
-
-Move: Jump Heavy Punch
-Startup: 9
-Active Frames: 6
-Recovery: 3 Landing
-On Hit: +15...
-On Block: +7...
-Cancelable: --
-Notes: Knockdown on aerial hit.
-
-Move: Jump Light Kick
-Startup: 5
-Active Frames: 10
-Recovery: 3 Landing
-On Hit: +2...
-On Block: -1...
-Cancelable: --
-Notes: Crosses up.
-
-Move: Jump Medium Kick
-Startup: 8
-Active Frames: 8
-Recovery: 3 Landing
-On Hit: +6...
-On Block: +3...
-Cancelable: --
-
-Move: Jump Heavy Kick
-Startup: 10
-Active Frames: 7
-Recovery: 3 Landing
-On Hit: +12...
-On Block: +8...
-Cancelable: --
-
-Move: Jump, Down + Heavy Punch
-Startup: 9
-Active Frames: 9
-Recovery: 8 Landing
-On Hit: +14...
-On Block: +10...
-Cancelable: --
-Notes: Crosses up.
-
-Move: Neutral Jump, Up + Heavy Punch (Flying Headbutt)
-Startup: 8
-Active Frames: 4
-Recovery: 3 Landing
-On Hit: +18...
-On Block: +13...
-Cancelable: Special
-
-Move: Double Lariat
-Startup: 15
-Active Frames: 2, 2, 2, 2
-Recovery: 27
-On Hit: Knockdown +27...56
-On Block: -41...-12
-Cancelable: 
-Notes: Projectile invincible on frames 6-45. Anti-air invincible on frames 6-16. Hold forward or back to move during the attack, can continue adjusting direction as long as the attack is active. First hit connects with crouching opponents, all followup hits whiff on crouching opponents.
-
-Move: Double Lariat (Overdrive)
-Startup: 12
-Active Frames: 2, 3, 2, 2
-Recovery: 26
-On Hit: Knockdown +38...57
-On Block: -25...-11
-Cancelable: 
-Notes: Projectile invincible on frames 1-36. Anti-air invincible on frames 6-13. Hold forward or back to move during the attack, can continue adjusting direction as long as the attack is active. First two hits connect with crouching opponents, all followup hits whiff on crouching opponents.
-
-Move: Screw Piledriver (Light Punch)
-Startup: 5
-Active Frames: 3
-Recovery: 54
-On Hit: Knockdown +30
-On Block: --
-Cancelable: 
-
-Move: Screw Piledriver (Medium Punch)
-Startup: 5
-Active Frames: 3
-Recovery: 54
-On Hit: Knockdown +28
-On Block: --
-Cancelable: 
-
-Move: Screw Piledriver (Heavy Punch)
-Startup: 5
-Active Frames: 3
-Recovery: 54
-On Hit: Knockdown +28
-On Block: --
-Cancelable: 
-
-Move: Screw Piledriver (Overdrive)
-Startup: 5
-Active Frames: 3
-Recovery: 54
-On Hit: Knockdown +28
-On Block: --
-Cancelable: 
-
-Move: Borscht Dynamite
-Startup: (5+1) + 4
-Active Frames: 3
-Recovery: **
-On Hit: Knockdown +19
-On Block: --
-Cancelable: 
-Notes: 360 directional input can be stored for up to 20 frames before activating with Kick. Has Limited Juggle Potential and applies combo scaling of 20% as of May 2024 patch.
-
-Move: Borscht Dynamite (Overdrive)
-Startup: (5+1) + 4
-Active Frames: 3
-Recovery: **
-On Hit: Knockdown +19
-On Block: --
-Cancelable: 
-Notes: Has Limited Juggle Potential. 360 directional input can be stored for up to 20 frames before activating with Kick.
-
-Move: Russian Suplex / Siberian Express
-Startup: 10 / 28...80
-Active Frames: 2
-Recovery: 50 / 41
-On Hit: Knockdown +26 / Knockdown +29
-On Block: --
-Cancelable: 
-Notes: Does Russian Suplex if close to opponent, does Siberian Express if mid range or far from opponent. Technically two different versions of Siberian Express, based on mid range or far range. Siberian Express has one hit of armor, butonly on the far ranged version.
-
-Move: Russian Suplex (Overdrive) / Siberian Express (Overdrive)
-Startup: 10 / 23...80
-Active Frames: 2
-Recovery: 50 / 44
-On Hit: Knockdown +27 / Knockdown +29
-On Block: --
-Cancelable: 
-Notes: Does Russian Suplex if close to opponent, , does Siberian Express if mid range or far from opponent. Technically two different versions of Siberian Express, based on mid range or far range. Overdrive Siberian Express has two hits of armor, butonly on the far range version, starting on frame 3 and lasting until the grab activates.
-
-Move: Tundra Storm
-Startup: 6
-Active Frames: 50
-Recovery: 24
-On Hit: Knockdown +5
-On Block: --
-Cancelable: 
-Notes: Specifically parries standing kick attacks (normals, specials, and drive impacts are all possible if the move is a standing kick).
-
-Move: Aerial Russian Slam (Level 1)
-Startup: 11
-Active Frames: 7
-Recovery: 60
-On Hit: Knockdown +29
-On Block: --
-Cancelable: 
-Notes: Fully invincible on frames 1-17.
-
-Move: Cyclone Lariat (Level 2)
-Startup: 18
-Active Frames: **
-Recovery: 52 / 25
-On Hit: Knockdown +5 / Knockdown +87 / ** / **
-On Block: -35
-Cancelable: 
-Notes: Fully invincible on frames 1-18. Breaks armor. Projectile invincible on frames 19-119. If no direction is pressed, Zangief will do 3160 damage and side swap after he body slams the opponent. Holding a direction will chose that direction and prevent the sideswap, but only do 3060 damage. Holding Punch causes a Limited Juggle State rather than the body slam, which does 1100 damage.
-
-Move: Bolshoi Storm Buster (Level 3)
-Startup: 7
-Active Frames: 1
-Recovery: 116
-On Hit: Knockdown +26
-On Block: --
-Cancelable: 
-Notes: Fully invincible on frames 1-7. Critical Art in parenthesis. Opponent CANNOT jump away after the screen freeze.
-
-Move: Stats
-Startup: 
-Active Frames: 
-Recovery: 
-On Hit: 
-On Block: 
-Cancelable: 
-
-Move: Neutral Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +22 [0]
-On Block: 
-Cancelable: --
-Notes: Hold throw to initiate an elbow drop, data in brackets.
-
-Move: Forward Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +10
-On Block: 
-Cancelable: --
-
-Move: Back Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +8
-On Block: 
-Cancelable: --
-
-Move: Down Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +14
-On Block: 
-Cancelable: --
-
-Move: Down-Forward Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +28
-On Block: 
-Cancelable: --
-
-Move: Down-Back Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +9
-On Block: 
-Cancelable: --
+I hope this rewritten transcript meets your requirements! Let me know if you have any further requests.

@@ -1,0 +1,55 @@
+Here are the setups rewritten into the desired format:
+
+**Setup 1: Light Tackle**
+Timing: Knockdown
+Effective Against: Anti-jump, Wake-up reversal
+Weakness: Requires timing; can be difficult to confirm hit if opponent is crouching.
+
+---
+
+**Setup 2: Drive Rush + Overhead**
+Timing: After knockdown or counterhit
+Effective Against: None specified
+Weakness: Can trade with opponent's mash or jump; requires good button timing.
+
+---
+
+**Setup 3: Drive Rush + Low**
+Timing: After knockdown or counterhit
+Effective Against: Anti-jump, Wake-up reversal
+Weakness: Requires good button timing; can be difficult to confirm hit if opponent is crouching.
+
+---
+
+**Setup 4: Drive Rush + Throw**
+Timing: After knockdown or counterhit
+Effective Against: None specified
+Weakness: Can be punished by opponent's wake-up buttons; requires good throw timing.
+
+---
+
+**Setup 5: OD Elbow + Medium Punch + Dive Kick**
+Timing: After knockdown or counterhit
+Effective Against: Anti-jump, Wake-up reversal
+Weakness: Requires meter; can be difficult to confirm hit if opponent is crouching.
+
+---
+
+**Setup 6: OD Fireball + Dash Up + Back Heavy Kick + Crouch Medium Punch + Heavy REO**
+Timing: After knockdown or counterhit
+Effective Against: None specified
+Weakness: Requires good button timing; can be punished by opponent's mash or jump.
+
+---
+
+**Setup 7: Walk-Up Overhead/Low/Throw**
+Timing: After set-up, plus one frame advantage
+Effective Against: None specified
+Weakness: Requires good spacing and timing; can be difficult to confirm hit if opponent is crouching.
+
+---
+
+**Setup 8: Corner Throw**
+Timing: After knockdown or counterhit
+Effective Against: Wake-up buttons
+Weakness: Requires good button timing; can be punished by opponent's mash or jump.

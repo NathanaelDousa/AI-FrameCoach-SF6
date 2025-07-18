@@ -1,0 +1,65 @@
+Here are the rewritten setup blocks in the desired format:
+
+---
+
+
+Setup: Grounded butt slam pressure
+Timing: After knockdown
+Effective Against: Anti-jump, mash
+Weakness: Requires practice to time command grab; bad against jump/throw
+
+---
+
+Setup: Driver and crouch medium kick loop
+Timing: After grounded butt slam
+Effective Against: Parry attempts while holding back or down back
+Weakness: None mentioned explicitly
+
+---
+
+Setup: Command grab after grounded butt slam
+Timing: As soon as Honda starts moving forward after grounded butt slam
+Effective Against: Holding down back or trying to parry; gives opponent incentive to hold up
+Weakness: None mentioned explicitly
+
+---
+
+Setup: Delayed command grab after grounded butt slam block
+Timing: After grounding butt slam block
+Effective Against: Mashing or jumping out of command grab attempt
+Weakness: None mentioned explicitly
+
+---
+
+Setup: Drive versus crouch medium kick mixup
+Timing: As a follow-up to grounded butt slam
+Effective Against: Guessing and trying to mash or jump out of command grab
+Weakness: Requires practice to time correctly; bad against jump/throw
+
+---
+
+Setup: Driver stay medium punch safe jump
+Timing: After wake-up reversal drive
+Effective Against: None mentioned explicitly
+Weakness: Not effective if farther away and back recovering opponent; requires practice to execute safely
+
+---
+
+Setup: Run into punch-punch follow-up safe jump
+Timing: After grounded butt slam or drive reversal
+Effective Against: None mentioned explicitly
+Weakness: Not effective if farther away and back recovering opponent; requires practice to execute safely
+
+---
+
+Setup: Medium punch-jab target combo drive rush
+Timing: As a follow-up to grounded butt slam or drive reversal
+Effective Against: Wake-up button attempts
+Weakness: Requires practice to time correctly; bad against jump/throw
+
+---
+
+Setup: Overhead after medium punch or crouch medium kick
+Timing: After wake-up recovery and overhead input
+Effective Against: None mentioned explicitly
+Weakness: Requires practice to time correctly; bad against jump/throw

@@ -1,0 +1,31 @@
+Here is the rewritten text:
+
+Street Fighter 6 Guide: JP Character Overview
+
+JP's primary strategy involves keeping opponents at full screen and shooting projectiles to prevent movement and limit fun. He has a range of moves, including instant ground spikes, low and overhead Shadow clones.
+
+One of his notable moves is the Psycho Spike, which summons a spike from the ground. Each strength level correlates with the distance the spike travels: light punch is close-range, medium punch is half-screen, and heavy punch is full screen. This move can be enhanced by pressing two punch buttons, resulting in different effects based on the strength level.
+
+Another key move is the Shadow clone, which JP can summon using quarter Circle back plus light, medium, or heavy kick. The EX version sends out a shadow that swipes at the opponent twice.
+
+JP also has a Parry move, which allows him to absorb an incoming attack and counter with a combo. The down-down plus kick input performs a Parry that is strong against level 3 supers and command grabs.
+
+Additional moves include:
+
+* Quarter Circle back plus punch: teleports JP through the rift
+* Quarter Circle back plus heavy punch (EX version): makes both tears burst
+* Quarter Circle forward plus light, medium, or heavy kick: summons different Shadow clones
+
+JP's notable normals include:
+
+* Standing medium punch: a great poke, but slow on recovery and non-special cancelable
+* Crouching medium punch: special cancelable and drive Rush cancelable
+* Standing medium kick: an okay button that is special cancelable and can go into dry brush crushing
+* Standing heavy punch: a whiff Punisher tool and pressure tool
+* Standing heavy kick: a great poke with plus two on block, allowing JP to frame trap with a Crouch light punch
+
+Crouching heavy punches are JP's anti-air, also useful in combos.
+
+In conclusion, playing neutral with JP involves trying to knock the opponent down or back using pokes and Shadow clones. This allows for setting up tears in the sky and zoning opponents with more Shadow clones and ground spikes.
+
+This guide covers basic JP gameplay and strategies. In the next part of this video, we will explore combos and a match against an opponent.

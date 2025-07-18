@@ -1,0 +1,82 @@
+Target Combo → EX Tatsu (KK~MK)
+Knockdown: Overhead (KK~MK) leaves -1 on block.
+Setup: Command Run Cancel (KK~LK) to bait reversals.
+Oki Options:
+
+Double Dash Forward:
+Timing: Auto-timed after EX Tatsu.
+Advantage: +5 in face.
+Effective Against: All wakeup options (meaty/throw/shimmy).
+Weakness: Requires strict timing (practice vs. mash/jump/throw).
+
+Target Combo → EX DP
+Knockdown: Hard knockdown (corner carry).
+Oki Options:
+Drive Rush (DR) → 5HP:
+Timing: Auto-timed.
+Effective Against: Mashing/jumps.
+Weakness: Loses to wakeup parry.
+Mixup: DR → Throw (vs. parry-happy opponents).
+
+Run Dragonlash (Safejump Midscreen)
+Knockdown: Safejump setup off j.LK.
+Oki Options:
+j.LK (Safejump):
+Timing: Manual (delay 1f for backward recovery).
+Effective Against: Reversals (blocks DP/Super), mashes/jumps.
+On Hit: +4 (combo into 2LP → target combo or light DP).
+On Back Recovery: Light combo ender (5MP whiffs).
+
+Sweep (Normal Hit)
+Knockdown: Standard sweep.
+Oki Options:
+Forward Dash → 5HP → 2MP → M Tatsu:
+Timing: Auto-timed.
+On Block: +1 (frame traps/pokes).
+Weakness: Only use if side-switch is needed.
+
+Sweep (Counter/Punish Counter)
+Knockdown: Extended knockdown frames.
+Oki Options:
+M Tatsu (Frame-Perfect):
+Timing: Strict (meaties with 2LP).
+Effective Against: Mashes (loses to throws).
+Gimmick: Side-switches at close range.
+Dragonlash:
+Timing: Auto-timed.
+Effective Against: Crouching normals/throws/jumps.
+On Block: Safe to DI, continues pressure.
+Unga Bunga: Sweep → Sweep → 5HP.
+Why?: It just works (beats mashes/jumps).
+
+Forward Throw (Midscreen)
+Knockdown: Minimal advantage.
+Oki Option:
+DR → 5HP:
+Timing: Auto-timed.
+Effective Against: Mashing/jumps.
+Meter Efficiency: Positive meter trade (DR costs less than opponent’s block damage).
+
+Back Throw (Midscreen)
+Knockdown: No viable oki (sadly).
+
+214MK (M Tatsu for Corner Carry)
+Knockdown: Long knockdown (corner push).
+Oki Option:
+Double Dash Forward:
+Timing: Auto-timed.
+Goal: Maintain pressure into corner.
+
+EX/OD DP Reversal
+Knockdown: Hard knockdown.
+Oki Option:
+DR → 5HP (Delayed):
+Timing: Manual (delay ~3f to reach opponent).
+Effective Against: Mashing/jumps.
+Risk: Can whiff if mistimed.
+
+Key Takeaways:
+Best Auto-Timed: DR 5HP (EX DP/Throw), Double Dash (EX Tatsu).
+Best Manual: Safejump (Dragonlash), Delayed DR 5HP (OD DP).
+Gimmicks: Sweep → Sweep, M Tatsu frame kill.
+Corner Priority: Use EX DP ender for DR 5HP oki.

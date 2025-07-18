@@ -1,400 +1,42 @@
-Character: Mai
+Here is the rewritten transcript:
 
-Move: Standing Light Punch
-Startup: 4
-Active Frames: 3
-Recovery: 7
-On Hit: +5
-On Block: -2
-Cancelable: Chain, Special, Super
+**Introduction**
 
-Move: Standing Medium Punch
-Startup: 8
-Active Frames: 4
-Recovery: 15
-On Hit: +2
-On Block: -3
-Cancelable: Special, Super
+Hey everyone, welcome back to our video guide on playing [Fighting Game Character]. Today, we're going to dive into some advanced techniques and strategies for using this character effectively in a competitive match. If you have any questions or comments, feel free to share them below.
 
-Move: Standing Heavy Punch
-Startup: 9
-Active Frames: 3
-Recovery: 21
-On Hit: +1
-On Block: -3
-Cancelable: Special, Super
-Notes: Moves forward. June 2025 patch: reduced pusback on hit/block.
+**Basic Techniques**
 
-Move: Standing Light Kick
-Startup: 4
-Active Frames: 3
-Recovery: 8
-On Hit: +1
-On Block: -1
-Cancelable: Special, Super, Target Combo
+Before we get into the advanced stuff, let's quickly review some basic techniques that are essential for playing [Fighting Game Character]. First, it's crucial to master your Oki, which refers to the timing and spacing of your throws. Practice timing meaty throws after tackle and understanding how to do shimmies.
 
-Move: Standing Medium Kick
-Startup: 9
-Active Frames: 3
-Recovery: 18
-On Hit: +5
-On Block: -4
-Cancelable: --
+**Drive Rush**
 
-Move: Standing Heavy Kick
-Startup: 14
-Active Frames: 3
-Recovery: 19 (22 on whiff)
-On Hit: +3
-On Block: -3
-Cancelable: --
-Notes: Knockdown crumple +61 on Punish Counter, limited juggle state. Strike invincible on frame 13.
+Next, let's talk about Drive Rush. While it may not be the most optimal technique in every situation, it can be a powerful tool for punishing opponents who are trying to anti-air you. Technically, Drive Rush is more optimal than [other option] when punishing certain types of attacks.
 
-Move: Crouching Light Punch
-Startup: 4
-Active Frames: 3
-Recovery: 7
-On Hit: +4
-On Block: -1
-Cancelable: Chain, Special, Super
+**Burnout Pressure**
 
-Move: Crouching Medium Punch
-Startup: 6
-Active Frames: 4
-Recovery: 15 on hit/block, 17 on whiff
-On Hit: +5
-On Block: -3
-Cancelable: Special, Super
-Notes: Moves forward.
+Now, let's move on to Burnout pressure. This is an alternative punish to stand heavy kick punish counter, and it allows you to get weird juggles and go into Super. It's slightly more optimal in certain situations.
 
-Move: Crouching Heavy Punch
-Startup: 10
-Active Frames: 2, 3
-Recovery: 19
-On Hit: +4
-On Block: -3
-Cancelable: --
-Notes: Moves forward.
+**Stun Combos**
 
-Move: Crouching Light Kick
-Startup: 5
-Active Frames: 3
-Recovery: 8
-On Hit: +2
-On Block: -2
-Cancelable: Chain
+Let's talk about stun combos. These are some of the most optimal combos you can do after a stun, and they take advantage of [Fighting Game Character]'s ability to continue the combo longer with fire stocks.
 
-Move: Crouching Medium Kick
-Startup: 7
-Active Frames: 3
-Recovery: 19
-On Hit: -2
-On Block: -6
-Cancelable: Special, Super
-Notes: 20% damage scaling to followup combo hits.
+**Combos**
 
-Move: Crouching Heavy Kick
-Startup: 9
-Active Frames: 3
-Recovery: 22 (23 on block, 25 on whiff)
-On Hit: Knockdown +38
-On Block: -11
-Cancelable: --
-Notes: Moves forward slightly.
+Here are some example combos that showcase [Fighting Game Character]'s capabilities:
 
-Move: Forward + Medium Punch (Senkotsu Uchi)
-Startup: 20
-Active Frames: 3
-Recovery: 18
-On Hit: +2
-On Block: -3
-Cancelable: --
+* Combo 1: [list of moves]
+* Combo 2: [list of moves]
+* Combo 3: [list of moves]
 
-Move: Back + Heavy Kick (Hoshi Kujaku)
-Startup: 8
-Active Frames: 5
-Recovery: 20
-On Hit: +3
-On Block: -1
-Cancelable: --
-Notes: anti-air invincible on frames 8-12.
+These combos can be used in various situations, from punishing opponents who are trying to anti-air you to building up damage and pressure.
 
-Move: Light Kick, Light Kick, Light Kick (Hien Ren Kyaku)
-Startup: 4, 7, 10
-Active Frames: 3, 2, 2
-Recovery: 8, 20, 28
-On Hit: +1, -2, +3
-On Block: -1, -10, -10
-Cancelable: --
-Notes: Third hit goes into an airborn state that can cancel into Musasabi no Mai (QCB+P).
+**Tips and Tricks**
 
-Move: Back + Heavy Kick, Heavy Kick
-Startup: 8, 9
-Active Frames: 5, 4
-Recovery: 20, 38
-On Hit: +3, Knockdown **
-On Block: -1, -11
-Cancelable: --
-Notes: Limited juggle state, can follow up with Hishou Ryuuenjin in the corner.
+Finally, here are some general tips and tricks for playing [Fighting Game Character]:
 
-Move: Jump Light Punch
-Startup: 4
-Active Frames: 9
-Recovery: 3 Landing
-On Hit: +7...
-On Block: +4...
-Cancelable: --
+* Use your Oki to control the pace of the match.
+* Experiment with different shimmies and punish counters.
+* Don't be afraid to spend meter on Super or Drive Rush.
+* Practice your timing and spacing to become a more consistent player.
 
-Move: Jump Medium Punch
-Startup: 7
-Active Frames: 5
-Recovery: 3 Landing
-On Hit: +8...
-On Block: +4...
-Cancelable: Special
-Notes: Juggle state on air hit.
-
-Move: Jump Heavy Punch
-Startup: 9
-Active Frames: 5
-Recovery: 3 Landing
-On Hit: +8...
-On Block: +4...
-Cancelable: --
-
-Move: Jump Light Kick
-Startup: 5
-Active Frames: 7
-Recovery: 3 Landing
-On Hit: +6...
-On Block: +2...
-Cancelable: --
-Notes: Crosses up.
-
-Move: Jump Medium Kick
-Startup: 7
-Active Frames: 5
-Recovery: 3 Landing
-On Hit: +9...
-On Block: +5...
-Cancelable: --
-Notes: Crosses up.
-
-Move: Jump Heavy Kick
-Startup: 10
-Active Frames: 6
-Recovery: 3 Landing
-On Hit: +11...
-On Block: +7...
-Cancelable: --
-
-Move: Kachousen (Light Punch)
-Startup: 16
-Active Frames: ...
-Recovery: 33, Flame 30
-On Hit: Normal -1..., Charged +1..., Followup +30...Flame +1..., Charged +1..., Followup +30...
-On Block: Normal -7..., Charged -1..., Followup +26...Flame -3..., Charged -1..., Followup +26...
-Cancelable: 
-Notes: Not technically considered a projectile, so does not collide with projectiles and can be stopped with normal attacks.Can hold the attack button to charge, and the held version is considered a projectile. Held version bounces off the opponent on hit/block for a followup hit,strength of Punch changes the bounce height.The Flame Stock version is a standard projectile with two hits.
-
-Move: Kachousen (Medium Punch)
-Startup: 14
-Active Frames: ...
-Recovery: 35, Flame 32
-On Hit: Normal -3..., Charged +1..., Followup +30...Flame -1..., Charged +1..., Followup +30...
-On Block: Normal -9..., Charged -1..., Followup +26...Flame -5..., Charged -1..., Followup +26...
-Cancelable: 
-Notes: Not technically considered a projectile, so does not collide with projectiles and can be stopped with normal attacks.Can hold the attack button to charge, and the held version is considered a projectile. Held version bounces off the opponent on hit/block for a followup hit,strength of Punch changes the bounce height.The Flame Stock version is a standard projectile with two hits.
-
-Move: Kachousen (Heavy Punch)
-Startup: 12
-Active Frames: ...
-Recovery: 37, Flame 34
-On Hit: Normal -5..., Charged +1..., Followup +30...Flame -3..., Charged +1..., Followup +30...
-On Block: Normal -11..., Charged -1..., Followup +26...Flame -7..., Charged -1..., Followup +26...
-Cancelable: 
-Notes: Not technically considered a projectile, so does not collide with projectiles and can be stopped with normal attacks.Can hold the attack button to charge, and the held version is considered a projectile. Held version bounces off the opponent on hit/block for a followup hit,strength of Punch changes the bounce height.The Flame Stock version is a standard projectile with two hits.
-
-Move: Kachousen (Overdrive)
-Startup: 16
-Active Frames: ...
-Recovery: 31, Flame 31
-On Hit: Normal +3..., Charged +14..., Knockdown +61...Flame +3..., Charged +45..., Knockdown +60...
-On Block: Normal -7..., Charged -1..., Followup +26...Flame -3..., Charged -1..., Followup +26...
-Cancelable: 
-Notes: Overdrive version bounces off of opponents on hit/block for a followup hit without needing to be held. Overdrive version is always considered a standard projectile, but only has one hit so will lose to most other Overdrive projectiles.Can hold the attack button to charge. Held version has two hits, but does not bounce off of opponents on hit/block -- however, held version can be followed up with Forward+Punch to throw two more fans, both of which will bounce off of opponents on hit/block.Flame Stock versions still have two hits per fan.
-
-Move: Hishou Ryuuenjin (Light Kick)
-Startup: 5
-Active Frames: 18
-Recovery: 30
-On Hit: Knockdown +29 (Knockdown +31)
-On Block: -29
-Cancelable: 
-Notes: Anti-air invincible on frames 1-14. Flame Stock version in parenthesis.
-
-Move: Hishou Ryuuenjin (Medium Kick)
-Startup: 6
-Active Frames: 18
-Recovery: 29
-On Hit: Knockdown +31 (Knockdown +32)
-On Block: -28
-Cancelable: 
-Notes: Anti-air invincible on frames 1-10. Flame Stock version in parenthesis.
-
-Move: Hishou Ryuuenjin (Heavy Kick)
-Startup: 7
-Active Frames: 18
-Recovery: 29
-On Hit: Knockdown +31 (Knockdown +32)
-On Block: -31
-Cancelable: 
-Notes: Anti-air invincible on frames 1-11. Flame Stock version in parenthesis.
-
-Move: Hishou Ryuuenjin (Overdrive)
-Startup: 6
-Active Frames: 17
-Recovery: 35 (42 on block)
-On Hit: Knockdown +20 (Knockdown +27)
-On Block: -40
-Cancelable: 
-Notes: Fully invincible on frames 1-8. Anti-air invincible on frames 9-10. Flame Stock version in parenthesis.
-
-Move: Ryuuenbu (Light Punch)
-Startup: 14
-Active Frames: 7
-Recovery: 15
-On Hit: +3...+9 (Knockdown +35...)
-On Block: -4...+2 (-2...+4)
-Cancelable: 
-Notes: Flame stock in parenthesis.
-
-Move: Ryuuenbu (Medium Punch)
-Startup: 14
-Active Frames: 2, 7
-Recovery: 31
-On Hit: Knockdown +35...+41 (Limited Juggle State, Knockdown +42...)
-On Block: -6...0 (-6... 0)
-Cancelable: 
-
-Move: Ryuuenbu (Heavy Punch)
-Startup: 15
-Active Frames: 3, 10
-Recovery: 21
-On Hit: Limited Juggle State, Knockdown +43...+51 (Limited Juggle State, Knockdown +47...)
-On Block: -6...+3 (-6...+3)
-Cancelable: 
-Notes: Whiffs on crouching opponents. Limited juggle state on hit.
-
-Move: Ryuuenbu (Overdrive)
-Startup: 16
-Active Frames: 2, 5, 5
-Recovery: 16
-On Hit: Limited Juggle State, Knockdown +48...
-On Block: -12...
-Cancelable: 
-
-Move: Hissatsu Shinobi Bachi (Light Kick)
-Startup: 10
-Active Frames: 2, 17
-Recovery: 16
-On Hit: Knockdown +27...+43
-On Block: -10...+6
-Cancelable: 
-Notes: Flame Stock in parenthesis.
-
-Move: Hissatsu Shinobi Bachi (Medium Kick)
-Startup: 15
-Active Frames: 2, 17
-Recovery: 20
-On Hit: Knockdown +23...
-On Block: -12...+4
-Cancelable: 
-Notes: Flame Stock in parenthesis.
-
-Move: Hissatsu Shinobi Bachi (Heavy Kick)
-Startup: 18
-Active Frames: 2, 17
-Recovery: 21
-On Hit: Knockdown +22...
-On Block: -13...
-Cancelable: 
-Notes: Flame Stock in parenthesis.
-
-Move: Hissatsu Shinobi Bachi (Overdrive)
-Startup: 14
-Active Frames: 2, 17
-Recovery: 27 (32 on hit)
-On Hit: Juggle state... Knockdown +27
-On Block: -12
-Cancelable: 
-Notes: Transitions into an air state on hit, during which Jump Medium Punch can be used as a followup. Flame Stock in parenthesis.
-
-Move: Musasabi no Mai (During Forward Jump Only)
-Startup: 21
-Active Frames: 10...6
-Recovery: **
-On Hit: Limited juggle state, knockdown ** on hit...
-On Block: -7...-1 [-4...+1]
-Cancelable: 
-Notes: Punch strength does not change the move. Overdrive in parenthesis. Flame Stock in brackets. All versions create a limited juggle on hit, but difficult to space to allow followup without Overdrive, which launches higher.
-
-Move: Kagerou no Mai (Level 1)
-Startup: 6
-Active Frames: **
-Recovery: **
-On Hit: Knockdown +26 (Knockdown +40)
-On Block: -26
-Cancelable: 
-Notes: Strike invincible on frames 1-8. Breaks armor. Flame stock in parenthesis.
-
-Move: Chou Hissatsu Shinobi Bachi (Level 2)
-Startup: 7
-Active Frames: **
-Recovery: ...37
-On Hit: Knockdown +23 (Knockdown +38)
-On Block: -24
-Cancelable: 
-Notes: Fully invincible on frames 1-8. Breaks armor. Flame Stock in parenthesis.Flame stock grants additional projectile invincibility on frames 9-12.
-
-Move: Air Chou Hissatsu Shinobi Bachi (Level 2)
-Startup: 3
-Active Frames: **
-Recovery: 71
-On Hit: Knockdown +11 (Knockdown +10)
-On Block: **
-Cancelable: 
-Notes: Flame Stock in parenthesis.
-
-Move: Shiranui Ryuu: Enbu Ada Zakura (Level 3)
-Startup: 10
-Active Frames: **
-Recovery: **
-On Hit: Knockdown +19 (Knockdown +20)
-On Block: -33
-Cancelable: 
-Notes: Strike invincibile on frames 1-11. Breaks armor. Critical Art in parenthesis.
-
-Move: Stats
-Startup: 
-Active Frames: 
-Recovery: 
-On Hit: 
-On Block: 
-Cancelable: 
-
-Move: Forward Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +21
-On Block: 
-Cancelable: --
-
-Move: Back Throw
-Startup: 5
-Active Frames: 3
-Recovery: 23
-On Hit: +17
-On Block: 
-Cancelable: --
+That's it for today, folks! I hope you found this guide helpful in improving your gameplay. If you have any questions or comments, please leave them below. Thanks for watching, and we'll catch you all on the next one!
