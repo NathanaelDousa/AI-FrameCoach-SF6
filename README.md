@@ -101,10 +101,12 @@ Ollama (for running local LLMs)
    Retrieve the top relevant documents using ChromaDB
    Feed both the context and your question into the local LLM (Gemma or Mistral)
    Return a clean and accurate response    
+   
 **Notes**
    You can change the model name in app.py:
    ```
    MODEL = "gemma"  # or "mistral", etc.
+
    Make sure Ollama is running while using the app.
 
    If you add or update files in data/, run ingest_texts.py again.
