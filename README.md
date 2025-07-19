@@ -55,9 +55,11 @@ Ollama (for running local LLMs)
    ollama pull gemma:2b
    or 
    ollama pull mistral
-
+   ```
    You can test if it's working with:
+   ```
    ollama run gemma:2b
+   ```
 
 2. **Clone the Project & Set Up Python**  
    git clone https://github.com/NathanaelDousa/AI-FrameCoach-SF6
