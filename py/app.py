@@ -50,7 +50,7 @@ def ask():
     # Filter op basis van karakternaam in de documenten
     character_name = extract_character_from_question(question)  # Bijvoorbeeld 'Blanka'
     relevant_docs = [doc for doc in results["documents"][0] if character_name.lower() in doc.lower()]
-    context = "\n\n".join(relevant_docs[:3])  # max 3 relevante documenten
+    context = "\n\n".join(relevant_docs[:30]) # max 3 relevante documenten
 
 
     prompt = f"""You are a world-class Street Fighter 6 coach who explains setups, frame data, and strategy clearly and concisely. Your answers are direct, accurate, and tailored to competitive players. Avoid speculative language and do not use phrases like 'in my opinion.'
