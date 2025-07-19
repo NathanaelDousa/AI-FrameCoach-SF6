@@ -52,7 +52,7 @@ Ollama (for running local LLMs)
    https://ollama.com/download  
    Once installed, pull the model you want to use (e.g., gemma or mistral):
    ollama pull gemma:2b
-   * or 
+   or 
    ollama pull mistral
 
    You can test if it's working with:
