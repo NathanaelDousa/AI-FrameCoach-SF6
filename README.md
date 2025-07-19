@@ -51,7 +51,8 @@ Ollama (for running local LLMs)
 1. **Install Ollama**  
    https://ollama.com/download  
    Once installed, pull the model you want to use (e.g., gemma or mistral):
-   ```ollama pull gemma:2b
+   ```
+   ollama pull gemma:2b
    or 
    ollama pull mistral
 
@@ -102,6 +103,7 @@ Ollama (for running local LLMs)
    Return a clean and accurate response    
 **Notes**
    You can change the model name in app.py:
+   ```
    MODEL = "gemma"  # or "mistral", etc.
    Make sure Ollama is running while using the app.
 
