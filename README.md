@@ -153,3 +153,7 @@ The tests use a fake embedder, fake models and local fake servers, so they need 
 ## Credits
 
 Frame data and patch notes come from Capcom's official [Street Fighter 6 site](https://www.streetfighter.com/6/character) and [battle change list](https://www.streetfighter.com/6/buckler/en/battle_change). Character stats come from [ultimateframedata.com](https://ultimateframedata.com/sf6). Guides are based on community video guides. Street Fighter is a trademark of Capcom; this is an unofficial fan project.
+
+## License
+
+[MIT](LICENSE). The data in `data/` belongs to its respective sources (see Credits).
