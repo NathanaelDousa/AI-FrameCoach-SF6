@@ -1,0 +1,320 @@
+{
+  "version": "20240227",
+  "title": "02.27.2024 update",
+  "date": "2024-02-27",
+  "overview": "",
+  "general": [
+    {
+      "move": "Modern Controls",
+      "type": "Adjustment",
+      "change": "Fixed an issue where if a player using Modern Controls would perform a special move using the SP button, scaling would not be applied to that special move if its activation overlapped with screen darkening from an opponent's Drive Rush."
+    },
+    {
+      "move": "Modern and Dynamic Controls",
+      "type": "Adjustment",
+      "change": "Added an option to allow for normal throws to be mapped to its own button under Control Settings.\nPlease note that it will be automatically assigned to the LT Button as a default setting."
+    },
+    {
+      "move": "Armor",
+      "type": "Adjustment",
+      "change": "Fixed an issue where when an attack with super armor properties, like a Drive Impact, etc., is in the middle of a hit stop due to absorbing an attack, an attack with Armor Break properties would not cause an armor break in that situation."
+    },
+    {
+      "move": "Drive Rush",
+      "type": "Adjustment",
+      "change": "Fixed an issue where if both players performed a Drive Rush at the same time, one player's movement would be 1 frame slower."
+    },
+    {
+      "move": "Perfect Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where under specific conditions, a Perfect Parry would occur even though the Drive Parry absorbed the attack after the 3rd frame of its start up."
+    },
+    {
+      "move": "Input Buffering",
+      "type": "Adjustment",
+      "change": "Fixed an issue with the input buffer, as the input buffer time for a reversal after blocking an attack should change depending on the block's recovery, but for Drive Reversals and some other attacks, it was not properly set."
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "3 frames of recovery added when the attack misses.\n\nThe size of the feet hurtboxes between frames 6 - 24 has been expanded.\n\nThe size of the arm hurtbox from frame 19 onwards has been expanded."
+        },
+        {
+          "move": "Aerial Flash Knuckle",
+          "type": "Adjustment",
+          "change": "The landing recovery for when this move is performed at the peak of a jump and misses has been extended by 7 frames.\n\nChanged the trajectory for when this move is performed at the peak of a jump and misses.\n\nThe size of the feet hurtboxes has been expanded from frame 16 until the end of the move.\nNote: No changes have been made to the charged version."
+        },
+        {
+          "move": "Vulcan Blast (SA1)",
+          "type": "Adjustment",
+          "change": "The size of the body hurtbox between frames 1 - 5 has been expanded."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Back Shaver (Forward Throw)",
+          "type": "Adjustment",
+          "change": "This forward throw has had a follow-up attack added that raises your Drink Level.\nContinue to hold down the throw input after the throw connects to perform the follow-up."
+        },
+        {
+          "move": "Breakin' (SA1)",
+          "type": "Adjustment",
+          "change": "The damage of the normal version has been changed from 2100 to 2200.\n\nThe damage of the follow-up version has been changed from 1750 to 1850.\nNote: The damage now matches the Drink Level 2 version of the move.\n\nPushback on hit is no longer applied when this move lands on an opponent in the corner.\n\nWill now down an opponent for 5 frames longer than before."
+        },
+        {
+          "move": "The Devil's Song (SA2)",
+          "type": "Adjustment",
+          "change": "If the Drink Level has been raised prior to activation of this move, the Drink Level will now return to that value when the effect of this move ends."
+        },
+        {
+          "move": "Overdrive Tenshin",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the collision pushbox on a knocked down opponent would disappear if there was no follow-up attack after the attack connects.\n\nFixed an issue where the opponent's knockdown time was shorter than normal version when Overdrive Tenshin is used in a combo but no follow-up attack is performed."
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "En Haut",
+          "type": "Adjustment",
+          "change": "Adjusted so that this move has greater inertia when performed out of a Drive Rush."
+        },
+        {
+          "move": "Étoile (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "The 1st and 2nd hit now have a blowback effect when hitting a mid-air opponent, and following attacks now connect easier on the opponent.\n\nAfter the 2nd hit, if the 3rd attack does not connect, the opponent's knockdown period will be extended. With this change, even if the 3rd attack doesn't connect, it will be more difficult for opponents to counter attack Manon."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Stribog (Modern Controls)",
+          "type": "Adjustment",
+          "change": "When JP's Embrace cannot be performed because one of his projectile is on-screen, pressing Back+SP Button in Modern Controls would cause nothing to be performed. To offset this, JP's Neutral+SP Button special move, Stribog, will be performed instead."
+        },
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "The size of the foot hurtbox during the active frames has been expanded.\n\nThe size of the hurtbox for after the active frames has been expanded."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "The invincibility to mid-air attacks that this move applied to the upper body has been removed."
+        },
+        {
+          "move": "Normal/Overdrive Amnesia",
+          "type": "Adjustment",
+          "change": "Adjusted the immediate scaling value from 15% to 60%.\n\nNow has an initial scaling value of 50%.\n\nPerforming SA3 on a knocked back opponent will now cause the projectile generated from catching an opponent's attack with this move to detonate quicker.\n\nAfter successfully catching an opponent's attack with this move, JP's SA gauge will now not increase until either the generated projectile is gone, or until the current combo ends.\n\nThe Drive Gauge increase for Drive Parrying or Perfect Parrying the Overdrive version of this move has been changed from 2500 x 2 to 5000 x 2.\n\nFixed an issue resulting in unintended behavior for the projectile when on the edge of the screen.\n\nFixed an issue where the projectile would not disappear when this move clashed with an opponent's SA."
+        },
+        {
+          "move": "Normal/Overdrive Departure",
+          "type": "Adjustment",
+          "change": "Now has an initial scaling value of 20%.\n\nThe Drive Gauge increase for Drive Parrying or Perfect Parrying the normal version of this move has been changed from 5000 to 7500.\n\nThe Drive Gauge increase for Drive Parrying or Perfect Parrying the Overdrive version of this move has been changed from 2500 x 2 to 3500 x 2."
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Funky Slicer",
+          "type": "Adjustment",
+          "change": "The knockback on block has been decreased.\n\nThe size of the hurtbox after the active frames has been expanded."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Shoryuken",
+          "type": "Adjustment",
+          "change": "Changed the first hit's effect from a knockback to a blowback."
+        },
+        {
+          "move": "Solar Plexus Strike",
+          "type": "Adjustment",
+          "change": "The proximity block detection hitbox has been expanded to the edge of the attack's hitbox between frames 2 - 18.\nNote: If an opponent is inputting a direction away from you while in the proximity block detection hitbox area then they will block, rather than move away from you."
+        },
+        {
+          "move": "Light Hashogeki",
+          "type": "Adjustment",
+          "change": "Recovery on block has been adjusted from -4 frames to -3 frames.\n\nThe knockback on block has been decreased.\n\nThe knockback on block while in burnout has been increased.\n\nThe distance covered between the end of the active frames and the end of recovery has been decreased."
+        },
+        {
+          "move": "Medium Hashogeki",
+          "type": "Adjustment",
+          "change": "The attack hitbox has been expanded forward.\n\nThe projectile clash hitbox has been expanded forward."
+        },
+        {
+          "move": "Heavy Hashogeki",
+          "type": "Adjustment",
+          "change": "The attack hitbox has been expanded forward.\n\nThe projectile clash hitbox has been expanded forward.\n\nThe knockback on block has been decreased.\n\nThe distance covered between the end of the active frames and the end of recovery has been decreased."
+        },
+        {
+          "move": "Overdrive Hashogeki",
+          "type": "Adjustment",
+          "change": "The attack hitbox has been expanded forward.\n\nThe projectile clash hitbox has been expanded forward.\n\nThe knockback on block has been decreased.\n\nThe knockback on hit has been decreased."
+        },
+        {
+          "move": "Denjin Charge Hashogeki",
+          "type": "Adjustment",
+          "change": "The attack hitbox has been expanded forward.\n\nThe projectile clash hitbox has been expanded forward.\n\nThe knockback on block has been decreased.\n\nThe damage of the Overdrive version has been changed from 600 to 1000.\n\nThe distance covered between the end of the active frames and the end of recovery has been decreased."
+        },
+        {
+          "move": "Hadoken",
+          "type": "Adjustment",
+          "change": "The size of the hurtbox around the arms has been reduced."
+        },
+        {
+          "move": "Shinku Hadoken (SA1)",
+          "type": "Adjustment",
+          "change": "The size of the hurtbox around the arms has been reduced."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls Lightning Beast (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Blanka would perform Electric Thunder instead of Vertical Rolling attack when Super Art Level 2 is active or the player is charging down, and cancels a normal attack with down-back+SP Button."
+        },
+        {
+          "move": "Ground Shave Cannonball (Super Art Level 3/CA)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the attack's reach would extend forward more than usual when performed in specific situations."
+        }
+      ]
+    },
+    "Ken": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "The size of the arm hurtbox between frames 2 - 6 has been expanded.\n\nThe size of the arm hurtbox between frames 7 - 8 has been decreased."
+        },
+        {
+          "move": "Knee Strikes (Forward Throw)",
+          "type": "Adjustment",
+          "change": "Has been adjusted so that if this throw connects on an opponent in the corner some distance will be placed between the players after the throw finishes."
+        },
+        {
+          "move": "Overdrive Aerial Tatsumaki Senpu-kyaku",
+          "type": "Adjustment",
+          "change": "The landing recovery for when this attack misses has been extended by 7 frames.\n\nThe collision pushbox has been adjusted to make it more difficult for opponents to jump over this move."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "The size of the hurtboxes around the arms and legs between frames 2 - 8 have been expanded."
+        },
+        {
+          "move": "Aerial Hundred Lightning Kicks",
+          "type": "Adjustment",
+          "change": "Now has an initial scaling value of 20%."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Double Lariat",
+          "type": "Adjustment",
+          "change": "Adjusted so that the second attack hits opponents not in the air 1 frame earlier.\n\nAdjusted so that the second attack knocks down the opponent for an additional 1 frame if it hits when they are not in the air.\n\nAdjusted the hit reaction to the first attack when it hits an opponent not in the air so that it is possible for SA3 to connect after.\n\nAdjusted so that the first attack's blow back distance is reduced when hitting a mid-air opponent.\n\nThe distance traveled initially when the move is performed has been increased."
+        },
+        {
+          "move": "Aerial Russian Slam (SA1)",
+          "type": "Adjustment",
+          "change": "The hitbox has been expanded downward."
+        },
+        {
+          "move": "Cyclone Lariat (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Extended the collision pushbox upwards while the screen is dark.\nPlease note that due to the change to Overdrive Double Lariat's blowback effect, this should mitigate situations where it's difficult to perform combos."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Yoga Teleport",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain inputs would cause Dhalsim's reappearance position to be different from normal."
+        },
+        {
+          "move": "Heavy Yoga Flame",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if the attack landed as a Counter or Punish Counter, the 2nd hit of the attack would deal the same damage as a normal hit."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "After Wall Jumps",
+          "type": "Adjustment",
+          "change": "Fixed an issue where performing certain techniques after a wall jump would not put Rashid into a Forced Knockdown state even after getting hit with an attack."
+        },
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "The size of the hurtbox around the arms between frames 2 - 8 has been expanded.\n\nThe size of the hurtbox around the arms between frames 9 - 11 has been decreased."
+        },
+        {
+          "move": "Overdrive Spinning Mixer",
+          "type": "Adjustment",
+          "change": "The third attack is now invincible to mid-air attacks until the end of its active frames."
+        },
+        {
+          "move": "Ysaar (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the whirlwind wouldn't display as intended when lingering in its final stage."
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "The number of active frames for this attack has been adjusted from 3 frames to 5 frames."
+        },
+        {
+          "move": "Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "The attack hitbox has been expanded forward."
+        },
+        {
+          "move": "Overdrive Snake Step",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the normal version of Snake Step would be performed instead of the Overdrive Version when inputting Back+AUTO+SP Button while A.K.I.'s Nightshade Pulse is on the screen."
+        }
+      ]
+    }
+  }
+}

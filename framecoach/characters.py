@@ -9,22 +9,36 @@ from dataclasses import dataclass
 @dataclass(frozen=True)
 class Character:
     name: str  # Display name, matches the "character" field in the frame data JSON
-    slug: str  # Used for file names and ultimateframedata.com URLs
+    slug: str  # Used for our file names (and ultimateframedata.com URLs)
     aliases: tuple[str, ...] = ()
+    capcom_slug: str = ""  # streetfighter.com/6/character/<capcom_slug>/frame, if different from slug
+    patch_id: str = ""  # fighter id in Capcom's battle change notes, if different from slug
+
+    @property
+    def capcom_url_name(self) -> str:
+        return self.capcom_slug or self.slug
+
+    @property
+    def patch_name(self) -> str:
+        return self.patch_id or self.slug
 
 
 ROSTER: tuple[Character, ...] = (
     Character("A.K.I.", "aki", ("aki",)),
-    Character("Akuma", "akuma", ("gouki",)),
+    Character("Akuma", "akuma", ("gouki",), capcom_slug="gouki_akuma", patch_id="gouki"),
+    Character("Alex", "alex"),
+    Character("Arjun", "arjun"),
     Character("Blanka", "blanka"),
+    Character("C. Viper", "cviper", ("viper", "cviper")),
     Character("Cammy", "cammy"),
     Character("Chun Li", "chunli", ("chun", "chunli")),
     Character("Dee Jay", "deejay", ("deejay", "dj")),
     Character("Dhalsim", "dhalsim", ("sim",)),
-    Character("E. Honda", "ehonda", ("honda", "ehonda")),
+    Character("E. Honda", "ehonda", ("honda", "ehonda"), patch_id="honda"),
     Character("Ed", "ed"),
     Character("Elena", "elena"),
     Character("Guile", "guile"),
+    Character("Ingrid", "ingrid"),
     Character("Jamie", "jamie"),
     Character("JP", "jp"),
     Character("Juri", "juri"),
@@ -32,13 +46,15 @@ ROSTER: tuple[Character, ...] = (
     Character("Kimberly", "kimberly", ("kim",)),
     Character("Lily", "lily"),
     Character("Luke", "luke"),
-    Character("M. Bison", "mbison", ("bison", "mbison", "dictator")),
+    Character("M. Bison", "mbison", ("bison", "mbison", "dictator"), capcom_slug="vega_mbison", patch_id="vega"),
     Character("Mai", "mai"),
     Character("Manon", "manon"),
     Character("Marisa", "marisa"),
     Character("Rashid", "rashid"),
     Character("Ryu", "ryu"),
+    Character("Sagat", "sagat"),
     Character("Terry", "terry"),
+    Character("Yasmine", "yasmine"),
     Character("Zangief", "zangief", ("gief",)),
 )
 

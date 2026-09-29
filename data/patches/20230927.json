@@ -1,0 +1,820 @@
+{
+  "version": "20230927",
+  "title": "09.27.2023 update",
+  "date": "2023-09-27",
+  "overview": "",
+  "general": [
+    {
+      "move": "Assisted Combos",
+      "type": "Adjustment",
+      "change": "The following tweaks have been made in order to improve Assist Combo controls.\n\nEach Assisted Combo's input reception timing has been adjusted due to some Assisted Combos accepting inputs too quickly, and others having very small input windows that made them difficult to perform.\n\nMade an adjustment so that when special move cancels are allowed, Assisted Combos will also be allowed. This is due to Assisted Combo input reception being too short and thus not allowing for cancels during the active frames of an attack.\n\nPlease note that due to this adjustment, if your Assisted Combo input is too late, then there are situations where you won't be able to connect to the special move that you cancel into.\n\nFixed an issue where if you stopped an Assisted Combo midway through and then tried to perform another Assisted Combo of the same strength as soon as possible, the buffered input would not work.\n\nFixed an issue where if you stopped an Assisted Combo midway through and then tried to perform another Assisted Combo of a different strength, that Assisted Combo may not be performed properly.\n\nMade an adjustment to prevent rapid cancel attacks from being performed when pressing the Light Attack button while the Assist button is being held. This adjustment was made as it was difficult to perform Light Assisted Combos from rapid cancel attacks."
+    },
+    {
+      "move": "Forward Dash/Back Dash",
+      "type": "Adjustment",
+      "change": "Fixed an issue where inputting forward three times would result in two forward dashes being performed.\n\nIncreased the buffer input window from 4 frames to 7 frames."
+    },
+    {
+      "move": "Input recognition frames",
+      "type": "Adjustment",
+      "change": "In order to reduce unintentional Super Art activations, the input recognition frames* of certain Super Art commands have been shortened. Due to this adjustment, players must input their commands faster or the Super Art may not be performed.\n\nAdjusted Super Art Commands are as follows: ↓↘→↓↘→↓↙←↓↙←\n*Input recognition frames are the number of frames you must input the next command in order for the game to recognize you are performing a specific attack.\n\nex. In the case of the ↓↘→↓↘→ command, there are 9 input recognition frames between the first Down input and the next Down-Forward input, meaning if 10 frames pass between those inputs, the first Down input will be reset and the Super Art will not be performed."
+    },
+    {
+      "move": "Gauge gain on Perfect Parry",
+      "type": "Adjustment",
+      "change": "When perfect parrying certain multi-hitting attacks, there were cases where the Drive Gauge consumption was more than the Drive Gauge gain, so adjustments have been made. Perfect parrying strike attacks will now give an increase of 10,000 (1 block) while perfect parrying Super Arts will give an increase of 20,000 (2 blocks).\n\nConsidering the ease of parrying them, projectiles other than Super Arts will be kept in their current state.\n\nFor a list of moves affected by this adjustment, please refer to each character's section."
+    },
+    {
+      "move": "Attacks hitting an opponent behind the player",
+      "type": "Adjustment",
+      "change": "Fixed an issue where some attacks attacks could unintentionally hit an opponent behind the character.\n\nFor a list of moves affected by this adjustment, please refer to each character's section."
+    },
+    {
+      "move": "Drive Gauge gain during Burnout",
+      "type": "Adjustment",
+      "change": "Due to a value setting error, there were some attacks that when blocked during Burnout, only increased the Drive Gauge by half of what would be consumed when blocking it normally (the same as overhead or low attacks). This has been corrected with this update.\n\nFor a list of moves affected by this adjustment, please refer to each character's section."
+    },
+    {
+      "move": "Chip damage during Burnout",
+      "type": "Adjustment",
+      "change": "Due to a value setting error, outside of Super Art attacks, there were some attacks that when blocked during Burnout only chipped 1/4 of the original damage value. This has been corrected with this update.\n\nFor a list of moves affected by this adjustment, please refer to each character's section."
+    },
+    {
+      "move": "Drive Impact",
+      "type": "Adjustment",
+      "change": "Fixed an issue where stopping a Drive Impact with another Drive Impact after absorbing a hit via armor would result in the two Drive Impacts canceling each other out."
+    },
+    {
+      "move": "Drive Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where performing a Drive Parry from a crouching position would result in a different Drive Gauge consumption timing compared to one done from a standing position.\n\nFixed an issue where performing a Drive Parry from a crouching position with certain characters and holding the parry would result in increased Drive Gauge consumption. This has been fixed to match what happens when performing a Drive Parry from a standing position.\n■Characters AffectedLukeKimberlyZangiefDee JayRashidGuileE. Honda"
+    },
+    {
+      "move": "Perfect Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where if an upward direction (up, up-left, or up-right) was input after perfect parrying a projectile, the character would perform a jump even if the upward directional input was released before the character exited their recovery state."
+    },
+    {
+      "move": "Jump attack landing recovery",
+      "type": "Adjustment",
+      "change": "Fixed an issue where after having your jumping attack perfect parried, the timing for when you're next able to perform a standing attack was 1 frame later than intended.\n\nPlease note that no changes were made to Perfect Parries for this issue."
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive No Chaser (↓↘→+2 Kicks, Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Super Art gauge gained on block was not half of the amount gained on hit, so it has been adjusted from 500 to 600."
+        },
+        {
+          "move": "Shared adjustment: Chip damage during Burnout",
+          "type": "Adjustment",
+          "change": "The amount of chip damage done when an opponent blocks the following attack during Burnout has been adjusted.\n\nLight Flash Knuckle (↓↙←+Light Punch)Perfect version 2nd hit: From 75 to 50"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Light Flash Knuckle (↓↙←+Light Punch)\nPerfect version 2nd hit: From 0 to 500\n\n■Fatal Shot (↓↘→+2 Punches, 2 Punches)\nFrom 0 to 500"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nPerfect and max charge versions of Light/Medium/Heavy Flash Knuckle (↓↙←+Punch)Overdrive Rising Uppercut (→↓↘+2 Punches)Vulcan BlastEraser"
+        },
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "Fixed an issue that would cause the opponent to not take damage during the hit scene of a Drive Impact in certain circumstances."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Forward/Backward walk",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Jamie would not move on the 1st frame of a forward or backward movement if he was at drink level 4."
+        },
+        {
+          "move": "Tensei Kick (↓+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if The Devil's Song had been activated, Tensei Kick on its fastest input started up 1 frame slower."
+        },
+        {
+          "move": "Ransui Haze (→+Heavy Kick, ←+Heavy Kick, Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where after The Devil's Song has run out and the player uses Ransui Haze to raise their drink level, the base attack level would not increase."
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Jamie.\n\nStanding Light Kick (rapid cancel version)Breakin'Getsuga Saiho"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Crouching Medium Kick\nFrom 1000 to 2000"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nStanding Heavy PunchCrouching Heavy Kick\nRansui Haze (→+Heavy Kick, ←+Heavy Kick, Punch）Freeflow Strikes (drink level 4) (↓↘→+Punch)Bakkai (↓↘→+K)(↓↘→+K)Breakin'Getsuga Saiho"
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "Fixed an issue where a Drive Impact clash would occur even if Manon's Drive Impact was activated 1 frame later than the opponent's."
+        },
+        {
+          "move": "Heavy/Overdrive Rond-point (↓↘→+Kick)",
+          "type": "Adjustment",
+          "change": "The 2nd hit of the Heavy version on Punish Counter had an incorrect damage value assigned to it, so it has been changed from 600 to 480.\n\nFixed an issue where it was possible to cancel the end of the Heavy or Overdrive version when it was blocked."
+        },
+        {
+          "move": "Overdrive Renverse (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the recovery difference was 1 frame slower after hit when Manon medal level was 3 or 4."
+        },
+        {
+          "move": "Arabesque (SA1)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain moves and this move would miss each other when both active. This attack will now not pass through an opponent until it hits them."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attack during Burnout has been adjusted.\n\n■Arabesque\nFrom 1250 to 2500"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Manon.\n\nStanding Light KickPas de Deux"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nLight/Medium Dégagé (↓↙←+Kick)Rond-point (↓↘→+Kick)Étoile"
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Light Punch, Medium Punch",
+          "type": "Adjustment",
+          "change": "The amount of Super Art gauge gained on block was not half of the amount gained on hit, so it has been adjusted from 150 to 200."
+        },
+        {
+          "move": "Medium/Heavy/Overdrive Vagabond Edge (↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Drive Gauge lost when an opponent blocked the 2nd hit of this attack had an older value, so it has been adjusted from 2000 to 4000."
+        },
+        {
+          "move": "Bushin Beats (SA1) Bushin Thunderous Beats (SA1) Bushin Scramble (SA2) Soaring Bushin Scramble (SA2) Bushin Ninjastar Cypher (SA3/CA)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if certain attacks hit an opponent while they were in stun and had a full Drive Gauge, they would recover from Burnout upon getting hit.\n\nBushin BeatsBushin Thunderous BeatsBushin ScrambleSoaring Bushin ScrambleBushin Ninjastar Cypher"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Neck Hunter (↓↘→+Kick, Heavy Kick)\nFrom 2000 to 4000\n\n■Overdrive Neck Hunter (↓↘→+2 Kicks, Heavy Kick)\nFrom 1250 x 2 to 2500 x 2\n\n■Shadow Slide (↓↘→+Kick, Medium Kick)\nFrom 2000 to 4000\n\n■Overdrive Shadow Slide (↓↘→+2 Kicks, Medium Kick)\nFrom 1250 x 2 to 2500 x 2"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nNormal/Overdrive Arc Step (↓↘→+Kick)Overdrive Torso Cleaver (↓↘→+2 Kicks, Light Kick)Overdrive Shadow Slide (↓↘→+2 Kicks, Medium Kick)Overdrive Neck Hunter(↓↘→+2 Kicks, Heavy Kick)Normal/Overdrive Aerial Bushin Senpukyaku (in mid-air, ↓↙←+Kick)"
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where you couldn't cancel Gladius from a normal or unique attack using Forward+Special Move button."
+        },
+        {
+          "move": "Caelum Arc (↓+Heavy Punch during a vertical jump)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if you hit an opponent from behind, the recovery would be much longer.On hit: From 27 frames to 19 framesOn block: From 23 frames to 15 frames\nFixed an issue where if you forced an opponent to block from behind, their orientation would be reversed if they were in Burnout.\n\nFixed an issue where you could cancel the landing recovery with another move."
+        },
+        {
+          "move": "Dimachaerus (↓↙←+Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Super Art gauge gain on block was not half of what it was on hit."
+        },
+        {
+          "move": "Javelin of Marisa (SA1, charged version)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where damage would increase on counter or Punish Counter only during the 5th and 6th active frames of the attack."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Crouching Heavy Kick\nFrom 1500 to 3000\n\n■Charged Crouching Heavy Kick\nFrom 4000 to 8000\n\n■Charged Jumping Heavy Punch\nFrom 3000 to 6000\n\n■Charged Jumping Heavy Kick\nFrom 3000 to 6000\n\n■Charged Caelum Arc (↓+Heavy Punch during a vertical jump)\nFrom 3000 to 6000\n\n■Novacula Swipe (→+Medium Punch, Heavy Punch)\nFrom 2500 to 5000"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Marisa.\n\nGladius (↓↘→+P)Phalanx (→↓↘+P)Quadriga (↓↘→+K)"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following move has been adjusted.\n\nMeteorite"
+        }
+      ]
+    },
+    "Lily": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Jumping",
+          "type": "Adjustment",
+          "change": "Fixed an issue where it was possible to perform special moves or Super Arts (except for 360 command throws) until the 5th frame of Lily's jump."
+        },
+        {
+          "move": "Thunderbird (SA2) Soaring Thunderbird (SA2)",
+          "type": "Adjustment",
+          "change": "Adjusted the Drive Gauge gain when parrying the Windclad version of Thunderbird and Soaring Thunderbird, as it was less than when parrying the normal version of those moves.\n\nThis attack would miss more than expected when incorporated into mid-air combos, so the hitbox of the attack has been expanded upwards only when hitting an opponent already reeling from damage, allowing for multiple hits to land easier."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attack during Burnout has been adjusted.\n\n■Great Spin (↓+Heavy Punch during a jump)\nFrom 2000 to 4000"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nCrouching Heavy PunchCrouching Heavy KickOverdrive/Windclad/Overdrive Windclad Tomahawk Buster (→↓↘+Punch)Overdrive/Windclad/Overdrive Windclad Condor Dive (2 Punches during a jump)Breezing HawkThunderbirdSoaring Thunderbird"
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Embrace (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where JP would still be able to move around during the cutscene when a projectile with a long trade time pierces and hits him."
+        },
+        {
+          "move": "Heavy Stribog (↓↘→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where JP's Drive Gauge increase gain would only be half when the first attack is blocked by the opponent while they are in Burnout."
+        },
+        {
+          "move": "Chornobog (SA1)",
+          "type": "Adjustment",
+          "change": "No Drive Gauge was gained when parrying the first attack, so it has been redistributed as follows.\n\n1st attack: From 0 to 10,0002nd attack: From 20,000 to 10,000\nNo changes were made for when only the 2nd attack is parried."
+        },
+        {
+          "move": "Lovushka (SA2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the final attack would come out when JP is hit by an attack with a short knockback time immediately after performing this move."
+        },
+        {
+          "move": "Interdiction (SA3/CA)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if this attack hits an opponent while they were in stun and had a full Drive Gauge, they would recover from Burnout upon getting hit."
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind JP.\n\nStanding Light KickStribog (↓↘→+Punch)"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Medium/Heavy Torbalan (↓↘→+Kick)\nFrom 1250 to 2500\n\n■Lovushka (2nd - 4th hit)\nFrom 500 to 1000"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nBylina (→+Heavy Kick)ChornobogLovushka"
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the rapid cancel version of crouching light attack would be performed when attempting to perform Assist Combo 1 from crouching light attack while Feng Shui Engine was active."
+        },
+        {
+          "move": "Assisted Combo 3",
+          "type": "Adjustment",
+          "change": "Fixed an issue where 2 blocks of Drive Gauge were used when transitioning into Overdrive Go Ohsatsu from Overdrive Ankensatsu via Assist Combo."
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attack would hit an opponent behind.\n\nFeng Shui Engine's initial forward charge"
+        },
+        {
+          "move": "Senkai Kick (SA2 boosted) (→+Medium Kick）",
+          "type": "Adjustment",
+          "change": "When Senkai Kick connected as a chain combo while Feng Shui Engine was active, the Drive Gauge fluctuations would not be in accordance with the chain combo value, so they have been fixed to the following values.\n\n■Drive Gauge gain on hit\nFrom 500 to 375\n\n■Drive Gauge loss on block\nFrom 1250 to 625\n\n■Drive Gauge loss on Punish Counter\nFrom 2000 to 1250"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nStanding Medium KickRenko Kicks (→+Heavy Punch)Korenzan (←+Heavy Kick)Normal/Overdrive Tensenrin (→↓↘+Punch)Boosted/Overdrive Go Ohsatsu (→↓↘+Heavy Kick)Sakkai Fuhazan"
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 1",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Quick Rolling Sobat would not be performed by pressing forward and the Special Move button from the first hit."
+        },
+        {
+          "move": "Assisted Combo 3",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Maximum Strike would have additional scaling added to it if the 3rd attack's input was late."
+        },
+        {
+          "move": "Overdrive Air Slasher (Charge ←, →+2 Punches)",
+          "type": "Adjustment",
+          "change": "Implemented a fix so only Overdrive Air Slasher is performed when holding back and using the Special Move button in Modern Controls. Previously, if a charge was ready, Overdrive Jus Cool or Overdrive Double Rolling Sobat could not be performed."
+        },
+        {
+          "move": "Speedy Maracas (↓↓+2 Punches)",
+          "type": "Adjustment",
+          "change": "In Street Fighter 6, when going from a Punish Counter state and transitioning to a move that can absorb attacks, the player is essentially in a Punish Counter state from the beginning. This is to prevent players from making mistakes during their combo selection, etc. when aiming for an opponent's recovery period.\n\nBy transitioning from Air Slasher to Speedy Maracas, Air Slasher's Punish Counter state was being overwritten by a Counter state, so we have fixed this issue so the transition to Speedy Marcas will be in a Punish Counter state.\n\nFixed an issue so when Air Slasher hits on Counter/Punish Counter, is parried, or runs into Super Armor, you cannot transition into Speedy Maracas."
+        },
+        {
+          "move": "Marvelous Sunrise Festival (SA2) Headliner Sunrise Festival (SA2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the first frame of the normal attack could not be kara-canceled*.\n\n*Kara Cancel: Canceling the start up of a move into another move."
+        },
+        {
+          "move": "Drive Reversal",
+          "type": "Adjustment",
+          "change": "Updated the hurtbox to match the appearance of the attack from the end of its active frames to the end of the attack. Originally, the hurtbox was too small compared to the reach of the attack, making it extremely difficult to counter attack compared to other characters."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Normal/Overdrive Funky Slicer (↓↙←+Kick, Light Kick)\nFrom 2000 to 4000\n\n■Normal/Overdrive Waning Moon (↓↙←+Kick, Medium Kick)\nFrom 2000 to 4000"
+        },
+        {
+          "move": "Shared adjustment: Chip damage during Burnout",
+          "type": "Adjustment",
+          "change": "The amount of chip damage done when an opponent blocks the following attacks during Burnout has been adjusted.\n\n■Machine Gun Uppercut (↓↙←+Punch)\nLight: From 200 to 37\nMedium: From 200 to 25\nHeavy: From 200 to 25\nOverdrive: From 200 to 25\n\n■Quick Rolling Sobat (↓↘→+Medium Kick)\nFrom 200 to 250\n\n■Double Rolling Sobat (↓↘→+Heavy Kick)\nFrom 150 x 2 to 175 x 2\n\n■Medium/Heavy Jackknife Maximum (Charge ↓, ↑+Kick)\nFrom 125 to 150"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Dee Jay.\n\nStanding Light Kick1st hit of Machine Gun Uppercut (↓↙←+Punch)1st hit of Sunrise FestivalWeekend Pleasure"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nFace Breaker (←+Heavy Kick)Double Rolling Sobat (↓↘→+Heavy Kick)Overdrive Rolling Sobat (↓↘→+2 Kicks)Marvelous Sunrise Festival Headliner Sunrise Festival"
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Lifting Uppercut (←+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where, when an opponent's wake-up overlaps with the latter half of the active frames of this attack, a crouching opponent is able to block certain parts of the attack that they normally should not be able to."
+        },
+        {
+          "move": "Killer Bee Spin (SA2) Aerial Killer Bee Spin (SA2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Drive Gauge consumption while connecting with this attack while standing on the ground was more than other level 2 Super Arts.\n\nDuring a mid-air hit the Drive Gauge decrease was small even during its biggest attack, so the final hit now drains 3700 instead of 3000."
+        },
+        {
+          "move": "Killer Bee Spin (SA2) Aerial Killer Bee Spin (SA2) Delta Red Assault (SA3/CA)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if these attacks hit an opponent while they were in stun and had a full Drive Gauge, they would recover from Burnout upon getting hit.\n\nKiller Bee Spin\nAerial Killer Bee Spin\nDelta Red Assault"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Delayed Ripper (→+Heavy Kick)\nFrom 4000 to 2000\n\n■Swing Combination (Heavy Punch, Heavy Kick)\n2nd hit: From 4000 to 2000\n\n■Razor's Edge Slicer (↓↘→+Punch, No input)\nNormal version: From1500 to 3000\nCharged version: From 2500 to 5000\nOverdrive version: From 2500 to 5000\n\n■Reverse Edge (↓↘→+Punch, ↓+Kick)\nNormal version: From 2000 to 4000\nCharged version: From 3000 to 6000\nOverdrive version: From 4000 to 8000"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nHeavy/Overdrive/Charged Spiral Arrow (↓↘→+Kick)Overdrive/Charged Razor's Edge Slicer (↓↘→+Punch, No input)Overdrive/Charged Reverse Edge (↓↘→+Punch,↓+Kick)Spin Drive SmasherKiller Bee SpinAerial Killer Bee Spin"
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the animation would go back if the attack hit on the 2nd active frame."
+        },
+        {
+          "move": "Fuwa Triple Strike (Medium Punch, Light Kick, Heavy Kick)",
+          "type": "Adjustment",
+          "change": "The Drive Gauge decrease for the final hit on Punish Counter has been changed from 0 to 10,000.\n\nThe 2nd hit of this string was increasing the opponent's Drive Gauge by 2,000 on Punish Counter, but this has been changed so it now decreases their Drive Gauge by 2,000 instead."
+        },
+        {
+          "move": "High Double Strike",
+          "type": "Adjustment",
+          "change": "The Drive Gauge decrease on Punish Counter has been changed from 0 to 10,000."
+        },
+        {
+          "move": "Shin Hashogeki (SA2)",
+          "type": "Adjustment",
+          "change": "Applies only when using Shin Hashogeki charged to Level 2 or 3 during a juggle combo.\n\nThere was a situation where the attack hitbox would not hit an opponent if the player was right under them, so the following adjustments have been made to alleviate the issue.\n\nThe pushbox has been expanded upwards from the time the button is released until the end of the attack's active frames.The attack's hitbox has been expanded inwards."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Jumping Medium Punch\n2nd hit: From 1500 to 750\n\n■Collarbone Breaker (→+Medium Punch)\n2nd hit: From 1250 to 625\n\n■Known Issue\nWhen only the 2nd hit of Collarbone Breaker lands the attack is considered a mid-level/overhead hit, but in this situation the 625 Drive Gauge increase for when the move is considered a high level hit is applied. This issue is scheduled to be resolved in the next update."
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nJumping Medium Punch\nCollarbone Breaker (→+Medium Punch)\nSolar Plexus Strike (→+Heavy Punch)\nAxe Kick (←+Heavy Kick)\nOverdrive Shoryuken (→↓↘+2 Punches)\nMedium/Heavy/Overdrive Tatsumaki Senpu-kyaku (↓↙←+Kick)\nShinku Hadoken\nShin Shoryuken"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Ryu.\n\nStanding Light Kick2nd hit of Fuwa Triple StrikeFinal hit of Shin Shoryuken"
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the distance covered when using this move out of a Drive Rush with Sumo Spirit stocked was much greater than intended."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the distance covered when using this move out of a Drive Rush with Sumo Spirit stocked was much smaller than intended."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Powerstomp (↘+Heavy Kick)\nFrom 2500 to 5000\n\n■Harai Kick (→+Heavy Kick)\nFrom 3000 to 6000\n\n■Toko Shizume (Medium Punch, ↘+Heavy Kick)\nFrom 2500 to 5000\n\n■Sumo Splash (Charge ↓, ↑+Kick)\n2nd hit: From 4000 to 8000"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nOverdrive Sumo Headbutt (Charge ←, →+2 Punches)Teppo Triple Slap (↓↘→+Kick, Punch)Taiho Cannon Lift (↓↘→+K,↓+Punch)Hundred Hand Slap (↓↙←+P)Ultimate Killer HeadramThe Final Bout"
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Adjusted the Super Art gauge gain on block from 600 to 500."
+        },
+        {
+          "move": "Rock Crusher (→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Adjusted the Super Art gauge gain on block from 500 (250/250) to 250 (125/125)."
+        },
+        {
+          "move": "Double Knee Bombs (→+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Adjusted the Super Art gauge gain on block from 500 (250/250) to 250 (125/125)."
+        },
+        {
+          "move": "Overdrive Aerial Rolling Attack (Charge ←, →+2 Punches during a jump)",
+          "type": "Adjustment",
+          "change": "Adjusted the Super Art gauge when blocking the first hit from 650 to 450."
+        },
+        {
+          "move": "Overdrive Backstep Rolling Attack (→↘↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Adjusted the opponent's Drive Gauge gain when parrying the first attack from 5000 to 10000.\n\nAdjusted the opponent's Drive Gauge gain when parrying the 2nd and 3rd attacks from 2500 to 5000."
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Blanka.\n\nStanding Heavy KickDouble Knee Bomber (→+Medium Kick)1st attack of Overdrive Backstep Rolling Attack (→↘↓↙←+2 Kicks)SA2 boosted Light Rolling Attack (Charge ←, →+Light Punch)Ground Shave Cannonball"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nRock Crusher (→+Medium Punch)Double Knee Bomber (→+Medium Kick)Overdrive Backstep Rolling Attack (→↘↓↙←+2 Kicks)"
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the attack couldn't be rapid canceled if it was absorbed by super armor."
+        },
+        {
+          "move": "Double Shot (↓+Medium Punch, ↓+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the advantage on block was 5 frames more than blocking it normally if the opponent blocked this attack while in Burnout."
+        },
+        {
+          "move": "Overdrive Sonic Cross (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Adjusted the opponent's Drive Gauge gain when parrying this attack from 5100 to 5000."
+        },
+        {
+          "move": "Sonic Hurricane (SA1)",
+          "type": "Adjustment",
+          "change": "Adjusted the opponent's Drive Gauge gain when blocking this attack from 2520 to 2500.\n\nFixed an issue where the Heavy version's projectile clash hitbox was significantly different from its visual appearance."
+        },
+        {
+          "move": "Crossfire Somersault (SA3/CA)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if this attack hits an opponent while they were in stun and had a full Drive Gauge, they would recover from Burnout upon getting hit."
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nOverdrive Somersault Kick (Charge ↓, ↑+2 Kicks)Sonic Hurricane"
+        }
+      ]
+    },
+    "Ken": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Drive Reversal",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Ken's invincibility would last longer than other characters on hit."
+        },
+        {
+          "move": "Shoryuken (Quick Dash version) (2 Kicks, →↓↘+Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Super Art gauge gained by blocking the 1st and 2nd hit was not half of the amount gained on hit, so it has been adjusted from 300 to 200."
+        },
+        {
+          "move": "Overdrive Hadoken (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "On Punish Counter, the opponent's Drive Gauge decrease was handled differently from other projectiles, so the values have been adjusted.\n\n1st hit: From 5000 to 25002nd hit: From 0 to 2500"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Thunder Kick (2 Kicks, Medium Kick)\nFrom 1250 to 2500\n\n■Normal/Overdrive Kazekama Shin Kick (↓↘→+Kick, Light Kick)\nFrom 1500 to 3000\n\n■Normal/Overdrive Gorai Axe Kick (↓↘→+Kick, Medium Kick)\nFrom 1250 to 2500"
+        },
+        {
+          "move": "Shared adjustment: Chip damage during Burnout",
+          "type": "Adjustment",
+          "change": "The amount of chip damage done when an opponent blocks the following attack during Burnout has been adjusted.\n\n■Light Dragonlash Kick (→↓↘+Light Kick)\n250 > 237"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Ken.\n\nForward Step Kick (2 Kicks, Heavy Kick)Jinrai Kick (↓↘→+Kick)Medium/Heavy Tatsumaki Senpu-kyaku (↓↙←+Kick)Forward attack hitbox on the Quick Dash version of Tatsumaki Senpu-kyakuDragonlash Flame"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nMedium/Heavy/Overdrive/Quick Dash Shoryuken (→↓↘+Punch)Medium/Heavy/Overdrive/Quick Dash Tatsumaki Senpu-kyaku (↓↙←+Kick)Shippu Jinrai-kyakuShinryu Reppa"
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Jumping Heavy Punch",
+          "type": "Adjustment",
+          "change": "Jumping Heavy Punch's damage was 800 on grounded opponents and 500 on airborne opponents, but the damage on counter/Punish Counter on airborne opponents was set to the grounded damage of 960, so it has been adjusted to 600."
+        },
+        {
+          "move": "Lotus Punch (↓↙←+Punch, Heavy Punch)",
+          "type": "Adjustment",
+          "change": "The hurtbox on the head unintentionally shrank between frames 3 - 28, so it has been expanded\n\nThe 2nd hit was considered a high attack if the first attack whiffed, but it has been fixed to now be a mid-level/overhead attack. The 2nd hit is still a high attack if the 1st attack hits."
+        },
+        {
+          "move": "Overdrive Tensho Kicks (↓↓+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Chun-Li would move a considerable distance upon landing if the players switched sides when the 2nd attack hit."
+        },
+        {
+          "move": "Kikosho (SA1)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where hits except for the final one would not kill an airborne opponent."
+        },
+        {
+          "move": "Hoyoku-sen (SA2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Assist Combo would be interrupted if the next input was performed with specific timing, after performing Hoyoku-sen via Assist Combo."
+        },
+        {
+          "move": "Soten Ranka (SA3)",
+          "type": "Adjustment",
+          "change": "The Drive Gauge decrease when blocking the 2nd hit and later attacks was 0, so those values have been adjusted.\n\n■Super Art 3\n1st hit: From 7500 to 6500\n2nd and 3rd hit: From 0 to 500\n\n■Critical Art\n1st hit: From 10000 to 9000\n2nd and 3rd hit: From 0 to 500"
+        },
+        {
+          "move": "Shared adjustment: Chip damage during Burnout",
+          "type": "Adjustment",
+          "change": "The amount of chip damage done when an opponent blocks the following attack during Burnout has been adjusted.\n\n■Medium Spinning Bird Kick (Charge ↓, ↑+Medium Kick)\nFrom 275 to 300"
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attack during Burnout has been adjusted.\n\n■Lotus Fist (↓↙←+Punch, Heavy Punch)\n2nd hit: From 2500 to 1250\n\n■Known Issue\nThe 2nd hit of Lotus Fist is considered a mid-level/overhead hit when the only that hit lands, but in this situation the Drive Gauge increase of 1250, for when the move is considered a high level hit, is applied. This issue is scheduled to be resolved in the next update."
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attacks would hit an opponent behind Chun-Li.\n\nLightning Kicks (↓↘→+Kick)Lightning Kick Barrage (↓↘→+2 Kicks, 2 Kicks)Hazanshu (↓↙←+Kick)Spinning Bird Kick (Charge ↓, ↑+Kick)Soten Ranka"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nCrouching Heavy PunchLotus Fist (↓↙←+Punch, Heavy Punch)Lightning Kicks (↓↘→+Kick)Lightning Kick Barrage (↓↘→+2 Kicks, 2 Kicks)Aerial Lightning Kicks (in mid-air, ↓↘→+Kick)Spinning Bird Kick (Charge ↓, ↑+Kick)Drive ReversalKikoshoAerial KikoshoHoyoku-senSoten Ranka"
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Smetana Dropkick (↘+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "The amount of Drive Gauge lost when an opponent blocked this attack was unintentionally set at a low value, so it has been corrected from 3000 to 6000."
+        },
+        {
+          "move": "Borscht Dynamite (360+Kick while jumping)",
+          "type": "Adjustment",
+          "change": "This attack would come out unexpectedly when attempting to do a jumping attack, so the input recognition frames* have been changed from 20 to 12.\n\nFixed an issue where the amount of Super Art gauge gain on Punish Counter was 150 less than on normal hit.\n*Input recognition frame is the the number of frames you must input the next command in order for the game to recognize you are performing a specific attack.\n\nex. When performing a Hadoken (↓↘→+Punch), you must input Down then Down-Forward within a certain number of frames for the game to recognize the input. This is known as the Input recognition frame."
+        },
+        {
+          "move": "Overdrive Double Lariat (3 Punches)",
+          "type": "Adjustment",
+          "change": "Adjusted the amount of Super Art gauge gain on the 2nd hit and after from 300 to 250."
+        },
+        {
+          "move": "Aerial Russian Slam (SA1)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Drive Gauge loss would be 60 less on hit when using Modern Controls' Special button to perform the move.\n\nFixed an issue where if this attack hits an opponent while they were in stun and had a full Drive Gauge, they would recover from Burnout upon getting hit."
+        },
+        {
+          "move": "Cyclone Lariat (SA2)",
+          "type": "Adjustment",
+          "change": "Made the following adjustments as the opponent would fly over Zangief during a mid-air hit, causing attacks after the 2nd hit to miss.\nWhen the attack hitbox connects, the pushbox will expand upwards.Attack hitboxes from the 2nd attack and later will have their range expanded upwards.\nFixed an issue where the attack's effect would remain when interrupted by an opponent's attack on startup.\n\nFixed the opponent's reaction animation on the final hit."
+        },
+        {
+          "move": "Shared adjustment: Drive Gauge gain during Burnout",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase gained by the opponent when they block the following attacks during Burnout has been adjusted.\n\n■Crouching Medium Kick\nFrom 2500 to 5000\n\n■Smetana Dropkick (↘+Heavy Kick)\nFrom 1500 to 3000"
+        },
+        {
+          "move": "Shared adjustment: Attacks hitting with an opponent behind you",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the following attack would hit an opponent behind Zangief.\n\nStanding Light Kick"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nNormal/Overdrive Double Lariat (2 Punches)Cyclone Lariat"
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "The amount of Super Art gauge gain on Punish Counter was higher than on a normal hit, so it's been adjusted from 700 to 500 to match."
+        },
+        {
+          "move": "Jumping Medium Kick",
+          "type": "Adjustment",
+          "change": "The attack property for the tip of the attack has been corrected to be a mid-level/Overhead instead of a high attack."
+        },
+        {
+          "move": "Jumping Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the recovery frame difference does not change if an opponent blocks this attack while in Burnout."
+        },
+        {
+          "move": "Aerial Yoga Teleport (← or →+3 Punches or 3 Kicks while jumping)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Dhalsim would gain Super Art gauge upon activation.\n\nFixed an issue where after performing the Punch version, if Dhalsim does nothing while in mid-air, the landing timing would be 1 frame slower compared to the Kick version."
+        },
+        {
+          "move": "Heavy Yoga Flame (→↘↓↙←+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where projectile clash would only occur twice."
+        },
+        {
+          "move": "Yoga Arch (↓↘→+Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Initial Scaling and Combo Scaling would be applied when the opponent is only hit by the detonation from the projectile landing on the ground."
+        },
+        {
+          "move": "Overdrive Yoga Comet (→↘↓↙←+2 Punches while jumping)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Dhalsim couldn't cancel into other mid-air special moves before landing if the player plinked* the two attack buttons by 1 frame when performing the attack.\n\n*Plinking: Quickly pressing two or more buttons exactly one frame apart"
+        },
+        {
+          "move": "Yoga Sunburst (SA2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the fireball could not be seen if only the final attack missed."
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nOverdrive Yoga Blast (→↘↓↙←+2 Kicks)Drive ReversalYoga InfernoYoga Sunburst"
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Forward Dash",
+          "type": "Adjustment",
+          "change": "Fixed the beginning animation as it was difficult to visually recognize the technique.\n\nFixed an issue where the technique's overall frame data would change depending on the inputs during the technique.\n\nFixed an issue where after recovery frames end and Rashid is thrown, Rashid would not be able to perform a throw escape."
+        },
+        {
+          "move": "Desert Slider (Light Punch+Light Kick during a jump)",
+          "type": "Adjustment",
+          "change": "Drive Gauge gain on hit was too small, so it has been adjusted from 1600 to 2000."
+        },
+        {
+          "move": "Light Spinning Mixer (air current boosted) (↓↘→+Light Punch)",
+          "type": "Adjustment",
+          "change": "Drive Gauge gain on block was different from a normal hit, so it has been adjusted from 2000 to 900."
+        },
+        {
+          "move": "Medium Spinning Mixer (air current boosted) (↓↘→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Made the following adjustments as the damage on Punish Counter was 120%.\n1st - 2nd hit: From 360 to 2403rd - 10th hit: From 240 to 120\n\nMade the following adjustments as the Drive Gauge gain on Punish Counter differed from normal hit.\n1st - 2nd hit: From 0 to 1503rd - 10th hit: From 200 to 150Final hit: From 200 to 500"
+        },
+        {
+          "move": "Overdrive Spinning Mixer (air current boosted) (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "Made the following adjustments as the damage on Punish Counter was 120%.1st - 2nd hit: From 360 to 2403rd - 10th hit: From 240 to 120\n\nAdjusted the Super Art gauge gain after the 3rd hit on Punish Counter as it was more than a normal hit. The value was changed from 100 to 50.\n\nFixed an issue where Rashid's Drive Gauge would increase when a hit after the 3rd hit landed as a Punish Counter.\n\nAdjusted the Drive Gauge increase when parrying this move from 12,000 to 10,000."
+        },
+        {
+          "move": "Overdrive Eagle Spike (air current boosted) (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if Ysaar is placed behind the opponent and Rashid performs Overdrive Eagle Spike, the Eagle Spike would not hit the opponent and go through them instead."
+        },
+        {
+          "move": "Overdrive Arabian Skyhigh (↓↙←+2 Kicks during a forward jump)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Rashid's Drive Gauge would increase when this attack was blocked."
+        },
+        {
+          "move": "Tempest Moon (air current boosted) (→+Kick during Run)",
+          "type": "Adjustment",
+          "change": "Made the following adjustments to Drive Gauge increase on parry.\n\n1st hit: From 10000 to 50002nd - 3rd hit: From 5000 to 2500"
+        },
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "Fixed an issue where under certain conditions, when the Drive Impact hit cutscene occurs, the opponent would not take any damage."
+        },
+        {
+          "move": "Super Art gauge gain on block",
+          "type": "Adjustment",
+          "change": "The amount of Super Art gauge gained on block for the following attacks was not half of the amount gained on hit, so they have been adjusted.\n\n■Flapping Spin (→+Medium P)\nFrom 500 to 250\n\n■Spinning Mixer (air current boosted) (↓↘→+Punch)\nLight: From 550 to 400\nMedium: From 350 to 225 (When the opponent blocks this standing)\nHeavy: From 50 to 55\n\n■Eagle Spike (↓↙←+Kick)\nMedium: From 500 to 550\nHeavy: From 500 to 600\nOverdrive: From 500 to 250 (Only when the opponent is in Burnout)\n\n■【Eagle Spike (air current boosted) (↓↙←+K)\nMedium/Heavy: From 500 to 600\n\n■Assault Nail (↓↙←+Punch, →Kick, Kick)\nFrom 250 to 150\n\n■Arabian Skyhigh (↓↙←+Kick during a forward jump)\nFrom 500 to 250\n\n■Light/Medium/Heavy Arabian Cyclone (↓↙←+Punch)\nFrom 600 to 300\n\n■Tempest Moon (→+Kick during Run)\nFrom 600 to 300"
+        },
+        {
+          "move": "Shared adjustment: Chip damage during Burnout",
+          "type": "Adjustment",
+          "change": "The amount of chip damage done when an opponent blocks the following attacks during Burnout has been adjusted.\n\n■Assault Nail (↓↙←+Punch, →Kick, Kick)\nFrom 200 to 150\n\n■Arabian Skyhigh (↓↙←+Kick during a forward jump)\nLight: From 200 to 150\nMedium: From 225 to 175\nHeavy: From 250 to 200\n\n■Overdrive Arabian Cyclone (↓↙←+2 Punches)\nFrom 200+25 to 100+100\n\n■Medium Whirlwind Shot (↓↘→+Medium Kick)\n1st hit fully charged: From 150 to 100\n\n■Spinning Mixer (air current boosted) (↓↘→+Punch)\nHeavy: From 25 to 31\nOverdrive 1st and 2nd hit: From 75 to 50\nOverdrive 3rd hit and after: From 100 to 25"
+        },
+        {
+          "move": "Shared adjustment: Gauge gain on Perfect Parry",
+          "type": "Adjustment",
+          "change": "The Drive Gauge increase from a Perfect Parry of the following moves has been adjusted.\n\nJumping Heavy PunchFlapping Spin (→+Medium P)Tempest Moon (→+Kick during Run)Light/Medium/Overdrive Spinning Mixer (↓↘→+Punch)Arabian Cyclone (↓↙←+Punch)Ysaar"
+        }
+      ]
+    }
+  }
+}

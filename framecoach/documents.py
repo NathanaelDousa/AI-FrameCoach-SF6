@@ -60,6 +60,54 @@ def move_to_text(character: str, move: dict) -> str:
     return f"{character} - {_clean(move.get('move')) or 'Unknown move'} (frame data)\n" + "\n".join(parts)
 
 
+def capcom_move_to_text(character: str, move: dict, patch: str = "") -> str:
+    """Official Capcom frame data, e.g. "Ryu - L Hadoken (236LP) [Special Moves]"."""
+
+    def get(key: str) -> str:
+        return _clean(move.get(key))
+
+    title = f"{character} - {get('move') or 'Unknown move'}"
+    if get("input"):
+        title += f" ({get('input')})"
+    if get("section"):
+        title += f" [{get('section')}]"
+    title += f" official frame data{f', as of the {patch}' if patch else ''}"
+
+    lines = [
+        " | ".join(
+            f"{label}: {v}"
+            for label, key in (("Startup", "startup"), ("Active", "active"), ("Recovery", "recovery"))
+            if (v := get(key))
+        ),
+        " | ".join(
+            f"{label}: {v}" for label, key in (("On hit", "on_hit"), ("On block", "on_block")) if (v := get(key))
+        ),
+        " | ".join(
+            f"{label}: {v}"
+            for label, key in (("Cancel", "cancel"), ("Damage", "damage"), ("Scaling", "scaling"))
+            if (v := get(key))
+        ),
+    ]
+    drive = [
+        f"{v} {label}"
+        for label, key in (
+            ("on hit", "drive_gain_hit"),
+            ("on block", "drive_loss_block"),
+            ("on punish counter", "drive_loss_punish"),
+        )
+        if (v := get(key))
+    ]
+    if drive:
+        lines.append("Drive gauge: " + ", ".join(drive))
+    if get("super_gain"):
+        lines.append(f"Super gauge gain: {get('super_gain')}")
+    if get("properties"):
+        lines.append(f"Properties: {get('properties')}")
+    if get("notes"):
+        lines.append(f"Notes: {get('notes')}")
+    return "\n".join([title, *(line for line in lines if line)])
+
+
 def load_framedata(framedata_dir: Path) -> Iterator[Document]:
     for path in sorted(framedata_dir.glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -68,16 +116,20 @@ def load_framedata(framedata_dir: Path) -> Iterator[Document]:
         char = _resolve(data.get("character", ""), path.stem)
         name = char.name if char else data.get("character", path.stem)
         slug = char.slug if char else path.stem
+        official = data.get("source") == "capcom"
         for index, move in enumerate(data["moves"]):
+            metadata = {
+                "character": name,
+                "source": "framedata",
+                "move": _clean(move.get("move")) or "Unknown move",
+                "file": path.name,
+            }
+            if official:
+                metadata["input"] = _clean(move.get("input"))
             yield Document(
                 id=f"framedata:{slug}:{index}",
-                text=move_to_text(name, move),
-                metadata={
-                    "character": name,
-                    "source": "framedata",
-                    "move": _clean(move.get("move")) or "Unknown move",
-                    "file": path.name,
-                },
+                text=capcom_move_to_text(name, move, data.get("patch", "")) if official else move_to_text(name, move),
+                metadata=metadata,
             )
 
 
@@ -146,5 +198,45 @@ def load_guides(guides_dir: Path, max_chars: int = MAX_CHUNK_CHARS) -> Iterator[
             )
 
 
-def load_all(framedata_dir: Path, stats_file: Path, guides_dir: Path) -> list[Document]:
-    return [*load_framedata(framedata_dir), *load_stats(stats_file), *load_guides(guides_dir)]
+def _patch_change_lines(changes: list[dict]) -> list[str]:
+    return [f"- {c['move']} ({c['type']}): {c['change']}" for c in changes]
+
+
+def load_patches(patches_dir: Path, max_chars: int = MAX_CHUNK_CHARS) -> Iterator[Document]:
+    """One or more documents per character per patch, newest information labelled with its date."""
+    if not patches_dir.exists():
+        return
+    for path in sorted(patches_dir.glob("*.json")):
+        patch = json.loads(path.read_text(encoding="utf-8"))
+        version, title, date = patch["version"], patch["title"], patch.get("date", "")
+        sections = {"All characters": (patch.get("overview", ""), patch.get("general", []))}
+        sections.update({name: (c.get("concept", ""), c.get("changes", [])) for name, c in patch["characters"].items()})
+        for name, (concept, changes) in sections.items():
+            body = "\n\n".join(p for p in (concept, "\n".join(_patch_change_lines(changes))) if p)
+            if not body:
+                continue
+            header = f"{name} - balance changes in the {title} (released {date})"
+            for index, chunk in enumerate(chunk_text(body, max_chars)):
+                yield Document(
+                    id=f"patch:{version}:{normalize(name).replace(' ', '')}:{index}",
+                    text=f"{header}\n{chunk}",
+                    metadata={
+                        "character": name,
+                        "source": "patch",
+                        "version": version,
+                        "date": date,
+                        "patch": title,
+                        "file": path.name,
+                    },
+                )
+
+
+def load_all(
+    framedata_dir: Path, stats_file: Path, guides_dir: Path, patches_dir: Path | None = None
+) -> list[Document]:
+    return [
+        *load_framedata(framedata_dir),
+        *load_stats(stats_file),
+        *load_guides(guides_dir),
+        *(load_patches(patches_dir) if patches_dir else []),
+    ]

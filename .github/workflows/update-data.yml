@@ -1,0 +1,38 @@
+name: Update frame data
+
+# Every Monday, download Capcom's latest frame data and patch notes.
+# If anything changed, open (or update) a pull request so the change can be reviewed before merging.
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scraper dependencies
+        # Only what the scraper needs; the embedding model and LLM SDKs are not required here.
+        run: pip install requests beautifulsoup4
+      - name: Download latest data
+        run: python -m framecoach update --no-ingest
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/data-update
+          delete-branch: true
+          commit-message: Update frame data and patch notes from Capcom
+          title: Update frame data and patch notes from Capcom
+          body: |
+            Automatic weekly update from streetfighter.com (official frame data and battle change notes).
+
+            After merging, run `framecoach ingest` (or `start.bat --update`) to rebuild your local search index.
+          add-paths: data/

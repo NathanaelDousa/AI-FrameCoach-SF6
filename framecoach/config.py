@@ -25,6 +25,7 @@ class Settings:
     ollama_timeout: float = field(default_factory=lambda: float(os.environ.get("FRAMECOACH_OLLAMA_TIMEOUT", "120")))
     framedata_results: int = field(default_factory=lambda: int(os.environ.get("FRAMECOACH_FRAMEDATA_K", "8")))
     guide_results: int = field(default_factory=lambda: int(os.environ.get("FRAMECOACH_GUIDE_K", "4")))
+    patch_results: int = field(default_factory=lambda: int(os.environ.get("FRAMECOACH_PATCH_K", "3")))
 
     @property
     def framedata_dir(self) -> Path:
@@ -33,6 +34,10 @@ class Settings:
     @property
     def guides_dir(self) -> Path:
         return self.data_dir / "guides"
+
+    @property
+    def patches_dir(self) -> Path:
+        return self.data_dir / "patches"
 
     @property
     def transcripts_dir(self) -> Path:

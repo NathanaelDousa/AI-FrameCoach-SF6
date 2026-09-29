@@ -1,0 +1,250 @@
+{
+  "version": "20240626",
+  "title": "06.26.2024 update",
+  "date": "2024-06-26",
+  "overview": "",
+  "general": [
+    {
+      "move": "Parry Drive Rush",
+      "type": "Adjustment",
+      "change": "Adjusted so that when perfect parrying a projectile, a player's dash input is not reset. This change will impact the inputs for both dashes and Drive Rushes performed immediately after a perfect parry."
+    },
+    {
+      "move": "Knockdown Recovery",
+      "type": "Adjustment",
+      "change": "Fixed an issue that occurred only when performing a back recovery immediately before being knocked down, where a back recovery would be performed unintentionally if the player held two buttons before getting hit by the attack that knocked them down."
+    },
+    {
+      "move": "Drive Reversal",
+      "type": "Adjustment",
+      "change": "Fixed an issue where a Drive Reversal would cause a KO during a trade."
+    },
+    {
+      "move": "Drive Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where parrying an attack that causes the screen to shake would not trigger a screen shake."
+    },
+    {
+      "move": "Taunt",
+      "type": "Adjustment",
+      "change": "Changed the Modern Control input for a taunt from &quot;Light Attack+Medium Attack+Heavy Attack+SP&quot; to &quot;Light Attack+Medium Attack+Heavy Attack+SP+Drive Parry+Assist&quot;."
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 1",
+          "type": "Adjustment",
+          "change": "The 2nd attack input will now be accepted within the rapid cancel timing window."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Breakin' - Super Art Level 1",
+          "type": "Adjustment",
+          "change": "With the last adjustment update, the number of hits increased, which affected the Drive Gauge increase, so we have adjustments to the values to match the pre-adjustment one.\n\n1. Drive Gauge decrease on block reduced by 200.\n2. Drive Gauge increase on parry reduced by 2000."
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Sprint",
+          "type": "Adjustment",
+          "change": "Fixed an issue where performing the move with certain inputs would cause the Overdrive version's sound effect to not play."
+        },
+        {
+          "move": "Certain Anti-Air Attacks",
+          "type": "Adjustment",
+          "change": "Certain anti-air attacks where the character jumps into the air would have a tendency to lose out to mid-air throws whether or not they had anti-air invincibility after leaving the ground, so we have added a period of throw invincibility to the following attacks.\n\nBushin Senpukyaku\nLight: Throw invincibility from frames 7-11\nMedium: Throw invincibility from frames 8-12\nHeavy: Throw invincibility from frames 9-13\nOverdrive: Throw invincibility from frames 7-11"
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 1",
+          "type": "Adjustment",
+          "change": "The 2nd attack input will now be accepted within the rapid cancel timing window."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Adjusted so that when Overdrive Stribog is blocked or hits an armored attack, the assisted combo will end when Super Art 2 is activated."
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Fuhajin",
+          "type": "Adjustment",
+          "change": "The recent adjustment update made this attack's start-up faster, but some parts of it were left unadjusted, so they have now been fixed.\n\n1. Fuha stock charge timing changed from frame 14 to frame 12.\n2. The projectile clash hitbox startup timing changed from frame 12 to frame 10.\n3. Proximity block trigger hitbox comes out 2 frames faster.\n4. Proximity block trigger hitbox expanded to match the size of the attack hitbox."
+        },
+        {
+          "move": "Certain Target Combos",
+          "type": "Adjustment",
+          "change": "Previously we made adjustments so that pressing Medium Punch and Kick or Heavy Punch and Kick at the same time would not result in transition attacks being performed.\n\nThis adjustment was made primarily for cancelable attacks and the beginning of target combos, or special moves with transition techniques that had short recovery. This adjustment was also made to prevent unintended transition techniques from coming out when looking to perform a Drive Rush immediately after your recovery ends, Cancel Drive Rushes, or Drive Impacts. Please note that this adjustment only applied in cases where the Punch and Kick buttons were input at exactly the same time.\n\nAs certain target combos did not receive this adjustment previously, we have made adjustments to them now.\n\nDeath Crest (Medium Punch > ←+Heavy Punch)"
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Certain Anti-Air Attacks",
+          "type": "Adjustment",
+          "change": "Certain anti-air attacks where the character jumps into the air would have a tendency to lose out to mid-air throws whether or not they had anti-air invincibility after leaving the ground, so we have added a period of throw invincibility to the following attacks.\n\nJackknife Maximum\nMedium: Throw invincibility from frames 5-6\nHeavy: Throw invincibility from frames 5-6"
+        },
+        {
+          "move": "Certain Target Combos",
+          "type": "Adjustment",
+          "change": "Previously we made adjustments so that pressing Medium Punch and Kick or Heavy Punch and Kick at the same time would not result in transition attacks being performed.\n\nThis adjustment was made primarily for cancelable attacks and the beginning of target combos, or special moves with transition techniques that had short recovery. This adjustment was also made to prevent unintended transition techniques from coming out when looking to perform a Drive Rush immediately after your recovery ends, Cancel Drive Rushes, or Drive Impacts. Please note that this adjustment only applied in cases where the Punch and Kick buttons were input at exactly the same time.\n\nAs certain target combos did not receive this adjustment previously, we have made adjustments to them now.\n\nThreebeat Combo (Light Punch > Medium Kick)"
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "Expanded the collision pushbox on hit upward.\nNote: This adjustment is made in order to prevent side switches with the opponent during a mid-air hit."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the previous adjustment of increasing recovery and expanding the hurtbox on crouching medium kick was not applied when the attack was performed while Super Art 2 was active."
+        },
+        {
+          "move": "Raid Jump",
+          "type": "Adjustment",
+          "change": "Fixed an issue in Modern Controls where a mid-air throw would not be performed during Raid Jump when the throw button was pressed."
+        },
+        {
+          "move": "Rolling Attack/Vertical Rolling Attack",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the opponent would not be pushed back after blocking the attack and Blanka is rebounding."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Certain Anti-Air Attacks",
+          "type": "Adjustment",
+          "change": "Certain anti-air attacks where the character jumps into the air would have a tendency to lose out to mid-air throws whether or not they had anti-air invincibility after leaving the ground, so we have added a period of throw invincibility to the following attacks.\n\nSpinning Mixer\nHeavy (Boosted version included): Throw invincibility from frames 8-10"
+        }
+      ]
+    },
+    "Ken": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Quick Dash",
+          "type": "Adjustment",
+          "change": "We've made further adjustments to Jinrai Kick's input priority, so now instead of Neutral+2 kick buttons taking priority over the Overdrive version, Neutral+3 kick buttons takes priority.\nNote: For Modern Controls, this is Neutral+3 attack buttons.\n\nDue to Ken's Quick Dash Shoryuken attack start-up being adjusted to come out faster, Jinrai Kick opportunities coming out of crouching medium kick, etc. have increased, and we foresee accidental Overdrive attacks increasing, so we decided to change the priority list.\n\nHowever, this will also impact regular Overdrive inputs as well, so we decided to adjust things to prevent the least amount of side effects by looking at the input methods again.\n\nWhile this adjustment will affect situations where the player performs an Overdrive with 3 buttons, players need a definitive way to perform Jinrai Kick, which is the reasoning for this adjustment.\nNote: Even in situations where 3 buttons are used, if you press any direction with the button input, the Overdrive technique will be performed."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Certain Anti-Air Attacks",
+          "type": "Adjustment",
+          "change": "Certain anti-air attacks where the character jumps into the air would have a tendency to lose out to mid-air throws whether or not they had anti-air invincibility after leaving the ground, so we have added a period of throw invincibility to the following attacks.\n\nSumo Smash\nOverdrive: Throw invincibility from frames 5-13"
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Tundra Storm",
+          "type": "Adjustment",
+          "change": "Fixed an issue where a previous tweak that allowed players to perform Tundra Storm easier, by pressing Neutral > Down > Neutral > Down and then pressing parry with the 2nd Down input, had not been applied to Modern Controls."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Made further adjustments to this attack, as it exceeded our adjustment intentions in certain combinations and shifted the ground game too much in Zangief's favor.\n\nThe attack hitbox has been reduced, rolling back the range to its previous state."
+        }
+      ]
+    },
+    "Ed": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 3",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the input buffer would not work properly if the player stopped the assisted combo at the first attack (Standing Heavy Punch) and then tried to start it from the first attack again."
+        },
+        {
+          "move": "Certain Target Combos",
+          "type": "Adjustment",
+          "change": "Previously we made adjustments so that pressing Medium Punch and Kick or Heavy Punch and Kick at the same time would not result in transition attacks being performed.\n\nThis adjustment was made primarily for cancelable attacks and the beginning of target combos, or special moves with transition techniques that had short recovery. This adjustment was also made to prevent unintended transition techniques from coming out when looking to perform a Drive Rush immediately after your recovery ends, Cancel Drive Rushes, or Drive Impacts. Please note that this adjustment only applied in cases where the Punch and Kick buttons were input at exactly the same time.\n\nAs certain target combos did not receive this adjustment previously, we have made adjustments to them now.\n\nBody Blow Combination (Medium Punch > Heavy Punch)\nHitman Combination (Medium Kick > Medium Kick)\nLow Smash Combination (↓+Heavy Kick > Heavy Punch)"
+        }
+      ]
+    },
+    "Akuma": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Light Tatsumaki Zanku-kyaku/Kikoku Combination (Second Attack)/Adamant Flame (Light Follow-up)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where it was possible to cancel some frames of the recovery of these attacks with certain actions when they were blocked by an opponent."
+        },
+        {
+          "move": "Gou Shoryuken/Tatsumaki Zanku-kyaku",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Drive Gauge recovery amount on a perfect parry was smaller than intended."
+        },
+        {
+          "move": "Tenmaku Blade Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where combo scaling was reduced when hit just before landing."
+        },
+        {
+          "move": "Zanku Hadoken",
+          "type": "Adjustment",
+          "change": "Parts of this attack were too difficult for opponents to handle, so we have made adjustments to mitigate those difficult areas.\n\n1. The upper half of the attack hitbox is only active during combos.\n2. Hurtbox has been expanded forward."
+        },
+        {
+          "move": "Ashura Senku",
+          "type": "Adjustment",
+          "change": "Fixed a phenomenon where this move would still avoid attacks regardless of whether or not Akuma had teleported behind the opponent.\n\n1. Expanded the hurtbox during movement.\n2. Adjusted so that if the technique is performed when the opponent is right in the corner, Akuma will not completely overlap with the opponent."
+        },
+        {
+          "move": "Shun Goku Satsu - Critical Art",
+          "type": "Adjustment",
+          "change": "Fixed a phenomenon where the opponent's charge command would be released in cases where this attack hit and the players switched sides during the cinematic."
+        },
+        {
+          "move": "Certain Target Combos",
+          "type": "Adjustment",
+          "change": "Previously we made adjustments so that pressing Medium Punch and Kick or Heavy Punch and Kick at the same time would not result in transition attacks being performed.\n\nThis adjustment was made primarily for cancelable attacks and the beginning of target combos, or special moves with transition techniques that had short recovery. This adjustment was also made to prevent unintended transition techniques from coming out when looking to perform a Drive Rush immediately after your recovery ends, Cancel Drive Rushes, or Drive Impacts. Please note that this adjustment only applied in cases where the Punch and Kick buttons were input at exactly the same time.\n\nAs certain target combos did not receive this adjustment previously, we have made adjustments to them now.\n\nViscera Piercer (Medium Punch > Medium Punch)\nBone Crusher Axe Kick (Medium Kick > Heavy Kick)"
+        }
+      ]
+    }
+  }
+}

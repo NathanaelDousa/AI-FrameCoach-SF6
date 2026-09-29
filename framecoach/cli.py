@@ -17,6 +17,25 @@ def cmd_scrape(args: argparse.Namespace, settings: Settings) -> None:
         scrape_stats(settings.stats_file)
 
 
+def cmd_update(args: argparse.Namespace, settings: Settings) -> None:
+    from .capcom import latest_patch_title, scrape_frame_data, scrape_patches
+    from .characters import BY_SLUG, ROSTER
+
+    unknown = [s for s in args.characters if s not in BY_SLUG]
+    if unknown:
+        sys.exit(f"Unknown character(s): {', '.join(unknown)}. Use slugs like: {', '.join(sorted(BY_SLUG))}")
+    print("Checking Capcom's patch notes...")
+    new = scrape_patches(settings.patches_dir, only_new=not args.all_patches)
+    print(f"Saved {len(new)} patch(es)." if new else "No new patches.")
+    print("Downloading official frame data...")
+    characters = [BY_SLUG[s] for s in args.characters] or list(ROSTER)
+    failed = scrape_frame_data(settings.framedata_dir, characters, patch=latest_patch_title(settings.patches_dir))
+    if not args.no_ingest:
+        cmd_ingest(args, settings)
+    if failed:
+        sys.exit(f"Could not update: {', '.join(failed)}")
+
+
 def cmd_rewrite(args: argparse.Namespace, settings: Settings) -> None:
     from .llm import OllamaClient
     from .rewrite import rewrite_folder
@@ -75,11 +94,15 @@ def cmd_serve(args: argparse.Namespace, settings: Settings) -> None:
     import threading
     import webbrowser
 
+    from .ingest import index_is_current
     from .server import LOOPBACK_HOSTS, create_app
     from .store import IndexMissingError, open_collection
 
     try:
         open_collection(settings)
+        if not index_is_current(settings):
+            print("The data has changed since the search index was built, rebuilding it (takes a few minutes)...")
+            cmd_ingest(args, settings)
     except IndexMissingError:
         print("No search index yet, building it now (the first time takes a few minutes)...")
         cmd_ingest(args, settings)
@@ -98,7 +121,13 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="framecoach", description="AI FrameCoach for Street Fighter 6")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p = sub.add_parser("scrape", help="download frame data and stats from ultimateframedata.com")
+    p = sub.add_parser("update", help="download the latest official frame data and patch notes from Capcom")
+    p.add_argument("characters", nargs="*", help="character slugs, e.g. ryu chunli (default: all)")
+    p.add_argument("--all-patches", action="store_true", help="re-download patch notes that are already saved")
+    p.add_argument("--no-ingest", action="store_true", help="don't rebuild the search index afterwards")
+    p.set_defaults(func=cmd_update)
+
+    p = sub.add_parser("scrape", help="(older source) download frame data and stats from ultimateframedata.com")
     p.add_argument("characters", nargs="*", help="character slugs, e.g. ryu chunli (default: all)")
     p.add_argument("--stats-only", action="store_true", help="only scrape the character stats page")
     p.set_defaults(func=cmd_scrape)

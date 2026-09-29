@@ -43,6 +43,9 @@ def small_data(tmp_path):
     shutil.copy(DATA_DIR / "framedata" / "characters_stats.json", data / "framedata")
     for name in ("Zangief.txt", "ryu2.txt", "Ken OKI.txt"):
         shutil.copy(DATA_DIR / "guides" / name, data / "guides")
+    (data / "patches").mkdir()
+    for version in ("20260803", "20260317", "202506"):
+        shutil.copy(DATA_DIR / "patches" / f"{version}.json", data / "patches")
     return data
 
 

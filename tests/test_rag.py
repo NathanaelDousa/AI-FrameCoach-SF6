@@ -31,7 +31,7 @@ def test_expand_notation_leaves_plain_questions_alone():
 
 def test_ingest_counts(settings, embedder):
     counts = build_index(settings, embedder)
-    assert counts["framedata"] > 100 and counts["stats"] == 26 and counts["guide"] > 5
+    assert counts["framedata"] > 100 and counts["stats"] == 26 and counts["guide"] > 5 and counts["patch"] > 20
 
 
 def test_missing_index_gives_helpful_error(settings):
@@ -75,3 +75,44 @@ def test_build_messages_numbers_context(retriever):
     messages = build_messages("Ryu jab", hits)
     assert messages[0]["role"] == "system"
     assert "[1] Ryu" in messages[1]["content"] and "Question: Ryu jab" in messages[1]["content"]
+
+
+def test_input_notation_finds_the_move(retriever):
+    hits = retriever.retrieve("Is Ken's 623HP invincible?", ["Ken"])
+    assert hits[0].move == "H Shoryuken" and hits[0].distance == 0.0
+
+
+def test_patch_question_gets_newest_notes_first(retriever):
+    hits = retriever.retrieve("What changed for Ryu in the last patch?", ["Ryu"])
+    patches = [h for h in hits if h.source == "patch"]
+    assert hits[0].source == "patch"  # patch notes lead for "what changed" questions
+    assert patches[0].patch == "08.03.2026 update" and patches[0].character == "Ryu"
+    assert [h.date for h in patches] == sorted((h.date for h in patches), reverse=True)
+
+
+def test_latest_update_without_character(retriever):
+    hits = retriever.retrieve("What changed in the latest update?", [])
+    patches = [h for h in hits if h.source == "patch"]
+    assert patches and all(h.patch == "08.03.2026 update" for h in patches[:6])
+
+
+def test_normal_questions_still_see_patch_notes(retriever):
+    hits = retriever.retrieve("Ryu jab", ["Ryu"])
+    assert hits[0].source != "patch"
+    assert {h.character for h in hits if h.source == "patch"} <= {"Ryu", "All characters"}
+
+
+def test_version_sort_key():
+    from framecoach.rag import _version_sort_key
+
+    assert sorted(["20250805", "202506", "20250205"], key=_version_sort_key) == ["20250205", "202506", "20250805"]
+
+
+def test_index_notices_changed_data(settings, embedder):
+    from framecoach.ingest import index_is_current
+
+    assert not index_is_current(settings)
+    build_index(settings, embedder)
+    assert index_is_current(settings)
+    (settings.guides_dir / "ryu new tech.txt").write_text("Ryu guide\n\nNew tech.", encoding="utf-8")
+    assert not index_is_current(settings)

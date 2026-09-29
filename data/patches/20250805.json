@@ -1,0 +1,214 @@
+{
+  "version": "20250805",
+  "title": "08.05.2025 update",
+  "date": "2025-08-05",
+  "overview": "",
+  "general": [],
+  "characters": {
+    "Luke": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Avenger (↓↘→ + Two Kicks)",
+          "type": "Adjustment",
+          "change": "Reduced the armor hitbox around the head downward.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Temps Lié (Heavy Punch > Heavy Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where it was possible to cancel into another action 1 frame before recovery ended when the attack was blocked."
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Sprint (Modern) (→ + Assist + Special Move)",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where Emergency Stop was performed instead of Shadow Slide when pressing Down-back+Attack after Overdrive Sprint.\n2. Fixed an issue where Neck Hunter was performed instead of Shadow Slide when pressing Down-forward+Attack after Overdrive Sprint."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Medium Punch Crouching Medium Kick Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Changed high positioned hurtboxes when crouching to be invincible to projectiles.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Normal/Overdrive Spiral Arrow (↓↘→ + Kick or Two Kicks)",
+          "type": "Adjustment",
+          "change": "For each strength, the hurtbox has been expanded upwards immediately after the start of the move and after it reaches its highest height.\n\nLight: Frames 1 - 2, Frames 14 - 21\nMedium: Frames 1 - 2 , Frames 14 - 23\nHeavy: Frames 1 - 5, Frames 23 - 32\nOverdrive: Frames 1 - 4, Frames 19 - 29\n\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        },
+        {
+          "move": "Super Art Level 1 Spin Drive Smasher (↓↘→↓↘→ + Kick)",
+          "type": "Adjustment",
+          "change": "The hurtbox that appears from the start of the technique until the 5th frame that is invincible to everything except projectiles has been expanded upwards.\n\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Neko Damashi (↓↓ + Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where buffering a Super Art Level 3/Critical Art input would not work."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Normal/Overdrive Backstep Rolling Attack (→↘↓↙← + Kick or Two Kicks)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the movement distance change by inputting forward or back would be different depending on if Blanka was facing left or right."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Critical Art Soten Ranka (↓↙←↓↙← + Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the amount of Drive gained when absorbing the attack via Drive Parry would be smaller compared to other Super Arts."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Drive Parry",
+          "type": "Bug fix",
+          "change": "The hurtbox and throw hurtbox for Drive Parry from frame 3 and later was slightly smaller than the expansion of the basic hurtbox in the June adjustment, so we expanded the hurtbox forward so it matches the basic hurtbox."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Changed high positioned hurtboxes when crouching to be invincible to projectiles.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        },
+        {
+          "move": "Double Lariat (Modern Controls) (Medium Attack + Heavy Attack)",
+          "type": "Bug fix",
+          "change": "In the June adjustment, we made an adjustment so that pressing all three attack buttons during Burnout would perform a Double Lariat instead of a normal throw. However in certain situations this would result in Double Lariat being performed unintentionally, so we have rolled back this adjustment to pre-June settings.\n\nNote: We plan on reimplementing this change in a future update after further investigation."
+        },
+        {
+          "move": "Tundra Storm (↓↓ + Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Counter hitbox expanded upward.\nPlease note that this adjustment was made so that it could also apply to Sagat's standing heavy kick and High Step Kick."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "Expanded the projectile invincible hurtbox downward during the technique.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's Low Tiger Shot."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Changed high positioned hurtboxes when crouching to be invincible to projectiles.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's High Tiger Shot."
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Venomous Fang (↓ + Two Punches > Punch)",
+          "type": "Adjustment",
+          "change": "Adjusted the position of the projectile invincible hurtbox during the technique.\nPlease note that this adjustment was made so that it doesn't interfere with Sagat's Low Tiger Shot.\nWe have also made sure that this change should not affect other projectiles."
+        }
+      ]
+    },
+    "Ed": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Light Psycho Uppercut (→↓↘ + Light Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where it was possible to cancel into another action 4 frames before recovery ended when the attack misses."
+        }
+      ]
+    },
+    "Akuma": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Normal/Overdrive Adamant Flame (Follow-up) (↓↙← + Punch or Two Punches > → + Punch) Demon Gou Rasen (↓↘→ + Two Kicks > ↓↙← + Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where this attack could not be performed when a projectile was on the screen."
+        },
+        {
+          "move": "Super Art Level 1 Messatsu Gohado (↓↘→↓↘→ + Punch) Super Art Level 1 Tenma Gozanku (During a neutral of forward jump, ↓↘→↓↘→ + Kick)",
+          "type": "Bug fix",
+          "change": "Updated so that when the attack is absorbed by a Perfect Parry, the amount of Drive gauge obtained is the same as other Super Arts (20000)."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Drive Impact",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the armor hitbox on the back and other parts of the body were processed differently, resulting in the armor being able to absorb more than 3 attacks."
+        }
+      ]
+    },
+    "Terry": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Quick Burn/Overdrive Burning Knuckle",
+          "type": "Adjustment",
+          "change": "Changed the attack performed from Overdrive Burn Knuckle to Overdrive Quick Burn when inputting ↓↙←+Light+Heavy."
+        },
+        {
+          "move": "Super Art Level 3/Critical Art Rising Fang (↓↘→↓↘→ + Punch)",
+          "type": "Bug fix",
+          "change": "1) Fixed an issue where the amount of Drive gained when absorbing the attack via Drive Parry would be smaller compared to other Super Arts.\n2) Updated so that when the attack is absorbed by a Perfect Parry, the amount of Drive gauge obtained is the same as other Super Arts (20000)."
+        }
+      ]
+    },
+    "Elena": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Round Arch (← + Heavy Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where after performing Drive Rush > Round Arch, remaining in neutral position would result in Elena moving forward."
+        },
+        {
+          "move": "Critical Art Song of the Grasslands (↓↙←↓↙← + Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the attack data damage values would be increased by 1000 when the Critical Art KO'd the opponent."
+        }
+      ]
+    }
+  }
+}

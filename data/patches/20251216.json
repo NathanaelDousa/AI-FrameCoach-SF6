@@ -1,0 +1,240 @@
+{
+  "version": "20251216",
+  "title": "12.16.2025 update",
+  "date": "2025-12-16",
+  "overview": "This update focuses primarily on adjusting Mai, Elena and Sagat.\n\nWith Elena and Sagat, they were released after the last overall balance adjustment, so we've made adjustments to improve their usability to ensure that some of their main moves that should define their unique style become more effective in practice. The changes should increase the range of combos and links so that they can better express their strengths and individuality.\n\nIn a previous update we downgraded some of Mai's attacks that heavily restricted the opponent's actions, but combos using all versions of Kachousen still made it very easy for her to take control of the stage. Her ability to corner opponents were the best among all of the characters. These attacks were difficult to counter unless the opponent opted for high-risk, high difficulty techniques like Perfect Parries or invincible attacks, so we've re-balanced them again.\n\nThe adjustments we've made are aimed at reducing the barrier of difficulty with countering Mai's offense, and its tendency to loop, so we've made it more difficult for Mai to induce Burnout when opponents block or use normal parries. Additionally, by tweaking the situation after Mai lands her forward throw in the corner, we've made it easier for the defender to deal with Mai's offense.\n\nFor more information on the adjustments, please see each character's adjustment list.",
+  "general": [
+    {
+      "move": "Change to Drive Gauge Appearance",
+      "type": "Adjustment",
+      "change": "To make it easier to distinguish whether or not each block has Drive remaining, the color of the block will change if even a small amount of Drive remains."
+    },
+    {
+      "move": "Crouching Light Kick for All Characters",
+      "type": "Adjustment",
+      "change": "Adjusted so the hurtbox around the feet that appears before the attack hitbox comes out is invincible to cross-up attacks.\n(This applies when attacking an opponent's cross-up attack from behind just before they land.)"
+    },
+    {
+      "move": "Manon, Lily, and Zangief's Super Art Level 3/CA",
+      "type": "Adjustment",
+      "change": "Omitted an unnecessary block idle hitbox that was set before the throw hitbox comes out.\n\n*This caused an issue when a Super Art was timed with the landing of a jump, making it possible to avoid the attack that should have been unavoidable."
+    },
+    {
+      "move": "Projectile Clashes",
+      "type": "Bug fix",
+      "change": "Fixed an issue where the timing for multi-hit projectiles's hitboxes disappearing would be inconsistent when canceling each other out, even when performed in the same situation."
+    }
+  ],
+  "characters": {
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Speedy Maracas (↓↓+2 Punches)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the level 2 Super Art gauge version would be performed when Dee Jay's gauge was between 1.98 and under 2 bars. It will now only be performed at 2 bars and over."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Light Kick",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the attack would hit an opponent behind Cammy."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Orchid Palm, Forward Strike, Senpu Kick (Light Punch, Light Kick or Medium Kick during Serenity Stream)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where Chun-Li could still block during some recovery frames when Perfect Parried by the opponent.\n*This fix will reduce the overall frames of the attack when it's Perfect Parried."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Merciless Yoga (Critical Art) (↓↘→↓↘→+Kick)",
+          "type": "Bug fix",
+          "change": "During a cancel the following parameters were set to their Super Art level 3 equivalents, but have now been changed to their correct Critical Art values.\n1. Drive Gauge reduction on block changed from 7500 to 10000.\n2. Chip damage to opponent during Burnout changed from 1000 to 1250."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Psycho Crusher Attack (with Psycho Mine)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where on the 1st attack's 2nd active frame and later, Bison's hit stop would be reduced by 1 frame when the attack hits at a specific range and timing, which would result in the explosion caused by Overdrive Psycho Crusher to occur immediately after the Psycho Mine's automatic detonation."
+        }
+      ]
+    },
+    "Mai": {
+      "concept": "The primary changes to Mai surround her combo-related attacks and their effect on the Drive Gauge, and a change to her forward throw after using it while in the corner.\n\nFor Drive Gauge adjustments, her standing heavy punch and all versions of Kachousen are affected. Her standing heavy punch is easy to use at the beginning or middle of combos, and also has a lot of chances to force the opponent to block, so we've decreased the amount of Drive Gauge reduced when the opponent blocks it.\n\nFor Kachousen, the amount of Drive Gauge gained on normal and Perfect Parry is now increased. We looked to reduce situations where a successful Perfect Parry would result in an overall negative balance compared to the cost of performing the parry in the first place. By ensuring a certain amount of Drive recovery even with just a normal parry, Mai's opponents will now be less likely to go into Burnout.\n\nEspecially for the held version of Light Kachousen, with its ability to really suffocate the opponent, and normal Boosted Kachousen, parrying the first two attacks will result in an overall positive Drive gain for opponents. Characters that don't have a lot of counters to projectiles will find it easier to avoid Kachousen with a normal parry.\n\nAfter Mai's forward throw hits in the corner, the distance between the opponent is now closer, so after it hits, Mai can't avoid a throw from a recovering opponent even if she performs forward dash into a backward walk. Although Mai's frame advantage after a forward dash hasn't changed, it's now more difficult for her to deal with both an opponent's normal throw and invincible move at the same time, so she'll need to be more creative with her approach.",
+      "changes": [
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Drive Gauge reduction on block changed from 5000 to 4000."
+        },
+        {
+          "move": "Standing Light Kick",
+          "type": "Bug fix",
+          "change": "Adjusted so the hurtbox around the feet that appears before the attack hitbox comes out is invincible to cross-up attacks.\n(This applies when attacking an opponent's cross-up attack from behind just before they land.)"
+        },
+        {
+          "move": "Normal Kachousen (Held) (↓↘→+Hold Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge increase from parrying the attack changed from 2500/2500 to 5000/2500.\n2. Drive Gauge increase from Perfect Parrying the attack changed from 2500/2500 to 5000/5000."
+        },
+        {
+          "move": "Overdrive Kachousen (Held) (↓↘→+Hold 2 Punches)",
+          "type": "Adjustment",
+          "change": "Drive Gauge increase from parrying/Perfect Parrying the attack changed from 1400 x 2 to 2500 x 2"
+        },
+        {
+          "move": "Midare Kachousen (↓↘→+Hold 2 Punches > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge increase from Perfect Parrying the 1st and 2nd attack changed from 1200 x 2 to 2500 x 2.\n2. Drive Gauge increase from Perfect Parrying the 3rd and 4th attack (falling fan) changed from 1150 x 2 to 5000 x 2."
+        },
+        {
+          "move": "Normal Kachousen (Kagerou no Mai Boosted) (↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "Drive Gauge increase from parrying/Perfect Parrying the attack changed from 2500 x 2 to 3000 x 2."
+        },
+        {
+          "move": "Normal Kachousen (Held, Kagerou no Mai Boosted) (↓↘→+Hold Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge increase from parrying the attack changed from 1250 x 2/2500 to 2500 x 3.\n2. Drive Gauge increase from Perfect Parrying the attack changed from 1250 x 2/2500 to 2500 x 2/5000."
+        },
+        {
+          "move": "Overdrive Kachousen (Held, Kagerou no Mai Boosted) (↓↘→+Hold 2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge increase from parrying/Perfect Parrying the 1st and 2nd attack changed from 1200 x 2 to 2500 x 2.\n2. Drive Gauge increase from Perfect Parrying the 3rd and 4th attack (falling fan) changed from 750 x 2 to 2500 x 2."
+        },
+        {
+          "move": "Midare Kachousen (Kagerou no Mai Boosted) (↓↘→+Hold 2 Punches > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge increase from Perfect Parrying the 1st and 2nd attack changed from 1050 x 2 to 2500 x 2.\n2. Drive Gauge increase from Perfect Parrying the 3rd and 4th attack (falling fan) changed from 750 x 2 to 2500 x 2."
+        },
+        {
+          "move": "Normal Hissatsu Shinobi Bachi (Normal/Boosted) (↓↘→+Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an occurance where the distance between the characters would be shorter compared to mid-screen when taking a hit during the move's recovery while the opponent is in the corner of the stage."
+        },
+        {
+          "move": "Forward Throw",
+          "type": "Adjustment",
+          "change": "The distance between the characters after hitting at the corner of the screen has been shortened."
+        }
+      ]
+    },
+    "Elena": {
+      "concept": "Elena's main adjustments revolve around her Boosted Leopard Snap and Super Art level 1 Meteor Volley.\n\nBoosted Leopard Snap\nThe distance between Elena and her opponent is now shorter when this attack is blocked either at the center of the stage or in the corner, making it easier to keep up the offense. At the center of the stage, you can now string together two light attacks against an opponent who blocks this attack, such as crouching light punch or crouching light kick into crouching light punch, making it easier to pressure opponents who are looking to retreat from an anticipated throw or want to take back their turn with a light attack.\n\nMeteor Volley\nWe've sped up its attack start-up, increased its abilities as an anti-air tool, and made it easier to use as part of a follow-up attack in a mid-air combo. In addition, after this attack hits, any follow-ups will now grant Super Art gauge gains, giving this attack much more utility.",
+      "changes": [
+        {
+          "move": "Leopard Snap (Normal) (↓↘→+Punch > →+Light Kick)",
+          "type": "Adjustment",
+          "change": "Changed Super Art gauge increase from 600 to 1000."
+        },
+        {
+          "move": "Leopard Snap (Boosted) (↓↘→+Punch > →+Punch > →+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Adjusted the distance between the characters after this attack is blocked while the opponent is in the corner of the stage to match the distance when at the center of the stage.\n2. Pushback on block reduced.\n3. The blowback when the 1st attack is a mid-air hit has been reduced, making it less likely for the 2nd attack to miss."
+        },
+        {
+          "move": "Moon Glider (Follow-up Part) (↓↙←+Punch > →+Punch)",
+          "type": "Adjustment",
+          "change": "Expanded the attack hitbox of the follow-up's 2nd attack forward, making it less likely to miss."
+        },
+        {
+          "move": "Overdrive Moon Glider (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Pushback on hit reduced.\n2. Increased forward movement distance after the initial step back."
+        },
+        {
+          "move": "Super Art Level 1 Meteor Volley (↓↘→↓↘→＋Kick)",
+          "type": "Adjustment / bug fix",
+          "change": "1. Attack start up changed from 9 to 7 frames.\n2. Follow-up attacks can now fill up the Super Art gauge.\n3. Fixed an issue where if Elena takes an attack while falling after missing, she would sometimes go back into the air. This has been changed to a blowback knockdown."
+        }
+      ]
+    },
+    "Sagat": {
+      "concept": "We've looked at improving Sagat's Tiger Nexus and follow-up attacks, as well as the abilities of his low-hitting attacks. Other than that, there were rare cases when his multi-hitting attacks wouldn't connect mid-way through or wouldn't go into the proper lock animation, so we've made adjustments to those to ensure that Sagat wouldn't suddenly encounter a disadvantage.\n\nLight/Medium Tiger Nexus, Mighty Tiger\nSagat now moves forward more with the light and medium versions of Tiger Nexus, giving him more range with this attack. Along with the changes to pushback on hit and block to crouching light kick, this makes it easier to hit an opponent with Tiger Nexus after Sagat's light attacks, giving him better comboability.\n\nFor Tiger Nexus > Mighty Tiger's change to blowback on mid-air hits, this is a change made so that the other tweaks won't affect any current mid-air combos.\n\nCrouching Light Kick, Crouching Medium Kick\nSagat's close and mid-range low attacks now have better performance.\nDue to Sagat's slow forward walk speed, it was difficult for him to chase down retreating opponents, so this change is meant to compensate for one of Sagat's weaknesses, which is the risk he takes when stepping back.\n\nTiger Monolith\nWhen used as an early anti-air attack there were times when no active attack frames were present, so with this adjustment, it should allow Sagat to win more situations when this attack clashes with an opponent's jumping attack, instead of trading or straight up losing out.",
+      "changes": [
+        {
+          "move": "Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "Pushback on hit and on block reduced."
+        },
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +4 to +5."
+        },
+        {
+          "move": "Tiger Monolith (←+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Active frames for the 1st attack changed from 2 to 3 frames."
+        },
+        {
+          "move": "Heavy Tiger Uppercut (Held) (→↓↘+Hold Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Attack will now go into the cinematic when hitting on the 3rd active frame.\n2. Damage on the 3rd active frame changed from 1700 to 1800.\n3. Hitstop when hitting on the 3rd active frame changed from 13 to 20 frames.\n4. Can now only be canceled into Super Art level 3/Critical Art when hitting on the 3rd active frame.\n5. Added an attack hitbox on the 3rd active frame that only appears during a combo.\n6. Collision pushbox on active frames 1-2 expanded upward, making it difficult to unintentionally sneak under opponents at high positions."
+        },
+        {
+          "move": "Heavy Tiger Knee Crush (↓↘→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Expanded the attack hitbox of the 2nd attack that only appears during a combo upwards, allievating the issue of the 2nd attack missing when the 1st attack didn't result in a spinning knockdown on a mid-air hit."
+        },
+        {
+          "move": "Light/Medium Tiger Nexus (↓↙←+Light Kick or Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Pushback on hit increased.\n2. Forward movement increased from 2 frames before attack start up until attack start up.\n3. Increased side blowback on a mid-air hit.\n4. Collision pushbox on the head reduced backward."
+        },
+        {
+          "move": "Mighty Tiger (↓↙←+Kick > →+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Pushback on hit increased.\n2. Increased side blowback on a mid-air hit."
+        },
+        {
+          "move": "Greedy Tiger (↓↙←+Kick > →+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Drive Gauge decrease on block changed from 6000 to 8000."
+        },
+        {
+          "move": "Nova Tiger (↓↙←+Kick > →+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Pushback on block reduced."
+        }
+      ]
+    },
+    "C. Viper": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Dynamic Controls",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where the normal version of Focus Force would be performed from a high jump cancel instead when trying to perform the Overdrive version.\n2. Fixed an issue where performing a high jump cancel with a downward input followed by ↖ with Super Art 1 active or during Burnout would not result in a vertical high jump."
+        },
+        {
+          "move": "Jumping Light Punch, Jumping Heavy Punch",
+          "type": "Bug fix",
+          "change": "Fixed an issue where hitting a crouching opponent would force them into a standing position."
+        },
+        {
+          "move": "Focus Force (Level 3, Normal/Overdrive) (↓↙←+ hold Kick or 2 Kicks)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the opponent's stunned time would not increase on Punish Counter."
+        }
+      ]
+    }
+  }
+}

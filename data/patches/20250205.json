@@ -1,0 +1,155 @@
+{
+  "version": "20250205",
+  "title": "02.05.2025 update",
+  "date": "2025-02-05",
+  "overview": "",
+  "general": [
+    {
+      "move": "Character Guides & Tutorials",
+      "type": "Bug fix",
+      "change": "Some character guides and tutorials had replays that didn't play properly, or text that was inaccurate due to changes made during previous battle adjustment updates. These have now been fixed."
+    },
+    {
+      "move": "Drive Impact",
+      "type": "Bug fix",
+      "change": "Fixed an issue that caused the input buffer time to be shorter than normal in cases where the attack did not hit the opponent after absorbing a blow with super armor."
+    },
+    {
+      "move": "Drive Reversal (From Block/Recovery)",
+      "type": "Bug fix",
+      "change": "The backward movement parameters of the first frame have been removed to align with how this technique performs for other characters.\n\nImpacted Characters: Kimberly, Blanka"
+    },
+    {
+      "move": "Perfect Parry",
+      "type": "Adjustment",
+      "change": "If a multi-hit attack is Perfect Parried, it is no longer possible to cancel from the 2nd attack and on.\n\nThis fix was implemented during the 12.02.2024 update, but was rolled back due to a known issue. That issue has now been resolved, so this is being re-implemented with this update."
+    }
+  ],
+  "characters": {
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Normal/Overdrive Rond-point (↓↘→ + Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where it was not possible to cancel into a Super Art if this move was parried by the opponent."
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "SA1 Bushin Beats (↓↘→↓↘→ + Kick) SA2 Bushin Scramble/Soaring Bushin Scramble (↓↙←↓↙← + Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where these moves would not KO the opponent when trading hits."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Dimachaerus (↓↙← + Two Punches)",
+          "type": "Adjustment",
+          "change": "The Super Art cancel input buffer window timing has been changed to start from frame 10 instead of frame 2.\nNote: This change has been made to cut down on cases where inputting → + Punch after performing an Overdrive Dimachaerus with ↓↙←↓↙← + Two Punches would result in Marisa's SA2 activating by mistake."
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Threebeat Combo (Light Punch > Medium Kick > Medium Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the the second attack would not come out if a downward direction input was being made at the same time."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "SA2 Killer Bee Spin/Aerial Killer Bee Spin (↓↙←↓↙← + Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where these moves would not KO the opponent when trading hits."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Kick",
+          "type": "Bug fix",
+          "change": "Fixed an issue where it was not possible to cancel into a special move if this move was parried by the opponent."
+        },
+        {
+          "move": "Tenku Kick (Modern Controls) (↓ + Heavy Attack, during Serenity Stream)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the jump cancel input buffer window after a hit when using Modern Controls differed from the window timing for Classic Controls."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Backward Walk (During Burnout)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the first frame of a backwards walk during Burnout behaved the same as walking forward."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "SA1 Super Rashid Kick (↓↘→↓↘→ + Kick)",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where this move would not KO the opponent when trading hits.\n2. Fixed an issue where the knockback time was considerably short when trading hits."
+        }
+      ]
+    },
+    "Ed": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Level 1 Psycho Knuckle (Hold Heavy Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that caused opponents to not be able to move backwards after being hit with this move during the late active frames (beyond frame 10)."
+        }
+      ]
+    },
+    "Akuma": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Forward Ashura Senku (→ + Three Kicks)",
+          "type": "Adjustment",
+          "change": "Expanded the throw hurtbox backwards when moving with this technique to make it more difficult to avoid an opponent's throw attempts at the moment of passing through them."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "1. The timing for the character's central axis starting to move forward has been changed from frame 13 to frame 2, increasing the amount of forward movement until the end of the active frames.\nNote: The appearance of the movement until the end of the active frames has not been changed.\n2. The attack hitbox and pushbox have been adjusted for change 1, so that the reach and situation on hit are not drastically different from before.\n3. The hurtbox and armor hurtbox have been adjusted for change 1."
+        }
+      ]
+    },
+    "Terry": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Forward Walk",
+          "type": "Adjustment",
+          "change": "The walk animation has been updated to pull the central axis of the character further back so that their appearance on screen better represents their actual position.\nNote: This is purely a visual adjustment and no changes have been made to the walk's properties."
+        }
+      ]
+    }
+  }
+}

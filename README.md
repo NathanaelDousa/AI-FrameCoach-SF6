@@ -14,16 +14,25 @@ Run it **fully local and free** with [Ollama](https://ollama.com), or use a **cl
 ## How it works
 
 ```
-ultimateframedata.com ──scrape──▶ data/framedata/*.json ─┐
-video transcripts ──rewrite (LLM)──▶ data/guides/*.txt ──┼─ingest─▶ ChromaDB (chroma/)
-                                                         │
+streetfighter.com (Capcom) ──update──▶ data/framedata/*.json + data/patches/*.json ─┐
+video transcripts ──rewrite (LLM)──▶ data/guides/*.txt ────────────────────────────┼─ingest─▶ ChromaDB (chroma/)
+                                                                                    │
 question ─▶ detect character(s) ─▶ search (filtered by character) ─▶ your model ─▶ streamed answer + sources
 ```
 
-- **Frame data** (1,378 moves for 26 characters), **stats** (health, walk speed, ...) and **guides** are embedded with [Sentence Transformers](https://www.sbert.net/) and stored in [ChromaDB](https://www.trychroma.com/) with metadata (`character`, `source`, `move`).
-- **Character detection** understands names and nicknames (`Gief`, `Chun-Li`, `Bison`, `AKI`, `DJ`, ...), or you can pick a character in the UI.
-- **Notation**: `2HP`, `cr.MK` and `j.HK` are understood. When a move is named, its exact frame data is always included.
+- **Official frame data** from Capcom for 31 characters (2,400+ moves): startup, active frames, recovery, hit/block advantage, cancels, damage, drive and super gauge, properties, invincibility notes and inputs in numpad notation (`236P`, `623HP`).
+- **Every patch since launch** (21 balance updates from Capcom's battle change list), so the coach can answer "what changed for Ken last patch?" and knows newer info beats older guides.
+- **Guides** and character **stats** (health, walk speed, ...) add strategy on top.
+- Everything is embedded with [Sentence Transformers](https://www.sbert.net/) and stored in [ChromaDB](https://www.trychroma.com/) with metadata (`character`, `source`, `move`, patch `date`).
+- **Character detection** understands names and nicknames (`Gief`, `Chun-Li`, `Bison`, `Viper`, `AKI`, `DJ`, ...), or you can pick a character in the UI.
+- **Notation**: `2HP`, `cr.MK`, `j.HK` and motion inputs like `623HP` are understood. When a move is named, its exact frame data is always included.
 - Answers stream in token by token, and every answer shows the sources it was based on.
+
+## Always up to date
+
+- A GitHub Action checks Capcom every Monday and opens a pull request when frame data or patch notes change.
+- To grab the newest data yourself right away: `framecoach update`.
+- `framecoach serve` / `start.bat` notices when the data changed and rebuilds the search index automatically.
 
 ## Quick start (Windows)
 
@@ -73,7 +82,8 @@ framecoach serve        # builds the index on first run and opens http://localho
 | `framecoach serve [--port 5000] [--no-browser]` | Run the web app (builds the index first if needed) |
 | `framecoach ask "Ryu 2HP on block?" [--character Ryu] [--provider deepseek] [--model ...]` | Ask from the terminal, using your saved model unless you override it |
 | `framecoach ingest` | Rebuild the search index. Run it after changing anything in `data/` |
-| `framecoach scrape [ryu ken ...] [--stats-only]` | Re-download frame data and stats from ultimateframedata.com |
+| `framecoach update [ryu ken ...]` | Download the latest official frame data and new patch notes from Capcom, then rebuild the index |
+| `framecoach scrape [--stats-only]` | Older source: character stats (and frame data) from ultimateframedata.com |
 | `framecoach rewrite [--overwrite]` | Clean up raw transcripts in `data/transcripts/` into `data/guides/` using Ollama |
 
 ## Configuration
@@ -84,7 +94,7 @@ Optional environment variables:
 | --- | --- | --- |
 | `OLLAMA_HOST` | `http://localhost:11434` | Where Ollama is running |
 | `FRAMECOACH_EMBED_MODEL` | `all-MiniLM-L6-v2` | Sentence Transformers model. Re-run `ingest` after changing it |
-| `FRAMECOACH_FRAMEDATA_K` / `FRAMECOACH_GUIDE_K` | `8` / `4` | How many frame data / guide snippets go into the prompt |
+| `FRAMECOACH_FRAMEDATA_K` / `FRAMECOACH_GUIDE_K` / `FRAMECOACH_PATCH_K` | `8` / `4` / `3` | How many frame data / guide / patch note snippets go into the prompt |
 | `FRAMECOACH_DATA_DIR` / `FRAMECOACH_DB_DIR` | `data/` / `chroma/` | Data and index locations |
 | `FRAMECOACH_CONFIG_DIR` | see above | Where your model choice and API keys are saved |
 | `FRAMECOACH_REWRITE_MODEL` | `llama3` | Model used by `rewrite` |
@@ -104,7 +114,7 @@ With `"stream": true` the response is newline-delimited JSON: one `meta` event (
 ## Adding content
 
 - **A guide**: drop a `.txt` file in `data/guides/` whose name starts with the character slug (`ryu`, `chunli`, `ehonda`, `mbison`, ...), e.g. `ryu oki setups.txt`. Separate topics with blank lines. Then run `framecoach ingest`.
-- **A new character**: add them to `ROSTER` in `framecoach/characters.py`, then run `framecoach scrape <slug>` and `framecoach ingest`.
+- **A new character**: add them to `ROSTER` in `framecoach/characters.py`, then run `framecoach update <slug>`.
 
 ## Project layout
 
@@ -117,12 +127,14 @@ framecoach/
   llm.py          model providers: Ollama, Claude, OpenAI, DeepSeek
   user_settings.py  saved model choice + API keys
   server.py       Flask app + API
-  scrape.py       ultimateframedata.com scraper
+  capcom.py       official frame data + patch notes scraper (streetfighter.com)
+  scrape.py       ultimateframedata.com scraper (character stats)
   rewrite.py      transcript -> guide rewriter
   cli.py          command line
   templates/ static/   web UI
 data/
-  framedata/      scraped JSON per character + characters_stats.json
+  framedata/      official frame data per character + characters_stats.json
+  patches/        Capcom battle change notes, one file per update
   guides/         cleaned-up guide text used by the coach
   transcripts/    raw video transcripts (input for `rewrite`)
 tests/
@@ -140,4 +152,4 @@ The tests use a fake embedder, fake models and local fake servers, so they need 
 
 ## Credits
 
-Frame data and stats come from [ultimateframedata.com](https://ultimateframedata.com/sf6). Guides are based on community video guides.
+Frame data and patch notes come from Capcom's official [Street Fighter 6 site](https://www.streetfighter.com/6/character) and [battle change list](https://www.streetfighter.com/6/buckler/en/battle_change). Character stats come from [ultimateframedata.com](https://ultimateframedata.com/sf6). Guides are based on community video guides. Street Fighter is a trademark of Capcom; this is an unofficial fan project.

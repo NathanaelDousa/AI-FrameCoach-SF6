@@ -1,0 +1,35 @@
+{
+  "version": "20251113",
+  "title": "11.13.2025 update",
+  "date": "2025-11-13",
+  "overview": "",
+  "general": [
+    {
+      "move": "Behavior when two Super Arts are performed at the same time",
+      "type": "Bug fix",
+      "change": "Fixed a crash issue that occurred when both Player 1 and 2 performed specific Super Arts at the same time.\nNote: This was fixed previously but we've confirmed it has happened again so this is an additional fix."
+    },
+    {
+      "move": "Character-Specific Settings during online Training Mode",
+      "type": "Bug fix",
+      "change": "Fixed a crash issue that occurred when two players are in online training mode and one player using C. Viper would select Character-Specific Settings from the training menu.\n\nNote: While the above crash issue was resolved in the update, we've also confirmed that changing C. Viper's Limit Decoupler setting to 'Infinite' under Character-Specific Settings will result in irregular behavior for the character and the Super Art gauge.\n\nIn addition, continuing online training mode with this irregular behavior active can increase the chance of a network error occurring. These new issues will be resolved in a future update, but please refrain from using the settings outlined above until that fix has been implemented. We apologize for any inconvenience this may cause in the meanwhile."
+    }
+  ],
+  "characters": {
+    "C. Viper": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Aerial Burning Kick (Modern) (↓↘→+2 Attack Buttons during a vertical or forward jump)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where a normal Aerial Burning Kick would be performed when using Modern Controls and manual inputs to perform an Overdrive Aerial Burning Kick even though two attack buttons were pressed simultaneously."
+        },
+        {
+          "move": "High Jump Cancel during Super Art 1",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the Super Art 1 timer would disappear when performing a High Jump Cancel even if C. Viper wasn't in Burnout."
+        }
+      ]
+    }
+  }
+}
