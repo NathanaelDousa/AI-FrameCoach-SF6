@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Generated search index (rebuild with: python -m framecoach ingest)
+chroma/
+
+# Local config / editors
+.env
+.vscode/
+.idea/
+.DS_Store

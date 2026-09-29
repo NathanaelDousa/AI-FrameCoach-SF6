@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FrameCoach SF6</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="chat-container">
+    <header>
+      <h1>FrameCoach <span>SF6</span></h1>
+      <label class="character-select">
+        Character
+        <select id="character">
+          <option value="">Auto-detect</option>
+          {% for name in characters %}<option value="{{ name }}">{{ name }}</option>{% endfor %}
+        </select>
+      </label>
+    </header>
+
+    <section id="chat-window" class="chat-window" aria-live="polite">
+      <div class="welcome">
+        <p>Ask about frame data, punishes, oki setups or game plans.</p>
+        <div class="examples">
+          <button type="button" class="example">What are Zangief's best anti-airs?</button>
+          <button type="button" class="example">How plus is JP's OD Amnesia on hit?</button>
+          <button type="button" class="example">What is the startup of Cammy's cr.HP?</button>
+          <button type="button" class="example">Give me Ken's oki after a corner combo</button>
+        </div>
+      </div>
+    </section>
+
+    <form id="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask a question..." autocomplete="off" maxlength="500" required>
+      <button id="send" type="submit">Ask</button>
+    </form>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

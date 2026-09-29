@@ -1,0 +1,174 @@
+:root {
+  --bg: #f4f5f7;
+  --panel: #ffffff;
+  --text: #1c1e21;
+  --muted: #6b7280;
+  --border: #e3e5e8;
+  --accent: #e8590c;
+  --accent-hover: #cc4d09;
+  --user-bg: #e8590c;
+  --user-text: #ffffff;
+  --bot-bg: #eef0f3;
+  --error: #c92a2a;
+  --code-bg: rgba(0, 0, 0, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --panel: #181b21;
+    --text: #e6e8eb;
+    --muted: #9aa1ab;
+    --border: #2a2f37;
+    --bot-bg: #232830;
+    --error: #ff6b6b;
+    --code-bg: rgba(255, 255, 255, 0.08);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 16px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 760px;
+  height: calc(100vh - 32px);
+  max-height: 900px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+h1 { margin: 0; font-size: 1.25rem; font-weight: 700; }
+h1 span { color: var(--accent); }
+
+.character-select { font-size: 0.85rem; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+
+select, input[type="text"] {
+  font: inherit;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome { margin: auto 0; text-align: center; color: var(--muted); }
+.examples { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+
+.example {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--text);
+  background: var(--bot-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.example:hover { border-color: var(--accent); }
+
+.message {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: 16px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+.message.user {
+  background: var(--user-bg);
+  color: var(--user-text);
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+  white-space: pre-wrap;
+}
+.message.bot {
+  background: var(--bot-bg);
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+.message.bot > :first-child { margin-top: 0; }
+.message.bot > :last-child { margin-bottom: 0; }
+.message p { margin: 0 0 0.6em; }
+.message h4 { margin: 0.8em 0 0.4em; }
+.message ul, .message ol { margin: 0.3em 0 0.6em; padding-left: 1.3em; }
+.message code { background: var(--code-bg); border-radius: 4px; padding: 0 4px; }
+.message.error { color: var(--error); }
+
+.message.thinking { color: var(--muted); font-style: italic; }
+.message.thinking::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  vertical-align: -2px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.sources { align-self: flex-start; max-width: 85%; font-size: 0.8rem; color: var(--muted); }
+.sources summary { cursor: pointer; }
+.sources details { margin: 4px 0 0 12px; }
+.sources pre {
+  white-space: pre-wrap;
+  font-size: 0.78rem;
+  background: var(--bot-bg);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 4px 0;
+}
+
+form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--border); }
+input[type="text"] { flex: 1; padding: 10px 12px; outline: none; }
+input[type="text"]:focus { border-color: var(--accent); }
+
+#send {
+  font: inherit;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+#send:hover { background: var(--accent-hover); }
+#send:disabled { opacity: 0.6; cursor: wait; }

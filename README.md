@@ -1,116 +1,121 @@
 # AI FrameCoach SF6
 
-**FrameCoach SF6** is an AI-powered coaching assistant for **Street Fighter 6**. It uses semantic search and a local large language model (LLM) to provide accurate, competitive-level answers about moves, frame data, strategies, and character-specific tools.
+**FrameCoach SF6** is an AI coaching assistant for **Street Fighter 6**. It combines frame data for the whole roster, character stats and written guides with a local LLM (via [Ollama](https://ollama.com)), so you can ask things like:
+
+- "What are Zangief's best anti-airs?"
+- "How plus is JP's OD Amnesia on hit?"
+- "What is the startup of Cammy's cr.HP?"
+- "Give me Ken's oki after a corner combo"
+
+Everything runs locally: no API keys, no cloud.
 
 ---
 
-##  Features
+## How it works
 
--  Searchable database of frame data and character guides
--  AI-generated answers via a local LLM (Gemma)
--  Example questions you can ask:
-  - "What are Zangief’s best anti-airs?"
-  - "How plus is JP’s OD Amnesia on hit?"
-  - "What is the startup on Cammy’s crouching heavy punch?"
+```
+ultimateframedata.com ──scrape──▶ data/framedata/*.json ─┐
+video transcripts ──rewrite (LLM)──▶ data/guides/*.txt ──┼─ingest─▶ ChromaDB (chroma/)
+                                                         │
+question ─▶ detect character(s) ─▶ search (filtered by character) ─▶ Ollama ─▶ streamed answer + sources
+```
 
----
-
-##  Tech Stack
-
-- [Sentence Transformers](https://www.sbert.net/) for semantic vector embeddings
-- [ChromaDB](https://www.trychroma.com/) as a vector database
-- [Flask](https://flask.palletsprojects.com/) for the backend API
-- [Ollama](https://ollama.com/) to run local LLMs (e.g., `mistral`, `gemma`)
-- JSON and TXT files with move data and guides (converted and ingested)
-
----
-
-##  AI Prompt Design
-
-The LLM is instructed to behave like a **world-class Street Fighter 6 coach**, with a focus on:
-- Competitive insights
-- Accurate use of frame data
-- Concise and helpful explanations
-- No fluff, no speculation
-
----
+- **Frame data** (1,378 moves for 26 characters), **stats** (health, walk speed, ...) and **guides** are embedded with [Sentence Transformers](https://www.sbert.net/) and stored in [ChromaDB](https://www.trychroma.com/) with metadata (`character`, `source`, `move`).
+- **Character detection** understands names and nicknames (`Gief`, `Chun-Li`, `Bison`, `AKI`, `DJ`, ...), or you can pick a character in the UI.
+- **Notation**: `2HP`, `cr.MK` and `j.HK` are understood. When a move is named, its exact frame data is always included.
+- Answers stream in token by token, and every answer shows the sources it was based on.
 
 ## Requirements
-Make sure your system has the following installed:
 
-Python 3.10 or higher
+- Python 3.10+
+- [Ollama](https://ollama.com/download) with a model pulled, e.g. `ollama pull gemma3`
 
-pip (Python package installer)
+## Quick start
 
-Ollama (for running local LLMs)
+```bash
+git clone https://github.com/NathanaelDousa/AI-FrameCoach-SF6
+cd AI-FrameCoach-SF6
 
----
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -e .
 
-##  Setup Instructions
+ollama pull gemma3                 # any chat model works, see Configuration
+python -m framecoach ingest        # build the search index (first run downloads the embedding model)
+python -m framecoach serve         # open http://localhost:5000
+```
 
-1. **Install Ollama**  
-   https://ollama.com/download  
-   Once installed, pull the model you want to use (e.g., gemma or mistral):
-   ```
-   ollama pull gemma:2b
-   or 
-   ollama pull mistral
-   ```
-   You can test if it's working with:
-   ```
-   ollama run gemma:2b
-   ```
+After `pip install -e .` you can also type `framecoach` instead of `python -m framecoach`.
 
-2. **Clone the Project & Set Up Python**  
-   git clone https://github.com/NathanaelDousa/AI-FrameCoach-SF6
-   cd AI-FrameCoach-SF6
+## Commands
 
-   (Optional) Create a virtual environment:
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+| Command | What it does |
+| --- | --- |
+| `framecoach serve [--host 0.0.0.0] [--port 5000]` | Run the web app |
+| `framecoach ask "Ryu 2HP on block?" [--character Ryu] [--show-context]` | Ask from the terminal |
+| `framecoach ingest` | Rebuild the search index. Run it after changing anything in `data/` |
+| `framecoach scrape [ryu ken ...] [--stats-only]` | Re-download frame data and stats from ultimateframedata.com |
+| `framecoach rewrite [--overwrite]` | Clean up raw transcripts in `data/transcripts/` into `data/guides/` using an LLM |
 
-3. **Install Dependencies**  
-   pip install flask flask-cors sentence-transformers chromadb requests
+## Configuration
 
-4. **Prepare the Database (Ingest Data)**
-   First, make sure your move and guide files are stored as plain .txt files (one file per character or topic) inside the data/ folder.
-   Then run:
-   python ingest_texts.py
+Set these as environment variables:
 
-   This script will:
-   - Load all .txt files in the data/ folder
-   - Convert them into vector embeddings
-   - Store them in a local ChromaDB database
+| Variable | Default | |
+| --- | --- | --- |
+| `FRAMECOACH_MODEL` | `gemma3` | Ollama model used for answers (`mistral`, `llama3.1`, `qwen2.5`, ...) |
+| `OLLAMA_HOST` | `http://localhost:11434` | Where Ollama is running |
+| `FRAMECOACH_EMBED_MODEL` | `all-MiniLM-L6-v2` | Sentence Transformers model. Re-run `ingest` after changing it |
+| `FRAMECOACH_FRAMEDATA_K` / `FRAMECOACH_GUIDE_K` | `8` / `4` | How many frame data / guide snippets go into the prompt |
+| `FRAMECOACH_DATA_DIR` / `FRAMECOACH_DB_DIR` | `data/` / `chroma/` | Data and index locations |
+| `FRAMECOACH_REWRITE_MODEL` | `llama3` | Model used by `rewrite` |
 
-5. **Run the Server**  
-   Start your Flask app:
-   python app.py
+## API
 
-   You should see something like:
-    * Running on http://127.0.0.1:5000
-   Open your browser and go to:
-   http://localhost:5000
+`POST /api/ask` with `{"question": "...", "character": "Ryu" (optional), "stream": false}`
 
-6. **Ask Questions**  
-   You can now ask questions like:
+```json
+{"answer": "...", "characters": ["Ryu"], "sources": [{"label": "Ryu - Crouching Heavy Punch (frame data)", "text": "..."}]}
+```
 
-   - What are Zangief’s best anti-airs?
-   - How plus is Cammy’s crouching light punch?
-   - Tell me how to use Manon’s command grab
-   The app will:
+With `"stream": true` the response is newline-delimited JSON: one `meta` event (characters and sources), then `token` events, then `done` or `error`.
 
-   Embed your question
-   Retrieve the top relevant documents using ChromaDB
-   Feed both the context and your question into the local LLM (Gemma or Mistral)
-   Return a clean and accurate response    
+## Adding content
 
-**Notes**
-   You can change the model name in app.py:
-   ```
-   MODEL = "gemma"  # or "mistral", etc.
-   ```
-   Make sure Ollama is running while using the app.
+- **A guide**: drop a `.txt` file in `data/guides/` whose name starts with the character slug (`ryu`, `chunli`, `ehonda`, `mbison`, ...), e.g. `ryu oki setups.txt`. Separate topics with blank lines. Then run `framecoach ingest`.
+- **A new character**: add them to `ROSTER` in `framecoach/characters.py`, then run `framecoach scrape <slug>` and `framecoach ingest`.
 
-   If you add or update files in data/, run ingest_texts.py again.
+## Project layout
 
+```
+framecoach/
+  characters.py   roster, aliases, character detection
+  documents.py    frame data / stats / guides -> documents with metadata
+  ingest.py       builds the ChromaDB index
+  rag.py          retrieval + prompt
+  llm.py          Ollama client (streaming)
+  server.py       Flask app + API
+  scrape.py       ultimateframedata.com scraper
+  rewrite.py      transcript -> guide rewriter
+  cli.py          command line
+  templates/ static/   web UI
+data/
+  framedata/      scraped JSON per character + characters_stats.json
+  guides/         cleaned-up guide text used by the coach
+  transcripts/    raw video transcripts (input for `rewrite`)
+tests/
+```
 
+## Development
+
+```bash
+pip install -e ".[dev]"
+pytest
+ruff check framecoach tests && ruff format framecoach tests
+```
+
+The tests use a small fake embedder and a fake LLM, so they don't need Ollama or a model download.
+
+## Credits
+
+Frame data and stats come from [ultimateframedata.com](https://ultimateframedata.com/sf6). Guides are based on community video guides.
