@@ -1,0 +1,50 @@
+{
+  "version": "20260415",
+  "title": "04.15.2026 update",
+  "date": "2026-04-15",
+  "overview": "",
+  "general": [
+    {
+      "move": "Drive Parry",
+      "type": "Bug fix",
+      "change": "Fixed an issue where after stopping an attack with Drive Parry and block stun ends, there was some period of time where Drive Rush couldn't be performed."
+    },
+    {
+      "move": "Input buffers when a Drive Rush overlaps with getting up from a knockdown",
+      "type": "Adjustment / bug fix",
+      "change": "With the last update, we added an adjustment where the buffer input on wake-up was increased by 3 frames, but this allowed a situation where if the opponent performs a Drive Rush on specific frames during wake-up, the timing when buffer input was active occurred sooner than expected.\n\nTo take care of this issue, if Drive Rush overlaps with a wake-up, the buffer input will be decreased by 3 frames so that the buffer input active time is the same as it was pre-Alex release."
+    },
+    {
+      "move": "Certain airborne inputs with Modern controls",
+      "type": "Bug fix",
+      "change": "Fixed an issue with Modern controls where during certain mid-air techniques that can be used after jumping attacks (Dhalsim's Yoga Float or Rashid's Wing Stroke, etc), if the opponent activates Drive Rush, attempting to perform a jumping attack (assisted) with Auto+Attack during the screen flash would result in attacks not coming out for a certain period of time."
+    }
+  ],
+  "characters": {
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Departure: Shadow (↓↙←+Heavy Punch when Departure is set)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the attack startup was 1 frame faster when canceled from standing medium punch, standing heavy kick, crouching light kick, or crouching medium kick compared to other attacks."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Normal Devil Reverse (with Psycho Mine embedded) (Charge↓ then ↑+Kick > Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where Psycho Mine would stay embedded in the opponent whether it was detonated or not if a Drive Reversal is performed after blocking the 2nd attack."
+        },
+        {
+          "move": "Normal/Overdrive Devil Reverse (with Psycho Mine embedded) (Charge↓ then ↑+Kick > Punch or Two Punches) Somersault Skull Diver (Charge↓ then ↑+Kick > Kick > Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the attack would not hit the opponent from behind under certain situations."
+        }
+      ]
+    }
+  }
+}

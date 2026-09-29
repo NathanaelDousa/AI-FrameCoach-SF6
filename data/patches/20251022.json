@@ -1,0 +1,55 @@
+{
+  "version": "20251022",
+  "title": "10.22.2025 update",
+  "date": "2025-10-22",
+  "overview": "",
+  "general": [
+    {
+      "move": "Behavior when two Super Arts are performed at the same time",
+      "type": "Bug fix",
+      "change": "Fixed an issue where the game would crash when Player 1 and Player 2 performed certain Super Arts at the same time."
+    }
+  ],
+  "characters": {
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Block (After Super Art level 3)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where if you crouched to block against certain attacks while in boosted mode after performing Super Art level 3 and continued to crouch, you would become invincible for only 2 frames during the technique."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Hurtbox and Collision Pushbox",
+          "type": "Bug fix",
+          "change": "Fixed an issue where some mid-air hurtbox and collision pushboxes were smaller than other characters of the same size."
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Sonic Blade (follow-up) (After performing Solid Puncher, Punch after Sonic Boom or Sonic Blade)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where if Guile was attacked by an opponent while performing Sonic Break (follow-up), Guile would not be able to perform the next Sonic Break (follow-up) up to the maximum amount of times it could be performed."
+        }
+      ]
+    },
+    "C. Viper": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Mission Complete Super Art level 2 (↓↙←↓↙←+Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where if Viper lands a Super Art level 2 after landing a combo with Drive Rush, Viper's Drive Gauge would automatically start to refill during the cinematic, even though the combo would still continue."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "version": "20240924",
+  "title": "09.24.2024 update",
+  "date": "2024-09-24",
+  "overview": "Some characters have received some balance adjustments for this update.\n\nRather than sweeping changes to alter the game balance across all characters, this time we've zeroed in to specifically add some tweaks to characters that hadn't seen many changes to their playstyle yet. We've also dampened the unexpected negative impact of some previous changes, and dialed back some factors that were really sticking out.",
+  "general": [
+    {
+      "move": "Drive Impact",
+      "type": "Bug fix",
+      "change": "1. With some characters, the length of the standby block hitbox did not match that of the attack hitbox, so the standby block hitbox was adjusted for them to match.\n\nThis change applies to Luke, Kimberly, Chun-Li, Dee Jay, and A.K.I.\n\n2. Fixed an issue where receiving an opponent's attack would unintentionally change the properties of the Drive Impact for some characters. The affected characters and fixes applied are detailed below.\n\nKimberly: Fixed an issue where the standby block hitbox would disappear from frames 1 to 17.\nDee Jay: Fixed an issue where the attack hitbox was shorter than normal.\nBlanka: Fixed an issue where the standby block hitbox was too short, and the range on active attack frame 2 was longer than intended."
+    },
+    {
+      "move": "Drive Reversal",
+      "type": "Adjustment",
+      "change": "Expanded the throw hurtbox forward, so that normal throws can connect as a counter attack when the Drive Reversal is blocked at close range."
+    },
+    {
+      "move": "Perfect Parry",
+      "type": "Bug fix",
+      "change": "Fixed an issue where when a specific move is Perfect Parried and the darkened screen occurs, the person who performed the Perfect Parry would have the same recovery as if there was no darkened screen. This affects the following two techniques.\n\nRashid\nArabian Cyclone (2nd attack and later)\n\nJP\nStribog (2nd attack and later)"
+    },
+    {
+      "move": "Special Move Start Up (Modern Controls)",
+      "type": "Bug fix",
+      "change": "Fixed an issue where the simple command scaling would be applied if a manual command was inputted during the dark screen transition of a Super Art, etc."
+    },
+    {
+      "move": "Assisted Combo",
+      "type": "Bug fix",
+      "change": "Fixed an issue with some characters where if they entered Burnout during an Assisted Combo and buffered the first attack of the same Assisted Combo, the second attack and later would not be performed. This fix applies to the following characters and combos.\n\nKimberly: Assisted Combo 2\n\nManon: Assisted Combo 2"
+    },
+    {
+      "move": "Assisted Combo",
+      "type": "Bug fix",
+      "change": "Fixed an issue with some characters where if they entered Burnout during an Assisted Combo and input the first attack of the same Assisted Combo at the same time as the move recovery, the second attack and later would not be performed. This fix applies to the following characters and combos.\n\nLuke: Assisted Combo 2\n\nManon: Assisted Combo 3\n\nJuri: Assisted Combo 2 and 3\n\nJP: Assisted Combo 3\n\nDhalsim: Assisted Combo 2"
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "We'd previously shortened the reach of Luke's normal attacks, in an attempt to suppress his strong defensive capabilities, however, this had a much greater impact on his offensive capabilities than we'd anticipated, resulting in many more cases of his attacks not finding their mark when they should have. To alleviate the issue, we've reduced the knockback of his normal attacks, which should make them more viable for stringing combos again.\n\nAfter taking into account the drop in Luke's offensive firepower, including the huge influence bumping up the initial scaling of Triple Impact (Light Punch > Medium Punch > Heavy Punch) had, we've also given his parameters some boosts.\n\nThe adjustments made to Outlaw Kick (← + Heavy Kick) should lower the difficulty in using it in combos. With the previously mentioned increase to normal attack knockback, it became incredibly difficult to follow up with the attack unless you were able to perform it immediately out of a Drive Rush. We've tweaked things a bit so that even if your input timing is a little slow, the attack can still reach and connect.",
+      "changes": [
+        {
+          "move": "Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "1. Reduced pushback on hit.\n2. Reduced pushback on block."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Reduced pushback on hit."
+        },
+        {
+          "move": "Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "1. Reduced pushback on hit.\n2. Reduced pushback on block."
+        },
+        {
+          "move": "Outlaw Kick (←+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Increased inertia out of Drive Rush."
+        },
+        {
+          "move": "Triple Impact (Light Punch > Medium Punch > Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Immediate scaling on the second attack removed.\n2. Changed the damage of the final attack from 600 to 800."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "SA1: Breakin'",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the damage would increase when the first or second attack landed as a counter hit."
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo has been changed to the following.\n\n- When Super Art gauge is empty\nStanding Medium Kick > Overdrive Rond-point > Medium Dégagé"
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "Setting up plays with Shuriken Bombs (↓↓ + Punch) has always been a fun part of Kimberly's game plan, but the previous overall balance adjustments wound up impacting them heavily, reducing their return despite the heavy cost of using up a limited resource. As such, we've reeled in their initial scaling and combo scaling so that you'll get more bang for your buck when a Shuriken Bomb connects.",
+      "changes": [
+        {
+          "move": "Shuriken Bomb/Shuriken Bomb Spread",
+          "type": "Adjustment",
+          "change": "Changed initial scaling and combo scaling from 20% to 10%."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Hurtbox during a Bound",
+          "type": "Bug fix",
+          "change": "Hurtbox during a bound was changed to match that of the other large characters."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "JP's anti-air abilities were weakened when Ed joined the roster, and then again when Akuma was added, but that caused JP's abilities to become too restricted, so his crouching heavy punch's anti-air capabilities have been improved. It's not as strong as before, but players can now use it well if they react properly.\n\nOn top of this, more combo routes than expected were no longer viable due to the adjustments made to Super Art 2 Lavushka, so we've made some adjustments to JP's standing medium kick and Bylina (→ + Heavy Kick) to make up for this. There are now more consecutive hits than before, so new combo routes can be built.\n\nThe adjustments to Triglav (↓↓ + Punch) are related to the adjustments made to Bylina. If Triglav and Bylina are used in regular combos, the value of other attacks will decrease, so we've made adjustments to reduce the knockback only when they hit an opponent that's not in the air. Knockdown time is also adjusted, while the recovery difference on hit has not changed.",
+      "changes": [
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +1 to +3 frames."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Added anti-air invincibility to the arm hurtbox from the attack's 2nd active frame until the end of the attack's active frames."
+        },
+        {
+          "move": "Bylina (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. Increased the combo count upper limit of the first attack.\n2. Reduced the combo count additional value of the first attack."
+        },
+        {
+          "move": "Triglav (Normal) (↓↓+Punch)",
+          "type": "Adjustment",
+          "change": "1. Reduced the blowback time on a standing hit by 1 frame.\n2. Extended the knockdown time on a standing hit by 1 frame."
+        },
+        {
+          "move": "Stribog (Normal/Overdrive) (↓↘→+Punch or Punch x 2)",
+          "type": "Adjustment",
+          "change": "Expanded the hitbox for the second attack only for when the first attack hits."
+        },
+        {
+          "move": "Torbalan (Normal/Overdrive) (↓↘→+Kick or Kick x 2)",
+          "type": "Adjustment",
+          "change": "Removed a projectile collision hitbox that remained after the attack's active frames."
+        },
+        {
+          "move": "Embrace (Normal/Overdrive) (↓↙←+Kick or Kick x 2)",
+          "type": "Adjustment",
+          "change": "Changed immediate scaling from 25% to 10%."
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo has been changed to the following.\n\n- When the Super Art gauge is empty\nCrouching Medium Punch > Overdrive Fuhajin > Heavy Tensenrin"
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "During the overall balance adjustment, Dee Jay didn't receive many buffs, so we've made some more adjustments to him.\n\nHis Three Beat Combo (Light Punch > Medium Kick > Medium Kick) didn't have many uses so we've reduced the distance after hit to leave opponents closer to Dee Jay so he can choose between following with a strike or a throw.\nDepending on the situation, you can now use it in conjunction with Quick Rolling Sobat (↓↘→ + Medium Kick).\nWe also improved his Waning Moon (↓↙← + Kick > Medium Kick) out of Jus Cool (↓↙← + Kick) as players were not using it as much as the other transition attacks.\nThe regular version will now allow for follow-up attacks on Punish Counter.\nWhen blocked, it chips away more Drive Gauge, giving it a different advantage than what Funky Slicer (↓↙←+ Kick ＞ Light Kick) provides.\nThe Overdrive version can also be followed up with a Super Art attack.\nThis, combined with a Super Art 1 Greatest Sobat, that hits better on a mid-air opponent, will allow him to score more damage while keeping on the offensive.",
+      "changes": [
+        {
+          "move": "Face Breaker (←+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Slightly expanded the collision pushbox sideways when this attack lands as a ground counter hit or Punish Counter.\n\nThis fix has been made to alleviate issues with special moves coming out in the wrong direction after the following combo:\nFace Breaker > Overdrive Jus Cool > Overdrive Maximum Strike > Drive Rush > Face Breaker"
+        },
+        {
+          "move": "Threebeat Combo (Light Punch > Medium Kick > Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Changed the second attack's recovery from 18 to 20 frames.\n2. Increased the knockback time on hit or block for the second attack by 2 frames.\n3. Reduced pushback on hit for the second attack.\n4. Added 20% initial scaling to the second attack.\n5. Removed the forced standing property from the second attack.\n6. Delayed the transition timing from the second attack to the final attack by 2 frames.\n7. Changed the opponent's block reaction for the second attack.\n8. Changed the final attack's recovery from 21 to 19 frames.\n9. Reduced the knockback time on hit or block for the final attack by 2 frames.\n10. Changed the hitstop on the final attack from 9 to 11 frames."
+        },
+        {
+          "move": "Jackknife Maximum (Medium/Heavy) （Charge ↓ then ↑+Medium Kick or Heavy Kick）",
+          "type": "Adjustment",
+          "change": "The attack hitbox at the base of the first attack has been expanded downward slightly in order to hit mid-air attacks that have a low profile when recovering upon landing (Juri's Shikusen, etc.)."
+        },
+        {
+          "move": "Waning Moon (Normal) （↓↙←+Kick > Medium Kick）",
+          "type": "Adjustment",
+          "change": "1. Drive gauge reduction on block changed from 4000 to 6000.\n2. Changed hit effect on Punish Counter from knockdown slam to ground bound.\n3. Added initial scaling of 30%."
+        },
+        {
+          "move": "Waning Moon (Overdrive) （↓↙←+Kick x 2 > Medium Kick）",
+          "type": "Adjustment",
+          "change": "Changed the hit effect during a mid-air hit from knockdown to ground bound."
+        },
+        {
+          "move": "SA1: Greatest Sobat",
+          "type": "Adjustment",
+          "change": "1. Changed the hit effect during a mid-air hit from spinning knockdown to sliding knockdown.\n2. Increased combo count upper limit."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Denjin Charge - Hashogeki (↓↙←+Heavy Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that resulted in a normal Heavy Hashogeki being performed instead of a Denjin Charge Hashogeki if a Hadoken was still present on the screen."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "SA2: Ultimate Killer Head Ram",
+          "type": "Adjustment",
+          "change": "1. Fixed the pushback on hit for the headbutt and the attack hitbox during the slapping portions so that they are less likely to whiff midway through the attack.\n2. Increased the knockdown time of the headbutt, but tweaked so that E. Honda cannot be counter attacked when the rest of the attack doesn't hit."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Lightning Beast - Electric Thunder (Overdrive) (↓↙←+Punch x 2)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that occurred while Lightning Beast was active that caused the Blanka-chan explosive to not detonate as an Overdrive attack under certain circumstances when triggered by an Overdrive Electric Thunder."
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "Guile's Sonic Boom (Charge ←, then → + Punch) high use rate in the neutral, plus his loop combos, made him superior when it came to meter gain, so we've made adjustments to reduce the amount of Super Art and Drive gauge he gains.\n\nWe also took into consideration that his Medium Sonic Boom is weaker than the other versions when it comes to suppressing the opponent and factored that in when making the above change.",
+      "changes": [
+        {
+          "move": "Sonic Boom (Normal) (Charge ← then →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Changed Super Art gauge gain on the Light and Heavy versions form 600 to 300.\n2. Changed the Super Art gauge gain on the Medium version from 600 to 450.\n3. Changed the Drive gauge gain from 1000 to 500."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "When only the first attack of Heavy Tensho Kicks connected, it caused a huge disadvantage for Chun-Li, so we increased the knockdown time for the opponent, so they can't dish out a guaranteed counterattack.",
+      "changes": [
+        {
+          "move": "Kikoken (Overdrive) - (Modern Controls)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that caused a normal Kikoken to be performed when inputting an Overdrive Kikoken manually and hitting the down input."
+        },
+        {
+          "move": "Tensho Kicks (Heavy) (↓↓+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Increased the knockdown time when the first attack hits."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "While we looked to improve Zangief's performance by adjusting various moves, some of them ended up being taken too far, so we've taken measures to tone down the adjustments.\nFirst, we've taken his Knee Hammer (→ + Medium Kick) and rolled back the disadvantage on block from -3 back to -4 frames.\nThis was an adjustment done to make the move easier to use, but with the other adjustments Zangief received, it turned out to be too powerful when used as a way to close the gap, so we've made it less advantageous when blocked.\n\nAdditionally, there was a big discrepancy between its appearance and hurtbox, so we've expanded the hurtbox in order to match the appearance of the attack more.\nHowever, this attack can still avoid attacks to the feet like before.\n\nFor Zangief's Head Butt (→ + Heavy Punch), taking into consideration its ability to keep Zangief on the offensive and its ability to break down defenses, we've lowered the return it gets on hit.\nIt can still be used in a combo, but the additional scaling added to it will lower its damage.\nHowever, on hit it now can connect into crouching medium punch, meaning that using Super Art 2 in a combo is easier.",
+      "changes": [
+        {
+          "move": "Knee Hammer (→+Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Changed recovery on block from -3 to -4 frames.\n2. Expanded the body hurtbox forward on the 2nd frame of the technique and later.\n*The hurtbox around the legs from startup until landing has not been expanded.\n3. Moved the character's center axis from frames 2-6 of the technique to match the appearance of the attack."
+        },
+        {
+          "move": "Headbutt (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Added 25% initial scaling.\n2. Changed combo scaling from 10% to 20%.\n3. Changed advantage on hit from +7 to +8 frames."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "Dhalsim is a character that didn't receive many changes during the overall balance adjustment, so we've gone and made more changes to him.\n\nOn top of improving the usability of many of his attacks, his Super Art 1 now deals recoverable damage to the opponent whenever it's blocked.\nThis means that if Dhalsim can land a hit on the opponent while the opponent has recoverable damage on their health gauge, it will convert into actual damage.\nWe've also changed things up so that the amount of Drive gauge reduction inflicted and his overall situation when the attack is blocked is better, so you can reduce your opponent's resources by getting them to block the attack, while increasing the pressure for your next attack.",
+      "changes": [
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo has been changed to the following.\n\n- When the Super Art gauge is empty\nDivine Kick > Overdrive Yoga Flame > Long Sliding Kick"
+        },
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "Changed advantage on hit from -2 to ±0 frames."
+        },
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Changed advantage on Punish Counter from +21 to +24 frames."
+        },
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Adjustment",
+          "change": "The tip of the arm hurtbox will no longer be hit by an opponent's cross-up attack."
+        },
+        {
+          "move": "Nirvana Punch (↙+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Reduced the knockback distance from a mid-air hit."
+        },
+        {
+          "move": "Yoga Fire (Normal) (↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "1. Changed the timing for when the attack transitions to the delayed version from frame 5 to frame 7.\n2. Changed the recovery of the delayed version on block from -3 to -1 frame."
+        },
+        {
+          "move": "Yoga Fire (Overdrive) (↓↘→+Punch x 2)",
+          "type": "Adjustment",
+          "change": "1. Changed the knockback time when the first attack hits from 20 to 24 frames.\n2. Reduced the pushback on hit for the first attack.\n3. Removed the body hurtbox that appears before the attack.\n4. Reduced the body hurtbox that appears after the attack backwards."
+        },
+        {
+          "move": "Yoga Flame (Overdrive) (→↘↓↙←+Punch x 2)",
+          "type": "Adjustment",
+          "change": "1. Expanded the attack hitbox of the first attack forward.\n2. Expanded the attack hitbox that appears for the second attack and after when the opponent is hit during a combo."
+        },
+        {
+          "move": "Yoga Comet (Overdrive) (While in the air, →↘↓↙←+Punch x 2）",
+          "type": "Bug fix",
+          "change": "Fixed an issue where if the opponent Perfect Parried this attack, any technique performed after that would have Perfect Parry scaling added to it until Dhalsim landed."
+        },
+        {
+          "move": "SA 1: Yoga Inferno",
+          "type": "Adjustment",
+          "change": "1. This attack now deals recoverable damage to the opponent when blocked.\n*Recoverable damage is set to 792, with 492 chip damage and 300 recoverable damage during Burnout.\n2. Changed Drive gauge reduction on block from 2520 to 5040.\n3. Changed overall recovery for the Light and Medium versions from 133 to 128 frames.\n4. Changed the advantage on block for the Light and Medium versions from -15 to -10 frames.\n5. Increased the pushback on block for the Light and Medium versions.\n6. Changed the hurtbox on the Heavy version from start-up to the 3rd active frame from standing to crouching height."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "The hurtbox on his crouching light punch (crouching light attack, for Modern controls) was smaller compared to other characters, making it easier to use as an anti-air attack, so we've matched the height of the hurtbox with that of other characters. This hurtbox is only vulnerable to aerial attacks, so this change won't affect ground-based attacks.\nNail Assault's (↓+ SP > → + Attack > → + Attack, for Modern controls) command has been changed to avoid accidental inputs.\nWhen performing Rolling Assault (↓ + SP > → + Attack) from a normal attack, Rashid would sometimes perform Nail Assault by accident if the input was done too quickly, so we've updated the move so it will not be performed if a forward input is not detected.",
+      "changes": [
+        {
+          "move": "Back Dash",
+          "type": "Adjustment",
+          "change": "Fixed an issue that caused the collision pushbox to be smaller than the standing one from frame 1 to frame 15 of the technique."
+        },
+        {
+          "move": "Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "Added a hurtbox that only responds to mid-air attacks to the head from frame 1 to frame 7 of the technique."
+        },
+        {
+          "move": "Nail Assault (Modern controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the input for Modern controls to &quot;Assault Roll > →+Attack&quot;\n*This change was made to prevent this move from being performed accidentally when trying to input commands as fast as possible for other techniques out of Assault Roll.\n\n2. To go with the above change, Assisted Combo 2 during Burnout has been changed to the following.\n\nStanding Medium Punch > Rising Kick > Heavy Arabian Cyclone > Assault Roll > Nail Assault"
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Serpent Lash (↓↘→+Punch x 2)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that caused A.K.I. to not gain more advantage frames on Punish Counter Toxic Blossom."
+        }
+      ]
+    },
+    "Ed": {
+      "concept": "Ed didn't change much during the overall balance adjustment, so we made some slight adjustments to him while maintaining his strengths and appeal. Most of his adjustments are to improve aspects of his game that were difficult to use.\nLight Psycho Flicker (↓↘→ + Light Kick) was difficult to control after it hit an opponent so we've made adjustments to this. However, follow-ups after this attack have not changed.\nWe've also made adjustments to the amount of Super Art gauge Ed gains when using Super Art 2 Psycho Cannon in a combo. We considered that the attack didn't have as many different use cases as other Super Art 2 attacks that don't have invincibility, so we didn't add scaling to how much meter Ed could gain, but advancements in its comboability made it so that the return was too much, even for how difficult it is to use. As a result, we've added scaling to the meter gain.",
+      "changes": [
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Changed advantage on block from +3 to +4 frames."
+        },
+        {
+          "move": "Jumping Heavy Punch",
+          "type": "Adjustment",
+          "change": "Changed attack active frames from 4 to 5 frames."
+        },
+        {
+          "move": "Jumping Heavy Kick",
+          "type": "Adjustment",
+          "change": "1. Increased the blowback time from a mid-air hit.\n2. Decreased Ed's airtime until landing when hitting with the attack from a high jump position."
+        },
+        {
+          "move": "Psycho Blitz (Light) (↓↙←+Light Punch)",
+          "type": "Adjustment",
+          "change": "Added pushback on block for Ed when the attack is blocked near the corner."
+        },
+        {
+          "move": "Psycho Flicker (Light) (↓↘→+Light Punch)",
+          "type": "Adjustment",
+          "change": "Extended the follow-up attack window on Punish Counter by 1 frame."
+        },
+        {
+          "move": "SA2: Psycho Cannon",
+          "type": "Adjustment",
+          "change": "When performing a follow-up attack after this attack, Ed's Super Art gauge gain will be fixed at 80% until the combo ends."
+        }
+      ]
+    },
+    "Akuma": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Gou Hadoken (↓↘→+Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that allowed regular Gou Hadokens to be performed while an Overdrive one was still on the screen."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "M. Bison's adjustments are primarily bug fixes and weakening some moves that are difficult for the rest of the cast to deal with.\n\nFor his Double Knee Press (↓↘→ + Kick), opponents were able to move first after blocking the attack, but the opponents were also pushed out, meaning that Bison was often at an advantage.\nThis situation was hard for players to grasp, which lead to many situations where Bison could keep on the offensive, so we've reduced the pushback on block so it's more difficult for Bison to continue his pressure.\n\nTo go along with this, the hurtbox during his recover is now smaller, so while guaranteed punishes will still hit, attacks with a long reach can now hit Bison more effectively, making it easier to take back your turn.\n\nFinally, although Bison's Drive Reversal doesn't move him forward, its range was very long, which made it difficult to counterattack it depending on the situation, so the hitbox has been reduced.",
+      "changes": [
+        {
+          "move": "Drive Reversal",
+          "type": "Adjustment",
+          "change": "Reduced the attack hitbox and standby block hitbox."
+        },
+        {
+          "move": "Psycho Crusher Attack with Psycho Mine (Normal) (Charge ←, then →+Punch)",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where if this move was canceled into Super Art 3 just after colliding with a projectile, neither Psycho Crusher Attack nor Super Art 3 would be able to reach the opponent. Now, Psycho Crusher Attack must hit the opponent before it can be canceled into Super Art 3.\n2. Fixed an issue where this move would get canceled mid-action if it collided with a projectile after connecting with an opponent."
+        },
+        {
+          "move": "Psycho Crusher Attack (Normal/Overdrive) (Charge ←, then →+Punch or Punch x 2)",
+          "type": "Bug fix",
+          "change": "Fixed the hurtbox during Burnout to match the normal version, as they would differ after the attack passed by the opponent."
+        },
+        {
+          "move": "Psycho Crusher Attack with Psycho Mine (Overdrive) (Charge ←, then →+Punch x 2)",
+          "type": "Bug fix",
+          "change": "1. Previously, after the first and second attacks were Perfect Parried, whether or not the third attack triggered the detonation was inconsistent when the third attack was blocked or normal Drive Parried. Now, the detonation will only trigger if the third attack hits.\n2. Fixed an issue where follow-up attacks after this attack had combo scaling added to them."
+        },
+        {
+          "move": "Double Knee Press (Normal) (↓↘→+Kick)",
+          "type": "Adjustment / bug fix",
+          "change": "1. Reduced the body hurtbox on block and hit for the second attack, from the end of the attack's active frames until mid-recovery.\n2. Reduced pushback on block, in line with the above hurtbox reduction change.\n3. Fixed an issue where if the first attack hit but the second didn't, the recovery of the second attack would be the same as if the move had completely whiffed."
+        },
+        {
+          "move": "Devil's Reverse with Psycho Mine (Normal/Overdrive) (Charge ↓, then ↑+Kick > Punch or Punch x 2) Psycho Crusher Attack with Psycho Mine (Overdrive) (Charge ←, then →+Punch x 2)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the Psycho Mine would remain embedded in an opponent even though it had detonated."
+        },
+        {
+          "move": "Devil's Reverse (Overdrive) (Charge ↓, then ↑+Kick > Punch x 2) Devil's Reverse with Psycho Mine (Normal/Overdrive) (Charge ↓, then ↑+Kick > Punch or Punch x 2)",
+          "type": "Bug fix",
+          "change": "Expanded the collision pushbox downwards after the first attack, and fixed an issue that caused attacks after the second one to appear on the other side of the opponent."
+        },
+        {
+          "move": "Backfist Combo with Psycho Mine (Normal) (↓↙←+Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue that resulted in Psycho Mines still detonating when the second attack missed after the first attack was Perfect Parried or connected with a counter technique."
+        },
+        {
+          "move": "Backfist Combo with Psycho Mine (Overdrive) (↓↙←+Punch x 2)",
+          "type": "Adjustment / bug fix",
+          "change": "1. Start up for the detonation is now 2 frames slower, which should make it harder for this attack to whiff opponents located high on the screen.\n2. Tweaked the blowback on hit and knockback on block, to limit different interactions occuring due to the change above.\n3. Fixed an issue that resulted in Psycho Mines still detonating when later attacks missed after the first, second, or third attack was Perfect Parried or connected with a counter technique.\nPlease note that even if the first or second attack is Perfect Parried or connects with a counter technique, if the third attack is blocked, normal Drive Parried, connects with super armor, or hits, the Psycho Mine will detonate."
+        },
+        {
+          "move": "SA1: Knee Press Nightmare",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the timer would not stop when the attack hit."
+        },
+        {
+          "move": "SA2: Psycho Punisher",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue that caused the timer to stop longer than intended after the cutscene on hit.\nPlease note that this fix impacts the timer, Drive gauge recover timing, and the background starting to move again, along with other elements.\n2. Fixed an issue in Training Mode where Wake-up Reversals would not be performed properly after the Super Art 2 hit, despite having Wake-up Reversals set as part of the training behavior."
+        }
+      ]
+    }
+  }
+}

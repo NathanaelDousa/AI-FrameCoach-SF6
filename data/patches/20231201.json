@@ -1,0 +1,270 @@
+{
+  "version": "20231201",
+  "title": "12.01.2023 update",
+  "date": "2023-12-01",
+  "overview": "",
+  "general": [
+    {
+      "move": "Assisted Combo",
+      "type": "Adjustment",
+      "change": "Fixed an issue that caused the Assisted Combo input buffer start timing to be 1 frame slower than expected.\n\nWith this fix, another issue that caused Chun-Li and Kimberly's Assisted Combos to not continue when attempting a jump cancel at the same time a button was pressed is also fixed."
+    },
+    {
+      "move": "Taunt",
+      "type": "Adjustment",
+      "change": "There was an issue that caused a Taunt to be performed when canceling into a special move from a normal attack, etc., when the player mistakenly hit other buttons at the same time. It has been fixed so that special moves cannot be canceled by Taunts on the 1st frame of the attack."
+    },
+    {
+      "move": "Perfect Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where invincibility time was shortened when specific actions were taken after a successful Perfect Parry."
+    },
+    {
+      "move": "Wake-up recovery input buffer",
+      "type": "Adjustment",
+      "change": "Changed the input buffer time when recovering from 4 frames to 7 frames.\n\nFixed an issue where if the opponent performs a Super Art, if certain attacks are input immediately after the screen darkens, once the screen transition is finished, the move will be performed."
+    }
+  ],
+  "characters": {
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Tensei Kick (↓+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Can no longer be canceled by taunts on the 1st frame of the attack."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Javelin of Marisa (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the attack start up is 1 frame faster when the button is released with specific timing."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Air Throw",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if a mid-air throw was attempted after warping via Departure: Window, JP would not have the Punish Counter/Forced Knockdown property attached to him."
+        },
+        {
+          "move": "Bylina (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if the 2nd attack was blocked low, it could not be canceled.\n\nFixed an issue where if the 2nd attack's active part on hit caused the cancel to be 1 frame slower."
+        },
+        {
+          "move": "Embrace (↓↙←+Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the attack would not hit an opponent facing backward."
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Feng Shui Engine (Super Art level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Feng Shui Engine is active, Drive Gauge recovery amount was different from normal depending on time elapsed.\n\n■On ground (Normal)\nEvery frame: changed from 50 to 40\n\n■Mid-air (Normal, Burnout)\nEvery frame: changed from 10 to 20"
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Speedy Maracas (↓↓+2 Punches)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where a Punish Counter property was added after the 2nd frame of the technique when the command was input by plinking the Punch buttons, causing the game to recognize it as a canceled activation.\n\nDuring Modern controls, Speedy Maracas could not be performed if the player attempted to plink the command as Down+Medium Attack > Heavy Attack.\n*Plinking: Quickly pressing two or more buttons exactly one frame apart\n\nFixed an issue where the technique would not end even if the button was released when the player had 1 bar of Super Art gauge or less.\n\nFixed an issue when using Modern controls where the button required to continue the technique was different depending on the amount of Super Art gauge."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Fatal Leg Twister (↓↘→+Punch > Light Punch+Light Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where a mid-air opponent would look they were being thrown when specific attacks hit."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Collarbone Breaker (→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Drive Gauge obtained by the opponent when 2nd attack was blocked was changed from 625 to 1250.\n\nPlease note that if the 1st attack is blocked, the 2nd attack is considered a high attack."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Ultimate Killer Head Ram (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if you performed the attack with the SP Button while using Modern controls, the charge time would be 5 frames longer."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Rock Crusher (→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Drive Gauge obtained by the opponent when 2nd attack was blocked was changed from 1250 to 625.\n\nPlease note that if the 1st attack is blocked, the 2nd attack is considered a high attack."
+        },
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Blanka's recovery would be extended when this attack collides with an opponent's Drive Parry, Perfect Parry or super armor.\n*The extended recovery when this attack misses is by design.\n\nFixed an issue where the special move input buffer timing was earlier than expected when Super Art 2 is active."
+        },
+        {
+          "move": "Standing Light Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the hurtbox in front of the character before an attack starts gets hit by an opponent's cross-up attack."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the special move cancel input buffer timing is earlier."
+        },
+        {
+          "move": "Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the hurtbox in front of the character before an attack starts gets hit by an opponent's cross-up attack."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the hurtbox at the feet is smaller than normal."
+        },
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the collision pushbox would not expand when the attack hits."
+        },
+        {
+          "move": "Overdrive Rolling Attack (Charge ←, →+2 Punches)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the input buffer to cancel into Rolling Cannon would not work."
+        },
+        {
+          "move": "Heavy Rolling Attack (Charge ←, →+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the bounce back distance became shorter when the attack was Perfect Parried."
+        },
+        {
+          "move": "Vertical Rolling Attack (Charge ↓,↑+Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the input buffer to cancel into Rolling Cannon would not work."
+        },
+        {
+          "move": "Overdrive Backstep Rolling Attack (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, the active frames of the first attack would be 2 frames shorter."
+        },
+        {
+          "move": "Lightning Beast (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Lightning Beast is active, Drive Gauge recovery amount was different from normal depending on time elapsed.\n\n■On ground (Normal)\nEvery frame: changed from 50 to 40\n\n■Mid-air (Normal, Burnout)\nEvery frame: changed from 10 to 20"
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Solid Puncher (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where while Solid Puncher is active, Drive Gauge recovery amount was different from normal depending on time elapsed.\n\n■On ground (Normal)\nEvery frame: changed from 50 to 40\n\n■Mid-air (Normal, Burnout)\nEvery frame: changed from 10 to 20"
+        },
+        {
+          "move": "Backward Throw",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the animation during a throw was off when performed on big characters."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Lotus Fist (↓↙←+Punch > Heavy Punch)",
+          "type": "Adjustment",
+          "change": "The amount of Drive Gauge obtained by the opponent when 2nd attack was blocked was changed from 1250 to 2500.\n\nPlease note that if the 1st attack is blocked, the 2nd attack is considered a high attack."
+        },
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the 1st attack was considered a high attack between the 3rd and 4th active frames."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Ysaar (Super Art Level 2)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if you performed a boostable special move on the final state of the tornado, you could not boost a special move again afterwards.\n\nFixed an issue where if you kicked the tornado during its final state with Arabian Cyclone, it would move at the same speed as before it was kicked."
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the attack was given a low hit property from frames 2 - 5. This has been fixed to a high hit property."
+        },
+        {
+          "move": "Chi Wen (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where A.K.I.'s recovery would increase when her techniques are Perfect Parried."
+        },
+        {
+          "move": "Light Serpent Lash (↓↘→+Light Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where A.K.I.'s recovery would increase when her techniques are Perfect Parried."
+        },
+        {
+          "move": "Medium Serpent Lash (↓↘→+ Medium Punch)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where a move would not be performed if Down was input during a successful command input when using Modern controls."
+        },
+        {
+          "move": "Medium Snake Step (Neutral+SP)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Medium Snake Step would be performed when certain commands other than the SP Button were input when using Modern controls."
+        },
+        {
+          "move": "Overdrive Snake Step (Assist+Neutral+SP)",
+          "type": "Adjustment",
+          "change": "When using Modern controls, pressing the SP Button by itself performed Snake Step. However, the canceled version of Overdrive Snake Step would be performed after Nightshade Pulse even if you were holding a direction input.\n\nDue to this, if the player attempted to repeatedly press the button while inputting Overdrive Nightshade Pulse, Overdrive Snake Step would unintentionally be performed. Due to this, the canceled version of Overdrive Snake Step can only be performed with no direction input."
+        },
+        {
+          "move": "Entrapment (↓+2 Punches > Light Punch+Light Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the hit effect would not be displayed on Punish Counter.\n\nFixed an issue where a mid-air opponent would look they were being thrown when specific attacks hit."
+        },
+        {
+          "move": "Overdrive Cruel Fate (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where immediately after A.K.I. jumps over the opponent, the command input would be the opposite of the original direction."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1365 @@
+{
+  "version": "20260803",
+  "title": "08.03.2026 update",
+  "date": "2026-08-03",
+  "overview": "This battle adjustment was done with the aim of shifting the game's balance by looking at every character and making adjustments.\n\nWhile we believe the game's balance has reached a reasonably stable state thanks to repeated adjustments, the relative strength of each character has not shifted significantly in recent updates. Due to this, we decided to implement changes specifically to shake things up.\n\nPlease note that there are no adjustments applied universally to all characters.\n\nModern Control Adjustments\nWith this battle adjustments we've updated certain normal moves (ones that utilize the attack button) and special moves (ones that utilize the SP button) for specific characters. Additionally, for moves that are performed by pressing Down+SP, you can now select the strength of the special move by inputting SP with Down-back, Down or Down-Forward.\n\nThis adjustment requires players to relearn specific moves and adds a layer of complexity to the controls, but were done with the aim of improving usability and providing Modern control players with a larger range of options while in the neutral. Please note that Assisted Combos have also been updated for some characters to reflect these changes. Please refer to the character-specific sections for full details.",
+  "general": [
+    {
+      "move": "Drive Reversal",
+      "type": "Bug fix",
+      "change": "Fixed an issue where holding back during the screen-freeze of an opponent's Drive Reversal would cancel out a previous command or button inputs."
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "In addition to previous adjustments that saw Luke's forward moving attacks easier to use, Luke has also gained more follow-up options and situations, more damage for his special moves when used as combo enders, making it easier for him to net damage.\n\nStanding Medium Punch, Snapback Combo (Medium Punch > Medium Punch > Medium Punch > Medium Punch)\nAlong with reducing the attack's hurtbox so it can win out against opposing strikes, we've increased the returns for Snap Back Combo on Punish Counter as Luke can now follow-up with Super Art 1 outside of the corner, and with Rising Uppercut while in the corner. This makes it easier to use the attack as your first poke option in neutral, improving its utility in a match.\n\nStanding Heavy Punch\nThe adjustment to the situation on block reduces the risk of using the move as a standalone option, and makes it easier to create sequences like Standing Heavy Punch into Medium Sand Blast, where your opponent has to keep on the defensive, making this a stronger option for such strings.\n\nJumping Medium Punch\nThis attack features improved air-to air interactions thanks to faster start-up, and can now be used as a follow-up attack after Light Flash Knuckle (Hold) and Overdrive Flash Knuckle. A previous adjustment provided Luke with the ability to combo Light Attack > Light Flash Knuckle > Light Rising Uppercut, but this adjustment will now give more value to Overdrive Flash Knuckle as part of a combo, as it was previously overshadowed by stronger options.\n\nSand Blast (↓↘→+Punch)\nThis move now knocks down on anything bigger than a counter hit, which is a significant change. While Luke will see a smaller return with some combos when in the corner, in the middle of the stage you can now follow-up with Drive Rush, etc. after a counter hit to apply pressure. Now Luke can capitalize on this projectile's high speed when he's using it as a zoning tool.",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "Reduced the hurtbox backward during frames 3-8 of the technique"
+        },
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Disadvantage on block changed from -5 to -4."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Active attack frames changed from 2 to 3 frames."
+        },
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Forward movement increased."
+        },
+        {
+          "move": "Jumping Medium mPunch",
+          "type": "Adjustment",
+          "change": "Attack startup changed from 9 to 8 frames."
+        },
+        {
+          "move": "Snapback Combo",
+          "type": "Adjustment",
+          "change": "1. Blowback time for the final attack increases if the 1st to 3rd attacks land as a Punish Counter.\n2. On the final attack, recovery is reduced by 3 frames.\n3. If the final attack lands as a normal hit, blowback time is reduced\n4. Buffer input time is increased during the recovery of the final attack."
+        },
+        {
+          "move": "Light Sand Blast",
+          "type": "Adjustment",
+          "change": "Active attack frames increased by 1 frame, and range is also increased."
+        },
+        {
+          "move": "Normal Sand Blast",
+          "type": "Adjustment",
+          "change": "Hit effect on counter and Punish Counter changed from grounded knockback to blowback knockdown."
+        },
+        {
+          "move": "Normal Rising Uppercut",
+          "type": "Adjustment",
+          "change": "Damage changed to the following\nLight: 900 → 1000\nMedium: 1000 → 1100\nHeavy 1200 → 1300"
+        },
+        {
+          "move": "Overdrive Impaler",
+          "type": "Adjustment",
+          "change": "Blowback time increased during a mid-air hit.\nThis adjustment addresses an issue where hitting an opponent at a low height caused them to launch lower than a ground hit, making it difficult for follow-up attacks to connect."
+        },
+        {
+          "move": "Super Art 2 Eraser",
+          "type": "Adjustment",
+          "change": "1. Advantage on a grounded hit changed from +2 to +4 frames.\n2. Damage changed from 2800 to 3000."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "We have enhanced the performance of the Standing Heavy Kick—which offers significant reward on hit—and the Standing Light Punch (at Drunkenness Level 1 or higher), a key move for neutral play and combos.\n\nAdditionally, we have adjusted various special moves, including target combos and Freeflow Strikes (↓↘→+Punch > →+Punch > →+Punch),\nand have boosted the character's overall strength to ensure their unique characteristics stand out more prominently as their Drunkenness Level increases.\n\nWe've improved Jamie's Standing Heavy Kick, as it's a key move for him to net big returns, and his Standing Light Punch (Drink Level 1 or higher), an important attack in the neutral. Adjustments were also made to his target combos and various special moves such as Free Flow Strikes (↓↘→+Punch > →+Punch > →+Punch) to increase his overall strength and ensure his unique characteristics stand out more as he increases his Drink Level.\n\nStanding Heavy Kick\nThe kick's range is extended during its active frames, making it easier to use as long-range poke with a good return. The pushback on hit and block adjustment along with the extended attack hitbox on the tip of the attack allows him to cancel into a special move for a guaranteed sequence, and avoids situations where the attack would not reach and combos would be dropped or he'd eat a counter attack.\n\nFree Flow Strikes (Regular/Overdrive) (↓↘→+Punch or 2 Punches > →+Punch > →+Punch)\nWith the regular version of the attack, we gave more advantages to choosing the Punch route over the Kick route that nets you a drink by increasing the blowback time on hit, allowing Jamie to create better situations for himself.\n\nWith the Overdrive version, the disadvantage on block after blocking the 1st follow-up attack is updated so a guaranteed counter is no longer possible. This lets Jamie use the attack at close range for combos or situations where he wants to turn the tables on someone.\n\nIn addition, both versions also benefit from a shared adjustment when hitting a mid-air opponent, making it easier to connect with the follow-up attacks.",
+      "changes": [
+        {
+          "move": "Normal Bakkai (Modern controls)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Standing Light Punch (Drink level 1)",
+          "type": "Adjustment",
+          "change": "Attack hitbox when hitting a crouching opponent has been expanded."
+        },
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "1. Pushback on block reduced\n2. Attack hitbox on the 2nd active frame expanded forward\nThe expanded attack hitbox has reduced pushback on hit and block compared to the original hitbox."
+        },
+        {
+          "move": "Full Moon Kick (→Medium Kick > Medium Kick > Punch)",
+          "type": "Adjustment",
+          "change": "1. Damage changed from 1000 to 1200.\n2. Advantage when extending to the final attack on a grounded hit changed from -1 frame to +2 frames."
+        },
+        {
+          "move": "Intoxicated Assault (←+Heavy Punch > Heavy Punch > Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. The final attack will produce a wall splat if the opponent reaches the corner.\n2. The 2nd attack can be canceled into a special move.\n3. Buffer input time is increased during the recovery of the final attack."
+        },
+        {
+          "move": "Normal Freeflow Strikes (↓↘→+Punch > →+Punch > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Expanded the attack hitbox for 1st and 2nd follow-up attacks forward.\n2. Increased the forward movement for the 1st and 2nd follow-up attacks when the Light and Medium versions are performed.\n3. Reduced the horizontal blowback on a mid-air hit for all attacks except the final one.\n4. Increased the blowback time for the final attack."
+        },
+        {
+          "move": "Normal Freeflow Strikes (Drink level 4) (↓↘→+Punch > →+Punch > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Reduced the horizontal blowback on a mid-air hit for all attacks except the final one.\n2. Increased the blowback time for the final attack.\n3. Increased the combo count upper limit for the final attack."
+        },
+        {
+          "move": "Overdrive Freeflow Strikes (↓↘→+2 Punches > →+Punch > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge reduction on block for the 1st attack and 1st follow-up attack changed from 2500 to 2000\n2. Recovery on the 1st follow-up attack changed from 28 to 22 frames.\n3. Advantage on hit for the 1st follow-up attack changed from -3 to -1 frames.\n4. Disadvantage on block for the 1st follow-up attack changed from -10 to -3 frames.\n5. Added 2 frames to the follow-up timing after the 1st follow-up attack\n6. Reduced the horizontal blowback on a mid-air hit for all attacks except the final one.\n7. Increased the blowback time for the final attack."
+        },
+        {
+          "move": "Overdrive Freeflow Strikes (Drink level 4) (↓↘→+2 Punches > →+Punch > →+Punch)",
+          "type": "Adjustment",
+          "change": "1. Drive Gauge reduction on block for the 1st attack changed from 5000 to 4500\n2. Disadvantage on block for the 1st attack changed from -3 to -1 frame.\n3. Recovery for the 1st follow-up attack change from 27 to 22 frames.\n4. Advantage on hit for the 1st follow-up attack changed from -2 to -1 frame.\n5. Disadvantage on block for the 1st follow-up attack changed from -10 to -3 frames.\n6. Drive Gauge reduction on block for the 1st follow-up attack changed from 3000 to 2000\n7. Reduced the horizontal blowback on a mid-air hit for all attacks except the final one.\n8. Increased the blowback time for the final attack.\n9. Increased the combo count upper limit for the final attack."
+        },
+        {
+          "move": "Normal/Overdrive Freeflow Kicks (↓↘→+Light Punch or 2 Punches > →+Kick > →+Kick)",
+          "type": "Adjustment",
+          "change": "Reduced the horizontal blowback on a mid-air hit for all attacks except the final one."
+        },
+        {
+          "move": "Light/Medium Swagger Step (↓↙←+Light Punch or Medium Punch)",
+          "type": "Adjustment",
+          "change": "1. Reduced the attack hitbox backwards during active frames 5 - 7\n2. Reduced the pushback on block from active frame 8 and later, and added screen shake when the attack is blocked."
+        },
+        {
+          "move": "Heavy Swagger Step (↓↙←+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Reduced the pushback on block from active frame 5 and later, and added screen shake when the attack is blocked."
+        },
+        {
+          "move": "Overdrive Swagger Step (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Reduced the pushback on block from active frame 3 and later, and added screen shake when the attack is blocked."
+        },
+        {
+          "move": "Normal Bakkai (↓↘→+Kick)",
+          "type": "Adjustment",
+          "change": "Reduced combo count additional value for all hits except the final attack.\nThis adjustment is intended to reduce issues where the 2nd and subsequent attacks fail to connect during on a mid-air opponent in certain situations."
+        },
+        {
+          "move": "Overdrive Bakkai (↓↘→+2 Kicks)",
+          "type": "Adjustment",
+          "change": "1. Reduced the combo count additional value for all hits except the 1st and final attack.\n2. Increased the combo count upper limit for all hits except the 1st and final attack."
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "By improving her mid-range attacks, increased active frames on her Manège Doré command throw, and making Overdrive Dégagé a new tool for combo routes, Manon has undergone adjustments aimed at expanding her neutral and combo options.\n\nStanding Medium Kick\nThe attack hitbox on the second active frame that was expanded forward previously, now matches the size of the hitbox on the 1st active frame. This adjustment is aimed at making the attack different from other mid-range pokes, and is designed to extend its reach and make the attack less likely to lose against the opponent's preemptive attack. On top of that, the opponent now goes into a longer knockback when the attack lands, and can now combo into Light Renversé on counter hit. This gives Manon a bigger return when she beats out an opponent's attack.\n\nTomoe Derrière (↘+Heavy Kick)\nChanges were made to the blowback on Punish Counter, giving Manon a bigger advantage on wake-up. It also now combos into Crouching Heavy Kick, Super Art 1 or Super Art 2.\n\nOverdrive Dégagé\n(↓↙←+Two Kicks)\nBy changing the hit effect on an mid-air opponent, it's now easier to use this attack in a combo route or connect from Révérence (←+Heavy Punch) when it lands on a mid-air opponent. You can also combo into Light Renversé on a mid-air hit, giving you yet another way to up your Medal level. In conjunction with these adjustments, we've also tweaked the combo count limits for other special moves.",
+      "changes": [
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "1. Expanded the attack hitbox forward during the 1st active frame\n2. Advantage on hit changed from -2 to 0 frames."
+        },
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +3 to +4 frames."
+        },
+        {
+          "move": "Tomoe Derrière (↘+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Hit effect on counter and Punish Counter changed from blowback knockdown to tumbling knockdown."
+        },
+        {
+          "move": "Normal/Overdrive Manège Doré (→↘↓↙←+Punch or 2 Punches)",
+          "type": "Adjustment",
+          "change": "Active attack frames changed from 2 to 3 frames."
+        },
+        {
+          "move": "Normal Dégagé (↓↙←+Kick)",
+          "type": "Adjustment",
+          "change": "Increased combo count upper limit."
+        },
+        {
+          "move": "Overdrive Dégagé (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "1. Hit effect when attacking a mid-air opponent changed from blowback knockdown to ground bound.\n2. Increased combo count start value.\n3. Increased combo count additional value.\n4. Reduced combo count upper limit."
+        },
+        {
+          "move": "Normal/Overdrive Renversé (↓↘→+P or 2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Projectile invincibility on the normal version extended by 2 frames and will no longer trade with projectiles.\n2. Increased combo count upper limit."
+        },
+        {
+          "move": "Overdrive Renversé Feint (↓↘→+2 Punches (Hold))",
+          "type": "Adjustment",
+          "change": "Changed the overall frames of the technique from 32 to 27 frames."
+        },
+        {
+          "move": "Normal Grand Fouetté (↓↘→+Punch > Kick)",
+          "type": "Adjustment",
+          "change": "1. Recovery changed from 22 to 20 frames.\n2. Disadvantage on block changed from -5 to -3 frames.\n3. Initial scaling of 20% added."
+        },
+        {
+          "move": "Super Art 1 Arabesque (↓↘→↓↘→+Kick)",
+          "type": "Adjustment",
+          "change": "Increased combo count upper limit."
+        },
+        {
+          "move": "Super Art 2 Étoile (↓↙←↓↙←+Kick)",
+          "type": "Adjustment",
+          "change": "Increased combo count upper limit."
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "The biggest change we've made to Kimberly is increasing her Shuriken Bomb Stock limit from two to three. We updated the input command and general function of Genius at Play accordingly, so give her a try and see how she plays!\n\nWe also improved the main parts of her checking toolkit by powering up her Standing Medium Kick and giving her more spacing options with Hidden Variable (↓↙← + Punch), giving her more ways to attack from mid-range.\n\nStanding Medium Kick\nWe made the attack more reliable from mid-range by removing the hurtbox that appeared on the attacking foot before start-up.\n\nInitially, we believed that adding a hurtbox to the attack's startup would prevent players relying on it to heavily, given its long reach and ability to cancel. However, given her previous battle adjustments—like the strengthening of her pokes, combo-starter scaling, and hurtbox adjustments—we found this precaution to be a bit of an over-correction, so we've walked it back.\n\nHidden Variable (↓↙← + Punch)\nNow, instead of appearing directly in front of the opponent when the Punch button is held, Kimberly will appear wherever she activated the move from and slide forward from there.\n\nPreviously, the normal and Overdrive version of this move were easier to read and respond to, so by introducing the ability to change where kimberly appears, we hope it'll make it less risky for her to use either version.\n\nNormal/Overdrive Genius at Play\nLike before, Kimberly starts the fight with two Shuriken Bomb stock, but now she can use Genius at Play to gain a third.\n\nPreviously, Genius at Play could only be used when Kimberly had no Shuriken Bomb stock. We've changed this so that Kimberly will gain Shuriken Bomb stock so long as she has two or less. We also adjusted the input command from ↓↓ + Punch to ↓↓ + Kick.\n\nModern Controls\n\nEmergency Stop/Torso Cleaver input command update\nTorso Cleaver and Emergency Stop's command input have swapped, with Torso Cleaver now performed with ←+Attack, and Emergency Stop is now performed with Neutral+Attack\n\nThe intent behind this adjustment is to prevent accidental inputs. One way Kimberly can start her powerful offense is from anti-air crouching heavy punch followed by Sprint into Emergency Stop to pressure opponents when they land. However there were instances where requiring either a forward or back input for the Emergency Stop caused the input to reverse, and some moves were being performed unintentionally.\n\nGenius at Play/Shuriken Bomb/Shuriken Bomb Special\nNow that Kimberly can perform this attack even if she has two or fewer stocks, the command input has undergone some significant changes. The added complexity, which now requires holding a direction or a button after the input can be seen on the battle adjustment list so please try them out in training mode.",
+      "changes": [
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo updated to the following\nStanding Medium Kick > Overdrive Sprint > Overdrive Arc Step > Overdrive Bushin Hojin Kick > Soaring Bushin Scramble"
+        },
+        {
+          "move": "Normal/Overdrive Spring (Modern Controls) (→+SP)",
+          "type": "Adjustment",
+          "change": "Follow-up attack inputs updated to the following when using Modern Controls\nNeutral+Attack Button: Torso Cleaver → Emergency Stop\nBack+Attack Button: Emergency Stop → Torso Cleaver"
+        },
+        {
+          "move": "Standing Light Punch Crouching Light Punch Crouching Light Kick Including rapid cancel versions",
+          "type": "Adjustment",
+          "change": "Rapid Cancel timing changed from 1 frame to 3 frames.\nYou can now perform a rapid cancel up to 2 frames later than before."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Deleted the foot hurtbox that appeared on the attacking foot 1 frame before start-up."
+        },
+        {
+          "move": "Light Vagabond Edge (↓↘→+Light Punch)",
+          "type": "Adjustment",
+          "change": "Expanded the hitbox on attack active frame 3 forward, and reduced pushback on hit."
+        },
+        {
+          "move": "Normal Hidden Variable (↓↙←+Punch)",
+          "type": "Adjustment",
+          "change": "1. Move updated so Kimberly appears on the spot when the button is held.\n2. Reduced combo count upper limit on normal attacks immediately after appearing (except for crouching heavy kick)"
+        },
+        {
+          "move": "Shuriken Bomb Stocks",
+          "type": "Adjustment",
+          "change": "Kimberly can now stock up to 3 Shuriken Bombs."
+        },
+        {
+          "move": "Normal/Overdrive Genius at Play (↓↓+K or 2 Kicks) (↓↓+Heavy or Medium/Heavy)",
+          "type": "Adjustment",
+          "change": "Classic Controls\nChanged input to ↓↓+Kick or 2 Kicks\n\nModern Controls\nChanged input to ↓↓+Heavy attack or Medium/Heavy Attack\n\nShared\n1. Previously, this technique was only possible when Kimberly had zero stocks, but following the input change, the normal version can now be activated with 2 or less stock, while the Overdrive version can be performed with 1 or no stocks.\n2. The amount of stocks gained from the Overdrive version changed from 2 to 3."
+        },
+        {
+          "move": "Shuriken Bomb/Shuriken Bomb Spread (↓↓+P or 2 Punches)",
+          "type": "Adjustment",
+          "change": "Initial scaling changed from 10% o 20%"
+        },
+        {
+          "move": "Shuriken Bomb (Modern Controls) (↓↓+Light or Medium Attack)",
+          "type": "Adjustment",
+          "change": "1. Heavy version activation removed, and now Kimberly can transition to the heavy version from the light or medium version.\n2. Holding the button (including Holding → to go to the Heavy version) will now transition to Shuriken Bomb Spread."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "The primary focus for Marisa this time around is improving her ability to use her medium and heavy attacks, plus her special moves.\nOverall, we aimed at improving the merits of using her slow, but hard-hitting attacks to make her more satisfying to use.\n\nStanding Medium Punch, Medium Two-Hitter (Medium Punch > Medium Punch)\nThe properties when hitting a mid-air opponent now allows for Medium Two-Hitter to connect as a true combo even if the initial Medium Punch hits the opponent in mid-air. Previously, if the first Medium Punch connected on a mid-air opponent, the second attack would whiff, leaving the opponent open to a counterattack. With this change, it makes the attack much easier to use.\n\nStanding Heavy Punch (Hold), Heavy Two-Hitter (Heavy Punch Hold > Heavy Punch)\nThe frame advantage on the held Standing Heavy Punch now allows for the Heavy One-Two to become a natural block string. The held version now offers better frame advantage and forward movement compared to the regular version, letting Marisa to maintain her scary offensive pressure. While opponents can counter Marisa if they anticipate her holding the Heavy Punch, forcing the opponent to block this will now create a very good advantage for her.\n\nFalx Crusher (→+Heavy Kick)\nMagna Bunker (←+Heavy Punch) now connects as a follow-up when Falx Crusher connects as a Punish Counter, giving Marisa a much better return for landing this attack if they use it to punish an opponent's attack. We've made this adjustment to make sure Marisa can get the best return on a punish counter hit, while taking into account the returns she gets on Standing Heavy Punch and Kick, which also gives her a high damage return.\n\n\nTonitrus (↓↙←+Kick > Punch > Punch)\nTo give players an opportunity to check an opponent's reaction and the situation before committing to the follow-up hit, we've delayed the timing for the transition into the attack after the first attack is block, while still allowing it to be a natural block string.",
+      "changes": [
+        {
+          "move": "←+SP/Assist+←+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the special move performed from Dimachaerus to Phalanx.\nNote that the normal version will perform the medium version."
+        },
+        {
+          "move": "↓+SP/Assist+↓+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Phalanx to Quadriga\n2. When performing the normal version, use ↙ or ↓ or ↘ to select the strength of the attack."
+        },
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Hit effect when attacking a mid-air opponent changed from blowback stun to blowback knockdown\n2. Reduced blowback time when attacking a mid-air opponent."
+        },
+        {
+          "move": "Standing Heavy Punch (Hold)",
+          "type": "Adjustment",
+          "change": "Advantage on block changed from +4 to +5."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "1. Attack hitbox on the 3rd active frame expanded forward\n2. Attack hitbox on the hold version's active frame 2 and later expanded forward."
+        },
+        {
+          "move": "Novacula Swipe/Novacula Thrust (1st attack) (→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Now forces a standing state on Punish Counter"
+        },
+        {
+          "move": "Falx Crusher (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. Recovery changed from 21 to 20 frames.\n2. Advantage on hit changed from 0 to +4 frames.\n3. Disadvantage on block changed from -3 to -2 frames.\n4. Pushback on hit reduced."
+        },
+        {
+          "move": "Heavy Two Hitter (only follow-up attack from Held Heavy Punch) (Hold Heavy Punch > Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from +2 to +4 frames.\n2. Forward movement increased."
+        },
+        {
+          "move": "Normal Phalanx (→↓↘+Punch)",
+          "type": "Adjustment",
+          "change": "Blowback horizontal distance reduced on counter and Punish Counter."
+        },
+        {
+          "move": "Medium Quadriga (↓↘→+Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Disadvantage on block changed form -4 to -3 frames.\n2. Pushback on block increased while in Burnout."
+        },
+        {
+          "move": "Heavy Quadriga (↓↘→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from -3 to +1 frame.\n2. Screen shake effect added on block and on hit."
+        },
+        {
+          "move": "Tonitrus (↓↙←+Kick > Punch > Punch)",
+          "type": "Adjustment",
+          "change": "1. Attack startup on the 2nd attack changed from 20 to 19 frames.\n2. Follow-up timing to 2nd attack increased by 1 frame."
+        }
+      ]
+    },
+    "Lily": {
+      "concept": "Lily's most significant update is the ability to add a follow-up strike to Light Condor Wind. Previously, after long-reaching attacks like crouching heavy punch or Horn Breaker (← + Heavy Punch) is blocked, Lily couldn't create low risk blockstrings unless she used Drive or a Windclad stock for cancel. Because of this, invincible reversals would often interrupt her flow, and made it difficult for her to establish an offensive. Her new follow-up strike can still be punished if done too close to the opponent, just like the follow-up from other versions, but when it's blocked at max or near max range, it's much more difficult to punish. The startup is also as fast as the Overdrive version, letting Lily create real pressure. As one strategy, Lily can walk forward and use a heavy normal canceled into Light Condor Wind and force opponents to block to whittle down their Drive gauge.\n\nHowever, there are two things to keep in mind with this change\n1. The command to store Windclad stock without attacking has changed.\n2. The strike-follow-up of the Light version doesn't give Lily a Windclad stock.\n\nWhen holding Light Condor Wind, you can now cancel the technique by pressing any Kick button in Classic and any button except Light or Assist while in Modern, in addition to releasing the Light attack button.\n\nBy holding one of those buttons immediately after performing the held version of Light Condor Wind, Lily can immediately cancel out of the technique while still adding a Windclad stock, which will reproduce the same effect the non-hold version had up until now. We understand these control changes may take some time to get accustomed to, but we believe this will significantly expand Lily's options and help address some of the difficulties she's previously faced. We encourage Lily players to spend some time to learn these new mechanics and take full advantage of them",
+      "changes": [
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Hit effect on counter changed from knockback to blowback knockdown"
+        },
+        {
+          "move": "Light Condor Wind (↓↙←+Light Punch)",
+          "type": "Adjustment",
+          "change": "1. If the button is not held, then the technique now performs an attack.\n*When an attack is performed, no Windclad stock is gained.\n2. You can now cancel the move by pressing Kick while using Classic controls, or pressing Medium/Heavy/SP/Drive Parry/Drive Impact/Throw while using Modern controls, even if you continue to hold down the button.\n*If you hold Light Punch along with the above buttons after inputting the Light version of Condor Wind, the move will be interrupted immediately after gaining a stock of Windclad."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "We felt that the risk-reward balance of some of JP's moves had become too skewed and that players had few ways to answer them, so we've adjusted them accordingly.\n\nWe also made adjustments to rectify issues that were introduced by the previous patch. For example, in making it possible to use Departure: Shadow from non-cancelable moves, players could instead use Departure: Window, making it impossible to counter with just a perfect parry or invincible attacks.\n\nFinally, we've made adjustments to Departure that will hopefully expand on its utility and attack sequencing.\n\nStanding Heavy Punch, Stribog (Light, Medium, Overdrive) (↓↘→+Light Punch or Medium Punch or Two Punches)\nBoth standing heavy punch and Stribog have had their standby block hitboxes changed, which should make them more effective as mid to long-range pokes.\n\nStanding Heavy Punch is a move with long reach and a hurtbox that does not extend far forward, so it was difficult for opponents to hit the startup of this move, making the risk of challenging it very high depending on the character. Considering that it causes a knockdown against airborne opponents and it has a wealth of cancel options to keep it safe, delaying the standby block hitbox will make it a bit easier to back away and make it whiff, making it less effective at it's maximum distance.\n\nJP can already discourage the opponent walking back with his far reaching crouching medium kick, and although this does not have as large of returns as his standing heavy punch, he can also control it with Stribog, which now has a faster standby block hitbox.\n\nBylina (→+Heavy Kick)\nAfter connecting with the first hit, the hitbox of the second hit has been extended towards JP, so it the second hit should connect more easily. Since the move moves JP forward, the second hit would often whiff when it hit airborne opponents deep in the first hit, on during corner combos, so it should now be more consistent overall. However, the way the opponent is knocked back may have changed in your current combos, so make sure to check if you need to make some adjustments.\n\nOverdrive Amnesia (↓↓+Two Kicks)\nWhen the counter hurtbox connects with a throw move, the time JP is able to move afterwards is now later. Countering a normal throw will now leave JP at +4, so countering a throw while in the corner will no longer guarantee JP a back throw. Also, when a normal throw's third active frame overlaps with the first frame after your throw invincibility disappears when getting up, Overdrive Amnesia will counter the throw and leave him at +3, so a light attack is no longer guaranteed as a follow-up. It's now more difficult switch sides after a successful counter, and you'll have to be more selective with how you use the advantage from a successful counter.",
+      "changes": [
+        {
+          "move": "Medium Attack (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the attack performed from standing medium punch to standing medium kick."
+        },
+        {
+          "move": "SP/Assist+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Stribog to Triglav.\n2. After the technique, press ←, Neutral or → to select the attack strength."
+        },
+        {
+          "move": "↓+SP/Assist+↓+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Triglav to Stribog.\n2. When performing the normal version, use ↙ or ↓ or ↘ to select the strength of the attack."
+        },
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo updated to the following\nCrouching medium punch > Overdrive Stribog > Lovushka > Malice > Heavy Departure > Medium Stribog\n*The first attack changed from standing medium kick to crouching medium punch."
+        },
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Activation timing for the standby block hitbox changed from the 2nd to the 9th frame of the technique."
+        },
+        {
+          "move": "Bylina (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "The attack hitbox on the 2nd attack expanded backwards when the 1st attack hits, in order to mitigate issues where the 2nd attack would miss when the 1st attack hits a mid-air opponent at close range."
+        },
+        {
+          "move": "Overdrive Triglav (↓↓+2 Punches)",
+          "type": "Adjustment",
+          "change": "Grounded normal hit blowback effect changed to match counterhit's effect."
+        },
+        {
+          "move": "Light Stribog (↓↘→+Light Punch)",
+          "type": "Adjustment",
+          "change": "Attack hitbox on the 1st and 2nd attack expanded forward."
+        },
+        {
+          "move": "Light/Medium/Overdrive Stribog (↓↘→+Light Punch or Medium Punch or 2 Punches)",
+          "type": "Adjustment",
+          "change": "Activation timing for the standby block hitbox changed from the 7 frames to the 11 frames before attack startup."
+        },
+        {
+          "move": "Departure: Window (With Departure set, ↓↙←+Light Punch or Medium Punch)",
+          "type": "Adjustment",
+          "change": "Can now be canceled from standing medium punch, standing heavy kick, crouching light kick and crouching medium kick."
+        },
+        {
+          "move": "Departure: Shadow (With Departure set,↓↙←+Heavy Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where, if the timing of the Departure: Shadow coincided with the crystal projectile automatically firing, Departure: Shadow would still be performed even though the Departure had already vanished."
+        },
+        {
+          "move": "Overdrive Amnesia (↓↓+2 Kicks)",
+          "type": "Adjustment",
+          "change": "4 frames of recovery added if Amnesia is triggered against a throw attempt."
+        },
+        {
+          "move": "Super Art 1 Chornobog (↓↘→↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "Added an upward-facing attack hitbox on the 2nd attack that only appears during a combo to make it easier to hit opponents at a high position."
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "Juri mostly has changes to her normal moves, including properties on grounded hits for increased returns, and less pushback on hit for light attacks to strengthen her strings. Although they aren't very flashy changes, we hope it will have a large impact on her play.\n\nCrouching Medium Punch (normal and chain combo)\nWe extended the hitbox to make this more effective at anti-airing, but this had the unintended effect of beating out most other character's crouching punches when used as a poke. There were cases where even though Juri's hitbox seemed far from the opponent's attacking arm or leg it would still beat out their move, especially against attacks that hit higher up. We've remedied this by making her hitbox only active against airborne opponents.\n\nStanding Heavy Kick (normal)\nThe hit effect on punish counter has changed, allowing for more varied follow-ups. Until now the moves that would connect with this were very limited, but now depending on the distance you can follow into things like Drive Rush crouching light punch into Super Art 3, so you can now adjust your combos depending on the situation.\n\nKorenzan (normal) (←+Heavy Kick)\nThis can now combo into Ankensatsu on normal hit, giving it more benefits for hitting grounded opponents. It should now be more useful at close ranges for hit confirming.",
+      "changes": [
+        {
+          "move": "Normal/Chain Combo Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Damage when only the 2nd attack hits changed from 300 to 700."
+        },
+        {
+          "move": "Normal Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Blowback time increased on a Punish Counter."
+        },
+        {
+          "move": "Normal/Chain Combo Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Normal/Chain Combo Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Upper part of the attack hitbox now only hits opponents considered airborne."
+        },
+        {
+          "move": "Normal/Chain Combo Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Normal Korenzan (←+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +2 to +3 frames."
+        },
+        {
+          "move": "Normal/Overdrive Shiku-sen (↓↙←+K or 2 Kicks during a forward jump)",
+          "type": "Adjustment",
+          "change": "Added an attack hitbox on the upper part that only appears during a combo to make it easier to hit opponents at a high position."
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "Dee Jay has had his pressure at close range strengthened from decreased pushback on his light attacks, and received some buffs to his lesser-used special moves. He is also now able to adjust the amount he moves from some of his feint attacks, making his offense that much more flustering.\n\nSunrise Heel (→+Medium Kick)\nThe behavior when hitting an in-air opponent has changed, giving him more advantage. Canceling into an Super Art should now always combo regardless of the height the move connects.\n\nLight Jackknife Maximum (Charge ↓, then ↑+Light Kick)\nHolding back after performing the move will now move you forward less. Now you can use it land on either side of the opponent at close ranges, or as a surprise attack at a distance.\n\nOverdrive Machine Gun Uppercut (↓↙←+Two Punches)\nThe timing for when you can move after hitting has changed greatly, giving you much more advantage. Since this move has less opportunities to combo into than Overdrive Jus Cool, we adjusted it so that it gives good damage as well as leaves you in a good situation.",
+      "changes": [
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Standing Light Kick",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Crouching Light Punch",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Crouching Light Kick",
+          "type": "Adjustment",
+          "change": "Pushback on hit and block reduced."
+        },
+        {
+          "move": "Sunrise Heel (→+Medium Kick)",
+          "type": "Adjustment / bug fix",
+          "change": "1. Fixed an issue where the standby block hitbox was shorter than the attack hitbox.\n2. Hit effect when attacking a mid-air opponent changed from knockdown slam to ground bound."
+        },
+        {
+          "move": "Light Jackknife Maximum (Charge ↓, then ↑+Light Kick)",
+          "type": "Adjustment",
+          "change": "Pressing ← after performing the attack now reduces the amount of forward movement."
+        },
+        {
+          "move": "Normal/Overdrive Waning Moon (↓↙←+K or 2 Kicks > Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Added throw invincibility\nNormal: Active from frames 12 - 26, Overdrive: Active from frames 10 - 22\n2. Standby block hitbox timing changed.\nNormal: 13 frames before attack startup, Overdrive: 11 frames before attack startup."
+        },
+        {
+          "move": "Overdrive Double Rolling Sobat (↓↘→+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Attack startup changed from 19 to 17 frames."
+        },
+        {
+          "move": "Overdrive Machine Gun Uppercut (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +23 to +52 frames.\nAdvantage on hit and opponent knockdown time was adjusted, and Dee Jay can now move much earlier than before."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "We tried to improve Cammy's ground game by expanding her zoning capabilities and powering up moves that help her close the distance to take advantage of her signature close-range fighting style. We also made some adjustments to improve her surprise attacks.\n\nStanding Light Punch, Crouching Light Punch, Crouching Light Kick\nYou can now delay the cancels when chaining light attacks, except standing light kick. This should give you more options in close range to trip up your opponent and break their guard.\n\nHeavy Hooligan Combination(↓↘→+Heavy Punch)/Heavy Spiral Arrow(↓↘→+Heavy Kick/Heavy Cannon Spike (↓→↘+Heavy Kick) (Held Versions)\nCammy's special moves that can be charged with a button hold input will now use their charged versions at the fastest possible timing by simply continuing to hold the button.\n\nOverdrive Quick Spin Knuckle (↓↙←+Two Punches)\nThe advantage on block has changed from -2 to +3. Now it is useful as both a surprise attack during grounded pressure and to close the distance from mid-range.",
+      "changes": [
+        {
+          "move": "Medium Attack (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the attack performed from standing medium kick to standing medium punch."
+        },
+        {
+          "move": "Normal Hooligan Combination (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Assisted Combo 2",
+          "type": "Adjustment",
+          "change": "Combo updated to the following\nCrouching medium punch > Overdrive Spiral Arrow > Killer Bee Spin\n*The first attack changed from standing medium punch to crouching medium punch."
+        },
+        {
+          "move": "Standing Light Punch Crouching Light Punch Crouching Light Kick Including rapid cancel versions",
+          "type": "Adjustment",
+          "change": "Rapid Cancel timing changed from 1 frame to 3 frames.\nYou can now perform a rapid cancel up to 2 frames later than before."
+        },
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Blowback time increased on a Punish Counter."
+        },
+        {
+          "move": "Lift Uppercut (←+Medium Punch)",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from -1 to +1 frame\n2. Pushback on hit and block reduced."
+        },
+        {
+          "move": "Heavy Spiral Arrow (↓↘→+Heavy Kick) Heavy Cannon Spike (→↓↘+Heavy Kick) Heavy Hooligan Combination (↓↘→+Heavy Punch) Including hold versions of each special move",
+          "type": "Adjustment",
+          "change": "When holding down the button, even if the button is not released the hold version will be performed at the fastest possible timing."
+        },
+        {
+          "move": "Overdrive Quick Spin Knuckle (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Advantage on block changed from -2 to +3 frames.\n*The -2 disadvantage on block when switching sides is not affected."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "Ryu has received adjustments aimed at improving his ability to maintain offensive momentum after successfully landing attacks. These include changes to the pushback on block for his Standing Light Punch and Solar Plexus Strike, as well as improved post-hit situations after Whirlwind Kick → Aerial Tatsumaki Senpu-kyaku, etc. We've also made adjustments on his Overdrive Arts wouldn't fully connect in certain situations\n\nSolar Plexus Strike (→ + Heavy Punch)\nIn a previous update, the timing of the move's standby block hitbox was adjusted, but this added more risk than intended when Ryu attempts to catch opponents at mid-range. Considering it's still more difficult to force an opponent to block the move in neutral, we've reduced the pushback on block so that when Ryu does connect with the attack, it's slightly easier for him to continue his offense, and making the move more balanced.\n\nAerial Tatsumaki Senpu-kyaku (Whirlwind Kick cancel version) (→ + Heavy Kick > ↓↙← + Kick)\nWhen performed after Whirlwind Kick, the horizontal blowback time of Aerial Tatsumaki Senpu-kyaku has been reduced, allowing Ryu to continue with his offensive pressure easier. While the situation after a combo from Overdrive High Blade Kick remains unchanged, using Whirlwind Kick as a poking tool and hitting with the tip now makes it easier to set up Ryu's pressure game.",
+      "changes": [
+        {
+          "move": "Normal High Blade Kick (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Assisted Combo 1",
+          "type": "Adjustment",
+          "change": "Combo updated to the following\nStanding Light Kick > Light Tatsumaki Senpu-kyaku"
+        },
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "Pushback on block reduced."
+        },
+        {
+          "move": "Solar Plexus Strike (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Pushback on block reduced."
+        },
+        {
+          "move": "Overdrive Hadoken (Denjin Charge) (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Reduced combo count initial value and additional value on the 1st and 2nd attacks.\n2. Increased combo count additional value on the final attack."
+        },
+        {
+          "move": "Overdrive Shoryuken (→↓↘+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Reduced combo count additional value.\n2. Increased combo count upper limit."
+        },
+        {
+          "move": "Normal Aerial Tatsumaki Senpu-kyaku (Whirlwind Kick cancel version) (→+Heavy Kick > ↓↙←+Kick)",
+          "type": "Adjustment",
+          "change": "Reduced the horizontal blowback on a grounded hit."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "Honda's adjustments primarily focus on balancing his mid-range attacks. His standing medium punch had good reach and left him in a very good position after it hits, so we've slightly increased the risk on it if the attack misses, while giving more benefits to his other poking options.\n\nStanding Heavy Kick\nThanks to adjustments on recovery when the first hit is blocked coupled with adjustments to Sumo Step and Teppo Triple Slaps, canceling the first hit of his standing heavy kick into regular or Overdrive Teppo will now create situations where the opponent is punished hard if they try to interrupt your attacks. The Overdrive version of Teppo is an especially powerful offensive tool, giving you frame advantage on block and good comboability when it lands as a counter hit, making it an even more valuable offensive tool.\n\nHarai Kick (Forward + Heavy Kick)\nWhen this attack lands on a standing opponent as a Punish Counter, they'll slide along the ground, giving you a huge frame advantage. This will let Honda do tricks like chasing the opponent with a Medium Sumo Headbutt to set up a wake-up pressure situation.\n\nSumo Dash (Normal) (↓↘→+Kick), Teppo Triple Slaps (Normal) (↓↘→+Kick > Punch > Punch)\nThe timing transition from Sumo Dash to Teppo Triple Slaps is sped up, allowing you to combo from medium attacks. In addition, the increased forward movement before the attack begins makes this easier for Honda to use this technique as a surprise attack or poking tool. Mixing this Sumo Headbutt and Sumo Smash will keep opponents on their toes while you maintain your pressure. The adjustments made to hit effects on mid-air opponents were done to minimize any effect on existing set up strategies.",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Recovery when the attack misses changed from 15 to 17 frames.\n2. Hurtbox on the body when the attack misses expanded forward."
+        },
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Disadvantage on block for the 1st attack changed from -11 to -9 frames."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Can now be canceled into a Super Art."
+        },
+        {
+          "move": "Harai Kick (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Punish Counter now induces a sliding effect on the opponent after the knockdown."
+        },
+        {
+          "move": "Normal Sumo Dash (↓↘→+Kick)",
+          "type": "Adjustment",
+          "change": "1. Changed the overall frames of the technique from 51 to 44 frames.\n2. Teppo Triple Slap follow-up timing is now 1 frame faster."
+        },
+        {
+          "move": "Normal Teppo Triple Slap (↓↘→+Kick > Punch > Punch)",
+          "type": "Adjustment",
+          "change": "1. Forward movement increased.\n2. Reduced blowback distance and time on the 1st attack when it hits a mid-air opponent."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "Blanka received changes to the properties on his mid-range normal and special moves, as well as the held version of Electric Thunder. In addition, Wild Edge and Wild Nail were being used outside of their intended purposes, so we've evened out the parts of them that stuck out too much, and also adjusted his other normal attacks to make them more useful.\n\nWild Edge (←+Medium KIck)\nConsidering the short reach against crouching opponents and area of the attack, this move was designed to be used at short reach or as an anti-air. However, since Blanka's hurtbox doesn't move forward during the move and it's able to cancel into Drive Rush and special moves, this move ended up being stronger than intended. Its high reach and difficulty to whiff punish made it strong enough that his other pokes lost meaning, so we've buffed Blanka's other mid-range pokes as well as made Wild Edge easier to whiff punish through longer whiff recovery and a larger hurtbox. This added recovery means it will also be more difficult to bait your opponent's Drive Reversal after a knockdown, so be careful when using it multiple times.\n\nWild Nail (→+Heavy Punch)\nThis move is intended to be a heavy attack with a special property on Punish Counter, but we had made it harder to be used to attack over the opponent's projectiles by adding a special projectile-only hurtbox right before the move becomes active. However, Wild Nail's special hurtbox was higher up than others so projectiles with a normal height like Hadoken had a hard time colliding with it. Therefore, we expanded this special hurtbox, so now most projectiles should properly stop the move before it becomes active. Projectiles that fly low to the ground should still have a hard time colliding with this hurtbox as intended.\n\nNormal Electric Thunder (Held) (↓↙←+Punch (hold))\nWe've changed the properties of this move for the held version. The move will automatically transition into a follow-up on hit, and on block it will do multiple hits to chip at your opponent's Drive Gauge as well as leave you at advantage. This is easy to set up after a knockdown in the corner, so it should provide another option besides Wild Edge to give yourself an advantage on knockdown. The held version's hitbox has also been changed to a projectile, so it should now win out against almost every character's Super Art 1 as well as be a great way to chip at the opponent's health during burnout.",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Attack startup changed from 10 to 9 frames.\n2. Super Art cancel timing increased by 1 frame."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Deleted the foot hurtbox that appeared on the attacking foot 1 frame before start-up."
+        },
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment",
+          "change": "Blowback time reduced on counterhit when hitting a mid-air opponent."
+        },
+        {
+          "move": "Wild Edge (←+Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Recovery when the attack misses changed from 12 to 16 frames.\n2. Hurtbox on the body when the attack misses expanded forward."
+        },
+        {
+          "move": "Wild Nail (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Expanded the projectile-only hurtbox on the arms that appears 1 frame before the attack startup vertically."
+        },
+        {
+          "move": "Normal Electric Thunder (Hold) (↓↙←+Hold Punch)",
+          "type": "Adjustment",
+          "change": "1. A follow-up attack will now occur only on the held version's fourth hit onward on hit or block.\n2. This follow-up attack's properties have been changed from a strike to a projectile.\n3. The held version's eighth attack's active frames have been changed from 2 to 3."
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "In this round of battle adjustments, we've improved a number of Guile's normal, unique, and special moves. For his combos, we've added some new elements to come up with some fresh combos, and with standing heavy kick's attack startup, the difficulty of some combos depending on opponent size, such as Sonic Boom > Standing Heavy Kick have been relaxed.\n\nStanding Heavy Kick\nWe've adjusted this move so that it comes out faster, allowing Guile to use it in the neutral or as a poke easier. On the combo front, counter hit crouching medium punch > Cancel Drive Rush now allows for combo possibilities, so hitting with the tip of Burning Straight into Sonic Boom, etc. can now combo more consistently. On the other hand, if Standing Heavy Kick lands immediately after a Drive Rush, it leaves Guile closer to the opponent than before, so this may effect some existing combos, but we believe this is overall a big improvement for Guile.\n\nDrake Fang (↓ + Medium Kick ‣ → + Medium Punch)\nIn neutral exchanges, using this move after Crouching Medium Kick disproportionately favored Guile, so we reduced the ground bound time that allowed Heavy Somersault Kick to connect. In exchange, we've strengthened the light version of Somersault Kick so it can be used as a follow-up attack.\n\nLight Somersault Kick (Charge ↓, then ↑+Kick)\nBy adding a combo-only attack hitbox to the second frame of this move, we've made it easier to connect with quick attacks in the neutral game.\nThis adjustment boosts its utility as a combo tool by allowing it to connect in situations where follow-ups were previously out of range, such as after Drake Fang hits from a distance or when the tip of Crouching Medium Punch scores a counter hit but Double Shot (↓+Medium Punch > ↓+Medium Punch) would not reach.\n\nAdditionally, we expanded the collision hitbox that appears while Guile is in the air upward, making it easier to connect with an opponent directly in front him instead of passing right through unharmed.\n\nSuper Art 1: Sonic Hurricane (Charge ←, then →←→ + Any Punch)\nWe wanted to improve this move's ease of use in combos. As a result, we've made it possible to follow up with a light or medium Sonic Hurricane after a Heavy Sonic Hurricane, provided the initial hit connects on a grounded opponent.",
+      "changes": [
+        {
+          "move": "Standing Heavy Kick",
+          "type": "Adjustment / bug fix",
+          "change": "1. Reduced attack startup from 13 to 12 frames.\n2. Fixed an issue in which the standby block hitbox would extend forward unintentionally."
+        },
+        {
+          "move": "Drake Fang (↓+Medium Kick > →+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Blowback time decreased by 1 frame on counter or Punish Counter."
+        },
+        {
+          "move": "Light Somersault Kick (Charge ↓, then ↑+Kick)",
+          "type": "Adjustment",
+          "change": "1. Added a combo-only hitbox to the 2nd active frame, making it easier to hit opponents in front of Guile.\n2. Expanded the collision hitbox upward."
+        },
+        {
+          "move": "Overdrive Sonic Blade (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Advantage on block changed from -4 to +1 frames."
+        },
+        {
+          "move": "Super Art 1 Sonic Hurricane (Horizontal) (Charge ←, then →←→+Light Punch or Medium Punch)",
+          "type": "Adjustment",
+          "change": "1. Increased the combo count upper limit.\n2. Reduced combo count additional value for all hits except the final attack.\n3. Added a combo-only hitbox that begins on the 16th active frame, making it easier to hit opponents above Guile."
+        },
+        {
+          "move": "Super Art 1 Sonic Hurricane (Vertical) (Charge ←, then →←→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Added an attack hitbox that only appears during a combo to make it easier to hit opponents at a high position."
+        }
+      ]
+    },
+    "Ken": {
+      "concept": "Ken has fewer adjustments overall, but we improved a wide range of combos and attack sequences, so players will have some new tools to utilize in his neutral game.\n\nStanding Medium Punch\nBy increasing the momentum left by Drive Rush, we've made it easier to force a mix-up between a low attack (like Crouching Light Kick into Standing Light Punch) and a normal throw after an opponent blocks it at close range. This also improves the reach of Crouching Heavy Punch, which deals decent damage when it connects, making this a powerful tool for initiating an offensive.\n\nCrouching Medium Punch\nBy increasing the knockback time, we've made it possible for moves like Standing Light Kick (on normal hit) and Crouching Medium Kick (on Punish Counter) to combo reliably without relying on cancels, making the move more valuable in close-range attack sequences. While the damage of the move itself has been decreased, that change was made to accommodate for what we expect will be an overall damage output increase because of its adjusted follow-up capabilities.\n\nQuick Dash (Two Kicks), Forward Step Kick (→ + Heavy Kick during Quick Dash)\nForward Step Kick now comes out quicker, making it possible to land hits with the tip of the attack from closer range or with better timing than before. While adjustments like reduced payoff on Punish Counters and decreased pushback on block may seem negative, we've tried to balance that by making sure the move has synergy with Ken's other zoning tools, like Standing Heavy Kick and Hadoken. This adjustment allows Ken's other moves to function more effectively, significantly giving him more tools to improve his mid-to-long-range game.\n\nFinally, the move can now be mixed into combos whether Ken is standing or airborne, which makes it easier for him to respond to a wider variety of situations.",
+      "changes": [
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "Extended the momentum from Drive Rush by 3 frames."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Decreased the damage from 700 to 600.\n2. Increased advantage on hit from 3 frames to 5 frames.\n3. Reduced pushback on hit."
+        },
+        {
+          "move": "Quick Dash (2 Kicks)",
+          "type": "Adjustment",
+          "change": "Sped up the follow-up timing of a forward step kick by 2 frames."
+        },
+        {
+          "move": "Forward Step Kick (→+Heavy Kick during Quick Dash )",
+          "type": "Adjustment",
+          "change": "1. Changed attack start up from 10 to 8 frames.\n2. Changed advantage on hit from +3 frames to +1 frame.\n3. Reduced pushback on block.\n4. Increased recovery by 4 frames when it whiffs or hits an armor attack."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "Chun-Li has received adjustments aimed at making both Hazanshu and Tensho Kicks easier to use, as well as improvements to Serenity Stream and its follow-up options. In particular, Hazanshu can now be selected by strength in Modern, and the light version has been made safer on block, reducing its risk and improving its effectiveness as a poking tool.\n\nSerenity Stream (↓↙← + Punch)\nYou can now cancel the stance by inputting ↑, which will make it easier to quickly exit the stance when you need to react. It also lowers the execution demand on sequences that call for canceling the stance and transitioning to other attacks such as crouching light kick or a normal throw.\n\nLotus Fist (Heavy Punch during Serenity Stream)\nIn order to increase the amount of variations while in Serenity Stream, we've adjusted this overhead attack so that Chun can continue her offense even if it's blocked.\n\nMedium Tensho Kicks (↓↓ + Medium Kick)\nThe medium version of Tensho Kicks didn't see much use up until now, so that version of the attack has been adjusted so it gives Chun-Li move Drive gauge than the other versions. The combo count upper limit has also been adjusted so the medium version of Tensho Kicks will connect in situations where the heavy version of Tensho Kicks would also be used. This change is intended to give players a reason to choose between the medium and heavy version depending on the flow of the match and their desired follow-up.",
+      "changes": [
+        {
+          "move": "Hazanshu (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Serenity Stream (↓↙←+Punch)",
+          "type": "Adjustment",
+          "change": "Made it possible to cancel out of Serenity Stream by pressing ↑."
+        },
+        {
+          "move": "Lotus Fist (Heavy Punch during Serenity Stream )",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from -3 frames to +1 frame.\n2. Extended input buffer time at the end of the move."
+        },
+        {
+          "move": "Medium/Overdrive Hundred Lightning Kicks (↓↘→+Medium Kick or 2 Kicks)",
+          "type": "Adjustment",
+          "change": "Forward movement before attack startup increased."
+        },
+        {
+          "move": "Light Hazanshu (↓↙←+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from -5 to -4 frames.\n2. Timing for when the standby block hitbox appears changed from the 16th frame to the 8th frame.\n3. Increased blowback time on mid-air hit."
+        },
+        {
+          "move": "Medium Tensho Kicks (↓↓+Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Increased Drive Gauge gain from 2000 to 4000.\n2. Increased combo count upper limit."
+        },
+        {
+          "move": "Heavy Tensho Kicks (↓↓+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Added throw invincibility between frames 8-9 of the technique."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "The change to Power Stomps adds another low attack option to Zangief's options. We've also looked to increase the situations players can aim to go for Double Lariat and Russian Suplex, and reduced the number of situations he's left at a disadvantage when whiffing an attack or trying to take back his turn.\n\nPower Stomps (↓↓+Medium Kick > Medium Kick > Medium Kick)\nThe first hit can now be canceled into a special move, which along with the reduced hurtbox on the feet, makes it a viable option when trying to counter-poke an opponent's low attack. This can now work in conjunction with Standing Heavy Punch, which is already a vital tool in Zangief's arsenal thanks to its armor properties. Coupled with this main adjustment are changes such as adding combo-starter scaling and preventing follow-up attacks if the first hit whiffs.\n\nDouble Lariat (Normal) (Two Punches)\nWe have expanded the attack hitbox against crouching opponents, but this only occurs if the attack is performed as a cancel from a normal attack. This adjustment ensures that if the attack connects with the opponent's body, such as when landing the tip of crouching Medium Punch or a standing Light Kick on Punish Counter, Double Lariat it will always combo so long as you hold forward (→). The adjustment to Double Lariat's movement distance also ensures that the distance between characters after the attack finishes remains the same as before when holding forward.\n\n\nRussian Suplex (Normal) (→↘↓↙←+Heavy Kick)\nWe've adjusted how this move works so that using Heavy Kick will always result in Russian Suplex no matter the distance. This adjustment is to prevent any confusion whether Russian Suplex or Siberian Express will be performed when at max throw range.\n\nAlthough the damage for the Heavy version is slightly lower than the Light or Medium versions, the post-attack situation and Super Art gain is the same, in addition to its effective range being expanded, making it easier for players to choose between this attack or Screw Piledriver depending on the situation.",
+      "changes": [
+        {
+          "move": "Power Stomps (↓↓+Medium Kick > Medium Kick > Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Reduced the size of the hurtbox extending from Zangief's foot between the 5th and 9th frames.\n2. Made it possible to cancel out of the first move.\n3. Made it so that pressing Medium Punch and Medium Kick at the same time would not perform a transition attack.\n4. Made it so that the move cannot be canceled after the second stomp on a whiff.\n5. Added 20% to the initial scaling of the first attack."
+        },
+        {
+          "move": "Normal Double Lariat (2 Punches)",
+          "type": "Adjustment",
+          "change": "The following properties have been changed when canceling from a normal or unique move:\n1. Extended the second hit's hitbox during combos and against crouching opponents forward.\n2. Increased the distance moved forward during frames 13-16.\n3. Decreased the distance moved forward during frames 21-28."
+        },
+        {
+          "move": "Overdrive Double Lariat (2 PunchesPunch)",
+          "type": "Adjustment",
+          "change": "Disadvantage on block for the 4th attack changed from -17 to -12 frames."
+        },
+        {
+          "move": "Normal Russian Suplex (→↘↓↙←+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Activating this move using a heavy button will now always perform Russian Suplex.\nNote that the damage from the light and medium versions is 2900 while the heavy version is 2600."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "The main adjustments for Dhalsim involve rearranging the special moves available via Modern controls and modifying the restrictions on projectile activation when Overdrive Yoga Fire or Yoga Arch is already on screen. The expansion of the hitbox on his standing Light Punch is intended as to mitigate specific sequences that were previously difficult to deal with.\n\nStanding Light Punch\nThe attack hitbox is slightly expanded upward, allowing it to hit attacks such as Ken's Heavy Dragonlash Kick's startup and others easier.\n\nNormal/Overdrive Yoga Fire (↓↘→+Punch or Two Punches), Normal/Overdrive Yoga Arch (↓↘→+Kick or Two Kicks)\nAfter performing the Overdrive version, Dhalsim can now perform the regular version of another projectile. You can now unleash projectiles in ways not possible before, making it much easier to zone out opponents from long range. Mixing these up with Yoga Comet, which doesn't interfere with either of them, Dhalsim potentially has several more zoning strategies at his disposal.",
+      "changes": [
+        {
+          "move": "Yoga Float",
+          "type": "Bug fix",
+          "change": "Fixed a bug during Yoga Float where during the frames when moving backward or floating still, inputting forward and then falling could make your descent invincible."
+        },
+        {
+          "move": "Yoga Mummy (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Can now be performed by pressing AUTO+↓+Light attack during a jump."
+        },
+        {
+          "move": "SP/Assist+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Yoga Fire to Yoga Arch.\n2. After the technique, press ←, Neutral or → to select the attack strength."
+        },
+        {
+          "move": "→+SP/Assist+→+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the special move performed from Yoga Arch to Yoga Fire."
+        },
+        {
+          "move": "←+3 Attack Buttons while in the air (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Special move performed changed from backward Aerial Yoga Teleport (Punch) to backward Yoga Teleport (Kick)"
+        },
+        {
+          "move": "Normal Yoga Blast (Modern Controls) (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Super Art 1 Yoga Inferno (Modern Controls) (Heavy+SP or ↓↘→↓↘→+Light Attack)",
+          "type": "Adjustment",
+          "change": "After the technique, press ←, Neutral or → to select the attack strength."
+        },
+        {
+          "move": "Standing Light Punch",
+          "type": "Adjustment",
+          "change": "Expanded the attack hitbox upward."
+        },
+        {
+          "move": "Normal/Overdrive Yoga Fire (↓↘→+P or 2 Punches) Normal/Overdrive Yoga Arch (↓↘→+K or 2 Kicks)",
+          "type": "Adjustment",
+          "change": "1. Light/Medium/Heavy Yoga Arch can now be performed even if Overdrive Yoga Fire is still on the screen.\n2. Light/Medium/Heavy Yoga Fire can now be performed even if Overdrive Yoga Fire is still on the screen.\n*For both adjustments, Normal → Overdrive or Overdrive → Overdrive is not possible."
+        },
+        {
+          "move": "Overdrive Yoga Comet (→↘↓↙←+2 Punches while in the air)",
+          "type": "Adjustment",
+          "change": "Changed the timing at which the character moves from 49 frames to 44 frames of the technique."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "Rashid mostly received changes to his longer reaching normal and special moves. His pokes and longer reaching moves are now easier to use, and his Overdrive Arabian Cyclone has received a new role in covering mid to long-ranges.\n\nCrouching Heavy Punch\nThe standby block hitbox now happens earlier, so now it should be harder for the opponent to avoid the attack while sitting in its range. Now you can utilize its longer range as an effective mid-range poke.\n\nCrescent Kick (→+Heavy Kick)\nThe knockback time on hit has been extended, so now you can follow with something like a crouching medium kick on Punish Counter. You'll now get more than just frame advantage when you, for example, get a Punish Counter by avoiding a sweep from a bit farther away. You can also link into a standing light punch on hit now, so make sure you properly discern the situation to get the most out of these changes.\n\nOverdrive Arabian Cyclone (↓↙←+Two Punches)\nThe extended standby block timing on the first hit now makes it more difficult to back out of the second hit, and now whiffing the first hit but having the second guarded gives you advantage on block, giving it a new use. Although managing that distance is a bit challenging, you now have a new opportunity to create advantage in your offense through guard timings.",
+      "changes": [
+        {
+          "move": "←+SP/Assist+←+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the special move performed from Eagle Spike to Arabian Cyclone."
+        },
+        {
+          "move": "↓+SP/Assist+↓+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Arabian Cyclone to Eagle Spike.\n2. When performing the attack with the SP Button, use ↙ or ↓ or ↘ to select the strength of the attack."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "1. Advantage on block changed from -6 to -4 frames.\n2. Activation timing for the standby block hitbox changed from the 6th frame to the 2nd frame."
+        },
+        {
+          "move": "Crescent Kick (→+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +2 to +3 frames."
+        },
+        {
+          "move": "Medium Spinning Mixer (with air current) (↓↘→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Invincibility to aerial attacks extended from frames 3-11 to frames 3-17."
+        },
+        {
+          "move": "Overdrive Arabian Cyclone (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Added 1 active frame and increased the 1st attack's standby block hitbox forward.\n2. Reduced pushback on block for the 2nd attack."
+        }
+      ]
+    },
+    "A.K.I.": {
+      "concept": "Alongside improvements to her normal attacks used for poking and whiff punishing, A.K.I. has also received adjustments to special moves that didn't see a lot of use, giving them new roles within her overall game plan and neutral strategy.\n\nQiong Qi (Standing Heavy Punch > Heavy Punch)\nThe knockback effect when this move hits an opponent who isn't poisoned has been changed to improve A.K.I.'s situation after the attack. This change will now make it easier to apply pressure even after landing the move at long range. Additionally, if the first Standing Heavy Punch connects at close range or hits near the corner, you can follow-up with additional attacks.\n\nOverdrive Nightshade Chaser (↓↙← + Two Punches > → + Heavy Punch)\nThe claw strike follow-up will now poison opponents even if it's blocked. This gives the attack a very distinct utility, and gives A.K.I. a significant tool for her pressure game and offensive strings. However, opponents will not be poisoned if only Nightshade Pulse is blocked, and the poison can also be avoided by parrying the attack, meaning players will still have to read the situation and be smart with its usage.\n\nLight Cruel Fate (↓↙← + Light Kick)\nReducing the hurtbox on startup and increasing its frame advantage on hit allows this move to be used to evade an opponent's attack at close range and convert into a combo when it lands as a counter hit. Using this attack on the defense as a read will allow you to slip under or around attacks and strike back quick.",
+      "changes": [
+        {
+          "move": "Normal Cruel Fate (Modern Controls) (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Poisons the opponent on a Punish Counter."
+        },
+        {
+          "move": "Chi Wen (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Active frames changed from 3 to 4 frames.\n2. Advantage on block changed from -4 to -3 frames."
+        },
+        {
+          "move": "Qiong Qi (Standing Heavy Punch > Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Changed the hit effect on an opponent that isn't poisoned from a blowback knockdown to a tailspin and increased blowback time."
+        },
+        {
+          "move": "Overdrive Nightshade Chaser (↓↙←+2 Punches > →+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Inflicts poison when the normal version is blocked or it is blocked during burnout. It will not inflict poison if the move is blocked with Drive Parry."
+        },
+        {
+          "move": "Light Cruel Fate (↓↙←+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Advantage on hit changed from +1 to +2 frames.\n2. Removed the hurtbox that extended downward from the first 5 frames of the move."
+        }
+      ]
+    },
+    "Ed": {
+      "concept": "Ed's ability to take advantage of openings with his long-reaching normals is already very strong, but he had a couple of tools that could let him turn the tide of the match to his favor even if he gets backed into the corner, meaning that the risk he carried while in the corner was much less than other characters.\n\nBecause Ed carrying less risk in the corner ran counter to our risk vs reward in the neutral, we adjusted the moves that provided the most dramatic single-interaction momentum swings for him. Specifically, we weakened his back throw situation, which was one of Ed's most common side-switch tools, as well as weakening the advantage he gained after a held Psycho Flicker was blocked, which was a common setup for his throw game.\n\nHowever, we did improve Ed's ability to proactively go on the offensive by enhancing his situation after Flicker Combination (Light kick > Light Kick > Light Kick) and adjusting the projectile speed on Overdrive Psycho Shot based on strength, which will make it easier for him to create opportunities to move forward while applying pressure.\n\nRib Crusher (← + Light Punch + Light Kick)\nIncreased recovery after a hit means that Ed will be at a disadvantage if he performs a forward dash after this attack hits. Now, if you want to maintain your corner pressure after this hit, using attacks out of Drive Rush will be your primary option.\n\nOverdrive Psycho Shoot (↓↘→ + Two Punches > → + Light or Heavy Punch)\nThe light version now travels more slowly, while the heavy version travels more quickly. The faster heavy version can create some strong pressure as an opponent's reactions will be tested more heavily. Against opponents who have a habit of using parry against the projectile, the slower light version will function as a shield, letting Ed safely advance and start up his offense.\n\nLight & Medium Psycho Flicker (Hold Version) (↓↘→ + Hold Light Kick or Medium Kick)\nThe distance that opponents are pulled in to Ed on block is now reduced, which means when blocked at a certain distance, opponents will be outside of Ed's throw range. While Ed still has some strong poke and pressure tools after this attack is blocked, he no longer has an easy way of creating a favorable situation for him with his throw pressure, forcing Ed to be more creative with their game plan. For the defender, this also lowers the disadvantage they face from blocking this move, making this attack easier to deal with.",
+      "changes": [
+        {
+          "move": "Rib Crusher (←+Light Punch+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Changed the overall frames of the technique from 123 to 130 frames.\n*Advantage on hit changed from +24 to +17 frames.\n2. Extended input buffer time at the end of the move."
+        },
+        {
+          "move": "Flicker Combination (Light Kick > Light Kick > Light Kick)",
+          "type": "Adjustment",
+          "change": "Pushback on hit for the final attack has been reduced."
+        },
+        {
+          "move": "Light/Overdrive Psycho Blitz (↓↙←+Light Punch or 2 Punches)",
+          "type": "Adjustment",
+          "change": "Added 30% initial scaling."
+        },
+        {
+          "move": "Overdrive Psycho Shoot (↓↘→+2 Punches > →+Light Punch or Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Speed on light version projectile decreased.\n2. Speed on heavy version projectile increased."
+        },
+        {
+          "move": "Light/Medium Psycho Flicker (Hold) (↓↘→+Hold Light Kick or Hold Medium Kick)",
+          "type": "Adjustment",
+          "change": "Decreased the distance pulled in when the attack is blocked."
+        }
+      ]
+    },
+    "Akuma": {
+      "concept": "We are taking another look at fully charged Gou Hadoken, which we changed to have more advantage in the previous patch, and have slightly expanded the uses of Overdrive Tatsumaki Zanku-kyaku by making part of it connect on crouching opponents.\n\nKikoku Combination (→+Heavy Punch)\nHitting with a Punish Counter now has less pushback, so it should be easier to follow it up after successfully whiff punishing. Akuma's far-reaching crouching medium kick should almost always connect, which combined with the changes to Overdrive Tatsumaki Zanku-kyaku, should make it easier to get good damage.\n\nOverdrive Tatsumaki Zanku-kyaku (↓↙←+Two Kicks)\nThe fourth active frame of the first hit now hits crouching opponents, so now you should be able to combo into this from medium attacks or punish counters from light attacks without worrying about the opponent's state. It should now be much easier to use as a counter attack or to get more damage at mid-range.\n\nNormal/Overdrive Gou Hadoken (Fully Held) (↓↘→+Hold Punch or Two Punches)\nThe advantage on block as increased, so now you should be +2 or more at close range even after a forward dash. Adding this to your pressure well should net you more opportunities to mix up the opponent with strikes and throws.",
+      "changes": [
+        {
+          "move": "←+SP/Assist+←+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "Changed the special move performed from Adamant Flame to Demon Raid."
+        },
+        {
+          "move": "↓+SP/Assist+↓+SP (Modern Controls)",
+          "type": "Adjustment",
+          "change": "1. Changed the special move performed from Demon Raid to Adamant Flame.\n2. When performing the normal version, use ↙ or ↓ or ↘ to select the strength of the attack."
+        },
+        {
+          "move": "Kikoku Combination (→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Pushback on hit reduced on a Punish Counter."
+        },
+        {
+          "move": "Normal/Overdrive Gou Hadoken (Max Hold) (↓↘→+Hold Punch)",
+          "type": "Adjustment",
+          "change": "Advantage on block changed from +20 to +21 frames."
+        },
+        {
+          "move": "Overdrive Tatsumaki Zanku-Kyaku (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Attack hitbox on the 4th active frame expanded downward, and now also hits crouching opponents."
+        },
+        {
+          "move": "Oboro Throw (→+3 Kicks > Light Punch+Light Kick)",
+          "type": "Adjustment",
+          "change": "Follow-up timing out of forward Ashura Senku changed to be 2 frames faster.\n*The throw hitbox on Oboro Throw when it's performed at the earliest possible time changed from 31 to 29 frames."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "With M. Bison, we looked at improving his special moves that didn't see much use, as well as adjusting the range on his standing heavy punch, one of his key poking attacks at mid-range.\n\nStanding Heavy Punch\nBison receives an increased advantage on hit, and can now link to his far-reaching standing light punch, improving its utility as a high-reward poke that's capable of going into combos.\n\nOverdrive Backfist Combo (Psycho Mine) (↓↙←+Two Punches)\nYou now have a lot more time to follow-up with an attack after this move hits, giving you options such as Heavy Backfist Combo or Overdrive Double Knee Press even when in the middle of the screen. When a Psycho Mine is embedded, you can now choose between those options or something like Overdrive Psycho Crusher Attack, which can give you even bigger returns due to the Psycho Mine detonation, so players can choose between going for high damage or more follow-up options.\n\nOverdrive Shadow Rise (Charge ↓, then ↑+Two Kicks)\nWe increased the speed at which the move reaches the opponent and extended the window for transitioning into follow-up attacks, improving its effectiveness as a surprise attack.",
+      "changes": [
+        {
+          "move": "Standing Heavy Punch",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +4 to +5 frames."
+        },
+        {
+          "move": "Psycho Mine",
+          "type": "Adjustment",
+          "change": "Drive Gauge reduction on block when Psycho Mine is detonated from any version of Backfist Combo or Devil Reverse changed from 3000 to 5000."
+        },
+        {
+          "move": "Overdrive Backfist Combo (Psycho Mine) (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Increased damage from 1700 to 1800.\n2. Increased blowback time."
+        },
+        {
+          "move": "Overdrive Shadow Rise (Charge ↓, then ↑+2 Kicks)",
+          "type": "Adjustment",
+          "change": "1. Adjusted height and speed when jumping up so Bison reaches the opponent's location quicker.\n2. Delayed the follow-up attack transition timing until 3 frames before landing."
+        }
+      ]
+    },
+    "Terry": {
+      "concept": "Terry is a character with great damage and corner carry, and he as such he expects to get a lot out of his cancel-able medium and heavy attacks. His medium pokes in standing and crouching medium punch as well as crouching medium kick have different strengths, but standing medium punch had comparatively good reach and advantage, making it too good as both a counter-poke and for whiff punishing. That lead to it being so useful that it outshone his other pokes, so we've given it more recovery on whiff to tone it down.\n\nOther than that, we shored up his special moves that were less useful by adjusting their parameters.\n\nStanding Medium Punch\nWe extended the hurtbox forward while it is whiffing. This is a move that leads into target combos and can cancel into Drive Rush, so we've emphasized its use as a poke with good range and tried to limited its use as a counter-poke.\n\nIt's now more dangerous when it whiffs, so you'll need to think about when you used it at close and mid-ranges.\n\nRound Wave (↓↘→+Heavy Punch)\nThe standby block timing has become 5 frames faster, so now it should be more difficult for opponents to escape when canceling into this from a standing or crouching medium punch that connects at the tip. This in turn should strengthen Terry's low attacks and pressure.\n\nOverdrive Quick Burn (↓↙←+Two Punches)\nThe last hit has higher damage and also knocks the opponent back less far, giving you a better advantage. It's already useful as a combo into Super Art 2 and as a surprise overhead on the second attack, so now it's also a pathway into better damage and advantage when comboing from light attacks.",
+      "changes": [
+        {
+          "move": "Normal Power Charge (Modern Controls) (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Overdrive Power Wave (Modern Controls) (Assist+SP)",
+          "type": "Bug fix",
+          "change": "Changed the behavior so that when canceling from Heavy or OD Power Charge will always result in an OD attack instead of OD only when inputting ↓+Assist+SP, and normal versions when ↙or↘+Assist+SP."
+        },
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "Expanded the main hurtbox forward during frames 18-25 of the technique"
+        },
+        {
+          "move": "Power Dunk (Perfect input) (Standing Medium Punch > Heavy Kick > Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. Increased the perfect timing window by one frame from 2 to 3 frames.\n2. When the perfect timing was performed, the advantage on knockdown could result in +23 or 24 depending on the timing, but now all timings result in +24."
+        },
+        {
+          "move": "Round Wave (↓↘→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Activation timing for the standby block hitbox changed from the 21st to the 16th frame of the technique."
+        },
+        {
+          "move": "Normal Quick Burn (↓↙←+Light Punch)",
+          "type": "Adjustment",
+          "change": "1. Damage changed from 900 (500+400) to 900 (300+600)\n2. Advantage on hit changed from +2 to +3 frames."
+        },
+        {
+          "move": "Overdrive Quick Burn (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Damage changed from 1400 (400+400+600) to 1600 (400+400+800)\n2. Reduced horizontal blowback on the final attack."
+        }
+      ]
+    },
+    "Mai": {
+      "concept": "Mai has changes to her frequently used normal and special moves. These were a cause of her extremely lopsided choice of pokes and Super Arts, so these have been toned down. This should give more breathing room for the rest of her toolkit.\n\nThe main change to her pokes was making her standing medium punch more risky, as well as her limiting the invincibility on her Super Art 1 to make it less of a rock-solid tool to be used in combos as well as a counter attack. In exchange, we've improved her crouching heavy punch and added new properties to her Super Art 2. This should give her new opportunities to use her super gauge without making it feel like her tools have become too limited.\n\nAlthough in general a few of her moves have decreased in strength, Overdrive Ryuuenbu has had its properties completely changed, so please try adding this to your repertoire and explore its new uses.\n\nCrouching Heavy Punch\nThe standby block timing and distance moved forward have increased, which should make it so even if the first hit whiffs, the second hit should connect when used at the correct distance. The risk/reward has also improved through the changes in the pushback on hit and block. Altogether this move should now be much more useful at mid-ranges when covering your opponent getting up, or as a read for a whiff punish.\n\nJumping Medium Punch\nThis now knocks the opponent back horizontally on hit, which should make it easier to follow into Musasabi no Mai when hitting air-to-air, as well as make it possible to combo Overdrive Hissatsu Shinobi Bachi > jumping medium punch > Super Art 1 mid-screen. While this is detailed below, it is no longer possible to combo into Super Art 1 from Overdrive Ryuuenbu, so this now may be your main route for getting stocks from Super Art 1.\n\nNormal Kachousen (regular or boosted) (↓↘→+Punch)\nWe've made the startup animation slightly more distinct so that it's easier to tell when this move is being used. The startup of this move was less pronounced than other projectiles, so now responding to the animation should be more in line with similar moves.\n\nOverdrive Ryuuenbu (regular and boosted) (↓↙←+Two Punches)\nIt wasn't clear how this move and Overdrive Hissatsu Shinobi Bachi were supposed to differ, so we've made large adjustments here to remedy that. Extending your combos is now the role of Overdrive Hissatsu Shinobi Bachi, while Overdrive Ryuuenbu now has uses in catching overeager opponents.\n\nGenerally speaking, when you cancel into this from a medium attack you can combo on hit, while on guard you can frame trap your opponent. Once you plant the seed of doubt in them with this move, you can forgo canceling and go for more offense, force them to block a charged Kachousen, or use anything else in your repertoire.\n\nAlthough this move was mostly used to combo into Super Arts midscreen, you are still able to continue your combos after it when used in the corner. This is especially true as the powered-up version now wall splats, making it an interesting new tool in both pressure and in combos.\n\nKagerou no Mai (Super Art 1) (regular and boosted) (↓↘→↓↘→+Punch)\nThe benefit this gave for turning over a bad situation was far greater than normal, and thus we believe it was being relied on far too much. Taking this into account, we've changed the invincibility of this move to only cover aerial moves, so it can no longer be used on wake up or as a counter attack.\n\nThis also means it can no longer be used as a counter attack against Drive Impact during burnout. You'll now need to manage your gauges differently now that you no longer have protection when you only have one bar of Super Art Gauge in burnout.\n\nAir Chou Hissatsu Shinobi Bachi (Super Art 2) (regular or boosted) (↓↘→↓↘→+Kick during forward or neutral jump)\nMost of the damage has now been concentrated in the last hit, and the move now does more damage on counter and Punish Counter, giving you more return successfully doing things like reading your opponent's projectile.",
+      "changes": [
+        {
+          "move": "Normal Hissatsu Shinobi Bachi (Modern Controls) (↙ or ↓ or ↘+SP)",
+          "type": "Adjustment",
+          "change": "Attack strength can now be selected by pressing ↙or↓or↘ when using the SP button to perform the attack."
+        },
+        {
+          "move": "Assisted Combo ２",
+          "type": "Adjustment",
+          "change": "Combo updated to the following\nCrouching Medium Punch > Overdrive Ryuuenbu > Chou Hissatsu Shinobi Bachi"
+        },
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Duration of the move on whiff extended from 15 to 17 frames.\n2. Expanded the hurtbox on Mai's body forward on whiff from the first frame after the active frames end.\n3. Expanded the hurtbox on Mai's arm that remains after the active frames until the moves end forward.\nThis lasts until one frame before the last frame of the move on whiff."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "1. Extended the standby block hitbox of the first hit to match the second hit.\n2. Extended the distance moved on the second hit.\n3. Reduced pushback on hit for the second hit.\n4. Increased pushback on block for the second hit."
+        },
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Adjustment",
+          "change": "Reduced the horizontal blowback on a mid-air opponent."
+        },
+        {
+          "move": "Normal (Regular/Boosted) Kachousen (↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "Altered the animation of the move after activation to exaggerate the movement before she throws the fan."
+        },
+        {
+          "move": "Overdrive (Regular/Boosted) Ryuuenbu (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Changed the disadvantage on block from -12 to -3.\n2. Reduced pushback on block for the second hit, increased pushback on block for the third hit.\n3. Increased horizontal blowback on the second and final hits and reduced the knockdown time.\n4. Increased distance moved forward.\n5. Added 40% initial scaling.\n6. Added 20% combo scaling."
+        },
+        {
+          "move": "Overdrive (Regular) Ryuuenbu (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "Changed damage from 1000 to 1300."
+        },
+        {
+          "move": "Overdrive (Boosted) Ryuuenbu (↓↙←+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Increased damage from 1100 to 1400.\n2. The final hit now causes a wall splat in the corner.\n3. Lowered the combo count gain on the final hit."
+        },
+        {
+          "move": "Normal (Boosted) Musasabi no Mai (↓↙←+Punch during a forward jump)",
+          "type": "Adjustment",
+          "change": "1. Increased blowback time on grounded hit.\nNote: This is now the same blowback as the normal OD version.\n2. Added 30% initial scaling."
+        },
+        {
+          "move": "Overdrive (Boosted) Musasabi no Mai (↓↙←+2 Punches during a forward jump)",
+          "type": "Adjustment",
+          "change": "In order to prevent issues where an in-air hit would cause you to switch sides with the opponent, the collision pushbox on hit has been expanded upward."
+        },
+        {
+          "move": "Super Art 1 (Regular/Boosted) Kagerou no Mai (↓↘→↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "1. Invincibility to non-projectile attacks has been changed to invincibility only to aerial attacks.\n2. In accordance with the first change, hitting the move during frames 1-6 now gives a regular counter hit instead of a punish counter."
+        },
+        {
+          "move": "Super Art 2 (Regular/Boosted) Air Chou Hissatsu Shinobi Bachi (↓↘→↓↘→+Kick during a vertical or forward jump)",
+          "type": "Adjustment",
+          "change": "Expanded the hitbox upward for the first hit during combos only."
+        },
+        {
+          "move": "Super Art 2 (Regular/Boosted) Air Chou Hissatsu Shinobi Bachi (↓↘→↓↘→+Kick during a vertical or forward jumPunch)",
+          "type": "Adjustment",
+          "change": "1. Damage distribution changed on normal version from 2800 (500x4+800) to 2800 (250x4+1800).\n2. Damage distribution changed on normal version from 3000 (200x11+800) to 3000 (100x1+1900).\n3. Increased the damage on counter and punish counter."
+        }
+      ]
+    },
+    "Elena": {
+      "concept": "In this update, Elena has received some quality-of-life improvements aimed at addressing some of the finer issues in her toolkit. We've made her crouching medium kick easier to use, which is one of her primary tools in the neutral, and we've also reviewed the hitboxes of her special moves and added combo-only hitboxes where necessary. These changes reduce the difficulty of combos that previously required precise spacing or delayed timing to perform consistently.\n\nCrouching Medium Kick\nThe frame disadvantage on block has been changed from -4F to -3F.\nAt close range, Elena often had difficulty reaching opponents who were backing away with sequences starting from Crouching Light Kick. As a result, she frequently relied on Crouching Medium Kick, despite the risk associated with a move that was -4F on block.\nThis adjustment is intended to reduce that risk and make the move easier to use in these situations.\n\nCrouching Heavy Punch\nThe hit reaction of the second hit has been changed to a blow-away knockdown.\nElena can now convert into air combos in specific situations, such as when the move is used as an early air-to-air attack against an opponent's jump and only the second hit connects, or after landing a Drive Impact in the corner.\n\nOD Spinning Scythe (↓↙← + Two Kicks)\nA special hitbox that only connects during combos has been added to the first hit.\nPreviously, when used in certain sequences, the first hit could occasionally whiff despite appearing as though it should connect. This adjustment improves consistency and lowers the execution difficulty of those combos.\n\nSuper Art 2: Revival Dance (↓↘→↓↘→ + Punch) / Super Art 3: Song of the Grasslands (↓↙←↓↙← + Kick)\nWhen either of these Super Arts was canceled from OD Rhino Horn, Elena would often pass underneath airborne opponents.\nTo address this issue, the pushbox has been expanded upward only when these Super Arts are canceled from OD Rhino Horn, preventing Elena from going underneath airborne opponents and improving combo reliability.",
+      "changes": [
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Hit effect on the 2nd attack when it connects on an airborne opponent changed from knockback to knockdown."
+        },
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Disadvantage on block changed from -4 to -3."
+        },
+        {
+          "move": "Overdrive Lynx Song (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "Changed the overall frames of the technique from 34 to 29 frames."
+        },
+        {
+          "move": "Normal/Overdrive Harvest Circle (↓↘→+P or 2 Punches > →+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Extended the invincibility to aerial moves near the head from 8 to 10 frames."
+        },
+        {
+          "move": "Overdrive Harvest Circle (↓↘→+2 Punches > →+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Expanded the combo-only hitbox on the 2nd attack up and downwards."
+        },
+        {
+          "move": "Overdrive Spinning Scythe (↓↙←+2 Kicks)",
+          "type": "Adjustment",
+          "change": "Added an attack hitbox on the 1st attack that only appears during a combo to make it easier to hit opponents in front of you."
+        },
+        {
+          "move": "Super Art 2 Revival Dance (↓↘→↓↘→+Punch) Super Art 3 Song of the Grasslands (↓↙←↓↙←+Kick)",
+          "type": "Adjustment",
+          "change": "Expanded the collision pushbox upwards when canceling from a special move.\nThis is to prevent instances where Elena would slip underneath the opponent after canceling from a special move."
+        }
+      ]
+    },
+    "Sagat": {
+      "concept": "Sagat's mid and close-range poking tools were providing too much value, so we've made adjustments to better balance the risk-reward of his key neutral tools. These adjustments include adding initial scaling to his crouching medium punch, and adjusting the risk-reward balance for standing medium kick by delaying the startup of its standby block hitbox and expanding its hurtbox.\n\nAt the same time, we've looked at expanding the number of tools to use in his neutral game by increasing the knockback on his standing light kick and increased the launch time on his Overdrive Tiger Nexus (↓↙← + Two Kicks) > Overdrive Tiger Greed on hit, etc.\n\nStanding Light Kick\nThe advantage on this attack has changed from -1 frame to 0 frames. When used as a counter-poke, generally players could only follow-up with Heavy Tiger Uppercut, which was difficult to execute and had a high risk if it didn't work, but now it can lead to combos with Medium Tiger Nexus, or with Overdrive Tiger Knee when hitting with the tip of the kick.\n\nCrouching Medium Punch\nThis attack served as Sagat's main zoning tool thanks to its ease of use and cancelable properties, but the return it got from neutral was proving to be too much, so we added initial scaling of 15% to the attack, which will lower combo damage when canceling the attack into Drive Rush into a combo.\n\nWe've also increased the damage on Tiger Slash and Tiger Rise. By adding initial scaling to crouching punch, the damage on crouching medium punch when used to start combos decreases, but when used in other parts of a combo, the damage is increased.\n\nOverdrive Tiger Nexus (↓↙← + Two Kicks) > Overdrive Mighty Tiger (→ + Medium Kick) / Overdrive Greedy Tiger (→ + Heavy Kick)\nOverdrive Tiger Nova has been the overwhelmingly preferred follow-up due to its utility and effectiveness as a combo tool, and players had few reasons to use Overdrive Mighty Tiger or Greedy Tiger. With this round of adjustments, we looked to give Sagat's other two options distinct advantages and increase their overall payoff.\n\nThe hit effect on counter hit Overdrive Mighty Tiger has been changed to a ground bound, allowing for follow-ups like Medium Tiger Uppercut. On block, the attack now leaves Sagat at -3 frames. With Overdrive Greedy Tiger, we've increased the launch duration on hit, so available combo routes have changed.",
+      "changes": [
+        {
+          "move": "Standing Light Kick",
+          "type": "Adjustment",
+          "change": "1. Changed the advantage on hit from -1 to 0.\n2. Changed the timing of Cancel Drive Rush from frame 10 to 11."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "1. Changed the start of the standby block hitbox timing from frame 2 to 8.\n2. Extended the forward hurtbox on whiff from frames 16-33."
+        },
+        {
+          "move": "Crouching Medium Punch",
+          "type": "Adjustment",
+          "change": "Added 15% initial scaling."
+        },
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Increased pushback on block."
+        },
+        {
+          "move": "Middle Step Kick (Medium Kick > Heavy Kick)",
+          "type": "Adjustment",
+          "change": "1. Attack startup changed from 19 to 16 frames.\n2. Combo-only attack hitbox added, allowing Sagat to hit opponents with a low profile easier."
+        },
+        {
+          "move": "Tiger Slash (↓+Medium Punch > Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Changed damage from 600 to 700."
+        },
+        {
+          "move": "Tiger Rise (↓+Medium Punch > Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Changed damage from 1000 to 1100."
+        },
+        {
+          "move": "Light/Medium Tiger Nexus (↓↙←+Light Kick or Medium Kick)",
+          "type": "Adjustment",
+          "change": "Added 1 frame of recovery on armored hit."
+        },
+        {
+          "move": "Overdrive Mighty Tiger (↓↙←+2 Kicks > →+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Changed disadvantage on block from -5 to -3 frames.\n2. Hit effect on counterhit changed from knockdown slam to ground bound."
+        },
+        {
+          "move": "Overdrive Greedy Tiger (↓↙←+2 Kicks > →+Medium Kick)",
+          "type": "Adjustment",
+          "change": "1. Increased blowback time on hit.\n2. Decreased combo count start value.\n3. Decreased combo count additional value."
+        }
+      ]
+    },
+    "C. Viper": {
+      "concept": "We've adjusted both Viper's normal and special moves, along with changes aimed at reducing difficulty and unintended inputs related to her High Jump cancel mechanics. We've improved her inputs to make execution errors less likely, allowing players to take more advantage of her versatile movement options.\n\nHigh Jump (press ↑ immediately after ↓)\nWhen performing a High Jump after canceling from normal attacks or Seismic Hammer, which can only be canceled into a High Jump, it is no longer necessary to return your input to neutral before entering the upward input for the High Jump. This reduces the amount of required input execution and makes unintended special moves less likely to occur. Now that crouching medium kick can now be High Jump Canceled directly from a down input without passing through neutral, has become significantly easier to cancel into High Jump consistently.\n\nStanding Medium Kick\nThe hitstun on this move has been increased, allowing Focus Force to connect after a High Jump cancel. Now from situations such as counter hit crouching heavy punch > Heavy Thunder Dash (Feint) > standing medium kick, Viper can score knockdowns outside of spending Drive gauge with just a High Jump cancel. Viper can now also perform counter hit standing medium kick into Seismic Hammer via High Jump cancel if your input is fast enough, giving players more time to hit confirm before committing to the follow-up.\n\nOverdrive Seismic Hammer (→↓↘ + Two Punches)\nThe frame data has been adjusted to make the move more useful outside of combo extensions, and its follow-up options have been expanded. The disadvantage on block is -6 frames, making it easier to use as a zoning tool, and you can also gain an advantage from High Jump cancel > Heavy Thunder Dash (Feint).\n\nThe combo count values on hit have also been adjusted, allowing you to combo with crouching heavy kick. While the attack may not connect if Overdrive Seismic Hammer connects at maximum range, Viper now has more follow-up attacks to utilize without requiring a High Jump cancel, making it more rewarding when using the attack in neutral.\n\nFocus Force (normal and overdrive) (↓↙←+Kick or Two Kicks)\nWe observed cases where among Viper's various special move inputs, unintentional inputs would often occur especially when canceling a normal move or high jump canceling into a feinted Thunder Dash. Using feints in her pressure is one of Viper's most important features, so we felt that the amount of unintentional inputs were hampering the ability to enjoy her uniqueness as a character.\n\nWhile this is a very specific fix, if you complete the input for Focus Force while holding any punch button, it now will not come out regardless of the version. Canceling from a normal or high jump into Thunder Dash and feinting requires a punch input, so this change should make unintended inputs come out much less frequently.\n\nAlthough canceling into Focus Force from medium or heavy punch will now require you to let go of the punch button making it slightly more difficult, this should altogether be a positive change for controlling Viper.",
+      "changes": [
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +4 to +5 frames."
+        },
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Increased combo count upper limit."
+        },
+        {
+          "move": "High Jump (Press ↑ immediately after inputting↓)",
+          "type": "Adjustment",
+          "change": "Technique behavior updated so that a high jump can be performed without passing through the neutral position, but only when executing a high jump from a normal move that cannot be canceled into a special move."
+        },
+        {
+          "move": "Light Thunder Dash (↓↙←+Light Punch)",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +1 to +2 frames."
+        },
+        {
+          "move": "Normal Seismic Hammer (→↓↘+Punch)",
+          "type": "Adjustment",
+          "change": "Added an attack hitbox on that only appears during a combo to make it easier to hit opponents close to you."
+        },
+        {
+          "move": "Overdrive Seismic Hammer (→↓↘+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Disadvantage on block changed from -8 to -6 frames.\n2. Reduced combo count start value."
+        },
+        {
+          "move": "Normal/Overdrive Focus Force (↓↙←+K or 2 Kicks)",
+          "type": "Adjustment",
+          "change": "Updated technique behavior so the move is not performed if the Punch button is held when the command is input. Note that this change only applies to Classic controls, and Modern controls have not changed."
+        }
+      ]
+    },
+    "Alex": {
+      "concept": "Adjustments for Alex primarily focus on improving the usability of his normal and unique attacks, as well as improving his Prowler Stance (↓ + Two Punches) follow-ups, which is his defining character mechanic.\n\nWe've made it easier for Alex to apply pressure when playing the ground game by adjusting the frame advantage on hit for Standing Medium Punch and giving him a bigger advantage on block for Oblique Stomp (← + Medium Kick).\n\nThese options, combined with his Power Bomb (→↘↓↙← + Punch) and various Prowler Stance attacks will further strengthen Alex's specialized play style that focuses on keeping opponents on their toes and preventing them from narrowing down his options.\n\nIn addition, Flying Cross Chop (↓ + Heavy Punch during a forward jump) was being primarily used as a tool to escape from the corner, but it can now be canceled into from jumping medium punch, which will significantly improve the reward he gets from air-to-air encounters. This adjustment also opens up new combo routes from standing combo starters.\n\nNormal Attacks/Unique Attacks\nThe frame advantage on hit for standing medium punch has changed from +3 frames to +4 frames. As a result, what you can follow up with on counter hit or Punish Counter is different, allowing Alex to apply more pressure with his strikes from close and mid-range. To complement the changes to his Prowler Stance-related attacks, crouching heavy kick can now transition into Prowler Stance as well. This gives Alex another offensive threat after scoring a knockdown, and will require players to change their thinking on existing pressure situations.\n\nHeavy Power Bomb\nThe grab range of the attack has been slightly extended forward. Previously, after using approaches such as light attacks canceled into Drive Rush, this move would often whiff on the opponent due to being out of range. This adjustment is intended to increase the pressure and threat level of his throw game.\n\nDangerous Armbar\n(↓ + Light Punch + Light Kick during Prowler Stance)\nProjectile invincibility has been added from frame 3 until the active frames of the attack end. Before, if Alex entered Prowler Stance at a distance, Alex's primary anti-projectile options were Tactical Hop and Air Stampede. With this adjustment, Alex has another way to bypass projectiles, making him a much bigger threat at long range by forcing his opponents to keep tabs on yet another option in his arsenal.",
+      "changes": [
+        {
+          "move": "Back Dash (←←)",
+          "type": "Adjustment",
+          "change": "Changed the overall frames of the technique from 25 to 23 frames."
+        },
+        {
+          "move": "Standing Medium Punch",
+          "type": "Adjustment",
+          "change": "1. Advantage on hit changed from +3 frames to +4 frames.\n*Recovery on hit changed from 15 frames to 14 frames\n2. Extended input buffer time at the end of the move on block and when the attack misses."
+        },
+        {
+          "move": "Crouching Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +4 to +5 frames."
+        },
+        {
+          "move": "Crouching Heavy Kick",
+          "type": "Adjustment",
+          "change": "Can now transition to Prowler Stance on hit."
+        },
+        {
+          "move": "Shoulder Launcher (↓+2 Punches > Medium Punch)",
+          "type": "Adjustment",
+          "change": "Drive Gauge reduction on Punish Counter changed from 5000 to 10,000."
+        },
+        {
+          "move": "Heavy Lariat (Hold) (↓+2 Punches > Hold Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Armor property ending timing changed from the 16th to the 23rd frame of the technique."
+        },
+        {
+          "move": "Dangerous Armbar (↓+2 Punches > ↓+Light Punch+Light Kick)",
+          "type": "Adjustment",
+          "change": "1. Added projectile invulnerability from frames 3 - 22 of the technique.\n2. Expanded the throw hitbox forward."
+        },
+        {
+          "move": "Oblique Stomp (←+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Advantage on block changed from +1 to +2 frames."
+        },
+        {
+          "move": "Flying Cross Chop (↓+Heavy Punch during a forward jump)",
+          "type": "Adjustment",
+          "change": "1. Changed blowback on mid-air hit.\n2. Can now be canceled from jumping medium punch during a forward jump.\n3. Increased combo count upper limit."
+        },
+        {
+          "move": "Medium Flash Axe (↓↘→+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Projectile collision hitbox timing changed from 17 frames to 16 frames."
+        },
+        {
+          "move": "Light Aerial Knee Smash (→↓↘+Light Kick)",
+          "type": "Adjustment",
+          "change": "Added throw invincibility between frames 5-6 of the technique."
+        },
+        {
+          "move": "Medium Aerial Knee Smash (→↓↘+Medium Kick)",
+          "type": "Adjustment",
+          "change": "Added throw invincibility between frames 6-8 of the technique."
+        },
+        {
+          "move": "Heavy Power Bomb (→↘↓↙←+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Expanded the throw hitbox forward."
+        }
+      ]
+    },
+    "Ingrid": {
+      "concept": "In addition to adjustments that allow Ingrid to follow-up after hitting an airborne opponent with Sun Shot, we also wanted to make Sun Rise (↓↘→ + Heavy Kick) a more relevant move by making it easier to work into combos.\n\nStanding Medium Kick\nBy increasing this move's knockback time on hit, we made it possible to follow up a Punish Counter or Drive Rush version with Heavy Sun Rise. Whether it's a counterattack or counter poke, we wanted to expand the number of situations open to high-damage combos.\n\nHeavy Sun Shot (↓↘→+ Heavy Punch) and Overdrive Sun Shot (↓↘→+ Two Punches)\nBy increasing the blowback caused by this move when it connects with an airborne opponent, Ingrid can now follow-up with attacks like Sun Flare or Drive Rush combos. The adjusted knockback time of the heavy version should have no effect on Ingrid's previous set-ups. We wanted the Overdrive version to have the same follow-up difficulty as the ordinary version would have on an mid-air hit, hence the combo count adjustments.",
+      "changes": [
+        {
+          "move": "Standing Light Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +2 to +3 frames."
+        },
+        {
+          "move": "Standing Medium Kick",
+          "type": "Adjustment",
+          "change": "Advantage on hit changed from +3 to +4 frames."
+        },
+        {
+          "move": "Heavy Sun Shot (↓↘→+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "1. Reduced the horizontal blowback on a mid-air hit.\n2. Increased the blowback time on a mid-air hit.\n3. Decreased knockdown time on a mid-air hit by 1 frame."
+        },
+        {
+          "move": "Overdrive Heavy Sun Shot (↓↘→+Medium Punch+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Reduced the horizontal blowback on a mid-air opponent."
+        },
+        {
+          "move": "Overdrive Sun Shot (↓↘→+2 Punches)",
+          "type": "Adjustment",
+          "change": "1. Increased combo count additional value on the 1st attack.\n2. Reduced combo count additional value on the 2nd attack."
+        },
+        {
+          "move": "Light Sun Rise (↓↘→+Light Kick)",
+          "type": "Adjustment",
+          "change": "Added throw invincibility between frames 8-10 of the technique."
+        },
+        {
+          "move": "Critical Art Cosmic Ray (↓↘→↓↘→+Punch)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the Critical Art wouldn't transition to the cinematic cutscene when the attack lands under certain conditions."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "version": "20230724",
+  "title": "07.24.2023 update",
+  "date": "2023-07-24",
+  "overview": "",
+  "general": [
+    {
+      "move": "Drive Parry",
+      "type": "Adjustment",
+      "change": "Fixed an issue where medium kick would suddenly be performed when a parry input was buffered or input during a time freeze and then released before the player was able to perform the parry.\n\nThe above issue also occurred during a Drive Rush or Super Art time freeze, and has also been fixed for those cases."
+    },
+    {
+      "move": "Power Up Super Arts",
+      "type": "Adjustment",
+      "change": "Fixed an issue where character behavior would become unnatural if hit by certain attacks at the exact moment that the power-up boost provided by this Super Art expired."
+    },
+    {
+      "move": "Assisted Combo (1st hit)",
+      "type": "Adjustment",
+      "change": "Fixed an issue where buffered Assist Combo inputs would not register in certain situations.\n\nFixed an issue where the 2nd attack of an Assist Combo would be performed even though only the first input had been performed."
+    },
+    {
+      "move": "Cancel Drive Rush",
+      "type": "Adjustment",
+      "change": "In order to make it easier to perform a Cancel Drive Rush, adjustments have been made that allow the technique to be performed using the inputs below.\n\n■Classic Controls\n(Neutral or Forward) + Medium Punch + Medium Kick\n\n■Modern Controls\n(Neutral or Forward) + Parry button\n\nPlease note that no changes have been made to the forward, forward input or Parry Drive Rush."
+    },
+    {
+      "move": "Cancelable Light Attacks",
+      "type": "Adjustment",
+      "change": "Adjustments have been made so that a Cancel Drive Rush can activate even when a light attack whiffs.\n\nThis is an adjustment being added in conjunction with the additional Cancel Drive Rush inputs. The relaxing of the Drive Rush inputs paired too well with low-risk light attacks, and would have had a huge impact on fights if left as is. This adjustment has been made to address that.\n\nPlease note that this adjustment is not just for the newly added Drive Rush inputs. The forward, forward input will also activate a Drive Rush on a light attack whiff."
+    },
+    {
+      "move": "Minor Bug Fixes",
+      "type": "Adjustment",
+      "change": "Minor miscellaneous issues were fixed."
+    }
+  ],
+  "characters": {
+    "Luke": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain Overdrive attacks would not be performed if manually inputted while holding down the Assist button. The attacks that could not be performed are the following:\n\nSand BlastRising UppercutFlash KnuckleAerial Flash Knuckle"
+        },
+        {
+          "move": "Overdrive Avenger",
+          "type": "Adjustment",
+          "change": "Adjusted the hitstop values on the super armor hitbox due to certain attacks causing an unusual hitstop variance to occur when super armor is activated."
+        }
+      ]
+    },
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Attack",
+          "type": "Adjustment",
+          "change": "Attacks with 4 frames of start up couldn't come out when using Modern Controls, so crouching light attack has been changed from crouching light kick to crouching light punch."
+        },
+        {
+          "move": "Throw Escape",
+          "type": "Adjustment",
+          "change": "Fixed an issue where inputting a throw 1 frame after inputting a Drive Parry would allow you to perform a throw escape."
+        }
+      ]
+    },
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Bushin Ninjastar Cypher (Level 3 Super Art)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Kimberly's level 3 Super Art would hit opponents behind her."
+        }
+      ]
+    },
+    "Marisa": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "When playing with Modern Controls Enfold (Down+Punch) during Scutum (Forward+Special)",
+          "type": "Adjustment",
+          "change": "■Modern Controls only\nDuring Scutum's counter attack phase, inputting down, even if the Special Move button is held, would cause you to leave the Scutum stance. This made it difficult to perform Enfold, since it also requires a down input.\n\nWe've fixed this issue so that the Scutum stance will continue to be held if you are holding down the Special Move button during the counter attack phase, even if down is input."
+        }
+      ]
+    },
+    "Lily": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain Overdrive attacks would not be performed if manually inputted while holding down the Assist button. The attacks that could not be performed are the following:\n\nCondor WindTomahawk BusterWindclad Condor Dive"
+        },
+        {
+          "move": "Overdrive Condor Dive",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Overdrive Condor Dive could be performed during a backwards jump when plinking* the inputs.\n\n*Plinking: Quickly pressing two or more buttons exactly one frame apart"
+        },
+        {
+          "move": "Soaring Thunderbird (Level 2 Super Art)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where level 2 Super Art Soaring Thunderbird could not be performed during a backwards jump when plinking* the inputs.\n\n*Plinking: Quickly pressing two or more buttons exactly one frame apart"
+        },
+        {
+          "move": "Soaring Thunderbird (Level 2 Super Art)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where an opponent would not be KO'd if the move connected in mid-air from the 2nd hit."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain Overdrive attacks would not be performed if manually inputted while holding down the Assist button. The attacks that could not be performed are the following:\n\nTorbalan"
+        }
+      ]
+    },
+    "Juri": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Boosted Saihasho Boosted Ankensatsu Boosted Go Ohatsu",
+          "type": "Adjustment",
+          "change": "Fixed an issue where these moves could be kara canceled* on their 1st frame with a level 3 Super Art/Critical Art if they had followed up a boosted version of a different strength move (Saihasho/Ankensatsu/Go Ohatsu).\n\n*Kara Cancel: Canceling the start up of a move into another move."
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain Overdrive attacks would not be performed if manually inputted while holding down the Assist button. The attacks that could not be performed are the following:\n\nAir SlasherJackknife Maximum"
+        },
+        {
+          "move": "Back Throw",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Super Art gauge gain on Punish Counter was the same as a normal hit."
+        },
+        {
+          "move": "Face Breaker (Back+Heavy Kick)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where opponents suffered a greater Drive Gauge loss on a Punish Counter when in the air, compared to when they were standing on the ground."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Cannon Strike (Heavy version)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where manually inputting heavy Cannon Strike immediately after jumping would result in a jumping heavy attack coming out instead."
+        },
+        {
+          "move": "Overdrive Quick Spin Knuckle",
+          "type": "Adjustment",
+          "change": "Fixed an issue that resulted in an opponent's attack coming out in the wrong direction if they input it while switching sides due to this move.\nAlong with this fix, there have been some minor changes made to the behavior of others moves* that can get you behind opponents.\n\n*Overdrive Quick Spin Knuckle, Surprise Forward Hop, etc."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Modern Controls",
+          "type": "Adjustment",
+          "change": "Fixed an issue where certain Overdrive attacks would not be performed if manually inputted while holding down the Assist button. The attacks that could not be performed are the following:\n\nAerial Tatsumaki Senpu-kyaku"
+        },
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "Fixed an issue where unnecessary combo scaling was added in certain situations, resulting in lowered damage."
+        }
+      ]
+    },
+    "E. Honda": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Punch (rapid cancel version)",
+          "type": "Adjustment",
+          "change": "Fixed an issue where E. Honda could perform a kara cancel* on the 1st frame of the rapid cancel version of crouching light punch.\n\n*Kara Cancel: Canceling the start up of a move into another move."
+        },
+        {
+          "move": "The Final Bout (Level 3 Super Art)",
+          "type": "Adjustment",
+          "change": "Fixed an issue that gave E. Honda much higher Drive Gauge gain upon a successful parry compared to other characters."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Charging Attacks with Modern Controls",
+          "type": "Adjustment",
+          "change": "There was an unintentional difference between Modern and Classic controls in the charge time required for commands to be completed or to be charged, so this difference has been fixed. The affected attacks are as follows.\n\n■Rolling Attack, Aerial Rolling Attack (Normal and Overdrive)Time to charge has changed from 50 frames to 40 frames.Input recognition frame has changed from 0 frames to 10 frames.\n■Vertical Rolling Attack (Normal and Overdrive)Time to charge has changed from 50 frames to 40 frames.Input recognition frame has changed from 0 frames to 10 frames.\n*Input recognition frame is the the number of frames you must input the next command in order for the game to recognize you are performing a specific attack.\n\nex. When performing a Hadoken (down, down-forward, forward+Punch), you must input Down then Down-Forward within a certain number of frames for the game to recognize the input. This is known as the Input recognition frame."
+        },
+        {
+          "move": "Back Throw",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the Super Art gauge gain on Punish Counter was the same as a normal hit."
+        },
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where cancels using mid-air special moves would not work if this move was Drive Parried by the opponent."
+        },
+        {
+          "move": "Aerial Rolling Attack",
+          "type": "Adjustment",
+          "change": "Fixed an issue where recovery was different if an opponent in Burnout blocked a heavy Aerial Rolling Attack."
+        },
+        {
+          "move": "Rock Crusher (Forward+Medium Punch)",
+          "type": "Adjustment",
+          "change": "Updated the active frame attack hitbox from a high to mid.\n\n■Known Issue\nWith this adjustment, this move's second attack will always be a mid-level overhead attack, but will change to a high level attack if the first attack hits or is blocked. We are looking to fix this issue in the next update."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "Fixed an issue that caused an opponent's behavior to become erratic when crouching Heavy Punch is blocked.\n\n■Known Issue\nWith the above adjustment, the recovery on block has unintentionally changed from -5 to -4 frames. We are looking to fix this issue in the next update."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Charging Attacks with Modern Controls",
+          "type": "Adjustment",
+          "change": "There was an unintentional difference between Modern and Classic controls in the charge time required for commands to be completed or to be charged, so this difference has been fixed. The affected attacks are as follows.\n\n■KikokenTime to charge has changed from 45 frames to 50 frames.Input recognition frame has changed from 0 frames to 10 frames.\n\n■Overdrive KikokenInput recognition frame has changed from 0 frames to 10 frames.\n*Input recognition frame is the the number of frames you must input the next command in order for the game to recognize you are performing a specific attack.\n\nex. When performing a Hadoken (down, down-forward, forward+Punch), you must input Down then Down-Forward within a certain number of frames for the game to recognize the input. This is known as the Input recognition frame."
+        },
+        {
+          "move": "Forward, Back and Mid-air Throws",
+          "type": "Adjustment",
+          "change": "Fixed a phenomenon where charge input directions would reverse during the throws."
+        },
+        {
+          "move": "Serenity Stream",
+          "type": "Adjustment",
+          "change": "Fixed a phenomenon where canceling certain attacks into Serenity Stream and then quickly inputting Serenity Stream > kick would result in Hazanshu suddenly being performed."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Aerial Russian Slam (Level 1 Super Art)",
+          "type": "Adjustment",
+          "change": "Fixed Zangief's hitbox during his level 1 Super Art animation so that it returns to a hitbox on the ground at the appropriate time, instead of being a mid-air hitbox the entire time."
+        },
+        {
+          "move": "Drive Gauge",
+          "type": "Adjustment",
+          "change": "Fixed an issue where Zangief's Drive Gauge would recover slower than other characters when in Burnout."
+        }
+      ]
+    },
+    "Dhalsim": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Agile Kick (Rapid cancel version)",
+          "type": "Adjustment",
+          "change": "Agile Kick's rapid cancel version command is limited to down-back + Light Kick in Classic Control only, due to difficulties in performing an Agile Kick > Crouching Light Kick chain.\n\nIn Modern controls, the rapid cancel attacks differ, so no change has been made due to the large effect it would have."
+        },
+        {
+          "move": "Overdrive Yoga Arch",
+          "type": "Adjustment",
+          "change": "Fixed an issue where the projectiles that disappeared during a level 3 Super Art/Critical Art would reappear after. They will now disappear and not come back."
+        },
+        {
+          "move": "Overdrive Yoga Comet",
+          "type": "Adjustment",
+          "change": "Fixed an issue where players would become unable to perform mid-air techniques after an opponent Drive Parries this move."
+        }
+      ]
+    }
+  }
+}

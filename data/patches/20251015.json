@@ -1,0 +1,185 @@
+{
+  "version": "20251015",
+  "title": "10.15.2025 update",
+  "date": "2025-10-15",
+  "overview": "",
+  "general": [
+    {
+      "move": "Drive Rush behavior when canceled into from certain whiffed light attacks",
+      "type": "Bug fix",
+      "change": "Fixed an issue where if a Cancel Drive Rush was input at a specific timing during a light attack, nothing would happen if the move missed, but the Cancel Drive Rush would only be activated if the move was hit or blocked by the opponent.\n\nThis fix applies to the following characters and their light attacks\n\nChun-Li: Crouching Light Kick\nA.K.I.: Standing Light Kick\nEd: Crouching Light Kick\nMai: Standing Light Kick\nElena: Standing Light Kick\nSagat: Standing Light Kick"
+    },
+    {
+      "move": "Priority for Drive Rush Cancel and canceling certain attacks into special moves",
+      "type": "Bug fix",
+      "change": "Fixed an issue where inputting a special move command and Drive Parry would result not in a Cancel Drive Rush but the special move being performed when certain attacks connect or are blocked by the opponent.\n\nThis fix applies to the following characters and their attacks\n\nMarisa: Crouching Light Punch\nA.K.I.: Standing Light Kick\nAkuma: Crouching Light Punch\nM. Bison: Standing Light Punch\nElena: Standing Light Punch\nSagat: Crouching Light Punch, Tiger Slash (crouching medium punch, crouching heavy punch)"
+    },
+    {
+      "move": "Behavior for certain Super Art 1 and 2 when hitting an opponent during Burnout",
+      "type": "Adjustment",
+      "change": "When hitting an opponent who is in Burnout with certain level 1/2 Super Arts that lock the opponent on hit, the opponent's Drive gauge will no longer stop recovering during the animation.\n\nThis adjustment applies to the following characters and their attacks\n\nKimberly: Super Art 2 (including aerial version)\nCammy: Super Art 2 (including aerial version)\nMarisa: Super Art 1 (held version), Super Art 2 (when the 1st attack hits)\nE. Honda: Super Art 2\nAkuma: Super Art 2\nM. Bison: Super Art 2\nElena: Super Art 2\nSagat: Super Art 2 (all variations)"
+    },
+    {
+      "move": "Issue regarding Super Art gauge increase",
+      "type": "Bug fix",
+      "change": "Fixed an issue where if you land 16 or more attacks during a combo and then land a Super Art that has a Super Art recovery scaling setting, the amount of gauge recovered for subsequent follow-up attacks would decrease."
+    }
+  ],
+  "characters": {
+    "Jamie": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Freeflow Strikes (Normal, Drink level 4) (↓↘→+Punch)",
+          "type": "Adjustment",
+          "change": "Expanded the collision push box upwards when the first attack hits, making it more difficult to switch positions with an airborne opponent.\nNote: this is to address an issue where the attack would miss the opponent and Freeflow Kicks would unintentionally be performed while using Modern controls."
+        }
+      ]
+    },
+    "Manon": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Renversé Grand Fouetté (Modern controls)",
+          "type": "Adjustment",
+          "change": "While using Modern controls, if you tried to cancel Renversé into Super Art 3 by pressing the button at the same time, Renversé Feint or Grand Fouetté would unintentionally be performed, so the following adjustment was made.\n\n1. While using Modern controls, the input for Renversé (Feint) has been changed from Special (hold) to Light Attack (Hold)\n2. While using Modern controls, the command for Grand Fouetté has been changed from any attack button to medium attack.\n3) The input buffer time Renversé Feint just before its recovery ends has been increased."
+        }
+      ]
+    },
+    "JP": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Torbalan (↓↘→+KK)",
+          "type": "Adjustment",
+          "change": "Mitigated an issue where an unnatural whiff would occur against a mid-air opponent by adding an attack hitbox that appears only during a combo."
+        }
+      ]
+    },
+    "Dee Jay": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Waning Moon （↓↙←＋KK ＞ Medium Kick）",
+          "type": "Adjustment",
+          "change": "Expanded the collision pushbox upward from frames 16 - 19.\nNote: This adjustment was done due to Assist Combo 3 causing the player to go under an opponent and not connecting with the combos in certain situations."
+        }
+      ]
+    },
+    "Cammy": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Light Spiral Arrow (↓↘→+Light Kick)",
+          "type": "Adjustment",
+          "change": "Increased the blowback time on a mid-air hit after active frame 6.\nNote: This adjustment was made as Cannon Spike would sometimes whiff after connecting with Swing Combination > Light Spiral Arrow at a certain distance from the corner."
+        }
+      ]
+    },
+    "Ryu": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Hadoken (Denjin Charge) (↓↙←+PP)",
+          "type": "Bug fix",
+          "change": "Corrected the amount of chip damage done to an opponent in Burnout from 400 to its correct value of 200."
+        }
+      ]
+    },
+    "Guile": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Crouching Light Kick",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where the Punish Counter hitbox would still remain 1 frame after recovery had ended.\n2. Fixed an issue where the rapid cancel version of standing light punch, crouching light punch and crouching light kick would unintentionally be performed when performing techniques that involved pressing light punch or kick (throws, special moves, etc.) 5 frames before recovery ends."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Jumping Medium Punch",
+          "type": "Bug fix",
+          "change": "Fixed an issue where cancel timing would not be displayed when landing this attack during a backwards jump in Training Mode."
+        },
+        {
+          "move": "Overdrive Tensho Kicks (↓↓+KK)",
+          "type": "Adjustment",
+          "change": "1. Expanded the collision pushbox on hit upwards.\n2. Expanded the final attack's hitbox forward\n*This is to address an issue where the attack would go in the opposite direction if you go under the opponent before rising for the second time."
+        },
+        {
+          "move": "Soten Ranka (Critical Art) (↓↙←↓↙←+K)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where an combo only attack hitbox that was added to Super Art level 3 was not added to the Critical Art."
+        }
+      ]
+    },
+    "Zangief": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Double Lariat (Modern controls) (Medium+Heavy attack)",
+          "type": "Bug fix",
+          "change": "Made an adjustment for Modern controls so Double Lariat is performed instead of a normal throw if the player presses 3 attack buttons at the same time while in Burnout."
+        }
+      ]
+    },
+    "M. Bison": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Throw Escape input",
+          "type": "Adjustment",
+          "change": "Fixed an issue where throw escapes would not be possible if a special move command that does not exist for M. Bison (← or → + PPP or KKK, →↓↘ + PP) was executed when inputting a throw escape."
+        },
+        {
+          "move": "Head Press (Normal) (Charge ↓, then ↑+Kick > Kick)",
+          "type": "Bug fix",
+          "change": "When Bison's Head Press was used against a counter-style move (Amnesia, Marisa Super Art 1, etc.),\nit would bounce back, allowing for forward and backward movement, but Somersault Skull Diver could not be performed. We have made a change so that when Head Press is used against such moves, it will no longer bounce back."
+        },
+        {
+          "move": "Psycho Crusher attack (Normal/Overdrive) Backfist Combo (Normal/Overdrive)",
+          "type": "Bug fix",
+          "change": "Fixed an issue in Extreme Battle where when consecutive attacks hit an opponent character and then a gimmick (such as a bomb) unnatural behavior would occur, such as the technique being interrupted or Bison's Psycho Mine not detonating.\nNote: This change does not affect regular 1 vs 1 battles."
+        }
+      ]
+    },
+    "Terry": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Overdrive Quick Burn (↓↙←+Light Punch+Medium Punch or Light Punch+Heavy Punch)",
+          "type": "Adjustment",
+          "change": "Super Art 2/3 cancel timing has been changed to only the 2nd active frame of the 2nd attack.\nNote: This adjustment is to address issues where the 2nd attack's 1st active frame would not reach the opponent when canceling the attack, resulting in the Super Art not comboing."
+        }
+      ]
+    },
+    "Mai": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Medium Ryuuenbu (Normal/Boosted) (↓↙←+Medium Punch)",
+          "type": "Bug fix",
+          "change": "1. Fixed an issue where only the 2nd attack of the regular/boosted version would have 20% initial scaling added.\n2. Fixed an issue where only the 2nd attack of the regular version during a combo would have 20% combo scaling added."
+        }
+      ]
+    },
+    "Elena": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Sliding (↘+Heavy Kick)",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the opponent's blowback would behave unnaturally on a mid-air counter/Punish Counter."
+        },
+        {
+          "move": "Moon Glider (Normal/Overdrive) (↓↙←+Punch > →+Punch)",
+          "type": "Bug fix",
+          "change": "The first attack's hit stun and block stun had different values, so they have been unified to match the hit stun's value."
+        }
+      ]
+    }
+  }
+}

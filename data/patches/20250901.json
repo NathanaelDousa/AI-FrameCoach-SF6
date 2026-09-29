@@ -1,0 +1,49 @@
+{
+  "version": "20250901",
+  "title": "09.01.2025 update",
+  "date": "2025-09-01",
+  "overview": "",
+  "general": [],
+  "characters": {
+    "Lily": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Rapid Cancel Assisted Combo",
+          "type": "Bug fix",
+          "change": "Fixed an issue where if the player released the Assist button immediately after the first hit of Lily's rapid cancel Assisted Combo (crouching light kick), the next attack (crouching light punch) would not be performed even if the player buffered down+light Attack during the recovery of crouching light kick."
+        }
+      ]
+    },
+    "Chun Li": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Orchid Palm, Snake Strike, Forward Strike, Senpu Kick (Light Punch, Medium Punch, Light Kick or Medium Kick during Serenity Stream)",
+          "type": "Adjustment",
+          "change": "We've confirmed that when Serenity Stream's attacks are perfect parried, initial scaling won't be applied to the opponent's counterattack under certain conditions.\n\nThis is due to the Serenity Stream's intended design, which allows the player to continue in the stance or cancel out of it when it's perfect parried.\n\nDuring a perfect parry, a counterattacks is all but guaranteed while in this state, so there was no upside to continue the stance during this disadvantage. Considering this, we've made a change so that the stance will always be canceled when the attack is perfect parried, which will ensure initial scaling is added."
+        }
+      ]
+    },
+    "Sagat": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Standing Light Punch, Crouching Light Punch, Crouching Light Kick",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the rapid cancel version of standing light punch/crouching light punch/crouching light kick would unintentionally be performed when inputting those buttons (even for other techniques like throws or special moves) during the attack recovery."
+        },
+        {
+          "move": "Drive Impact",
+          "type": "Adjustment",
+          "change": "Reduced the downward attack hitbox to match the lowest positioned hitbox of other characters."
+        },
+        {
+          "move": "Heavy Tiger Uppercut （→↓↘ + Heavy Punch）",
+          "type": "Bug fix",
+          "change": "Fixed an issue where the attack startup would be 1 frame faster when releasing the button under specific timing."
+        }
+      ]
+    }
+  }
+}

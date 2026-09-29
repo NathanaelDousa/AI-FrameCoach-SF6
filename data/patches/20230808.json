@@ -1,0 +1,55 @@
+{
+  "version": "20230808",
+  "title": "08.08.2023 update",
+  "date": "2023-08-08",
+  "overview": "",
+  "general": [
+    {
+      "move": "Changes to Assist Button behavior",
+      "type": "Adjustment",
+      "change": "We have updated the Assist button behavior so that it no longer inputs all strength levels when pressing it while the Attack button is being pressed at the same time. With this change, safe throw escapes are no longer possible at all using the Assist button.\n\nPlease note that no changes have been made when pressing the Assist button first."
+    }
+  ],
+  "characters": {
+    "Kimberly": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "",
+          "type": "Adjustment",
+          "change": "Fixed an issue where if the player inputs Emergency Stop while holding down the Assist button, an Assisted Combo would be performed inadvertently after Emergency Stop."
+        }
+      ]
+    },
+    "Blanka": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "Surprise Forward Hop Surprise Backwards Hop",
+          "type": "Adjustment",
+          "change": "Fixed an issue where it was possible to perform a throw escape by inputting Surprise Forward Hop or Surprise Back Hop when being thrown."
+        },
+        {
+          "move": "Crouching Heavy Punch",
+          "type": "Adjustment",
+          "change": "The recovery on this attack was accidentally set to -4 frames due to fixing another issue. It has now been reverted back to -5 frames."
+        },
+        {
+          "move": "Rock Crusher",
+          "type": "Adjustment",
+          "change": "Due to fixing another issue, the second hit of this attack registered as a mid-level overhead even if the first attack hit or was blocked. It has now been fixed so that the second hit will register as a high attack when the first attack hits or is blocked."
+        }
+      ]
+    },
+    "Rashid": {
+      "concept": "",
+      "changes": [
+        {
+          "move": "",
+          "type": "Adjustment",
+          "change": "Fixed an issue where an opponent's anti-air attack wouldn't hit Rashid when the opponent would move forward slightly as Rashid grabs the edge of the screen during a wall jump."
+        }
+      ]
+    }
+  }
+}
