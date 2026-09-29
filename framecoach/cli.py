@@ -34,9 +34,23 @@ def cmd_ingest(args: argparse.Namespace, settings: Settings) -> None:
 
 
 def cmd_ask(args: argparse.Namespace, settings: Settings) -> None:
-    from .llm import OllamaClient, OllamaError
+    from .llm import LLMError, make_client
     from .rag import Retriever, build_messages
     from .store import IndexMissingError, SentenceTransformerEmbedder, open_collection
+    from .user_settings import SettingsStore
+
+    user = SettingsStore().load()
+    provider = args.provider or user.provider or "ollama"
+    try:
+        client = make_client(
+            provider,
+            args.model or user.model_for(provider),
+            user.key_for(provider),
+            settings.ollama_url,
+            settings.ollama_timeout,
+        )
+    except LLMError as exc:
+        sys.exit(f"{exc} (or run `framecoach serve` and use the settings screen)")
 
     question = " ".join(args.question)
     try:
@@ -48,19 +62,36 @@ def cmd_ask(args: argparse.Namespace, settings: Settings) -> None:
     if args.show_context:
         for hit in hits:
             print(f"--- {hit.label()} (distance {hit.distance:.3f})\n{hit.text}\n")
-    client = OllamaClient(settings.ollama_url, settings.model, settings.ollama_timeout)
     try:
         for text in client.stream_chat(build_messages(question, hits)):
             print(text, end="", flush=True)
         print()
-    except OllamaError as exc:
+    except LLMError as exc:
         sys.exit(str(exc))
 
 
 def cmd_serve(args: argparse.Namespace, settings: Settings) -> None:
-    from .server import create_app
+    import os
+    import threading
+    import webbrowser
 
-    create_app(settings).run(host=args.host, port=args.port, debug=args.debug)
+    from .server import LOOPBACK_HOSTS, create_app
+    from .store import IndexMissingError, open_collection
+
+    try:
+        open_collection(settings)
+    except IndexMissingError:
+        print("No search index yet, building it now (the first time takes a few minutes)...")
+        cmd_ingest(args, settings)
+
+    local = args.host in ("127.0.0.1", "localhost", "::1")
+    app = create_app(settings, trusted_hosts=LOOPBACK_HOSTS if local else None)
+    url = f"http://{'localhost' if local else args.host}:{args.port}"
+    # With --debug the reloader starts the app twice; only open the browser once.
+    if not args.no_browser and not os.environ.get("WERKZEUG_RUN_MAIN"):
+        threading.Timer(1.5, webbrowser.open, [url]).start()
+    print(f"FrameCoach is running at {url} (press Ctrl+C to stop)")
+    app.run(host=args.host, port=args.port, debug=args.debug)
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -83,12 +114,17 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("question", nargs="+")
     p.add_argument("--character", help="restrict the search to this character, e.g. 'Chun Li'")
     p.add_argument("--show-context", action="store_true", help="print the retrieved documents")
+    p.add_argument(
+        "--provider", choices=["ollama", "anthropic", "openai", "deepseek"], help="override the saved choice"
+    )
+    p.add_argument("--model", help="override the saved model")
     p.set_defaults(func=cmd_ask)
 
     p = sub.add_parser("serve", help="run the web app")
     p.add_argument("--host", default="127.0.0.1")
     p.add_argument("--port", type=int, default=5000)
     p.add_argument("--debug", action="store_true", help="Flask debug mode (never expose this publicly)")
+    p.add_argument("--no-browser", action="store_true", help="don't open the browser automatically")
     p.set_defaults(func=cmd_serve)
 
     args = parser.parse_args(argv)

@@ -21,7 +21,6 @@ class Settings:
     collection: str = field(default_factory=lambda: os.environ.get("FRAMECOACH_COLLECTION", "sf6"))
     embed_model: str = field(default_factory=lambda: os.environ.get("FRAMECOACH_EMBED_MODEL", "all-MiniLM-L6-v2"))
     ollama_url: str = field(default_factory=lambda: os.environ.get("OLLAMA_HOST", "http://localhost:11434").rstrip("/"))
-    model: str = field(default_factory=lambda: os.environ.get("FRAMECOACH_MODEL", "gemma3"))
     rewrite_model: str = field(default_factory=lambda: os.environ.get("FRAMECOACH_REWRITE_MODEL", "llama3"))
     ollama_timeout: float = field(default_factory=lambda: float(os.environ.get("FRAMECOACH_OLLAMA_TIMEOUT", "120")))
     framedata_results: int = field(default_factory=lambda: int(os.environ.get("FRAMECOACH_FRAMEDATA_K", "8")))

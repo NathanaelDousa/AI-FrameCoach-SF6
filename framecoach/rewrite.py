@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .llm import OllamaClient, OllamaError
+from .llm import LLMError, OllamaClient
 
 REWRITE_PROMPT = """You are rewriting a transcript from a video guide about a Street Fighter 6 character.
 
@@ -30,7 +30,7 @@ def rewrite_folder(
         print(f"... rewriting {path.name}")
         try:
             rewritten = client.generate(REWRITE_PROMPT.format(text=path.read_text(encoding="utf-8").strip()), model)
-        except OllamaError as exc:
+        except LLMError as exc:
             print(f"x {path.name}: {exc}")
             continue
         if rewritten:

@@ -10,13 +10,18 @@
   <main class="chat-container">
     <header>
       <h1>FrameCoach <span>SF6</span></h1>
-      <label class="character-select">
-        Character
-        <select id="character">
-          <option value="">Auto-detect</option>
-          {% for name in characters %}<option value="{{ name }}">{{ name }}</option>{% endfor %}
-        </select>
-      </label>
+      <div class="header-controls">
+        <label class="character-select">
+          Character
+          <select id="character">
+            <option value="">Auto-detect</option>
+            {% for name in characters %}<option value="{{ name }}">{{ name }}</option>{% endfor %}
+          </select>
+        </label>
+        <button type="button" id="model-button" class="model-button" title="Change model">
+          <span id="model-label">Choose a model</span> <span aria-hidden="true">&#9881;</span>
+        </button>
+      </div>
     </header>
 
     <section id="chat-window" class="chat-window" aria-live="polite">
@@ -36,6 +41,67 @@
       <button id="send" type="submit">Ask</button>
     </form>
   </main>
+
+  <dialog id="settings-dialog">
+    <form id="settings-form" method="dialog">
+      <h2 id="settings-title">Settings</h2>
+      <p id="settings-intro" class="muted" hidden>
+        Welcome! How do you want to run the coach? You can change this any time with the model button in the top right.
+      </p>
+
+      <div class="mode-choice" role="radiogroup" aria-label="Where the AI runs">
+        <label class="mode-card">
+          <input type="radio" name="mode" value="local">
+          <strong>Local model</strong>
+          <span>Free and private. Runs on your PC with Ollama. Needs a decent graphics card to be fast.</span>
+        </label>
+        <label class="mode-card">
+          <input type="radio" name="mode" value="api">
+          <strong>Cloud API</strong>
+          <span>Claude, OpenAI or DeepSeek. Fast on any PC. Needs an API key and you pay per use.</span>
+        </label>
+      </div>
+
+      <div id="provider-fields" hidden>
+        <label id="provider-row">
+          Provider
+          <select id="provider"></select>
+        </label>
+
+        <div id="key-row">
+          <label>
+            API key
+            <input id="api-key" type="password" autocomplete="off" spellcheck="false">
+          </label>
+          <p class="muted small">
+            <span id="key-status"></span>
+            <a id="key-link" href="#" target="_blank" rel="noopener noreferrer">Get a key</a>.
+            Keys are stored only on this PC, never in the project folder.
+          </p>
+        </div>
+
+        <p id="ollama-help" class="muted small" hidden>
+          Install Ollama from <a href="https://ollama.com/download" target="_blank" rel="noopener noreferrer">ollama.com</a>,
+          then run <code>ollama pull gemma3</code> in a terminal.
+        </p>
+
+        <label>
+          Model
+          <span class="model-row">
+            <select id="model"></select>
+            <button type="button" id="load-models" class="secondary">Refresh list</button>
+          </span>
+        </label>
+      </div>
+
+      <p id="settings-error" class="error-text" role="alert"></p>
+
+      <div class="dialog-actions">
+        <button type="button" id="settings-cancel" class="secondary">Cancel</button>
+        <button type="submit" id="settings-save">Save</button>
+      </div>
+    </form>
+  </dialog>
 
   <script src="{{ url_for('static', filename='app.js') }}"></script>
 </body>

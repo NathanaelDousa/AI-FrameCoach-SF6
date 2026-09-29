@@ -7,7 +7,7 @@
 - "What is the startup of Cammy's cr.HP?"
 - "Give me Ken's oki after a corner combo"
 
-Everything runs locally: no API keys, no cloud.
+Run it **fully local and free** with [Ollama](https://ollama.com), or use a **cloud API**: Claude, OpenAI or DeepSeek. The first time you open the app it asks which one you want, and you can switch at any time.
 
 ---
 
@@ -17,7 +17,7 @@ Everything runs locally: no API keys, no cloud.
 ultimateframedata.com ──scrape──▶ data/framedata/*.json ─┐
 video transcripts ──rewrite (LLM)──▶ data/guides/*.txt ──┼─ingest─▶ ChromaDB (chroma/)
                                                          │
-question ─▶ detect character(s) ─▶ search (filtered by character) ─▶ Ollama ─▶ streamed answer + sources
+question ─▶ detect character(s) ─▶ search (filtered by character) ─▶ your model ─▶ streamed answer + sources
 ```
 
 - **Frame data** (1,378 moves for 26 characters), **stats** (health, walk speed, ...) and **guides** are embedded with [Sentence Transformers](https://www.sbert.net/) and stored in [ChromaDB](https://www.trychroma.com/) with metadata (`character`, `source`, `move`).
@@ -25,54 +25,75 @@ question ─▶ detect character(s) ─▶ search (filtered by character) ─▶
 - **Notation**: `2HP`, `cr.MK` and `j.HK` are understood. When a move is named, its exact frame data is always included.
 - Answers stream in token by token, and every answer shows the sources it was based on.
 
-## Requirements
+## Quick start (Windows)
 
-- Python 3.10+
-- [Ollama](https://ollama.com/download) with a model pulled, e.g. `ollama pull gemma3`
+1. Install Python and Git. Open **PowerShell** and run:
+   ```powershell
+   winget install Python.Python.3.12
+   winget install Git.Git
+   ```
+   Close PowerShell and open it again so it finds the new programs.
+2. Download the project:
+   ```powershell
+   git clone https://github.com/NathanaelDousa/AI-FrameCoach-SF6
+   cd AI-FrameCoach-SF6
+   ```
+3. Double-click **`start.bat`** in the project folder, or run `.\start.bat` in PowerShell.
+   The first run installs everything and builds the search index, which takes a few minutes. Then your browser opens.
+4. Choose **Local model** or **Cloud API** in the popup.
+   - **Local:** install [Ollama](https://ollama.com/download), then run `ollama pull gemma3`. It's free and private, but you need a decent graphics card for fast answers.
+   - **Cloud API:** paste a key from [Claude](https://console.anthropic.com/settings/keys), [OpenAI](https://platform.openai.com/api-keys) or [DeepSeek](https://platform.deepseek.com/api_keys). It's fast on any PC and you pay per question (usually fractions of a cent).
 
-## Quick start
+Next time, just double-click `start.bat` again. After pulling a new version, run `start.bat --update`.
+
+## Quick start (macOS / Linux)
 
 ```bash
 git clone https://github.com/NathanaelDousa/AI-FrameCoach-SF6
 cd AI-FrameCoach-SF6
-
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
-
-ollama pull gemma3                 # any chat model works, see Configuration
-python -m framecoach ingest        # build the search index (first run downloads the embedding model)
-python -m framecoach serve         # open http://localhost:5000
+framecoach serve        # builds the index on first run and opens http://localhost:5000
 ```
 
-After `pip install -e .` you can also type `framecoach` instead of `python -m framecoach`.
+## Models and API keys
+
+- Switch model or provider any time with the model button in the top right.
+- API keys are saved in your user profile, **not** in the project folder, so they never end up on GitHub:
+  - Windows: `%APPDATA%\FrameCoach\config.json`
+  - macOS: `~/Library/Application Support/FrameCoach/config.json`
+  - Linux: `~/.config/framecoach/config.json`
+- Keys can also come from the environment variables `ANTHROPIC_API_KEY`, `OPENAI_API_KEY` or `DEEPSEEK_API_KEY`.
+- The web app only accepts requests from your own browser tab on `localhost`. Other websites can't read or use your keys.
 
 ## Commands
 
 | Command | What it does |
 | --- | --- |
-| `framecoach serve [--host 0.0.0.0] [--port 5000]` | Run the web app |
-| `framecoach ask "Ryu 2HP on block?" [--character Ryu] [--show-context]` | Ask from the terminal |
+| `framecoach serve [--port 5000] [--no-browser]` | Run the web app (builds the index first if needed) |
+| `framecoach ask "Ryu 2HP on block?" [--character Ryu] [--provider deepseek] [--model ...]` | Ask from the terminal, using your saved model unless you override it |
 | `framecoach ingest` | Rebuild the search index. Run it after changing anything in `data/` |
 | `framecoach scrape [ryu ken ...] [--stats-only]` | Re-download frame data and stats from ultimateframedata.com |
-| `framecoach rewrite [--overwrite]` | Clean up raw transcripts in `data/transcripts/` into `data/guides/` using an LLM |
+| `framecoach rewrite [--overwrite]` | Clean up raw transcripts in `data/transcripts/` into `data/guides/` using Ollama |
 
 ## Configuration
 
-Set these as environment variables:
+Optional environment variables:
 
 | Variable | Default | |
 | --- | --- | --- |
-| `FRAMECOACH_MODEL` | `gemma3` | Ollama model used for answers (`mistral`, `llama3.1`, `qwen2.5`, ...) |
 | `OLLAMA_HOST` | `http://localhost:11434` | Where Ollama is running |
 | `FRAMECOACH_EMBED_MODEL` | `all-MiniLM-L6-v2` | Sentence Transformers model. Re-run `ingest` after changing it |
 | `FRAMECOACH_FRAMEDATA_K` / `FRAMECOACH_GUIDE_K` | `8` / `4` | How many frame data / guide snippets go into the prompt |
 | `FRAMECOACH_DATA_DIR` / `FRAMECOACH_DB_DIR` | `data/` / `chroma/` | Data and index locations |
+| `FRAMECOACH_CONFIG_DIR` | see above | Where your model choice and API keys are saved |
 | `FRAMECOACH_REWRITE_MODEL` | `llama3` | Model used by `rewrite` |
 
 ## API
 
-`POST /api/ask` with `{"question": "...", "character": "Ryu" (optional), "stream": false}`
+- `GET /api/settings` / `POST /api/settings` read and change the model choice (keys are only ever returned masked).
+- `POST /api/models` lists the models a provider offers.
+- `POST /api/ask` takes `{"question": "...", "character": "Ryu" (optional), "stream": false}`
 
 ```json
 {"answer": "...", "characters": ["Ryu"], "sources": [{"label": "Ryu - Crouching Heavy Punch (frame data)", "text": "..."}]}
@@ -93,7 +114,8 @@ framecoach/
   documents.py    frame data / stats / guides -> documents with metadata
   ingest.py       builds the ChromaDB index
   rag.py          retrieval + prompt
-  llm.py          Ollama client (streaming)
+  llm.py          model providers: Ollama, Claude, OpenAI, DeepSeek
+  user_settings.py  saved model choice + API keys
   server.py       Flask app + API
   scrape.py       ultimateframedata.com scraper
   rewrite.py      transcript -> guide rewriter
@@ -114,7 +136,7 @@ pytest
 ruff check framecoach tests && ruff format framecoach tests
 ```
 
-The tests use a small fake embedder and a fake LLM, so they don't need Ollama or a model download.
+The tests use a fake embedder, fake models and local fake servers, so they need no Ollama, API keys or downloads.
 
 ## Credits
 

@@ -107,6 +107,7 @@ async function ask(question) {
     });
     if (!response.ok) {
       const data = await response.json().catch(() => ({}));
+      if (response.status === 400 && settings && !settings.configured) openSettings(true);
       throw new Error(data.error || `Request failed (${response.status})`);
     }
 
@@ -159,3 +160,181 @@ chatForm.addEventListener("submit", (e) => {
 chatWindow.addEventListener("click", (e) => {
   if (e.target.classList.contains("example")) ask(e.target.textContent);
 });
+
+// --- Model settings ---------------------------------------------------------
+
+const dialog = document.getElementById("settings-dialog");
+const settingsForm = document.getElementById("settings-form");
+const providerSelect = document.getElementById("provider");
+const modelSelect = document.getElementById("model");
+const apiKeyInput = document.getElementById("api-key");
+const settingsError = document.getElementById("settings-error");
+const saveButton = document.getElementById("settings-save");
+const API_PROVIDERS = ["anthropic", "openai", "deepseek"];
+const SHORT_NAMES = { ollama: "Local", anthropic: "Claude", openai: "OpenAI", deepseek: "DeepSeek" };
+
+let settings = null;
+let modelRequest = 0;
+
+const providerInfo = (id) => settings.providers.find((p) => p.id === id);
+
+async function postJSON(url, body) {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || `Request failed (${response.status})`);
+  return data;
+}
+
+function updateModelLabel() {
+  const label = document.getElementById("model-label");
+  if (!settings.configured) {
+    label.textContent = "Choose a model";
+    return;
+  }
+  label.textContent = `${SHORT_NAMES[settings.provider]} · ${providerInfo(settings.provider).model}`;
+}
+
+function setModelOptions(models, selected) {
+  const unique = [...new Set([selected, ...models].filter(Boolean))];
+  modelSelect.replaceChildren(
+    ...unique.map((name) => {
+      const option = document.createElement("option");
+      option.value = option.textContent = name;
+      return option;
+    })
+  );
+  if (!unique.length) {
+    const option = document.createElement("option");
+    option.value = "";
+    option.textContent = "Enter your API key to see models";
+    modelSelect.appendChild(option);
+  }
+  modelSelect.value = selected || unique[0] || "";
+}
+
+async function loadModels() {
+  const provider = providerSelect.value;
+  const info = providerInfo(provider);
+  if (info.needs_key && !info.has_key && !apiKeyInput.value.trim()) return;
+  const request = ++modelRequest;
+  settingsError.textContent = "";
+  const button = document.getElementById("load-models");
+  button.disabled = true;
+  button.textContent = "Loading...";
+  try {
+    const data = await postJSON("/api/models", { provider, api_key: apiKeyInput.value.trim() });
+    if (request !== modelRequest) return; // the user switched provider meanwhile
+    let current = modelSelect.value || info.model;
+    // Ollama reports "gemma3" as "gemma3:latest".
+    if (!data.models.includes(current) && data.models.includes(`${current}:latest`)) current += ":latest";
+    // Suggested models first so the recommended ones are at the top.
+    const ordered = [...info.suggested_models.filter((m) => data.models.includes(m)), ...data.models];
+    setModelOptions(ordered, data.models.includes(current) || provider === "ollama" ? current : ordered[0]);
+  } catch (error) {
+    if (request === modelRequest) settingsError.textContent = error.message;
+  } finally {
+    button.disabled = false;
+    button.textContent = "Refresh list";
+  }
+}
+
+function selectProvider() {
+  const info = providerInfo(providerSelect.value);
+  document.getElementById("key-row").hidden = !info.needs_key;
+  document.getElementById("ollama-help").hidden = info.id !== "ollama";
+  document.getElementById("key-link").href = info.key_url || "#";
+  document.getElementById("key-status").textContent = info.has_key
+    ? `A key is saved (${info.key_hint}). Paste a new one to replace it.`
+    : "Paste your API key.";
+  apiKeyInput.value = "";
+  apiKeyInput.placeholder = info.has_key ? `Saved key ${info.key_hint}` : "Paste your key here";
+  settingsError.textContent = "";
+  setModelOptions(info.suggested_models, info.model);
+  loadModels();
+}
+
+function selectMode(mode) {
+  document.getElementById("provider-fields").hidden = false;
+  document.getElementById("provider-row").hidden = mode === "local";
+  const ids = mode === "local" ? ["ollama"] : API_PROVIDERS;
+  providerSelect.replaceChildren(
+    ...ids.map((id) => {
+      const option = document.createElement("option");
+      option.value = id;
+      option.textContent = providerInfo(id).label;
+      return option;
+    })
+  );
+  providerSelect.value = ids.includes(settings.provider) ? settings.provider : ids[0];
+  selectProvider();
+}
+
+function openSettings(firstRun = false) {
+  document.getElementById("settings-title").textContent = firstRun ? "Choose your AI" : "Model settings";
+  document.getElementById("settings-intro").hidden = !firstRun;
+  document.getElementById("settings-cancel").hidden = firstRun;
+  document.getElementById("provider-fields").hidden = true;
+  settingsError.textContent = "";
+  for (const radio of settingsForm.elements.mode) radio.checked = false;
+  if (settings.configured) {
+    const mode = settings.provider === "ollama" ? "local" : "api";
+    settingsForm.elements.mode.value = mode;
+    selectMode(mode);
+  }
+  if (!dialog.open) dialog.showModal();
+}
+
+async function loadSettings() {
+  try {
+    const response = await fetch("/api/settings");
+    settings = await response.json();
+  } catch (error) {
+    console.error(error);
+    return;
+  }
+  updateModelLabel();
+  if (!settings.configured) openSettings(true);
+}
+
+settingsForm.addEventListener("change", (e) => {
+  if (e.target.name === "mode") selectMode(e.target.value);
+});
+providerSelect.addEventListener("change", selectProvider);
+apiKeyInput.addEventListener("change", loadModels);
+document.getElementById("load-models").addEventListener("click", loadModels);
+document.getElementById("model-button").addEventListener("click", () => openSettings(!settings.configured));
+document.getElementById("settings-cancel").addEventListener("click", () => dialog.close());
+
+// Escape closes the dialog, except on first launch when a choice is required.
+dialog.addEventListener("cancel", (e) => {
+  if (!settings.configured) e.preventDefault();
+});
+
+settingsForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  if (document.getElementById("provider-fields").hidden) {
+    settingsError.textContent = "Choose a local model or a cloud API first.";
+    return;
+  }
+  saveButton.disabled = true;
+  try {
+    settings = await postJSON("/api/settings", {
+      provider: providerSelect.value,
+      model: modelSelect.value,
+      api_key: apiKeyInput.value.trim(),
+    });
+    apiKeyInput.value = "";
+    updateModelLabel();
+    dialog.close();
+  } catch (error) {
+    settingsError.textContent = error.message;
+  } finally {
+    saveButton.disabled = false;
+  }
+});
+
+loadSettings();
